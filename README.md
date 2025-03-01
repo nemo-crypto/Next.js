@@ -37,7 +37,7 @@ yarn pm2:start
 - 零配置
 2. Next.js 中的渲染方式有哪些？
 四种主要渲染方式：
-1. SSR (服务器端渲染)javascript
+1. SSR (服务器端渲染)
 ```
 // pages/ssr.js
 export async function getServerSideProps() {
@@ -46,7 +46,7 @@ export async function getServerSideProps() {
     return { props: { data } };
 }
 ```
-2. SSG (静态网站生成)javascript
+2. SSG (静态网站生成)
 ```
 // pages/ssg.js
 export async function getStaticProps() {
@@ -55,7 +55,7 @@ export async function getStaticProps() {
     return { props: { data } };
 }
 ```
-3. ISR (增量静态再生成)javascript
+3. ISR (增量静态再生成)
 ```
 export async function getStaticProps() {
  return {
@@ -64,7 +64,7 @@ export async function getStaticProps() {
  };
 }
 ```
-4. CSR (客户端渲染)javascript
+4. CSR (客户端渲染)
 ```
 import { useEffect, useState } from 'react';
 function CSRPage() {
