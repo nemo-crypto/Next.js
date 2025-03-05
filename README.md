@@ -192,7 +192,7 @@ const data = await request.json();
     return NextResponse.json({ message: '创建成功' });
 }
 ```
-10. Next.js 中如何实现国际化？
+10. Next.js中如何实现国际化？
 ```
 // next.config.js
 module.exports = {
