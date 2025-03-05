@@ -181,7 +181,7 @@ console.log(process.env.DATABASE_URL);
 // 客户端（需要 NEXT_PUBLIC_ 前缀）
 console.log(process.env.NEXT_PUBLIC_API_URL)；
 ```
-9. Next.js 中的 API 路由如何实现？
+9. Next.js中的API路由如何实现？
 ```
 import { NextResponse } from 'next/server';
 export async function GET() {
