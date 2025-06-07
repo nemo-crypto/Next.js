@@ -38,6 +38,7 @@ const FlexibleStaking = ()  => {
         };
     }, []);
 
+    // init
     useEffect(() => {
         fetchInvestList();
     }, [fetchInvestList]);
