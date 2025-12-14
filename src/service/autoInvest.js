@@ -10,7 +10,7 @@ import {
   RECOMMEND, INVEST_LIST, ALL_COIN,
   ORDER_LIST, TRADE_LIST,COLOR_BGS
 } from '@constants/api';
-
+ 
 // 币种列表
 export function getAvailableList(params){
     return get(GET_BTRLOCKUP_LIST, params);
