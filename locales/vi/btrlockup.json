@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"Kiếm APY cao với việc đặt cược khóa BTR | song ngữ",
-        "keywords":"Đặt cược khóa BTR, APY cao, đặt cược an toàn, các đồng tiền chính, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, đặt cược Bitrue XRP",
+        "keywords":"Đặt cược khóa BTR, APY cao, đặt cược an toàn, các đồng tiền chính, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, đặt cược DemoExchange XRP",
         "description":"Tăng cường các đồng tiền lớn như BTC, XRP, ETH, USDT, ADA, VET, ZIL và LINK với Đặt cược khóa BTR. Đầu tư nhiều loại tiền xu trong 30 ngày, kiếm tỷ lệ cao hơn so với đặt cược linh hoạt.",
         "sloganTitle":"Đặt cược BTR để khóa",
         "sloganTitleSub":"Hỗ trợ BTC / ETH / XRP / USDT / ADA",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"{{coin}} đặt cược, Kiếm APY cao với Đặt cược khóa BTR | song ngữ",
-        "keywords":"Đặt cược khóa BTR, APY cao, đặt cược an toàn, các đồng tiền chính, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, đặt cược Bitrue XRP",
+        "keywords":"Đặt cược khóa BTR, APY cao, đặt cược an toàn, các đồng tiền chính, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, đặt cược DemoExchange XRP",
         "description":"Tăng cường các đồng tiền lớn như BTC, XRP, ETH, USDT, ADA, VET, ZIL và LINK với Đặt cược khóa BTR. Đầu tư nhiều loại tiền xu trong 30 ngày, kiếm tỷ lệ cao hơn so với đặt cược linh hoạt.",
         "sloganTitle":"Đặt cược BTR cho giới hạn khóa",
         "sloganTitleSub":"Khóa {{coin}} của bạn trong {{period}} ngày, nhận APR {{rate}}%",
@@ -63,7 +63,7 @@
         "rules2":"BTR của bạn sẽ bị khóa cùng lúc với tiền gốc. Khi khoản đầu tư đáo hạn và tiền lãi được giải ngân, BTR của bạn sẽ được trả lại vào tài khoản hiện tại của bạn.",
         "rules3":"BTR bị khóa sẽ được lấy từ tài khoản hiện tại của bạn. Hãy đảm bảo BTR có sẵn trước.",
         "rules4":"Đủ điều kiện: Tất cả người dùng đều đủ điều kiện tham gia.",
-        "rules5":"Việc giải thích cuối cùng về hoạt động này thuộc về Bitrue. Bitrue có quyền điều chỉnh các quy tắc của sự kiện bất cứ lúc nào dựa trên điều kiện thị trường và hoạt động.",
+        "rules5":"Việc giải thích cuối cùng về hoạt động này thuộc về DemoExchange. DemoExchange có quyền điều chỉnh các quy tắc của sự kiện bất cứ lúc nào dựa trên điều kiện thị trường và hoạt động.",
         "records":"Hồ sơ",
         "startTime":"Thời gian bắt đầu",
         "endTime":"Thời gian kết thúc",

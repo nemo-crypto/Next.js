@@ -1,7 +1,7 @@
 {
     "list":{
-        "title":"Verdienen Sie einen hohen APY mit dem BTR-Lockup-Einsatz | Bitrue",
-        "keywords":"BTR-Lockup-Einsatz, hoher APY, sicherer Einsatz, wichtige Münzen, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP-Einsatz",
+        "title":"Verdienen Sie einen hohen APY mit dem BTR-Lockup-Einsatz | DemoExchange",
+        "keywords":"BTR-Lockup-Einsatz, hoher APY, sicherer Einsatz, wichtige Münzen, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP-Einsatz",
         "description":"Steigern Sie wichtige Münzen wie BTC, XRP, ETH, USDT, ADA, VET, ZIL und LINK mit BTR Lockup Staking. Investieren Sie 30 Tage lang verschiedene Münzen und verdienen Sie höhere Zinsen als bei flexiblen Einsätzen.",
         "sloganTitle":"Setzen Sie BTR für Lockups ein",
         "sloganTitleSub":"BTC / ETH / XRP / USDT / ADA unterstützt",
@@ -17,8 +17,8 @@
         "listDetails":"Einzelheiten"
     },
     "detail":{
-        "title":"{{coin}} Staking, Verdienen Sie einen hohen APY mit dem BTR Lockup Staking | Bitrue",
-        "keywords":"BTR-Lockup-Einsatz, hoher APY, sicherer Einsatz, wichtige Münzen, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP-Einsatz",
+        "title":"{{coin}} Staking, Verdienen Sie einen hohen APY mit dem BTR Lockup Staking | DemoExchange",
+        "keywords":"BTR-Lockup-Einsatz, hoher APY, sicherer Einsatz, wichtige Münzen, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP-Einsatz",
         "description":"Steigern Sie wichtige Münzen wie BTC, XRP, ETH, USDT, ADA, VET, ZIL und LINK mit BTR Lockup Staking. Investieren Sie 30 Tage lang verschiedene Münzen und verdienen Sie höhere Zinsen als bei flexiblen Einsätzen.",
         "sloganTitle":"Setzen Sie BTR für Lockup Caps ein",
         "sloganTitleSub":"Sperren Sie Ihr {{coin}} für {{period}} Tage und erhalten Sie {{rate}} % effektiven Jahreszins",
@@ -63,7 +63,7 @@
         "rules2":"Ihr BTR wird gleichzeitig mit dem Auftraggeber gesperrt. Wenn die Anlage fällig ist und die Zinsen ausgezahlt sind, wird Ihr BTR auf Ihr Girokonto zurückerstattet.",
         "rules3":"Der zu sperrende BTR wird von Ihrem Girokonto abgebucht. Bitte stellen Sie sicher, dass die BTR im Voraus verfügbar ist.",
         "rules4":"Teilnahmeberechtigung: Alle Benutzer sind zur Teilnahme berechtigt.",
-        "rules5":"Die endgültige Interpretation dieser Aktivität liegt bei Bitrue. Bitrue behält sich das Recht vor, die Regeln der Veranstaltung jederzeit an die Markt- und Betriebsbedingungen anzupassen.",
+        "rules5":"Die endgültige Interpretation dieser Aktivität liegt bei DemoExchange. DemoExchange behält sich das Recht vor, die Regeln der Veranstaltung jederzeit an die Markt- und Betriebsbedingungen anzupassen.",
         "records":"Aufzeichnungen",
         "startTime":"Startzeit",
         "endTime":"Endzeit",

@@ -7,7 +7,7 @@ class WebSocketWrapper {
             return WebSocketWrapper.instance;
         };
 
-        this.url = Config.WebSocketDomain || 'wss://ws.bitrue.com/kline-api/ws';
+        this.url = Config.WebSocketDomain || '';
         this.socket = null;
         this.isConnected = false; // socket连接状态
         this.messageListeners = []; // 接受WS返回消息
@@ -18,6 +18,10 @@ class WebSocketWrapper {
     };
 
     connect() {
+        if (!this.url) {
+            this.triggerConnectionEvent(false);
+            return;
+        };
         if (this.socket) {
             return; // 已经连接，不执行重复连接
         };

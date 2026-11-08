@@ -1,7 +1,7 @@
 .component {
     min-height: 100vh;
     line-height: 1.2;
-    font-family: Bitrue-Medium, Bitrue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 
     .banner {
 
@@ -290,7 +290,7 @@
 
                             .share_text {
                                 font-size: 12px;
-                                font-family: Bitrue-Medium, Bitrue;
+                                font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
                                 font-weight: 500;
                                 color: #FFFFFF;
                                 margin-left: 4px;
@@ -384,7 +384,7 @@
                     line-height: 26px;
                     margin-top: 10px;
                     cursor: pointer;
-                    font-family: Bitrue-Regular, Bitrue;
+                    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
                 }
 
                 .land_imgInfo_h5 {

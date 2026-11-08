@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} Cena | {{coinName}} Cena, kapitalizacja rynkowa, rynki | Bitrut",
         "keywords":"{{coinName}} Cena, {{coinFullName}} Cena, {{coinName}} na USD, {{coinName}} Wartość",
-        "description":"Wyświetl cenę na żywo {{coinFullName}}, aby śledzić zmiany cen w czasie rzeczywistym. Śledź najnowsze dane rynkowe, analizy na Bitrue Crypto Exchange.",
+        "description":"Wyświetl cenę na żywo {{coinFullName}}, aby śledzić zmiany cen w czasie rzeczywistym. Śledź najnowsze dane rynkowe, analizy na DemoExchange Crypto Exchange.",
         "etfTitle":"{{coinName}} Cena, tokeny lewarowane, kryptowaluty ETF, rynki | Bitrut",
-        "etfKeywords":"{{coinName}} Cena, tokeny lewarowane, kryptowaluty ETF, rynki, wymiana Bitrue",
-        "etfDescription":"Tokeny Lewarowane Bitrue – rodzaj produktu pochodnego, który zapewnia lewarowaną ekspozycję na instrument bazowy. Ciesz się zwiększoną dźwignią bez ryzyka likwidacji."
+        "etfKeywords":"{{coinName}} Cena, tokeny lewarowane, kryptowaluty ETF, rynki, wymiana DemoExchange",
+        "etfDescription":"Tokeny Lewarowane DemoExchange – rodzaj produktu pochodnego, który zapewnia lewarowaną ekspozycję na instrument bazowy. Ciesz się zwiększoną dźwignią bez ryzyka likwidacji."
     },
     "title":"Cena kryptowalut",
     "coinPrice":"{{coinFullName}} Cena",

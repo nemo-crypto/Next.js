@@ -1,11 +1,11 @@
 {
     "seo":{
-        "title":"{{coinFullName}} Prix | {{coinName}} Prix, capitalisation boursière, marchés | Bitrue",
+        "title":"{{coinFullName}} Prix | {{coinName}} Prix, capitalisation boursière, marchés | DemoExchange",
         "keywords":"{{coinName}} Prix, {{coinFullName}} Prix, {{coinName}} en USD, {{coinName}} Valeur",
-        "description":"Consultez le prix {{coinFullName}} en direct pour suivre les changements de prix en temps réel. Suivez les dernières données du marché et analyses sur Bitrue Crypto Exchange.",
-        "etfTitle":"{{coinName}} Prix, jetons à effet de levier, ETF crypto, marchés | Bitrue",
-        "etfKeywords":"{{coinName}} Prix, jetons à effet de levier, ETF crypto, marchés, Bitrue Exchange",
-        "etfDescription":"Bitrue Leveraged Tokens - Un type de produit dérivé qui vous offre une exposition à effet de levier à l'actif sous-jacent. Bénéficiez d’un effet de levier accru sans risque de liquidation."
+        "description":"Consultez le prix {{coinFullName}} en direct pour suivre les changements de prix en temps réel. Suivez les dernières données du marché et analyses sur DemoExchange Crypto Exchange.",
+        "etfTitle":"{{coinName}} Prix, jetons à effet de levier, ETF crypto, marchés | DemoExchange",
+        "etfKeywords":"{{coinName}} Prix, jetons à effet de levier, ETF crypto, marchés, DemoExchange Exchange",
+        "etfDescription":"DemoExchange Leveraged Tokens - Un type de produit dérivé qui vous offre une exposition à effet de levier à l'actif sous-jacent. Bénéficiez d’un effet de levier accru sans risque de liquidation."
     },
     "title":"Prix des cryptomonnaies",
     "coinPrice":"{{coinFullName}} Prix",

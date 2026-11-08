@@ -1,8 +1,8 @@
 {   
     "tdk":{
-        "title":"BTC handel | ETH handel | XRP handel | Bitrue",
-        "description":"Auto invest är ett handelsverktyg som sprider ut order med jämna mellanrum över tiden, så din position påverkas mindre av marknadstiming. Det hjälper dig att handla och bygga BTC-, ETH- och XRP-positioner i Bitrue och njuta av långsiktiga vinster.",
-        "keywords":"Auto trade crypto, Auto trade BTC, Auto trade ETH, Auto trade XRP, BTC Auto invest, ETH Auto invest, high APY, Bitrue Staking, kryptovaluta belöningar, enkel insats"
+        "title":"BTC handel | ETH handel | XRP handel | DemoExchange",
+        "description":"Auto invest är ett handelsverktyg som sprider ut order med jämna mellanrum över tiden, så din position påverkas mindre av marknadstiming. Det hjälper dig att handla och bygga BTC-, ETH- och XRP-positioner i DemoExchange och njuta av långsiktiga vinster.",
+        "keywords":"Auto trade crypto, Auto trade BTC, Auto trade ETH, Auto trade XRP, BTC Auto invest, ETH Auto invest, high APY, DemoExchange Staking, kryptovaluta belöningar, enkel insats"
     },
     "Auto_Invest":"Auto Invest",
     "Spread_out_your_investments_":"Sprid ut dina investeringar",
@@ -57,7 +57,7 @@
     "Q7":"Till vilket pris kommer min transaktion med autoinvesteringsplan att genomföras?",
     "A7":"När investeringsfrekvensen du ställt in har nåtts kommer mynten för autoinvestering att köpas via spot till marknadspriser. Om ditt investeringsbelopp är relativt stort, vilket gör att marknadspriset fluktuerar med mer än +/-10 %, kommer det överskjutande beloppet inte att verkställas.",
     "Q8":"Hur beräknas avgiften?",
-    "A8":"Avgiften för autoinvestering är densamma som spothandelsavgiften. Du kan hänvisa till <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>avgiftsinformationen</a> .",
+    "A8":"Avgiften för autoinvestering är densamma som spothandelsavgiften. Du kan hänvisa till <a href='https://support.example.com/fees'>avgiftsinformationen</a> .",
     "Q9":"Hur kontrollerar man de pågående planerna och historien?",
     "A91":"1. Pågående planer: Du kan se dem efter att ha loggat in på <a href='/sv/btc-xrp-eth-trading-bot'>autoinvesteringssidan</a> - alla pågående planer.",
     "A92":"2. Alla automatiska investeringsordrar: Du kan kontrollera det på \"Order\" - \"Tjäna\" - \"Autoinvestering\"",
@@ -75,7 +75,7 @@
     "Agreement2":"Om myntet du investerar i har en flexibel investering i Power Piggy, kommer det automatiskt att sättas in på det för att få fler intressen.",
     "Agreement3":"Vinsten och förlusten är flytande, vilket indikerar vinsten på myntet från det att du började köpa till det aktuella ögonblicket. Beräkningsformeln är: köpt kvantitet * aktuellt spotpris - totalt investerat. Om du säljer denna valuta i förväg eller sätter in denna valuta i Power Piggy, kan de resulterande vinsterna/förlusterna inte räknas in i vinsten och förlusten.",
     "Agreement4":"När investeringsfrekvensen du ställt in har nåtts kommer mynten för autoinvestering att köpas via spot till marknadspriser. Om ditt investeringsbelopp är relativt stort, vilket gör att marknadspriset fluktuerar med mer än +/-10 %, kommer det överskjutande beloppet inte att verkställas.",
-    "Agreement5":"Avgiften för autoinvestering är densamma som spothandelsavgiften. Du kan hänvisa till <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>avgiftsinformationen</a> .",
+    "Agreement5":"Avgiften för autoinvestering är densamma som spothandelsavgiften. Du kan hänvisa till <a href='https://support.example.com/fees'>avgiftsinformationen</a> .",
     "Details_of_auto_invest_plan":"Detaljer om auto investeringsplan",
     "Invested_rounds":"Investerade rundor",
     "Power_piggy_earning":"Power piggy tjänar",

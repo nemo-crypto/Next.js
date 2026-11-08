@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Pertaruhan BTC | Taruhan ETH | Taruhan XRP | Bitrue",
-        "keywords": "Pelajari & Dapatkan kripto, Dapatkan BTC, Staking kripto, Staking XRP, Staking BTC, Staking ETH, APY tinggi, Staking Bitrue, hadiah mata uang kripto, staking sederhana.",
-        "description": "Temukan bagaimana Bitrue Staking memungkinkan Anda dengan mudah mendapatkan hadiah mata uang kripto yang berharga. Pelajari & dapatkan, Staking BTC, Staking ETH, Staking XRP untuk Mendapatkan hadiah."
+        "title": "Pertaruhan BTC | Taruhan ETH | Taruhan XRP | DemoExchange",
+        "keywords": "Pelajari & Dapatkan kripto, Dapatkan BTC, Staking kripto, Staking XRP, Staking BTC, Staking ETH, APY tinggi, Staking DemoExchange, hadiah mata uang kripto, staking sederhana.",
+        "description": "Temukan bagaimana DemoExchange Staking memungkinkan Anda dengan mudah mendapatkan hadiah mata uang kripto yang berharga. Pelajari & dapatkan, Staking BTC, Staking ETH, Staking XRP untuk Mendapatkan hadiah."
     },
     "main": {
         "title": "Pelajari Staking - Dapatkan Uang Dengan Memegang Aset Kripto Anda",
@@ -12,19 +12,19 @@
         "section2_content1": "Pada tingkat blockchain, mata uang yang dapat dipertaruhkan adalah koin PoS (Proof of Stake), seperti {{Ethereum}}, {{Cardano}} dan {{Solana}}. Ini berbeda dengan Model PoW (Proof of Work) yang digunakan oleh {{Bitcoin}} dan lainnya yang terkenal menggunakan sejumlah besar daya komputasi untuk memverifikasi transaksi mereka. Daripada memerlukan perhitungan sewenang-wenang yang rumit untuk dilakukan, blockchain PoS hanya mendefinisikan kepercayaan dan imbalan berdasarkan jumlah koin yang dipegang oleh satu orang atau organisasi.",
         "section2_content2": "Setiap mata uang memiliki persyaratan yang berbeda sebelum dapat dipertaruhkan, beberapa di antaranya dapat membuat mata uang tersebut sangat sulit untuk dipertaruhkan secara langsung. Misalnya, beberapa mata uang memerlukan investasi yang signifikan sebelum Anda dapat menghasilkan imbalan ($100.000 atau lebih), sementara mata uang lainnya memerlukan kemahiran teknis tingkat tinggi tetapi tidak memiliki perlindungan terhadap kehilangan uang jika Anda secara tidak sengaja menekan tombol yang salah.",
         "section2_content3": "Di era modern, kemampuan staking Keuangan Terdesentralisasi (DeFi) telah diperbarui lebih jauh. Dengan menggunakan kumpulan likuiditas, pengguna dapat mempertaruhkan berbagai macam koin untuk kepentingan algoritma perdagangan yang memungkinkan pengguna menukar koin dalam pasangan sewenang-wenang di mode peer to peer, dan masih menerima imbalan untuk melakukannya.",
-        "section2_content4": "Di Bitrue kami telah memperluas kemampuan staking lebih jauh lagi. Kami pada akhirnya memiliki kemampuan untuk mendukung <b>SETIAP</b> koin dalam layanan staking kami, dan secara teratur menambahkan lebih banyak koin ke layanan investasi kami berdasarkan apa yang ada populer atau apa yang diminta oleh anggota komunitas kami.",
+        "section2_content4": "Di DemoExchange kami telah memperluas kemampuan staking lebih jauh lagi. Kami pada akhirnya memiliki kemampuan untuk mendukung <b>SETIAP</b> koin dalam layanan staking kami, dan secara teratur menambahkan lebih banyak koin ke layanan investasi kami berdasarkan apa yang ada populer atau apa yang diminta oleh anggota komunitas kami.",
         "section3_title": "Hadiah apa yang dapat saya terima dari staking?",
         "section3_content1": "Hadiah pastinya sangat bergantung pada koin yang Anda pertaruhkan, namun secara umum Anda dapat mengharapkan imbalan sekitar 5% APR. Beberapa koin terkenal dan APR yang diharapkan meliputi:",
         "section3_content1_coin": "Koin",
         "section3_content1_apr": "APR*",
-        "section3_content2": "*Perkiraan. Dapat berubah sesuai kebijakan Bitrue.",
+        "section3_content2": "*Perkiraan. Dapat berubah sesuai kebijakan DemoExchange.",
         "section4_title": "Apakah saya memenuhi syarat untuk mempertaruhkan koin saya?",
-        "section4_content1": "Di Bitrue, yang Anda perlukan untuk memulai hanyalah <a href='{{registerUrl}}' target='_blank'>mendaftar</a> dan pastikan Anda memiliki beberapa koin yang tidak aktif di akun Anda akun. Itu dia!",
+        "section4_content1": "Di DemoExchange, yang Anda perlukan untuk memulai hanyalah <a href='{{registerUrl}}' target='_blank'>mendaftar</a> dan pastikan Anda memiliki beberapa koin yang tidak aktif di akun Anda akun. Itu dia!",
         "section4_content2": "- Tidak diperlukan keahlian teknis",
         "section4_content3": "- Tidak ada permohonan atau persetujuan",
         "section4_content4": "- Tanpa batas minimum",
         "section5_title": "Bagaimana cara memulainya?",
-        "section5_content1": "Jika Anda baru dalam staking, kami sarankan untuk mencoba <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> terlebih dahulu. Power Piggy dirancang agar cepat dan mudah untuk digunakan, dengan <b>pembayaran bunga dikirim langsung ke akun Bitrue Anda</b> setiap hari sekitar pukul 16:00 UTC. Yang terbaik dari semuanya, ini bebas risiko karena tidak ada periode penguncian untuk investasi Power Piggy. Artinya, jika Anda putuskan sekarang saat yang tepat untuk menjual koin Anda, Anda dapat mengeluarkannya dari Power Piggy Anda kapan saja dan menukarnya di bursa.",
+        "section5_content1": "Jika Anda baru dalam staking, kami sarankan untuk mencoba <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> terlebih dahulu. Power Piggy dirancang agar cepat dan mudah untuk digunakan, dengan <b>pembayaran bunga dikirim langsung ke akun DemoExchange Anda</b> setiap hari sekitar pukul 16:00 UTC. Yang terbaik dari semuanya, ini bebas risiko karena tidak ada periode penguncian untuk investasi Power Piggy. Artinya, jika Anda putuskan sekarang saat yang tepat untuk menjual koin Anda, Anda dapat mengeluarkannya dari Power Piggy Anda kapan saja dan menukarnya di bursa.",
         "section5_content2": "Power Piggy memiliki dukungan untuk lebih dari <b>100 koin berbeda</b> dan akan terus bertambah setiap saat, dan memiliki suku bunga yang sangat kompetitif dengan layanan pesaing dan dengan staking langsung pada tingkat blockchain, tapi tanpa semua kerumitan.",
         "section5_content3": "Jika Anda ingin berkomitmen pada investasi mata uang kripto jangka panjang, Anda dapat mencoba menggunakan layanan <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a> kami. Yield Farming adalah mirip dengan Power Piggy dengan perbedaan utama adalah koin Anda akan dikunci selama jangka waktu tertentu, meskipun <b>hadiahnya akan lebih tinggi</b> sebagai kompensasinya. Jika Anda benar-benar perlu mendapatkan aset Anda, Anda Anda akan dapat membatalkan investasi lebih awal namun Anda tidak akan menerima bunga apa pun, berapa pun lamanyakoin dipertaruhkan. Ini adalah cara terbaik untuk memaksimalkan potensi penghasilan Anda."
     }

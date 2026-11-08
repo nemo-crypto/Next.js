@@ -1,11 +1,11 @@
 {
     "seo":{
-        "title":"{{coinFullName}} Preis | {{coinName}} Preis, Marktkapitalisierung, Märkte | Bitrue",
+        "title":"{{coinFullName}} Preis | {{coinName}} Preis, Marktkapitalisierung, Märkte | DemoExchange",
         "keywords":"{{coinName}} Preis, {{coinFullName}} Preis, {{coinName}} zu USD, {{coinName}} Wert",
-        "description":"Sehen Sie sich den Live-{{coinFullName}}-Preis an, um die Preisänderungen in Echtzeit zu verfolgen. Verfolgen Sie die neuesten Marktdaten und Analysen zu Bitrue Crypto Exchange.",
-        "etfTitle":"{{coinName}} Preis, Leveraged Tokens, Krypto-ETFs, Märkte | Bitrue",
-        "etfKeywords":"{{coinName}} Preis, gehebelte Token, Krypto-ETFs, Märkte, Bitrue Exchange",
-        "etfDescription":"Bitrue Leveraged Tokens – Eine Art Derivatprodukt, das Ihnen ein gehebeltes Engagement im zugrunde liegenden Vermögenswert ermöglicht. Profitieren Sie von einer erhöhten Hebelwirkung ohne Liquidationsrisiko."
+        "description":"Sehen Sie sich den Live-{{coinFullName}}-Preis an, um die Preisänderungen in Echtzeit zu verfolgen. Verfolgen Sie die neuesten Marktdaten und Analysen zu DemoExchange Crypto Exchange.",
+        "etfTitle":"{{coinName}} Preis, Leveraged Tokens, Krypto-ETFs, Märkte | DemoExchange",
+        "etfKeywords":"{{coinName}} Preis, gehebelte Token, Krypto-ETFs, Märkte, DemoExchange Exchange",
+        "etfDescription":"DemoExchange Leveraged Tokens – Eine Art Derivatprodukt, das Ihnen ein gehebeltes Engagement im zugrunde liegenden Vermögenswert ermöglicht. Profitieren Sie von einer erhöhten Hebelwirkung ohne Liquidationsrisiko."
     },
     "title":"Kryptopreis",
     "coinPrice":"{{coinFullName}} Preis",

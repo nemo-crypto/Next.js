@@ -19,9 +19,9 @@
         "programError":"Erro de rede. Por favor, tente novamente."
     },
     "list":{
-        "title":"Ganhe criptografia com piquetagem flexível | APY alto | Bitrue",
-        "keywords":"Ganhe criptografia, piquetagem flexível, alto APY, piquetagem Bitrue XRP, recompensas de criptomoeda, economia, taxas APY",
-        "description":"Ganhe facilmente recompensas valiosas em criptomoedas por meio do staking flexível do Bitrue. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar hoje mesmo.",
+        "title":"Ganhe criptografia com piquetagem flexível | APY alto | DemoExchange",
+        "keywords":"Ganhe criptografia, piquetagem flexível, alto APY, piquetagem DemoExchange XRP, recompensas de criptomoeda, economia, taxas APY",
+        "description":"Ganhe facilmente recompensas valiosas em criptomoedas por meio do staking flexível do DemoExchange. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar hoje mesmo.",
         "sloganTitle":"Porquinho poderoso",
         "sloganTitleSub":"Ganhe recompensas competitivas diariamente",
         "btrBalance":"Saldo BTR",
@@ -47,11 +47,11 @@
         "listNoLockUp":"Sem bloqueio"
     },
     "detail":{
-        "title":"Ganhe {{coin}} | {{coin}} Piquetagem | Bitrue",
-        "keywords":"Ganhe criptomoedas, piquetagem flexível, alto APY, piquetagem Bitrue XRP, recompensas em criptomoedas, economias, taxas APY, {{coin}}, {{coin}}",
-        "description":"{{coin}} Staking, ganhe recompensas valiosas em {{coin}} criptomoedas sem esforço por meio do staking flexível do Bitrue. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar hoje mesmo.",
-        "newUserkwd":"Ganhe criptomoedas, piquetagem flexível, alto APY, piquetagem Bitrue XRP, recompensas em criptomoedas, economias, taxas APY, {{coin}}, {{coin}}, novo usuário",
-        "newUserDesc":"{{coin}} para novos usuários, ganhe recompensas valiosas em criptomoedas {{coin}} sem esforço por meio do staking flexível do Bitrue. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar hoje mesmo. Perfeito para novos usuários!",
+        "title":"Ganhe {{coin}} | {{coin}} Piquetagem | DemoExchange",
+        "keywords":"Ganhe criptomoedas, piquetagem flexível, alto APY, piquetagem DemoExchange XRP, recompensas em criptomoedas, economias, taxas APY, {{coin}}, {{coin}}",
+        "description":"{{coin}} Staking, ganhe recompensas valiosas em {{coin}} criptomoedas sem esforço por meio do staking flexível do DemoExchange. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar hoje mesmo.",
+        "newUserkwd":"Ganhe criptomoedas, piquetagem flexível, alto APY, piquetagem DemoExchange XRP, recompensas em criptomoedas, economias, taxas APY, {{coin}}, {{coin}}, novo usuário",
+        "newUserDesc":"{{coin}} para novos usuários, ganhe recompensas valiosas em criptomoedas {{coin}} sem esforço por meio do staking flexível do DemoExchange. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar hoje mesmo. Perfeito para novos usuários!",
         "staking":"Estacamento",
         "remainingAmount":"Montante restante",
         "remainingVIPCap":"Limite VIP restante",
@@ -87,13 +87,13 @@
         "rules2":"Distribuição de recompensas: 16:00 UTC todos os dias",
         "rules3":"Cálculo de juros: A geração de juros começará um dia após o investimento. O primeiro pagamento de juros será feito dois dias após o investimento. Nenhum juro parcial será gerado quando os fundos forem retirados no meio do dia. Os juros são calculados diariamente entre 16h e 18h UTC. Caso os recursos sejam descongelados durante o período de apuração, não gerarão juros.",
         "rules4":"Sem bloqueio: seus fundos não serão bloqueados, então você pode cancelar quando quiser. Você pode ativar novamente, desde que haja abertura da tampa.",
-        "rules5":"Para esta oferta, a Bitrue garante a segurança do seu principal e dos seus ganhos.",
+        "rules5":"Para esta oferta, a DemoExchange garante a segurança do seu principal e dos seus ganhos.",
         "rules6":"Valor mínimo para aderir:",
         "rules7":"Elegibilidade: Todos os usuários são elegíveis para participar.",
-        "rules8":"A interpretação final desta atividade pertence a Bitrue. A Bitrue reserva-se o direito de ajustar as regras do evento a qualquer momento com base nas condições de mercado e operacionais.",
+        "rules8":"A interpretação final desta atividade pertence a DemoExchange. A DemoExchange reserva-se o direito de ajustar as regras do evento a qualquer momento com base nas condições de mercado e operacionais.",
         "faq": "FAQ",
         "faqAsk1":"O que é Power Piggy?",
-        "faqAnswer1":"Power Piggy é o serviço de investimento de alto rendimento da Bitrue que permite que você obtenha uma renda passiva com suas criptomoedas. Através de staking e outros mecanismos podemos fornecer aos nossos utilizadores serviços de investimento para as suas poupanças que permitem a todos ganhar juros diariamente.",
+        "faqAnswer1":"Power Piggy é o serviço de investimento de alto rendimento da DemoExchange que permite que você obtenha uma renda passiva com suas criptomoedas. Através de staking e outros mecanismos podemos fornecer aos nossos utilizadores serviços de investimento para as suas poupanças que permitem a todos ganhar juros diariamente.",
         "faqAsk2":"Posso negociar ou sacar meu {{coin}} após a participação?",
         "faqAnswer2":"Você pode negociar ou retirá-lo a qualquer momento. Para fazer isso, basta descongelar o valor do evento.",
         "faqAsk3":"Como posso descongelar o valor do evento?",
@@ -101,7 +101,7 @@
         "faqAsk4":"Se eu descongelar meu {{coin}}, poderei participar do evento novamente?",
         "faqAnswer4":"Sim, desde que haja {{coin}} limite de participação, você poderá participar do evento sem limite.",
         "faqAsk5":"Se eu participar do evento com 100 {{coin}} e descongelar todos os meus fundos antes das 24h (UTC 8), poderei obter lucro?",
-        "faqAnswer5":"Lamentamos que você não consiga obter nenhum lucro. A Bitrue verificará o valor da participação às 24h (UTC 8) todos os dias. Se o valor mostrar 0 às 24:00 (UTC 8), você não poderá obter nenhum lucro.",
+        "faqAnswer5":"Lamentamos que você não consiga obter nenhum lucro. A DemoExchange verificará o valor da participação às 24h (UTC 8) todos os dias. Se o valor mostrar 0 às 24:00 (UTC 8), você não poderá obter nenhum lucro.",
         "rushToPurchase":"Você já investiu o valor máximo permitido para seu limite atual. Para aumentar seu limite no futuro, certifique-se de possuir mais BTR.",
         "investmentSuccess":"Você investiu {{vol}}. Você pode continuar a usá-lo descongelando a quantidade.",
         "investmentErrorBalance":"A tentativa de participação falhou devido ao saldo insuficiente da conta {{coin}}.",
@@ -112,9 +112,9 @@
         "unfreezeSuccess":"Você descongelou com sucesso o valor de {{vol}}"
     },
     "vip":{
-        "title":"Ganhe criptografia com piquetagem flexível | APY alto | BTR VIP BONÉ | Bitrue",
-        "keywords":"Ganhe criptografia, piquetagem flexível, alto APY, BTR VIP CAP, piquetagem Bitrue XRP, recompensas de criptomoeda, economia, taxas APY",
-        "description":"Ganhe recompensas valiosas sem esforço por meio do programa flexível de staking e BTR VIP CAP da Bitrue. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar.",
+        "title":"Ganhe criptografia com piquetagem flexível | APY alto | BTR VIP BONÉ | DemoExchange",
+        "keywords":"Ganhe criptografia, piquetagem flexível, alto APY, BTR VIP CAP, piquetagem DemoExchange XRP, recompensas de criptomoeda, economia, taxas APY",
+        "description":"Ganhe recompensas valiosas sem esforço por meio do programa flexível de staking e BTR VIP CAP da DemoExchange. Explore diversas oportunidades de ganhos com taxas APY impressionantes e comece a economizar.",
         "sloganTitle":"Porquinho poderoso",
         "sloganTitleSub":"Ganhe recompensas competitivas diariamente",
         "accountBtr":"Saldo BTR",
@@ -135,7 +135,7 @@
         "rules_4":"Descongelamento do limite VIP: O valor investido inclui limites comunitários e VIP. Ao descongelar, os fundos investidos através do limite comunitário serão descongelados primeiro.",
         "rules_5":"O limite VIP compartilha outras regras com o limite da comunidade, e o pagamento de juros ocorrerá todos os dias às 00h30 (UTC 8).",
         "rules_6":"Os valores investidos usando limites VIP também serão elegíveis para taxas de juros aumentadas usando BTR.",
-        "rules_7":"A interpretação final desta atividade pertence a Bitrue. A Bitrue reserva-se o direito de ajustar as regras do evento a qualquer momento com base nas condições de mercado e operacionais."
+        "rules_7":"A interpretação final desta atividade pertence a DemoExchange. A DemoExchange reserva-se o direito de ajustar as regras do evento a qualquer momento com base nas condições de mercado e operacionais."
     },
     "record":{
         "pageTitle":"Registros",

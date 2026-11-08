@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"รับ APY สูงด้วย BTR Lockup Stake | บิตทรู",
-        "keywords":"การวางเดิมพัน BTR Lockup, APY สูง, การวางเดิมพันที่ปลอดภัย, เหรียญหลัก, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, การวางเดิมพัน Bitrue XRP",
+        "keywords":"การวางเดิมพัน BTR Lockup, APY สูง, การวางเดิมพันที่ปลอดภัย, เหรียญหลัก, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, การวางเดิมพัน DemoExchange XRP",
         "description":"เพิ่มเหรียญหลักเช่น BTC, XRP, ETH, USDT, ADA, VET, ZIL และ LINK ด้วย BTR Lockup Stake ลงทุนเหรียญที่หลากหลายเป็นเวลา 30 วัน รับอัตราที่สูงกว่าการเดิมพันแบบยืดหยุ่น",
         "sloganTitle":"เดิมพัน BTR สำหรับการล็อค",
         "sloganTitleSub":"รองรับ BTC / ETH / XRP / USDT / ADA",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"{{coin}} ปักหลัก รับ APY สูงด้วย BTR Lockup Stake | บิตทรู",
-        "keywords":"การวางเดิมพัน BTR Lockup, APY สูง, การวางเดิมพันที่ปลอดภัย, เหรียญหลัก, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, การวางเดิมพัน Bitrue XRP",
+        "keywords":"การวางเดิมพัน BTR Lockup, APY สูง, การวางเดิมพันที่ปลอดภัย, เหรียญหลัก, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, การวางเดิมพัน DemoExchange XRP",
         "description":"เพิ่มเหรียญหลักเช่น BTC, XRP, ETH, USDT, ADA, VET, ZIL และ LINK ด้วย BTR Lockup Stake ลงทุนเหรียญที่หลากหลายเป็นเวลา 30 วัน รับอัตราที่สูงกว่าการเดิมพันแบบยืดหยุ่น",
         "sloganTitle":"เดิมพัน BTR สำหรับ Lockup Caps",
         "sloganTitleSub":"ล็อค {{coin}} ของคุณเป็นเวลา {{period}} วัน รับ {{rate}}% APR",
@@ -63,7 +63,7 @@
         "rules2":"BTR ของคุณจะถูกล็อคในเวลาเดียวกันกับเงินต้น เมื่อการลงทุนครบกำหนดและจ่ายดอกเบี้ยแล้ว BTR ของคุณจะถูกส่งคืนไปยังบัญชีกระแสรายวันของคุณ",
         "rules3":"BTR ที่จะล็อคจะถูกหักออกจากบัญชีปัจจุบันของคุณ โปรดตรวจสอบให้แน่ใจว่า BTR พร้อมใช้งานล่วงหน้า",
         "rules4":"คุณสมบัติ: ผู้ใช้ทุกคนมีสิทธิ์เข้าร่วม",
-        "rules5":"การตีความขั้นสุดท้ายของกิจกรรมนี้เป็นของ Bitrue Bitrue ขอสงวนสิทธิ์ในการปรับเปลี่ยนกฎของงานได้ตลอดเวลาตามตลาดและสภาวะการดำเนินงาน",
+        "rules5":"การตีความขั้นสุดท้ายของกิจกรรมนี้เป็นของ DemoExchange DemoExchange ขอสงวนสิทธิ์ในการปรับเปลี่ยนกฎของงานได้ตลอดเวลาตามตลาดและสภาวะการดำเนินงาน",
         "records":"บันทึก",
         "startTime":"เวลาเริ่มต้น",
         "endTime":"เวลาสิ้นสุด",

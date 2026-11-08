@@ -4,7 +4,7 @@ const API_PREFIX_V1 = `${Config.apiDomain}kline-api/`;
 const API_PREFIX_V2 = `${Config.apiDomain}exchange-web-gateway/`;
 const API_PREFIX_V3 = `${Config.apiDomain}arcade-web/`;
 const API_PREFIX_V4 = `${Config.apiDomainFuture}fe-co-api/`;
-const API_Lang = `${Config.staticDomain}/languse/bitruedemand/`
+const API_Lang = `${Config.staticDomain}/languse/demo-content/`
 
 // 币种详情
 export const GET_PRICE_COIN_INFO = `${API_PREFIX_V2}tokenInfo/getCoinIntroduction`;

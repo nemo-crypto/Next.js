@@ -1,8 +1,8 @@
 {   
     "tdk":{
-        "title":"Giao dịch BTC | Giao dịch ETH | giao dịch XRP | Bitrue",
-        "description":"Đầu tư tự động là một công cụ giao dịch dàn trải các lệnh đều đặn theo thời gian, do đó vị thế của bạn ít bị ảnh hưởng bởi thời điểm thị trường. Nó giúp bạn giao dịch và xây dựng các vị thế BTC, ETH và XRP trên Bitrue và tận hưởng lợi nhuận lâu dài.",
-        "keywords":"Giao dịch tiền điện tử tự động, Giao dịch tự động BTC, Giao dịch tự động ETH, Giao dịch tự động XRP, Đầu tư tự động BTC, ETH Đầu tư tự động, APY cao, Đặt cược Bitrue, phần thưởng tiền điện tử, đặt cược đơn giản"
+        "title":"Giao dịch BTC | Giao dịch ETH | giao dịch XRP | DemoExchange",
+        "description":"Đầu tư tự động là một công cụ giao dịch dàn trải các lệnh đều đặn theo thời gian, do đó vị thế của bạn ít bị ảnh hưởng bởi thời điểm thị trường. Nó giúp bạn giao dịch và xây dựng các vị thế BTC, ETH và XRP trên DemoExchange và tận hưởng lợi nhuận lâu dài.",
+        "keywords":"Giao dịch tiền điện tử tự động, Giao dịch tự động BTC, Giao dịch tự động ETH, Giao dịch tự động XRP, Đầu tư tự động BTC, ETH Đầu tư tự động, APY cao, Đặt cược DemoExchange, phần thưởng tiền điện tử, đặt cược đơn giản"
     },
     "Auto_Invest":"Tự động đầu tư",
     "Spread_out_your_investments_":"Trải rộng khoản đầu tư của bạn",
@@ -57,7 +57,7 @@
     "Q7":"Giao dịch kế hoạch đầu tư ô tô của tôi sẽ được thực hiện ở mức giá nào?",
     "A7":"Khi đạt đến tần suất đầu tư bạn đặt, tiền đầu tư tự động sẽ được mua thông qua giao ngay theo giá thị trường. Nếu số tiền đầu tư của bạn tương đối lớn, khiến giá thị trường dao động hơn +/- 10% thì số tiền vượt quá sẽ không được thực hiện.",
     "Q8":"Phí được tính như thế nào?",
-    "A8":"Phí đầu tư tự động giống như phí giao dịch giao ngay. Bạn có thể tham khảo <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>chi tiết mức phí</a> .",
+    "A8":"Phí đầu tư tự động giống như phí giao dịch giao ngay. Bạn có thể tham khảo <a href='https://support.example.com/fees'>chi tiết mức phí</a> .",
     "Q9":"Làm thế nào để kiểm tra các kế hoạch và lịch sử đang diễn ra?",
     "A91":"1. Các kế hoạch đang diễn ra: Bạn có thể xem chúng sau khi đăng nhập vào <a href='/vi/btc-xrp-eth-trading-bot'>trang đầu tư tự động</a> - tất cả các kế hoạch đang diễn ra.",
     "A92":"2. Tất cả các lệnh đầu tư tự động: Bạn có thể kiểm tra trên \"Đơn hàng\"-\"Kiếm tiền\"-\"Đầu tư tự động\"",
@@ -75,7 +75,7 @@
     "Agreement2":"Nếu đồng xu bạn đầu tư được đầu tư linh hoạt vào Power Piggy, nó sẽ tự động được gửi vào đó để nhận thêm tiền lãi.",
     "Agreement3":"Lãi và lỗ là thả nổi, cho biết lợi nhuận của đồng tiền này tính từ thời điểm bạn bắt đầu mua đến thời điểm hiện tại. Công thức tính toán là: số lượng đã mua * giá giao ngay hiện tại - tổng số tiền đầu tư. Nếu bạn bán trước loại tiền này hoặc gửi loại tiền này vào Power Piggy, thì lãi/lỗ thu được không thể được tính vào lãi và lỗ.",
     "Agreement4":"Khi đạt đến tần suất đầu tư bạn đặt, tiền đầu tư tự động sẽ được mua thông qua giao ngay theo giá thị trường. Nếu số tiền đầu tư của bạn tương đối lớn, khiến giá thị trường dao động hơn +/- 10% thì số tiền vượt quá sẽ không được thực hiện.",
-    "Agreement5":"Phí đầu tư tự động giống như phí giao dịch giao ngay. Bạn có thể tham khảo <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>chi tiết mức phí</a> .",
+    "Agreement5":"Phí đầu tư tự động giống như phí giao dịch giao ngay. Bạn có thể tham khảo <a href='https://support.example.com/fees'>chi tiết mức phí</a> .",
     "Details_of_auto_invest_plan":"Chi tiết kế hoạch đầu tư ô tô",
     "Invested_rounds":"Vòng đầu tư",
     "Power_piggy_earning":"Kiếm tiền mạnh mẽ",

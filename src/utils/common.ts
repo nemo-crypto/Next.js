@@ -1,14 +1,17 @@
 // @ts-nocheck
+import { Config } from '@constants/config';
 // 币种图标
 export function coinIconPath(coinName: string): string {
     if (!coinName) return '';
-    return `//cdn.bitrue.com/icon/icon_${coinName.toUpperCase()}.png`;
+    const domain = Config.staticDomain?.replace(/\/$/, '');
+    return domain ? `${domain}/icon/icon_${coinName.toUpperCase()}.png` : '/images/demo-coin.svg';
 };
 
 // 法币图标
 export function legalIconPath(coinName: string): string {
     if (!coinName) return '';
-    return `https://static.bitrue.com/m-static/${coinName.toUpperCase()}.png`;
+    const domain = Config.staticDomain?.replace(/\/$/, '');
+    return domain ? `${domain}/m-static/${coinName.toUpperCase()}.png` : '/images/demo-coin.svg';
 };
 
 // 描点到指定位置

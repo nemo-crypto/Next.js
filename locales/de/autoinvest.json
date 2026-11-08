@@ -1,8 +1,8 @@
 {
     "tdk": {
-        "title": "BTC-Handel | ETH-Handel | XRP-Handel | Bitrue",
-        "description": "Auto Invest ist ein Handelstool, das Aufträge in regelmäßigen Abständen über einen bestimmten Zeitraum verteilt, sodass Ihre Position weniger vom Market Timing beeinflusst wird. Es hilft Ihnen, BTC-, ETH- und XRP-Positionen in Bitrue zu handeln und aufzubauen und langfristige Gewinne zu erzielen.",
-        "keywords": "Auto-Krypto-Handel, BTC-Auto-Handel, ETH-Auto-Handel, XRP-Auto-Handel, BTC-Auto-Invest, ETH-Auto-Invest, hoher APY, Bitrue-Einsatz, Kryptowährungsbelohnungen, einfaches Einsatz"
+        "title": "BTC-Handel | ETH-Handel | XRP-Handel | DemoExchange",
+        "description": "Auto Invest ist ein Handelstool, das Aufträge in regelmäßigen Abständen über einen bestimmten Zeitraum verteilt, sodass Ihre Position weniger vom Market Timing beeinflusst wird. Es hilft Ihnen, BTC-, ETH- und XRP-Positionen in DemoExchange zu handeln und aufzubauen und langfristige Gewinne zu erzielen.",
+        "keywords": "Auto-Krypto-Handel, BTC-Auto-Handel, ETH-Auto-Handel, XRP-Auto-Handel, BTC-Auto-Invest, ETH-Auto-Invest, hoher APY, DemoExchange-Einsatz, Kryptowährungsbelohnungen, einfaches Einsatz"
     },
     "Auto_Invest": "Automatisches Investieren",
     "Spread_out_your_investments_": "Verteilen Sie Ihre Investitionen",
@@ -75,7 +75,7 @@
     "Agreement2": "Wenn die Münze, in die Sie investieren, flexibel in Power Piggy investiert werden kann, wird sie automatisch dort eingezahlt, um mehr Zinsen zu erhalten.",
     "Agreement3": "Der Gewinn und Verlust ist variabel und gibt den Gewinn der Münze vom Zeitpunkt des Kaufbeginns bis zum aktuellen Zeitpunkt an. Die Berechnungsformel lautet: gekaufte Menge * aktueller Spotpreis – insgesamt investiert. Wenn Sie diese Währung im Voraus verkaufen oder diese Währung bei Power Piggy einzahlen, können die daraus resultierenden Gewinne/Verluste nicht in den Gewinn und Verlust eingerechnet werden.",
     "Agreement4": "Wenn die von Ihnen festgelegte Investitionshäufigkeit erreicht ist, werden die Münzen von Auto Invest per Spot zu Marktpreisen gekauft. Wenn Ihr Anlagebetrag relativ groß ist und der Marktpreis dadurch um mehr als +/- 10 % schwankt, wird der überschüssige Betrag nicht ausgeführt.",
-    "Agreement5": "Die Gebühr für Autoinvest entspricht der Gebühr für den Spothandel. Sie können die <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>Gebührendetails</a> einsehen.",
+    "Agreement5": "Die Gebühr für Autoinvest entspricht der Gebühr für den Spothandel. Sie können die <a href='https://support.example.com/fees'>Gebührendetails</a> einsehen.",
     "Details_of_auto_invest_plan": "Details zum Auto-Invest-Plan",
     "Invested_rounds": "Investierte Runden",
     "Power_piggy_earning": "Power-Piggy-Verdienen",

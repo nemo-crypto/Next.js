@@ -19,9 +19,9 @@
         "programError":"Netzwerkfehler. Bitte versuche es erneut."
     },
     "list":{
-        "title":"Verdienen Sie Krypto mit flexiblem Einsatz | Hoher effektiver Jahreszins | Bitrue",
-        "keywords":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, Bitrue XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze",
-        "description":"Verdienen Sie mühelos wertvolle Kryptowährungsprämien durch den flexiblen Einsatz von Bitrue. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie noch heute mit dem Aufbau Ihrer Ersparnisse.",
+        "title":"Verdienen Sie Krypto mit flexiblem Einsatz | Hoher effektiver Jahreszins | DemoExchange",
+        "keywords":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, DemoExchange XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze",
+        "description":"Verdienen Sie mühelos wertvolle Kryptowährungsprämien durch den flexiblen Einsatz von DemoExchange. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie noch heute mit dem Aufbau Ihrer Ersparnisse.",
         "sloganTitle":"Power-Schweinchen",
         "sloganTitleSub":"Verdienen Sie täglich wettbewerbsfähige Prämien",
         "btrBalance":"BTR-Guthaben",
@@ -47,11 +47,11 @@
         "listNoLockUp":"Keine Sperre"
     },
     "detail":{
-        "title":"Verdiene {{coin}} | {{coin}} Abstecken | Bitrue",
-        "keywords":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, Bitrue XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze, {{coin}}, {{coin}}",
-        "description":"{{coin}} Mit dem flexiblen Einsatz von Bitrue können Sie mühelos wertvolle {{coin}} Kryptowährungsprämien verdienen. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie noch heute mit dem Aufbau Ihrer Ersparnisse.",
-        "newUserkwd":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, Bitrue XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze, {{coin}}, {{coin}}, neuer Benutzer",
-        "newUserDesc":"{{coin}}-Einsatz für neue Benutzer. Verdienen Sie mühelos wertvolle {{coin}}-Kryptowährungsprämien durch den flexiblen Einsatz von Bitrue. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie noch heute mit dem Aufbau Ihrer Ersparnisse. Perfekt für neue Benutzer!",
+        "title":"Verdiene {{coin}} | {{coin}} Abstecken | DemoExchange",
+        "keywords":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, DemoExchange XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze, {{coin}}, {{coin}}",
+        "description":"{{coin}} Mit dem flexiblen Einsatz von DemoExchange können Sie mühelos wertvolle {{coin}} Kryptowährungsprämien verdienen. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie noch heute mit dem Aufbau Ihrer Ersparnisse.",
+        "newUserkwd":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, DemoExchange XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze, {{coin}}, {{coin}}, neuer Benutzer",
+        "newUserDesc":"{{coin}}-Einsatz für neue Benutzer. Verdienen Sie mühelos wertvolle {{coin}}-Kryptowährungsprämien durch den flexiblen Einsatz von DemoExchange. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie noch heute mit dem Aufbau Ihrer Ersparnisse. Perfekt für neue Benutzer!",
         "staking":"Abstecken",
         "remainingAmount":"Restbetrag",
         "remainingVIPCap":"Verbleibende VIP-Obergrenze",
@@ -87,13 +87,13 @@
         "rules2":"Belohnungsverteilung: täglich um 16:00 UTC",
         "rules3":"Zinsberechnung: Die Zinsgenerierung beginnt einen Tag nach der Anlage. Die erste Zinszahlung erfolgt zwei Tage nach der Anlage. Bei Abhebungen mitten am Tag werden keine Teilzinsen generiert. Die Zinsen werden täglich zwischen 16:00 und 18:00 UTC berechnet. Wenn die Mittel während des Berechnungszeitraums nicht eingefroren werden, werden keine Zinsen generiert.",
         "rules4":"Keine Sperrung: Ihr Geld wird nicht gesperrt, Sie können sich also jederzeit abmelden. Sie können sich erneut anmelden, solange die Obergrenze geöffnet ist.",
-        "rules5":"Bei diesem Angebot garantiert Bitrue die Sicherheit Ihres Kapitals und Ihrer Einnahmen.",
+        "rules5":"Bei diesem Angebot garantiert DemoExchange die Sicherheit Ihres Kapitals und Ihrer Einnahmen.",
         "rules6":"Mindestbetrag für den Beitritt:",
         "rules7":"Teilnahmeberechtigung: Alle Benutzer sind zur Teilnahme berechtigt.",
-        "rules8":"Die endgültige Interpretation dieser Aktivität liegt bei Bitrue. Bitrue behält sich das Recht vor, die Regeln der Veranstaltung jederzeit an die Markt- und Betriebsbedingungen anzupassen.",
+        "rules8":"Die endgültige Interpretation dieser Aktivität liegt bei DemoExchange. DemoExchange behält sich das Recht vor, die Regeln der Veranstaltung jederzeit an die Markt- und Betriebsbedingungen anzupassen.",
         "faq":"FAQ",
         "faqAsk1":"Was ist Power Piggy?",
-        "faqAnswer1":"Power Piggy ist der High-Yield-Investmentservice von Bitrue, der es Ihnen ermöglicht, passives Einkommen mit Ihren Kryptowährungen zu erzielen. Durch Abstecken und andere Mechanismen können wir unseren Nutzern Anlagedienstleistungen für ihre Ersparnisse anbieten, die es jedem ermöglichen, täglich Zinsen zu verdienen.",
+        "faqAnswer1":"Power Piggy ist der High-Yield-Investmentservice von DemoExchange, der es Ihnen ermöglicht, passives Einkommen mit Ihren Kryptowährungen zu erzielen. Durch Abstecken und andere Mechanismen können wir unseren Nutzern Anlagedienstleistungen für ihre Ersparnisse anbieten, die es jedem ermöglichen, täglich Zinsen zu verdienen.",
         "faqAsk2":"Kann ich meine {{coin}} nach der Teilnahme handeln oder abheben?",
         "faqAnswer2":"Sie können es jederzeit handeln oder abheben. Dazu müssen Sie lediglich den Ereignisbetrag freigeben.",
         "faqAsk3":"Wie kann ich den Eventbetrag freigeben?",
@@ -101,7 +101,7 @@
         "faqAsk4":"Kann ich wieder an der Veranstaltung teilnehmen, wenn ich mein {{coin}} entsperre?",
         "faqAnswer4":"Ja, solange die Teilnahmeobergrenze {{coin}} beträgt, können Sie unbegrenzt an der Veranstaltung teilnehmen.",
         "faqAsk5":"Kann ich den Gewinn erhalten, wenn ich mit 100 {{coin}} an der Veranstaltung teilnehme und mein gesamtes Guthaben vor 24:00 Uhr (UTC 8) freigebe?",
-        "faqAnswer5":"Es tut mir leid, dass Sie keine Gewinne erzielen können. Bitrue überprüft den Teilnahmebetrag täglich um 24:00 Uhr (UTC 8). Wenn der Betrag um 24:00 Uhr (UTC 8) 0 anzeigt, können Sie keine Gewinne erzielen.",
+        "faqAnswer5":"Es tut mir leid, dass Sie keine Gewinne erzielen können. DemoExchange überprüft den Teilnahmebetrag täglich um 24:00 Uhr (UTC 8). Wenn der Betrag um 24:00 Uhr (UTC 8) 0 anzeigt, können Sie keine Gewinne erzielen.",
         "rushToPurchase":"Sie haben bereits den für Ihre aktuelle Obergrenze zulässigen Höchstbetrag investiert. Um Ihre Obergrenze in Zukunft zu erhöhen, stellen Sie bitte sicher, dass Sie über mehr BTR verfügen.",
         "investmentSuccess":"Sie haben {{vol}} investiert. Sie können es weiterhin verwenden, indem Sie die Menge auftauen.",
         "investmentErrorBalance":"Der Teilnahmeversuch ist aufgrund eines unzureichenden Kontostands von {{coin}} fehlgeschlagen.",
@@ -112,9 +112,9 @@
         "unfreezeSuccess":"Sie haben den Betrag von {{vol}} erfolgreich entsperrt"
     },
     "vip":{
-        "title":"Verdienen Sie Krypto mit flexiblem Einsatz | Hoher effektiver Jahreszins | BTR VIP CAP | Bitrue",
-        "keywords":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, BTR VIP CAP, Bitrue XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze",
-        "description":"Verdienen Sie mühelos wertvolle Belohnungen durch das flexible Einsatz- und BTR-VIP-CAP-Programm von Bitrue. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie mit dem Sparen.",
+        "title":"Verdienen Sie Krypto mit flexiblem Einsatz | Hoher effektiver Jahreszins | BTR VIP CAP | DemoExchange",
+        "keywords":"Verdienen Sie Krypto, flexible Einsätze, hohe APY, BTR VIP CAP, DemoExchange XRP-Einsätze, Kryptowährungsprämien, Ersparnisse, APY-Sätze",
+        "description":"Verdienen Sie mühelos wertvolle Belohnungen durch das flexible Einsatz- und BTR-VIP-CAP-Programm von DemoExchange. Entdecken Sie vielfältige Verdienstmöglichkeiten mit beeindruckenden APY-Raten und beginnen Sie mit dem Sparen.",
         "sloganTitle":"Power-Schweinchen",
         "sloganTitleSub":"Verdienen Sie täglich wettbewerbsfähige Prämien",
         "accountBtr":"BTR-Guthaben",
@@ -135,7 +135,7 @@
         "rules_4":"Freigabe der VIP-Obergrenze: Der investierte Betrag umfasst sowohl Community- als auch VIP-Obergrenzen. Bei der Freigabe werden zunächst die über die Community-Obergrenze investierten Gelder freigegeben.",
         "rules_5":"Für die VIP-Obergrenze gelten andere Regeln als für die Community-Obergrenze, und die Zinsauszahlung erfolgt täglich um 00:30 Uhr (UTC 8).",
         "rules_6":"Beträge, die mithilfe von VIP-Caps investiert werden, haben auch Anspruch auf erhöhte Zinssätze mithilfe von BTR.",
-        "rules_7":"Die endgültige Interpretation dieser Aktivität liegt bei Bitrue. Bitrue behält sich das Recht vor, die Regeln der Veranstaltung jederzeit an die Markt- und Betriebsbedingungen anzupassen."
+        "rules_7":"Die endgültige Interpretation dieser Aktivität liegt bei DemoExchange. DemoExchange behält sich das Recht vor, die Regeln der Veranstaltung jederzeit an die Markt- und Betriebsbedingungen anzupassen."
     },
     "record":{
         "pageTitle":"Aufzeichnungen",

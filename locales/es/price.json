@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} Precio | {{coinName}} Precio, capitalización de mercado, mercados | Biverdad",
         "keywords":"{{coinName}} Precio, {{coinFullName}} Precio, {{coinName}} a USD, {{coinName}} Valor",
-        "description":"Vea el precio {{coinFullName}} en vivo para realizar un seguimiento de los cambios de precios en tiempo real. Siga los últimos datos del mercado y análisis sobre Bitrue Crypto Exchange.",
+        "description":"Vea el precio {{coinFullName}} en vivo para realizar un seguimiento de los cambios de precios en tiempo real. Siga los últimos datos del mercado y análisis sobre DemoExchange Crypto Exchange.",
         "etfTitle":"{{coinName}} Precio, tokens apalancados, ETF criptográficos, mercados | Biverdad",
-        "etfKeywords":"{{coinName}} Precio, tokens apalancados, ETF criptográficos, mercados, Bitrue Exchange",
-        "etfDescription":"Fichas apalancadas de Bitrue: un tipo de producto derivado que le brinda exposición apalancada al activo subyacente. Disfrute de un mayor apalancamiento sin riesgo de liquidación."
+        "etfKeywords":"{{coinName}} Precio, tokens apalancados, ETF criptográficos, mercados, DemoExchange Exchange",
+        "etfDescription":"Fichas apalancadas de DemoExchange: un tipo de producto derivado que le brinda exposición apalancada al activo subyacente. Disfrute de un mayor apalancamiento sin riesgo de liquidación."
     },
     "title":"Precio criptográfico",
     "coinPrice":"{{coinFullName}} Precio",

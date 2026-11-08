@@ -1,8 +1,8 @@
 {
     "tdk": {
-        "title": "Commerce BTC | Commerce d'ETH | Commerce XRP | Bitrue",
-        "description": "L'investissement automatique est un outil de trading qui répartit les ordres à intervalles réguliers dans le temps, de sorte que votre position est moins affectée par le timing du marché. Il vous aide à négocier et à créer des positions BTC, ETH et XRP dans Bitrue et à profiter de gains à long terme.",
-        "keywords": "Échange automatique de crypto, Échange automatique BTC, Échange automatique ETH, Échange automatique XRP, Investissement automatique BTC, Investissement automatique ETH, APY élevé, Bitrue Staking, récompenses de crypto-monnaie, jalonnement simple"
+        "title": "Commerce BTC | Commerce d'ETH | Commerce XRP | DemoExchange",
+        "description": "L'investissement automatique est un outil de trading qui répartit les ordres à intervalles réguliers dans le temps, de sorte que votre position est moins affectée par le timing du marché. Il vous aide à négocier et à créer des positions BTC, ETH et XRP dans DemoExchange et à profiter de gains à long terme.",
+        "keywords": "Échange automatique de crypto, Échange automatique BTC, Échange automatique ETH, Échange automatique XRP, Investissement automatique BTC, Investissement automatique ETH, APY élevé, DemoExchange Staking, récompenses de crypto-monnaie, jalonnement simple"
     },
     "Auto_Invest": "Investissement automobile",
     "Spread_out_your_investments_": "Répartir vos investissements",
@@ -57,7 +57,7 @@
     "Q7": "À quel prix ma transaction de plan d’investissement automatique sera-t-elle exécutée ?",
     "A7": "Lorsque la fréquence d'investissement que vous avez définie est atteinte, les pièces d'investissement automatique seront achetées au comptant aux prix du marché. Si le montant de votre investissement est relativement important, entraînant une fluctuation du prix du marché de plus de +/- 10 %, le montant excédentaire ne sera pas exécuté.",
     "Q8": "Comment sont calculés les frais ?",
-    "A8": "Les frais d’investissement automatique sont les mêmes que les frais de négociation au comptant. Vous pouvez vous référer au <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>détail des frais</a> .",
+    "A8": "Les frais d’investissement automatique sont les mêmes que les frais de négociation au comptant. Vous pouvez vous référer au <a href='https://support.example.com/fees'>détail des frais</a> .",
     "Q9": "Comment vérifier les plans et l'historique en cours ?",
     "A91": "1. Plans en cours : vous pouvez les consulter après vous être connecté sur la <a href='/fr/btc-xrp-eth-trading-bot'>page d'investissement automatique</a> - tous les plans en cours.",
     "A92": "2. Tous les ordres d'investissement automatique : vous pouvez les vérifier dans \"Commandes\" - \"Gagner\" - \"Investissement automatique\".",
@@ -75,7 +75,7 @@
     "Agreement2": "Si la pièce dans laquelle vous investissez dispose d'un investissement flexible dans Power Piggy, elle y sera automatiquement déposée pour obtenir plus d'intérêts.",
     "Agreement3": "Les profits et pertes sont flottants, indiquant le profit de la pièce depuis le moment où vous avez commencé à l'acheter jusqu'au moment actuel. La formule de calcul est la suivante : quantité achetée * prix au comptant actuel - total investi. Si vous vendez cette devise à l'avance ou déposez cette devise dans Power Piggy, les gains/pertes qui en résultent ne peuvent pas être calculés dans le profit et la perte.",
     "Agreement4": "Lorsque la fréquence d'investissement que vous avez définie est atteinte, les pièces d'investissement automatique seront achetées au comptant aux prix du marché. Si le montant de votre investissement est relativement important, entraînant une fluctuation du prix du marché de plus de +/- 10 %, le montant excédentaire ne sera pas exécuté.",
-    "Agreement5": "Les frais d’investissement automatique sont les mêmes que les frais de négociation au comptant. Vous pouvez vous référer au <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>détail des frais</a> .",
+    "Agreement5": "Les frais d’investissement automatique sont les mêmes que les frais de négociation au comptant. Vous pouvez vous référer au <a href='https://support.example.com/fees'>détail des frais</a> .",
     "Details_of_auto_invest_plan": "Détails du plan d'investissement automatique",
     "Invested_rounds": "Tours investis",
     "Power_piggy_earning": "Gagner du pouvoir en cochon",

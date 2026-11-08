@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Apuesta BTC | Apuesta ETH | Apuesta XRP | Bitrue",
-        "palabras clave": "Aprenda y gane criptomonedas, gane BTC, apueste en criptomonedas, apueste en XRP, apueste en BTC, apueste en ETH, APY alto, apueste en Bitrue, recompensas en criptomonedas, apueste simple.",
-        "description": "Descubra cómo Bitrue Sating le permite ganar sin esfuerzo valiosas recompensas en criptomonedas. Aprenda y gane, apostando BTC, apostando ETH, apostando XRP para ganar recompensas."
+        "title": "Apuesta BTC | Apuesta ETH | Apuesta XRP | DemoExchange",
+        "palabras clave": "Aprenda y gane criptomonedas, gane BTC, apueste en criptomonedas, apueste en XRP, apueste en BTC, apueste en ETH, APY alto, apueste en DemoExchange, recompensas en criptomonedas, apueste simple.",
+        "description": "Descubra cómo DemoExchange Sating le permite ganar sin esfuerzo valiosas recompensas en criptomonedas. Aprenda y gane, apostando BTC, apostando ETH, apostando XRP para ganar recompensas."
     },
     "main": {
         "title": "Aprenda a apostar: gane dinero manteniendo su activo criptográfico",
@@ -12,19 +12,19 @@
         "section2_content1": "A nivel de blockchain, las monedas que se pueden apostar son las monedas PoS (Proof of Stake), como {{Ethereum}}, {{Cardano}} y {{Solana}}. Esto es diferente al Modelo PoW (Prueba de trabajo) empleado por {{Bitcoin}} y otros que utilizan cantidades significativas de potencia informática para verificar sus transacciones. En lugar de requerir la realización de cálculos arbitrarios complejos, las cadenas de bloques PoS simplemente definen la confianza y la recompensa en función de la cantidad. de monedas en poder de una persona u organización.",
         "section2_content2": "Cada moneda tiene requisitos diferentes antes de poder apostar, algunos de los cuales pueden hacer que sea muy difícil apostar directamente. Por ejemplo, algunas monedas requieren una inversión significativa antes de poder generar recompensas ($100,000 o más), mientras que otras Requieren un alto nivel de competencia técnica pero no tienen garantías contra la pérdida de su dinero si presiona accidentalmente un botón equivocado.",
         "section2_content3": "En la era moderna de las finanzas descentralizadas (DeFi), las capacidades de participación se han actualizado aún más. Al utilizar fondos de liquidez, los usuarios pueden apostar una amplia gama de monedas en beneficio de algoritmos comerciales que les permiten intercambiar monedas en pares arbitrarios en de igual a igual y seguir recibiendo recompensas por hacerlo.",
-        "section2_content4": "En Bitrue hemos ampliado la capacidad de apostar aún más. Tenemos la capacidad de admitir eventualmente <b>CUALQUIER</b> moneda en nuestro servicio de apuestas y agregar regularmente más monedas a nuestros servicios de inversión según lo que popular o lo que los miembros de nuestra comunidad están pidiendo.",
+        "section2_content4": "En DemoExchange hemos ampliado la capacidad de apostar aún más. Tenemos la capacidad de admitir eventualmente <b>CUALQUIER</b> moneda en nuestro servicio de apuestas y agregar regularmente más monedas a nuestros servicios de inversión según lo que popular o lo que los miembros de nuestra comunidad están pidiendo.",
         "section3_title": "¿Qué tipo de recompensas puedo recibir al apostar?",
         "section3_content1": "Las recompensas exactas dependen en gran medida de la moneda que apuestes, pero en general puedes esperar recompensas de alrededor del 5% APR. Algunas monedas notables y sus APR esperadas incluyen:",
         "section3_content1_coin": "Moneda",
         "section3_content1_apr": "APR*",
-        "section3_content2": "*Estimado. Puede cambiar a discreción de Bitrue.",
+        "section3_content2": "*Estimado. Puede cambiar a discreción de DemoExchange.",
         "section4_title": "¿Estoy calificado para apostar mis monedas?",
-        "section4_content1": "En Bitrue, todo lo que necesitas para comenzar es <a href='{{registerUrl}}' target='_blank'>registrarte</a> y asegurarte de tener algunas monedas inactivas en tu cuenta. ¡Eso es todo!",
+        "section4_content1": "En DemoExchange, todo lo que necesitas para comenzar es <a href='{{registerUrl}}' target='_blank'>registrarte</a> y asegurarte de tener algunas monedas inactivas en tu cuenta. ¡Eso es todo!",
         "section4_content2": "- No se requieren conocimientos técnicos",
         "section4_content3": "- No hay solicitudes ni aprobaciones",
         "section4_content4": "- Sin mínimos",
         "section5_title": "¿Cómo empiezo?",
-        "section5_content1": "Si eres nuevo en el mundo de las apuestas, te recomendamos probar <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> primero. Power Piggy está diseñado para ser rápido y fácil. para usar, con <b>pagos de intereses enviados directamente a su cuenta Bitrue</b> todos los días alrededor de las 16:00 UTC. Lo mejor de todo es que no tiene riesgos ya que no hay períodos de bloqueo para las inversiones de Power Piggy. Esto significa que si usted Decide que ahora es un buen momento para vender tus monedas, puedes retirarlas de tu Power Piggy en cualquier momento e intercambiarlas en el intercambio.",
+        "section5_content1": "Si eres nuevo en el mundo de las apuestas, te recomendamos probar <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> primero. Power Piggy está diseñado para ser rápido y fácil. para usar, con <b>pagos de intereses enviados directamente a su cuenta DemoExchange</b> todos los días alrededor de las 16:00 UTC. Lo mejor de todo es que no tiene riesgos ya que no hay períodos de bloqueo para las inversiones de Power Piggy. Esto significa que si usted Decide que ahora es un buen momento para vender tus monedas, puedes retirarlas de tu Power Piggy en cualquier momento e intercambiarlas en el intercambio.",
         "section5_content2": "Power Piggy admite más de <b>100 monedas diferentes</b> y se agregan más todo el tiempo, y tiene tasas de interés que son altamente competitivas con los servicios de la competencia y con apuestas directas en el nivel de blockchain. pero sin todas las molestias.",
         "section5_content3": "Si desea comprometerse con algunas inversiones en criptomonedas a largo plazo, puede intentar utilizar nuestro servicio <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a>. Yield Farming es similar a Power Piggy con la principal diferencia de que tus monedas estarán bloqueadas por un período de tiempo, aunque las <b>recompensas serán más altas</b> para compensarlo. Si realmente necesitas acceder a tus activos, puedes Podrás cancelar la inversión anticipadamente sin embargo no recibirás ningún interés, independientemente de cuánto tiempo dure la inversión.se apostaron monedas. Es la mejor manera de maximizar su potencial de ganancias."
     }

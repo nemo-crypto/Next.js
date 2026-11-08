@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} Prijs | {{coinName}} Prijs, marktkapitalisatie, markten | Biwaar",
         "keywords":"{{coinName}} Prijs, {{coinFullName}} Prijs, {{coinName}} naar USD, {{coinName}} Waarde",
-        "description":"Bekijk de live {{coinFullName}} prijs om de realtime prijswijzigingen te volgen. Volg de laatste marktgegevens, analyse op Bitrue Crypto Exchange.",
+        "description":"Bekijk de live {{coinFullName}} prijs om de realtime prijswijzigingen te volgen. Volg de laatste marktgegevens, analyse op DemoExchange Crypto Exchange.",
         "etfTitle":"{{coinName}} Prijs, hefboomtokens, crypto-ETF's, markten | Biwaar",
-        "etfKeywords":"{{coinName}} Prijs, hefboomtokens, Crypto ETF's, markten, Bitrue Exchange",
-        "etfDescription":"Bitrue Leveraged Tokens - Een type derivaat dat u een hefboomblootstelling aan de onderliggende waarde geeft. Geniet van een grotere hefboomwerking zonder risico op liquidatie."
+        "etfKeywords":"{{coinName}} Prijs, hefboomtokens, Crypto ETF's, markten, DemoExchange Exchange",
+        "etfDescription":"DemoExchange Leveraged Tokens - Een type derivaat dat u een hefboomblootstelling aan de onderliggende waarde geeft. Geniet van een grotere hefboomwerking zonder risico op liquidatie."
     },
     "title":"Crypto-prijs",
     "coinPrice":"{{coinFullName}} Prijs",

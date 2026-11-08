@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"اربح APY مرتفعًا مع حصة تأمين BTR | صحيح",
-        "keywords":"تخزين BTR Lockup، APY مرتفع، تخزين آمن، عملات رئيسية، BTC، XRP، ETH، USDT، ADA، VET، ZIL، LINK، تخزين Bitrue XRP",
+        "keywords":"تخزين BTR Lockup، APY مرتفع، تخزين آمن، عملات رئيسية، BTC، XRP، ETH، USDT، ADA، VET، ZIL، LINK، تخزين DemoExchange XRP",
         "description":"قم بتعزيز العملات الرئيسية مثل BTC، وXRP، وETH، وUSDT، وADA، وVET، وZIL، وLINK مع BTR Lockup Stake. استثمر عملات معدنية متنوعة لمدة 30 يومًا، واحصل على معدلات أعلى من الستاكينغ المرن.",
         "sloganTitle":"حصة BTR لعمليات الإقفال",
         "sloganTitleSub":"BTC / ETH / XRP / USDT / ADA مدعومة",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"{{coin}} الستاكينغ، احصل على APY عالي مع BTR Lockup Scking | صحيح",
-        "keywords":"تخزين BTR Lockup، APY مرتفع، تخزين آمن، عملات رئيسية، BTC، XRP، ETH، USDT، ADA، VET، ZIL، LINK، تخزين Bitrue XRP",
+        "keywords":"تخزين BTR Lockup، APY مرتفع، تخزين آمن، عملات رئيسية، BTC، XRP، ETH، USDT، ADA، VET، ZIL، LINK، تخزين DemoExchange XRP",
         "description":"قم بتعزيز العملات الرئيسية مثل BTC، وXRP، وETH، وUSDT، وADA، وVET، وZIL، وLINK مع BTR Lockup Stake. استثمر عملات معدنية متنوعة لمدة 30 يومًا، واحصل على معدلات أعلى من الستاكينغ المرن.",
         "sloganTitle":"حصة BTR لقبعات القفل",
         "sloganTitleSub":"قم بتأمين {{coin}} الخاص بك لمدة {{period}} من الأيام، واحصل على نسبة {{rate}}% من معدل الفائدة السنوية",
@@ -63,7 +63,7 @@
         "rules2":"سيتم قفل BTR الخاص بك في نفس الوقت الذي يتم فيه قفل رأس المال. عندما ينضج الاستثمار ويتم صرف الفائدة، سيتم إرجاع BTR الخاص بك إلى حسابك الجاري.",
         "rules3":"سيتم أخذ BTR الذي سيتم قفله من حسابك الحالي. يرجى التأكد من توفر BTR مسبقًا.",
         "rules4":"الأهلية: جميع المستخدمين مؤهلون للمشاركة.",
-        "rules5":"التفسير النهائي لهذا النشاط ينتمي إلى Bitrue. تحتفظ Bitrue بالحق في تعديل قواعد الحدث في أي وقت بناءً على ظروف السوق والتشغيل.",
+        "rules5":"التفسير النهائي لهذا النشاط ينتمي إلى DemoExchange. تحتفظ DemoExchange بالحق في تعديل قواعد الحدث في أي وقت بناءً على ظروف السوق والتشغيل.",
         "records":"السجلات",
         "startTime":"وقت البدء",
         "endTime":"وقت النهاية",

@@ -1,11 +1,11 @@
 {
     "seo": {
-        "title": "{{coinFullName}} 價格 | {{coinName}} 價格、市值、市場 | Bitrue",
+        "title": "{{coinFullName}} 價格 | {{coinName}} 價格、市值、市場 | DemoExchange",
         "keywords": "{{coinName}} 價格，{{coinFullName}} 價格，{{coinName}} to USD，{{coinName}} 價值",
-        "description": "查看實時 {{coinFullName}} 價格以跟踪實時價格變化。關注Bitrue加密貨幣交易所最新市場數據、分析。",
-        "etfTitle": "{{coinName}} 價格、槓桿代幣、加密貨幣 ETF、市場｜Bitrue",
-        "etfKeywords": "{{coinName}} 價格，槓桿代幣，加密 ETF，市場，Bitrue 交易所",
-        "etfDescription": " Bitrue槓桿代幣 - 是一種衍生產品，旨在提供標的資產的槓桿倍數報酬。槓桿配置零爆倉，財富凝聚輕鬆享。"
+        "description": "查看實時 {{coinFullName}} 價格以跟踪實時價格變化。關注DemoExchange加密貨幣交易所最新市場數據、分析。",
+        "etfTitle": "{{coinName}} 價格、槓桿代幣、加密貨幣 ETF、市場｜DemoExchange",
+        "etfKeywords": "{{coinName}} 價格，槓桿代幣，加密 ETF，市場，DemoExchange 交易所",
+        "etfDescription": " DemoExchange槓桿代幣 - 是一種衍生產品，旨在提供標的資產的槓桿倍數報酬。槓桿配置零爆倉，財富凝聚輕鬆享。"
     },
     "title": "數字貨幣價格",
     "coinPrice": "{{coinFullName}} 價格",

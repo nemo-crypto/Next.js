@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"BTR 락업 스테이킹으로 높은 APY를 획득하세요 | 바이트루",
-        "keywords":"BTR 락업 스테이킹, 높은 APY, 보안 스테이킹, 주요 코인, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP 스테이킹",
+        "keywords":"BTR 락업 스테이킹, 높은 APY, 보안 스테이킹, 주요 코인, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP 스테이킹",
         "description":"BTR Lockup Stake를 통해 BTC, XRP, ETH, USDT, ADA, VET, ZIL 및 LINK와 같은 주요 코인을 강화하세요. 30일 동안 다양한 코인을 투자해 유연한 스테이킹보다 높은 이율을 받으세요.",
         "sloganTitle":"락업을 위한 BTR 스테이크",
         "sloganTitleSub":"BTC / ETH / XRP / USDT / ADA 지원",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"{{coin}} 스테이킹, BTR 락업 스테이킹으로 높은 APY 획득 | 바이트루",
-        "keywords":"BTR 락업 스테이킹, 높은 APY, 보안 스테이킹, 주요 코인, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP 스테이킹",
+        "keywords":"BTR 락업 스테이킹, 높은 APY, 보안 스테이킹, 주요 코인, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP 스테이킹",
         "description":"BTR Lockup Stake를 통해 BTC, XRP, ETH, USDT, ADA, VET, ZIL 및 LINK와 같은 주요 코인을 강화하세요. 30일 동안 다양한 코인을 투자해 유연한 스테이킹보다 높은 이율을 받으세요.",
         "sloganTitle":"락업 한도에 대한 BTR 스테이크",
         "sloganTitleSub":"{{coin}}일 동안 {{period}}를 잠그고 연이율 {{rate}}%를 받으세요",
@@ -63,7 +63,7 @@
         "rules2":"귀하의 BTR은 주체와 동시에 잠깁니다. 투자가 만기되고 이자가 지급되면 BTR이 당좌 계좌로 반환됩니다.",
         "rules3":"잠길 BTR은 현재 계정에서 가져옵니다. BTR을 사전에 사용할 수 있는지 확인하십시오.",
         "rules4":"자격: 모든 사용자가 참여할 수 있습니다.",
-        "rules5":"본 활동의 최종 해석권은 Bitrue에 있습니다. Bitrue는 시장 및 운영 조건에 따라 언제든지 이벤트 규칙을 조정할 권리를 보유합니다.",
+        "rules5":"본 활동의 최종 해석권은 DemoExchange에 있습니다. DemoExchange는 시장 및 운영 조건에 따라 언제든지 이벤트 규칙을 조정할 권리를 보유합니다.",
         "records":"기록",
         "startTime":"시작 시간",
         "endTime":"종료 시간",

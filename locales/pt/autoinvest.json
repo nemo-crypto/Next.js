@@ -1,8 +1,8 @@
 {   
     "tdk":{
         "title":"Comércio BTC | Comércio de ETH | Negociação de XRP",
-        "description":"O investimento automático é uma ferramenta de negociação que distribui as ordens em intervalos regulares ao longo do tempo, para que a sua posição seja menos afetada pelo timing do mercado. Ajuda você a negociar e construir posições BTC, ETH e XRP em Bitrue e desfrutar de ganhos de longo prazo.",
-        "keywords":"Criptografia de comércio automático, comércio automático de BTC, comércio automático de ETH, comércio automático de XRP, investimento automático de BTC, investimento automático de ETH, alto APY, piquetagem de Bitrue, recompensas de criptomoeda, piquetagem simples"
+        "description":"O investimento automático é uma ferramenta de negociação que distribui as ordens em intervalos regulares ao longo do tempo, para que a sua posição seja menos afetada pelo timing do mercado. Ajuda você a negociar e construir posições BTC, ETH e XRP em DemoExchange e desfrutar de ganhos de longo prazo.",
+        "keywords":"Criptografia de comércio automático, comércio automático de BTC, comércio automático de ETH, comércio automático de XRP, investimento automático de BTC, investimento automático de ETH, alto APY, piquetagem de DemoExchange, recompensas de criptomoeda, piquetagem simples"
     },
     "Auto_Invest":"Investimento Automático",
     "Spread_out_your_investments_":"Distribua seus investimentos",
@@ -57,7 +57,7 @@
     "Q7":"A que preço será executada a transação do meu plano de investimento automático?",
     "A7":"Quando a frequência de investimento definida for atingida, as moedas de investimento automático serão adquiridas à vista a preços de mercado. Se o valor do seu investimento for relativamente grande, fazendo com que o preço de mercado flutue em mais de +/- 10%, o valor excedente não será executado.",
     "Q8":"Como a taxa é calculada?",
-    "A8":"A taxa de investimento automático é igual à taxa de negociação à vista. Você pode consultar os <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>detalhes da taxa</a> .",
+    "A8":"A taxa de investimento automático é igual à taxa de negociação à vista. Você pode consultar os <a href='https://support.example.com/fees'>detalhes da taxa</a> .",
     "Q9":"Como verificar os planos e histórico em andamento?",
     "A91":"1. Planos em andamento: você pode visualizá-los após fazer login na <a href='/pt/btc-xrp-eth-trading-bot'>página de investimento automático</a> - todos os planos em andamento.",
     "A92":"2. Todos os pedidos de investimento automático: você pode verificar em \"Pedidos\" - \"Ganhar\" - \"Investir automaticamente\"",
@@ -75,7 +75,7 @@
     "Agreement2":"Se a moeda em que você investe tiver investimento flexível no Power Piggy, ela será automaticamente depositada nela para obter mais juros.",
     "Agreement3":"O lucro e a perda são flutuantes, indicando o lucro da moeda desde o momento em que você começou a comprar até o momento atual. A fórmula de cálculo é: quantidade comprada * preço à vista atual - total investido. Se você vender esta moeda antecipadamente ou depositar esta moeda no Power Piggy, os ganhos/perdas resultantes não poderão ser calculados nos lucros e perdas.",
     "Agreement4":"Quando a frequência de investimento definida for atingida, as moedas de investimento automático serão adquiridas à vista a preços de mercado. Se o valor do seu investimento for relativamente grande, fazendo com que o preço de mercado flutue em mais de +/- 10%, o valor excedente não será executado.",
-    "Agreement5":"A taxa de investimento automático é igual à taxa de negociação à vista. Você pode consultar os <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>detalhes da taxa</a> .",
+    "Agreement5":"A taxa de investimento automático é igual à taxa de negociação à vista. Você pode consultar os <a href='https://support.example.com/fees'>detalhes da taxa</a> .",
     "Details_of_auto_invest_plan":"Detalhes do plano de investimento automático",
     "Invested_rounds":"Rodadas investidas",
     "Power_piggy_earning":"Ganhar porquinho poderoso",

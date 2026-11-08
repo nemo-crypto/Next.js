@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"Tjäna hög APY med BTR Lockup Staking | Bittrue",
-        "keywords":"BTR Lockup Staking, hög APY, säker insats, stora mynt, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP-insats",
+        "keywords":"BTR Lockup Staking, hög APY, säker insats, stora mynt, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP-insats",
         "description":"Öka stora mynt som BTC, XRP, ETH, USDT, ADA, VET, ZIL och LINK med BTR Lockup Staking. Investera olika mynt i 30 dagar och tjäna högre priser än flexibel insats.",
         "sloganTitle":"Insats BTR för låsningar",
         "sloganTitleSub":"BTC / ETH / XRP / USDT / ADA stöds",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"{{coin}} insats, tjäna hög APY med BTR Lockup Staking | Bittrue",
-        "keywords":"BTR Lockup Staking, hög APY, säker insats, stora mynt, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP-insats",
+        "keywords":"BTR Lockup Staking, hög APY, säker insats, stora mynt, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP-insats",
         "description":"Öka stora mynt som BTC, XRP, ETH, USDT, ADA, VET, ZIL och LINK med BTR Lockup Staking. Investera olika mynt i 30 dagar och tjäna högre priser än flexibel insats.",
         "sloganTitle":"Insats BTR För Lockup Caps",
         "sloganTitleSub":"Lås din {{coin}} i {{period}} dagar, få {{rate}} % APR",
@@ -63,7 +63,7 @@
         "rules2":"Din BTR kommer att låsas samtidigt som huvudmannen. När investeringen förfaller och räntan är utbetald, kommer din BTR att återföras till ditt nuvarande konto.",
         "rules3":"BTR som ska låsas kommer att tas från ditt nuvarande konto. Se till att BTR är tillgänglig i förväg.",
         "rules4":"Behörighet: Alla användare är berättigade att delta.",
-        "rules5":"Den slutliga tolkningen av denna aktivitet tillhör Bitrue. Bitrue förbehåller sig rätten att när som helst anpassa reglerna för evenemanget baserat på marknads- och driftsförhållanden.",
+        "rules5":"Den slutliga tolkningen av denna aktivitet tillhör DemoExchange. DemoExchange förbehåller sig rätten att när som helst anpassa reglerna för evenemanget baserat på marknads- och driftsförhållanden.",
         "records":"Uppgifter",
         "startTime":"Starttid",
         "endTime":"Sluttid",

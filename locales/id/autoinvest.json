@@ -1,8 +1,8 @@
 {
     "tdk": {
-        "title": "Perdagangan BTC | Perdagangan ETH | Perdagangan XRP | Bitrue",
-        "description": "Investasi otomatis adalah alat perdagangan yang menyebarkan pesanan secara berkala dari waktu ke waktu, sehingga posisi Anda tidak terlalu terpengaruh oleh waktu pasar. Ini membantu Anda memperdagangkan dan membangun posisi BTC, ETH, dan XRP di Bitrue dan menikmati keuntungan jangka panjang.",
-        "keywords": "Perdagangan kripto otomatis, Perdagangan otomatis BTC, Perdagangan otomatis ETH, Perdagangan otomatis XRP, Investasi otomatis BTC, Investasi otomatis ETH, APY tinggi, Taruhan Bitrue, hadiah mata uang kripto, taruhan sederhana"
+        "title": "Perdagangan BTC | Perdagangan ETH | Perdagangan XRP | DemoExchange",
+        "description": "Investasi otomatis adalah alat perdagangan yang menyebarkan pesanan secara berkala dari waktu ke waktu, sehingga posisi Anda tidak terlalu terpengaruh oleh waktu pasar. Ini membantu Anda memperdagangkan dan membangun posisi BTC, ETH, dan XRP di DemoExchange dan menikmati keuntungan jangka panjang.",
+        "keywords": "Perdagangan kripto otomatis, Perdagangan otomatis BTC, Perdagangan otomatis ETH, Perdagangan otomatis XRP, Investasi otomatis BTC, Investasi otomatis ETH, APY tinggi, Taruhan DemoExchange, hadiah mata uang kripto, taruhan sederhana"
     },
     "Auto_Invest": "Investasi Otomatis",
     "Spread_out_your_investments_": "Sebarkan investasi Anda",
@@ -57,7 +57,7 @@
     "Q7": "Pada harga berapa transaksi rencana investasi otomatis saya akan dieksekusi?",
     "A7": "Ketika frekuensi investasi yang Anda tetapkan tercapai, koin investasi otomatis akan dibeli melalui spot dengan harga pasar. Jika jumlah investasi Anda relatif besar sehingga menyebabkan harga pasar berfluktuasi lebih dari +/-10%, kelebihan jumlah tersebut tidak akan dieksekusi.",
     "Q8": "Bagaimana cara menghitung biayanya?",
-    "A8": "Biaya investasi otomatis sama dengan biaya perdagangan spot. Anda dapat merujuk ke <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>rincian biaya</a> .",
+    "A8": "Biaya investasi otomatis sama dengan biaya perdagangan spot. Anda dapat merujuk ke <a href='https://support.example.com/fees'>rincian biaya</a> .",
     "Q9": "Bagaimana cara memeriksa rencana dan riwayat yang sedang berjalan?",
     "A91": "1. Paket yang sedang berjalan: Anda dapat melihatnya setelah masuk ke <a href='/id/btc-xrp-eth-trading-bot'>halaman investasi otomatis</a> - semua paket yang sedang berjalan.",
     "A92": "2. Semua pesanan investasi otomatis: Anda dapat memeriksanya di \"Pesanan\" - \"Dapatkan\" - \"Investasi otomatis\"",
@@ -75,7 +75,7 @@
     "Agreement2": "Jika koin yang Anda investasikan memiliki investasi fleksibel di Power Piggy, maka secara otomatis akan disimpan ke dalamnya untuk mendapatkan lebih banyak bunga.",
     "Agreement3": "Untung & rugi mengambang, menunjukkan keuntungan koin sejak Anda mulai membeli hingga saat ini. Rumus perhitungannya adalah: jumlah pembelian * harga spot saat ini - total investasi. Jika Anda menjual mata uang ini di muka atau menyetorkan mata uang ini ke Power Piggy, keuntungan/kerugian yang dihasilkan tidak dapat dihitung ke dalam laba dan rugi.",
     "Agreement4": "Ketika frekuensi investasi yang Anda tetapkan tercapai, koin investasi otomatis akan dibeli melalui spot dengan harga pasar. Jika jumlah investasi Anda relatif besar sehingga menyebabkan harga pasar berfluktuasi lebih dari +/-10%, kelebihan jumlah tersebut tidak akan dieksekusi.",
-    "Agreement5": "Biaya investasi otomatis sama dengan biaya perdagangan spot. Anda dapat merujuk ke <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>rincian biaya</a> .",
+    "Agreement5": "Biaya investasi otomatis sama dengan biaya perdagangan spot. Anda dapat merujuk ke <a href='https://support.example.com/fees'>rincian biaya</a> .",
     "Details_of_auto_invest_plan": "Detail rencana investasi otomatis",
     "Invested_rounds": "Putaran yang diinvestasikan",
     "Power_piggy_earning": "Penghasilan piggy yang kuat",

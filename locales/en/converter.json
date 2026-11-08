@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Cryptocurrency Converter & Calculator | Bitrue",
+        "title": "Cryptocurrency Converter & Calculator | DemoExchange",
         "keywords": "crypto converter, cryptocurrency calculator, crypto exchange rates, btc to usd, eth to usd",
-        "description": "Calculate real-time cryptocurrency exchange rates using our crypto converter. Effortlessly convert between major global currencies and cryptocurrencies with Bitrue calculator.",
+        "description": "Calculate real-time cryptocurrency exchange rates using our crypto converter. Effortlessly convert between major global currencies and cryptocurrencies with DemoExchange calculator.",
         "detail_title": "Convert {0.5} {BTC} to {USD} - {Bitcoin} to {US Dollar} Exchange Rate",
         "detail_keywords": "{0.5 BTC to USD}, {0.5 Bitcoin to US Dollar}, {BTC USD} rate, crypto exchange calculator, currency converter",
         "detail_description": "Convert {0.5} {Bitcoin} to {United States Dollar} with live {BTC to USD} exchange rates. Check how much is {0.5} {BTC} in {USD} with our crypto calculator."
@@ -30,11 +30,11 @@
         "startBuying_sub": "Buy Bitcoin, Ethereum, XRP and other cryptocurrencies with fiat just in 3 simple steps.",
         "startBuying_desc": "Learn more about how to buy crypto.",
         "startBuying_step1_title": "Register",
-        "startBuying_step1_desc": "Sign up on Bitrue with your email address.",
+        "startBuying_step1_desc": "Sign up on DemoExchange with your email address.",
         "startBuying_step2_title": "Verify your identity",
         "startBuying_step2_desc": "Verify your identity by entering your personal information and uploading a valid Photo ID.",
         "startBuying_step3_title": "Buy Crypto！",
-        "startBuying_step3_desc": "Use a variety of payment options to buy {{coinFullName}} on Bitrue. ",
+        "startBuying_step3_desc": "Use a variety of payment options to buy {{coinFullName}} on DemoExchange. ",
         "conversions_title": "{{coinFullName}} Conversions",
         "conversions_buy": "Buy with {{fiatName}}",
         "top_cryptocurrency": "Top Cryptocurrency Exchange Rates",
@@ -46,7 +46,7 @@
 
         "faq_title": "FAQ",
         "faq_q1": "What is the best cryptocurrency converter?",
-        "faq_a1": "Bitrue's cryptocurrency converter is a popular and reliable choice, offering real-time conversion rates for a wide range of cryptocurrencies and fiat currencies. It also provides additional features such as historical data and a user-friendly interface.",
+        "faq_a1": "DemoExchange's cryptocurrency converter is a popular and reliable choice, offering real-time conversion rates for a wide range of cryptocurrencies and fiat currencies. It also provides additional features such as historical data and a user-friendly interface.",
         "faq_q2": "How much is {{fiatSymbol}}100 worth in {{coinName}}?",
         "faq_a2": "The current exchange rate for 100 {{coinName}} to {{fiatName}} is 3.78计算出来 {{fiatName}}, showing a {{10.51%}} increase/decrease over the past 30 days. The price chart illustrates the historical change of 100 {{coinName}} in {{fiatName}} during this period.",
         "faq_q3": "How much {{coinFullName}} can I buy for {{fiatSymbol}}500?",

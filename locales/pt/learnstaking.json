@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Estaca BTC | Estaca ETH | Estaca XRP | Bitrue",
-        "keywords": "Aprenda e ganhe criptografia, ganhe BTC, piquetagem criptográfica, piquetagem XRP, piquetagem BTC, piquetagem ETH, alto APY, piquetagem Bitrue, recompensas de criptomoeda, piquetagem simples.",
-        "description": "Descubra como o Bitrue Staking permite que você ganhe recompensas valiosas em criptomoedas sem esforço. Aprenda e ganhe, Staking BTC, Staking ETH, Staking XRP para ganhar recompensas."
+        "title": "Estaca BTC | Estaca ETH | Estaca XRP | DemoExchange",
+        "keywords": "Aprenda e ganhe criptografia, ganhe BTC, piquetagem criptográfica, piquetagem XRP, piquetagem BTC, piquetagem ETH, alto APY, piquetagem DemoExchange, recompensas de criptomoeda, piquetagem simples.",
+        "description": "Descubra como o DemoExchange Staking permite que você ganhe recompensas valiosas em criptomoedas sem esforço. Aprenda e ganhe, Staking BTC, Staking ETH, Staking XRP para ganhar recompensas."
     },
     "main": {
         "title": "Aprenda a apostar - Ganhe dinheiro mantendo seu ativo criptográfico",
@@ -12,19 +12,19 @@
         "section2_content1": "No nível do blockchain, as moedas que podem ser apostadas são as moedas PoS (Proof of Stake), como {{Ethereum}}, {{Cardano}} e {{Solana}}. Isso é diferente do Modelo PoW (Proof of Work) empregado por {{Bitcoin}} e outros que notoriamente usam quantidades significativas de poder de computação para verificar suas transações. Em vez de exigir a realização de cálculos arbitrários complexos, os blockchains PoS simplesmente definem confiança e recompensa com base na quantidade de moedas detidas por uma pessoa ou organização.",
         "section2_content2": "Cada moeda tem requisitos diferentes antes de poder ser apostada, alguns dos quais podem tornar muito difícil apostar diretamente. Por exemplo, algumas moedas exigem um investimento significativo antes que você possa gerar recompensas (US$ 100.000 ou mais), enquanto outras exigem um alto nível de proficiência técnica, mas não têm nenhuma proteção contra perder seu dinheiro se você pressionar acidentalmente um botão errado.",
         "section2_content3": "Na era moderna das finanças descentralizadas (DeFi), os recursos de staking foram atualizados ainda mais. Usando pools de liquidez, os usuários podem apostar uma ampla variedade de moedas em benefício de algoritmos de negociação que permitem aos usuários trocar moedas em pares arbitrários em uma moda ponto a ponto e ainda receber recompensas por isso.",
-        "section2_content4": "Na Bitrue expandimos ainda mais a capacidade de piquetagem. Temos a capacidade de eventualmente apoiar <b>QUALQUER</b> moeda em nosso serviço de piquetagem e adicionar regularmente mais moedas aos nossos serviços de investimento com base no que está acontecendo. popular ou o que os membros da nossa comunidade estão pedindo.",
+        "section2_content4": "Na DemoExchange expandimos ainda mais a capacidade de piquetagem. Temos a capacidade de eventualmente apoiar <b>QUALQUER</b> moeda em nosso serviço de piquetagem e adicionar regularmente mais moedas aos nossos serviços de investimento com base no que está acontecendo. popular ou o que os membros da nossa comunidade estão pedindo.",
         "section3_title": "Que tipo de recompensas posso receber ao apostar?",
         "section3_content1": "As recompensas exatas dependem muito da moeda que você aposta, mas em geral você pode esperar recompensas de cerca de 5% APR. Algumas moedas notáveis e suas APRs esperadas incluem:",
         "section3_content1_coin": "Moeda",
         "section3_content1_apr": "APR*",
-        "section3_content2": "*Estimado. Pode mudar a critério da Bitrue.",
+        "section3_content2": "*Estimado. Pode mudar a critério da DemoExchange.",
         "section4_title": "Estou qualificado para apostar minhas moedas?",
-        "section4_content1": "No Bitrue, tudo que você precisa para começar é <a href='{{registerUrl}}' target='_blank'>inscrever-se</a> e certificar-se de ter algumas moedas adormecidas em seu conta. É isso!",
+        "section4_content1": "No DemoExchange, tudo que você precisa para começar é <a href='{{registerUrl}}' target='_blank'>inscrever-se</a> e certificar-se de ter algumas moedas adormecidas em seu conta. É isso!",
         "section4_content2": "- Não é necessário conhecimento técnico",
         "section4_content3": "- Nenhuma solicitação ou aprovação",
         "section4_content4": "- Sem mínimos",
         "section5_title": "Como posso começar?",
-        "section5_content1": "Se você é novo no staking, recomendamos experimentar primeiro o <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>. O Power Piggy foi projetado para ser rápido e fácil para usar, com <b>pagamentos de juros enviados diretamente para sua conta Bitrue</b> todos os dias por volta das 16h UTC. O melhor de tudo é que não há riscos, pois não há períodos de bloqueio para investimentos no Power Piggy. Isso significa que se você decidir que agora é um bom momento para vender suas moedas, você pode removê-las do seu Power Piggy a qualquer momento e negociá-las na bolsa.",
+        "section5_content1": "Se você é novo no staking, recomendamos experimentar primeiro o <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>. O Power Piggy foi projetado para ser rápido e fácil para usar, com <b>pagamentos de juros enviados diretamente para sua conta DemoExchange</b> todos os dias por volta das 16h UTC. O melhor de tudo é que não há riscos, pois não há períodos de bloqueio para investimentos no Power Piggy. Isso significa que se você decidir que agora é um bom momento para vender suas moedas, você pode removê-las do seu Power Piggy a qualquer momento e negociá-las na bolsa.",
         "section5_content2": "Power Piggy tem suporte para mais de <b>100 moedas diferentes</b> com mais sendo adicionadas o tempo todo, e tem taxas de juros que são altamente competitivas com serviços concorrentes e com piquetagem direta no nível blockchain, mas sem todo o incômodo.",
         "section5_content3": "Se você quiser se comprometer com alguns investimentos em criptomoedas de longo prazo, você pode tentar usar nosso serviço <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a>. semelhante ao Power Piggy, com a principal diferença de que suas moedas ficarão bloqueadas por um período de tempo, embora as <b>recompensas sejam maiores</b> para compensar isso. Se você realmente precisa obter seus ativos, você você poderá cancelar o investimento antecipadamente, mas não receberá juros, independentemente de quanto tempo omoedas foram apostadas. É a melhor maneira de maximizar seu potencial de ganhos."
     }

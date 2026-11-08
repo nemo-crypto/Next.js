@@ -115,7 +115,7 @@ const Converter = () => {
                 <div className={Style.converter}>
                     {/* 描述 */}
                     <div className={Style.convertDesc}>
-                        <p>Use Bitrue's cryptocurrency conversion tool to obtain the exchange rates between your favorite cryptocurrencies and fiat currencies. Instantly check live price data, Bitcoin exchange rates, and historical price data for BTC, ETH, and other cryptocurrencies to USD, EUR, GBP, INR, and more.</p>
+                        <p>Use DemoExchange's cryptocurrency conversion tool to obtain the exchange rates between your favorite cryptocurrencies and fiat currencies. Instantly check live price data, Bitcoin exchange rates, and historical price data for BTC, ETH, and other cryptocurrencies to USD, EUR, GBP, INR, and more.</p>
                         <p>Select the fiat currency you'd like to obtain exchange rates for from the table below to view a list of popular cryptocurrency to fiat currency (and vice versa) conversion tables and tools.</p>
                     </div>
 

@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"Verdien een hoge APY met BTR Lockup Staking | Biwaar",
-        "keywords":"BTR Lockup Staking, hoge APY, veilige staking, grote munten, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP staking",
+        "keywords":"BTR Lockup Staking, hoge APY, veilige staking, grote munten, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP staking",
         "description":"Geef grote munten zoals BTC, XRP, ETH, USDT, ADA, VET, ZIL en LINK een boost met BTR Lockup Staking. Investeer 30 dagen lang verschillende munten en verdien hogere tarieven dan bij flexibel inzetten.",
         "sloganTitle":"Zet BTR in voor lock-ups",
         "sloganTitleSub":"BTC/ETH/XRP/USDT/ADA ondersteund",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"{{coin}} staking, verdien een hoge APY met BTR Lockup Staking | Biwaar",
-        "keywords":"BTR Lockup Staking, hoge APY, veilige staking, grote munten, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP staking",
+        "keywords":"BTR Lockup Staking, hoge APY, veilige staking, grote munten, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP staking",
         "description":"Geef grote munten zoals BTC, XRP, ETH, USDT, ADA, VET, ZIL en LINK een boost met BTR Lockup Staking. Investeer 30 dagen lang verschillende munten en verdien hogere tarieven dan bij flexibel inzetten.",
         "sloganTitle":"Inzet BTR voor lock-up caps",
         "sloganTitleSub":"Vergrendel uw {{coin}} voor {{period}} dagen en ontvang een jaarlijkse rentevoet van {{rate}}%",
@@ -63,7 +63,7 @@
         "rules2":"Uw BTR wordt tegelijk met de opdrachtgever vergrendeld. Wanneer de belegging afloopt en de rente wordt uitbetaald, wordt uw BTR teruggestort op uw betaalrekening.",
         "rules3":"De vast te zetten BTR wordt van uw betaalrekening afgeschreven. Zorg ervoor dat de BTR vooraf beschikbaar is.",
         "rules4":"Geschiktheid: Alle gebruikers komen in aanmerking voor deelname.",
-        "rules5":"De uiteindelijke interpretatie van deze activiteit is van Bitrue. Bitrue behoudt zich het recht voor om de regels van het evenement op elk moment aan te passen op basis van markt- en bedrijfsomstandigheden.",
+        "rules5":"De uiteindelijke interpretatie van deze activiteit is van DemoExchange. DemoExchange behoudt zich het recht voor om de regels van het evenement op elk moment aan te passen op basis van markt- en bedrijfsomstandigheden.",
         "records":"Opnames",
         "startTime":"Starttijd",
         "endTime":"Eindtijd",

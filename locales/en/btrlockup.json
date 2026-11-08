@@ -1,7 +1,7 @@
 {
     "list": {
-        "title": "Earn High APY with BTR Lockup Staking | Bitrue",
-        "keywords": "BTR Lockup Staking, high APY, secure staking, major coins, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP staking",
+        "title": "Earn High APY with BTR Lockup Staking | DemoExchange",
+        "keywords": "BTR Lockup Staking, high APY, secure staking, major coins, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP staking",
         "description": "Boost major coins like BTC, XRP, ETH, USDT, ADA, VET, ZIL, and LINK with BTR Lockup Staking. Invest diverse coins for 30 days, earning higher rates than flexible staking.",
         "sloganTitle": "Stake BTR For Lockups",
         "sloganTitleSub": "BTC / ETH / XRP / USDT / ADA Supported",
@@ -17,8 +17,8 @@
         "listDetails": "Details"
     },
     "detail": {
-        "title": "{{coin}} staking, Earn High APY with BTR Lockup Staking | Bitrue",
-        "keywords": "BTR Lockup Staking, high APY, secure staking, major coins, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP staking",
+        "title": "{{coin}} staking, Earn High APY with BTR Lockup Staking | DemoExchange",
+        "keywords": "BTR Lockup Staking, high APY, secure staking, major coins, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP staking",
         "description": "Boost major coins like BTC, XRP, ETH, USDT, ADA, VET, ZIL, and LINK with BTR Lockup Staking. Invest diverse coins for 30 days, earning higher rates than flexible staking.",
         "sloganTitle": "Stake BTR For Lockup Caps",
         "sloganTitleSub": "Lock Your {{coin}} For {{period}} Days, Get {{rate}}% APR",
@@ -63,7 +63,7 @@
         "rules2": "Your BTR will be locked at the same time as the principal. When the investment matures and the interest is disbursed, your BTR will be returned to your current account.",
         "rules3": "The BTR to be locked up will be taken from your current account. Please ensure the BTR is available in advance.",
         "rules4": "Eligibility: All users are eligible to participate.",
-        "rules5": "Final interepretation of this activity belongs to Bitrue. Bitrue reserves the right to adjust the rules of the event at any time based on market and operating conditions.",
+        "rules5": "Final interepretation of this activity belongs to DemoExchange. DemoExchange reserves the right to adjust the rules of the event at any time based on market and operating conditions.",
         "records": "Records",
         "startTime": "Start Time",
         "endTime": "End Time",

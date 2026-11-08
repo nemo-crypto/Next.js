@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Đặt cược BTC | Đặt cược ETH | Đặt cược XRP | Bitrue",
-        "keywords": "Tìm hiểu & kiếm tiền điện tử, Kiếm BTC, Đặt cược tiền điện tử, Đặt cược XRP, Đặt cược BTC, Đặt cược ETH, APY cao, Đặt cược Bitrue, phần thưởng tiền điện tử, đặt cược đơn giản.",
-        "description": "Khám phá cách Đặt cược Bitrue cho phép bạn dễ dàng kiếm được các phần thưởng tiền điện tử có giá trị. Tìm hiểu và kiếm tiền, Đặt cược BTC, Đặt cược ETH, Đặt cược XRP để kiếm phần thưởng."
+        "title": "Đặt cược BTC | Đặt cược ETH | Đặt cược XRP | DemoExchange",
+        "keywords": "Tìm hiểu & kiếm tiền điện tử, Kiếm BTC, Đặt cược tiền điện tử, Đặt cược XRP, Đặt cược BTC, Đặt cược ETH, APY cao, Đặt cược DemoExchange, phần thưởng tiền điện tử, đặt cược đơn giản.",
+        "description": "Khám phá cách Đặt cược DemoExchange cho phép bạn dễ dàng kiếm được các phần thưởng tiền điện tử có giá trị. Tìm hiểu và kiếm tiền, Đặt cược BTC, Đặt cược ETH, Đặt cược XRP để kiếm phần thưởng."
     },
     "main": {
         "title": "Tìm hiểu về đặt cược - Kiếm tiền bằng cách nắm giữ tài sản tiền điện tử của bạn",
@@ -12,19 +12,19 @@
         "section2_content1": "Ở cấp độ blockchain, loại tiền tệ có thể đặt cược là các đồng tiền PoS (Bằng chứng cổ phần), chẳng hạn như {{Ethereum}}, {{Cardano}} và {{Solana}}. Điều này khác với Mô hình PoW (Bằng chứng công việc) được sử dụng bởi {{Bitcoin}} và những tổ chức khác nổi tiếng sử dụng lượng sức mạnh tính toán đáng kể để xác minh các giao dịch của họ. Thay vì yêu cầu thực hiện các phép tính tùy ý phức tạp, chuỗi khối PoS chỉ cần xác định niềm tin và phần thưởng dựa trên số lượng số tiền do một cá nhân hoặc tổ chức nắm giữ.",
         "section2_content2": "Mỗi loại tiền tệ có các yêu cầu khác nhau trước khi có thể đặt cược, một số yêu cầu trong số đó có thể khiến chúng rất khó đặt cược trực tiếp. Ví dụ: một số loại tiền tệ yêu cầu đầu tư đáng kể trước khi bạn có thể tạo ra phần thưởng ($100.000 trở lên), trong khi các loại tiền tệ khác yêu cầu trình độ kỹ thuật cao nhưng không có biện pháp bảo vệ nào để tránh mất tiền nếu bạn vô tình nhấn nhầm nút.",
         "section2_content3": "Trong kỷ nguyên hiện đại, khả năng đặt cược Tài chính phi tập trung (DeFi) đã được cập nhật hơn nữa. Bằng cách sử dụng nhóm thanh khoản, người dùng có thể đặt cọc nhiều loại tiền vì lợi ích của thuật toán giao dịch cho phép người dùng trao đổi tiền theo cặp tùy ý trong theo kiểu ngang hàng và vẫn nhận được phần thưởng khi làm như vậy.",
-        "section2_content4": "Tại Bitrue, chúng tôi đã mở rộng khả năng đặt cược hơn nữa. Cuối cùng, chúng tôi có khả năng hỗ trợ <b>BẤT CỨ</b> đồng xu nào trong dịch vụ đặt cược của mình và thường xuyên thêm nhiều xu hơn vào dịch vụ đầu tư của mình dựa trên những gì phổ biến hoặc những gì thành viên cộng đồng của chúng tôi đang yêu cầu.",
+        "section2_content4": "Tại DemoExchange, chúng tôi đã mở rộng khả năng đặt cược hơn nữa. Cuối cùng, chúng tôi có khả năng hỗ trợ <b>BẤT CỨ</b> đồng xu nào trong dịch vụ đặt cược của mình và thường xuyên thêm nhiều xu hơn vào dịch vụ đầu tư của mình dựa trên những gì phổ biến hoặc những gì thành viên cộng đồng của chúng tôi đang yêu cầu.",
         "section3_title": "Tôi có thể nhận được loại phần thưởng nào từ việc đặt cược?",
         "section3_content1": "Phần thưởng chính xác phụ thuộc nhiều vào loại tiền bạn đặt cược, nhưng nói chung bạn có thể mong đợi phần thưởng có APR khoảng 5%. Một số đồng tiền đáng chú ý và APR dự kiến của chúng bao gồm:",
         "section3_content1_coin": "Đồng xu",
         "section3_content1_apr": "APR*",
-        "section3_content2": "*Ước tính. Có thể thay đổi theo quyết định của Bitrue.",
+        "section3_content2": "*Ước tính. Có thể thay đổi theo quyết định của DemoExchange.",
         "section4_title": "Tôi có đủ điều kiện để đặt cọc tiền của mình không?",
-        "section4_content1": "Tại Bitrue, tất cả những gì bạn cần để bắt đầu là <a href='{{registerUrl}}' target='_blank'>đăng ký</a> và đảm bảo rằng bạn có một số xu không hoạt động trong tài khoản của mình tài khoản. Thế là xong!",
+        "section4_content1": "Tại DemoExchange, tất cả những gì bạn cần để bắt đầu là <a href='{{registerUrl}}' target='_blank'>đăng ký</a> và đảm bảo rằng bạn có một số xu không hoạt động trong tài khoản của mình tài khoản. Thế là xong!",
         "section4_content2": "- Không yêu cầu chuyên môn kỹ thuật",
         "section4_content3": "- Không có đơn đăng ký hoặc phê duyệt nào",
         "section4_content4": "- Không có mức tối thiểu",
         "section5_title": "Tôi bắt đầu bằng cách nào?",
-        "section5_content1": "Nếu bạn mới bắt đầu đặt cược, chúng tôi khuyên bạn nên dùng thử <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> trước. Power Piggy được thiết kế để nhanh chóng và dễ dàng để sử dụng, với <b>các khoản thanh toán lãi được gửi trực tiếp vào tài khoản Bitrue của bạn</b> hàng ngày vào khoảng 16:00 UTC. Điều tuyệt vời nhất là nó không có rủi ro vì không có thời gian khóa đối với các khoản đầu tư Power Piggy. Điều này có nghĩa là nếu bạn quyết định bây giờ là thời điểm tốt để bán tiền của bạn, bạn có thể xóa chúng khỏi Power Piggy của mình bất kỳ lúc nào và giao dịch chúng trên sàn giao dịch.",
+        "section5_content1": "Nếu bạn mới bắt đầu đặt cược, chúng tôi khuyên bạn nên dùng thử <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> trước. Power Piggy được thiết kế để nhanh chóng và dễ dàng để sử dụng, với <b>các khoản thanh toán lãi được gửi trực tiếp vào tài khoản DemoExchange của bạn</b> hàng ngày vào khoảng 16:00 UTC. Điều tuyệt vời nhất là nó không có rủi ro vì không có thời gian khóa đối với các khoản đầu tư Power Piggy. Điều này có nghĩa là nếu bạn quyết định bây giờ là thời điểm tốt để bán tiền của bạn, bạn có thể xóa chúng khỏi Power Piggy của mình bất kỳ lúc nào và giao dịch chúng trên sàn giao dịch.",
         "section5_content2": "Power Piggy hỗ trợ hơn <b>100 đồng tiền khác nhau</b> và nhiều đồng tiền khác luôn được thêm vào, đồng thời có lãi suất có tính cạnh tranh cao với các dịch vụ cạnh tranh và với khả năng đặt cược trực tiếp ở cấp độ chuỗi khối, nhưng không gặp bất kỳ rắc rối nào.",
         "section5_content3": "Nếu bạn muốn cam kết thực hiện một số khoản đầu tư tiền điện tử dài hạn hơn, bạn có thể thử sử dụng dịch vụ <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a> của chúng tôi. Yield Farming là tương tự như Power Piggy với điểm khác biệt chính là tiền của bạn sẽ bị khóa trong một khoảng thời gian, mặc dù <b>phần thưởng sẽ cao hơn</b> để bù đắp cho điều đó. Nếu bạn thực sự cần sử dụng tài sản của mình, bạn sẽ có thể hủy khoản đầu tư sớm tuy nhiên bạn sẽ không nhận được bất kỳ khoản lãi nào, bất kể thời gian đầu tư là bao lâu.tiền xu đã được đặt cược. Đó là cách tốt nhất để tối đa hóa tiềm năng thu nhập của bạn."
     }

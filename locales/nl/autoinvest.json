@@ -1,8 +1,8 @@
 {   
     "tdk":{
-        "title":"BTC-handel | ETH-handel | XRP-handel | Bitrue",
-        "description":"Auto Invest is een handelsinstrument dat orders met regelmatige tussenpozen in de loop van de tijd spreidt, zodat uw positie minder wordt beïnvloed door markttiming. Het helpt u bij het verhandelen en opbouwen van BTC-, ETH- en XRP-posities in Bitrue en profiteert van langetermijnwinsten.",
-        "keywords":"Autohandel crypto, Autohandel BTC, Autohandel ETH, Autohandel XRP, BTC Auto-invest, ETH Auto-invest, hoge APY, Bitrue Staking, cryptocurrency-beloningen, eenvoudig uitzetten"
+        "title":"BTC-handel | ETH-handel | XRP-handel | DemoExchange",
+        "description":"Auto Invest is een handelsinstrument dat orders met regelmatige tussenpozen in de loop van de tijd spreidt, zodat uw positie minder wordt beïnvloed door markttiming. Het helpt u bij het verhandelen en opbouwen van BTC-, ETH- en XRP-posities in DemoExchange en profiteert van langetermijnwinsten.",
+        "keywords":"Autohandel crypto, Autohandel BTC, Autohandel ETH, Autohandel XRP, BTC Auto-invest, ETH Auto-invest, hoge APY, DemoExchange Staking, cryptocurrency-beloningen, eenvoudig uitzetten"
     },
     "Auto_Invest":"Auto Invest",
     "Spread_out_your_investments_":"Spreid uw beleggingen",
@@ -57,7 +57,7 @@
     "Q7":"Tegen welke prijs wordt mijn auto-investeringsplantransactie uitgevoerd?",
     "A7":"Wanneer de door u ingestelde investeringsfrequentie wordt bereikt, worden de munten van Auto Invest via spot tegen marktprijzen gekocht. Als uw investeringsbedrag relatief groot is, waardoor de marktprijs meer dan +/- 10% schommelt, wordt het overtollige bedrag niet uitgevoerd.",
     "Q8":"Hoe wordt de vergoeding berekend?",
-    "A8":"De vergoeding voor auto-investeren is hetzelfde als de spothandelvergoeding. U kunt de <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>vergoedingsdetails</a> raadplegen.",
+    "A8":"De vergoeding voor auto-investeren is hetzelfde als de spothandelvergoeding. U kunt de <a href='https://support.example.com/fees'>vergoedingsdetails</a> raadplegen.",
     "Q9":"Hoe de lopende plannen en historie controleren?",
     "A91":"1. Lopende plannen: U kunt ze bekijken nadat u bent ingelogd op de <a href='/btc-xrp-eth-trading-bot'>auto-invest-pagina</a> - alle lopende plannen.",
     "A92":"2. Alle auto-investeringsorders: u kunt dit controleren via \"Orders\"-\"Verdienen\"-\"Auto-investeren\"",
@@ -75,7 +75,7 @@
     "Agreement2":"Als de munt waarin u investeert een flexibele investering in Power Piggy heeft, wordt deze er automatisch in gestort om meer rente te verkrijgen.",
     "Agreement3":"De winst en het verlies zijn zwevend en geven de winst van de munt aan vanaf het moment dat u begon met kopen tot het huidige moment. De berekeningsformule is: gekochte hoeveelheid * huidige spotprijs - totaal geïnvesteerd. Als u deze valuta vooraf verkoopt of deze valuta in Power Piggy stort, kunnen de resulterende winsten/verliezen niet in de winst of het verlies worden verrekend.",
     "Agreement4":"Wanneer de door u ingestelde investeringsfrequentie wordt bereikt, worden de munten van Auto Invest via spot tegen marktprijzen gekocht. Als uw investeringsbedrag relatief groot is, waardoor de marktprijs meer dan +/- 10% schommelt, wordt het overtollige bedrag niet uitgevoerd.",
-    "Agreement5":"De vergoeding voor auto-investeren is hetzelfde als de spothandelvergoeding. U kunt de <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>vergoedingsdetails</a> raadplegen.",
+    "Agreement5":"De vergoeding voor auto-investeren is hetzelfde als de spothandelvergoeding. U kunt de <a href='https://support.example.com/fees'>vergoedingsdetails</a> raadplegen.",
     "Details_of_auto_invest_plan":"Details van het auto-investeringsplan",
     "Invested_rounds":"Geïnvesteerde rondes",
     "Power_piggy_earning":"Power piggy verdienen",

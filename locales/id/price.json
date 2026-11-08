@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} Harga | {{coinName}} Harga, Kapitalisasi Pasar, Pasar | benar",
         "keywords":"{{coinName}} Harga, {{coinFullName}} Harga, {{coinName}} terhadap USD, {{coinName}} Nilai",
-        "description":"Lihat harga {{coinFullName}} langsung untuk melacak perubahan harga secara real-time. Ikuti data pasar terbaru, analisis di Bitrue Crypto Exchange.",
+        "description":"Lihat harga {{coinFullName}} langsung untuk melacak perubahan harga secara real-time. Ikuti data pasar terbaru, analisis di DemoExchange Crypto Exchange.",
         "etfTitle":"{{coinName}} Harga, Token Leveraged, ETF Kripto, Pasar | benar",
-        "etfKeywords":"{{coinName}} Harga, Token Leveraged, ETF Kripto, Pasar, Bitrue Exchange",
-        "etfDescription":"Bitrue Leveraged Tokens - Jenis produk derivatif yang memberi Anda eksposur leverage terhadap aset dasar. Nikmati peningkatan leverage tanpa risiko likuidasi."
+        "etfKeywords":"{{coinName}} Harga, Token Leveraged, ETF Kripto, Pasar, DemoExchange Exchange",
+        "etfDescription":"DemoExchange Leveraged Tokens - Jenis produk derivatif yang memberi Anda eksposur leverage terhadap aset dasar. Nikmati peningkatan leverage tanpa risiko likuidasi."
     },
     "title":"Harga Kripto",
     "coinPrice":"{{coinFullName}} Harga",

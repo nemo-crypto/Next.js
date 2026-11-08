@@ -1,8 +1,8 @@
 {   
     "tdk":{
-        "title":"Handel BTC | Handel ETH | Handel XRP | Bitrue",
-        "description":"Auto Investment to narzędzie handlowe, które rozkłada zlecenia w regularnych odstępach czasu, dzięki czemu Twoja pozycja jest mniej zależna od wyczucia rynku. Pomaga handlować i budować pozycje BTC, ETH i XRP w Bitrue oraz cieszyć się długoterminowymi zyskami.",
-        "keywords":"Automatyczny handel kryptowalutami, Automatyczny handel BTC, Automatyczny handel ETH, Automatyczny handel XRP, BTC Automatyczne inwestowanie, ETH Automatyczne inwestowanie, wysokie RRSO, Bitrue Staking, nagrody w kryptowalutach, proste stakowanie"
+        "title":"Handel BTC | Handel ETH | Handel XRP | DemoExchange",
+        "description":"Auto Investment to narzędzie handlowe, które rozkłada zlecenia w regularnych odstępach czasu, dzięki czemu Twoja pozycja jest mniej zależna od wyczucia rynku. Pomaga handlować i budować pozycje BTC, ETH i XRP w DemoExchange oraz cieszyć się długoterminowymi zyskami.",
+        "keywords":"Automatyczny handel kryptowalutami, Automatyczny handel BTC, Automatyczny handel ETH, Automatyczny handel XRP, BTC Automatyczne inwestowanie, ETH Automatyczne inwestowanie, wysokie RRSO, DemoExchange Staking, nagrody w kryptowalutach, proste stakowanie"
     },
     "Auto_Invest":"Automatyczna inwestycja",
     "Spread_out_your_investments_":"Rozłóż swoje inwestycje",
@@ -57,7 +57,7 @@
     "Q7":"Po jakiej cenie zostanie zrealizowana transakcja w ramach mojego planu automatycznego inwestowania?",
     "A7":"Po osiągnięciu ustawionej częstotliwości inwestycji monety Auto Investment zostaną zakupione w trybie spot po cenach rynkowych. Jeśli kwota inwestycji jest stosunkowo duża, co powoduje wahania ceny rynkowej o więcej niż +/-10%, nadwyżka nie zostanie zrealizowana.",
     "Q8":"Jak obliczana jest opłata?",
-    "A8":"Opłata za automatyczne inwestowanie jest taka sama jak opłata za handel spot. Możesz zapoznać się ze <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>szczegółami opłat</a> .",
+    "A8":"Opłata za automatyczne inwestowanie jest taka sama jak opłata za handel spot. Możesz zapoznać się ze <a href='https://support.example.com/fees'>szczegółami opłat</a> .",
     "Q9":"Jak sprawdzić aktualne plany i historię?",
     "A91":"1. Plany bieżące: Możesz je przeglądać po zalogowaniu na <a href='/pl/btc-xrp-eth-trading-bot'>stronie auto Investment</a> - wszystkie plany bieżące.",
     "A92":"2. Wszystkie zlecenia automatycznego inwestowania: Możesz to sprawdzić w „Zamówieniach” – „Zarabiaj” – „Autoinwestuj”",
@@ -75,7 +75,7 @@
     "Agreement2":"Jeśli moneta, w którą inwestujesz, ma elastyczną inwestycję w Power Piggy, zostanie w niej automatycznie zdeponowana, aby uzyskać większe odsetki.",
     "Agreement3":"Zysk i strata są zmienne i wskazują zysk monety od momentu rozpoczęcia zakupów do chwili obecnej. Wzór kalkulacji jest następujący: zakupiona ilość * aktualna cena spot - całkowita inwestycja. Jeśli sprzedasz tę walutę z wyprzedzeniem lub wpłacisz ją do Power Piggy, wynikających z tego zysków/strat nie można przeliczyć na zysk i stratę.",
     "Agreement4":"Po osiągnięciu ustawionej częstotliwości inwestycji monety Auto Investment zostaną zakupione w trybie spot po cenach rynkowych. Jeśli kwota inwestycji jest stosunkowo duża, co powoduje wahania ceny rynkowej o więcej niż +/-10%, nadwyżka nie zostanie zrealizowana.",
-    "Agreement5":"Opłata za automatyczne inwestowanie jest taka sama jak opłata za handel spot. Możesz zapoznać się ze <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>szczegółami opłat</a> .",
+    "Agreement5":"Opłata za automatyczne inwestowanie jest taka sama jak opłata za handel spot. Możesz zapoznać się ze <a href='https://support.example.com/fees'>szczegółami opłat</a> .",
     "Details_of_auto_invest_plan":"Szczegóły planu inwestycji samochodowych",
     "Invested_rounds":"Zainwestowane rundy",
     "Power_piggy_earning":"Zarabianie mocy świnki",

@@ -1,7 +1,7 @@
 {
     "list": {
-        "title": "通過BTR鎖倉質押賺取高APY | Bitrue",
-        "keywords": "BTR鎖倉質押，高APY，安全質押，主要幣種，BTC，XRP，ETH，USDT，ADA，VET，ZIL，LINK，Bitrue XRP質押",
+        "title": "通過BTR鎖倉質押賺取高APY | DemoExchange",
+        "keywords": "BTR鎖倉質押，高APY，安全質押，主要幣種，BTC，XRP，ETH，USDT，ADA，VET，ZIL，LINK，DemoExchange XRP質押",
         "description": "通過 BTR 鎖倉質押來提升 BTC、XRP、ETH、USDT、ADA、VET、ZIL 和 LINK 等主要代幣的價值。 投資多種代幣 30 天，賺取比靈活質押更高的利率。",
         "sloganTitle": "鎖倉BTR生成定期額度",
         "sloganTitleSub": "支持BTC / ETH / XRP / USDT / ADA",
@@ -17,8 +17,8 @@
         "listDetails": "詳情"
     },
     "detail": {
-        "title": "{{coin}}質押，BTR鎖倉質押賺取高年利 | Bitrue",
-        "keywords": "BTR鎖倉質押、高APY、安全質押、主要幣種、BTC、XRP、ETH、USDT、ADA、VET、ZIL、LINK、Bitrue XRP質押",
+        "title": "{{coin}}質押，BTR鎖倉質押賺取高年利 | DemoExchange",
+        "keywords": "BTR鎖倉質押、高APY、安全質押、主要幣種、BTC、XRP、ETH、USDT、ADA、VET、ZIL、LINK、DemoExchange XRP質押",
         "description": "透過 BTR 鎖倉質押來提升 BTC、XRP、ETH、USDT、ADA、VET、ZIL 和 LINK 等主要代幣的價值。 投資多種幣種30天，賺取比彈性質押更高的利率。",
         "sloganTitle": "鎖倉BTR生成定期額度",
         "sloganTitleSub": "鎖倉 {{coin}} {{period}} 天，獲得 {{rate}}% 年利率",
@@ -63,7 +63,7 @@
         "rules2": "BTR將與定期產品鎖倉時間相同，定期利息發放後，BTR也將解凍，並發放至現貨餘額賬戶",
         "rules3": "BTR鎖倉後，將從現貨餘額賬戶中凍結，請您提前充值BTR",
         "rules4": "參與資格：所有用戶均可以參與",
-        "rules5": "本活動最終解釋權歸Bitrue所有。Bitrue保留根據市場環境和運營狀況，隨時調整活動規則的權利",
+        "rules5": "本活動最終解釋權歸DemoExchange所有。DemoExchange保留根據市場環境和運營狀況，隨時調整活動規則的權利",
         "records": "歷史記錄",
         "startTime": "開始時間",
         "endTime": "結束時間",

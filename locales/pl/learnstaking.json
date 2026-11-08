@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Stakowanie BTC | Stakowanie ETH | Stakowanie XRP | Bitrue",
-        "keywords": "Ucz się i zarabiaj na kryptowalutach, zarabiaj BTC, stakowanie kryptowalut, stakowanie XRP, stakowanie BTC, stakowanie ETH, wysokie RRSO, stakowanie Bitrue, nagrody w kryptowalutach, proste stakowanie.",
-        "description": "Odkryj, jak Bitrue Staking pozwala bez wysiłku zdobywać cenne nagrody w kryptowalutach. Ucz się i zarabiaj, Staking BTC, Staking ETH, Staking XRP, aby zdobywać nagrody."
+        "title": "Stakowanie BTC | Stakowanie ETH | Stakowanie XRP | DemoExchange",
+        "keywords": "Ucz się i zarabiaj na kryptowalutach, zarabiaj BTC, stakowanie kryptowalut, stakowanie XRP, stakowanie BTC, stakowanie ETH, wysokie RRSO, stakowanie DemoExchange, nagrody w kryptowalutach, proste stakowanie.",
+        "description": "Odkryj, jak DemoExchange Staking pozwala bez wysiłku zdobywać cenne nagrody w kryptowalutach. Ucz się i zarabiaj, Staking BTC, Staking ETH, Staking XRP, aby zdobywać nagrody."
     },
     "main": {
         "title": "Naucz się stakingu - zarabiaj pieniądze trzymając swoje aktywa kryptograficzne",
@@ -12,19 +12,19 @@
         "section2_content1": "Na poziomie blockchain walutami, które można obstawiać są monety PoS (Proof of Stake), takie jak {{Ethereum}}, {{Cardano}} i {{Solana}}. Różni się to od Model PoW (Proof of Work) stosowany przez {{Bitcoin}} i inne firmy, które notorycznie wykorzystują znaczną ilość mocy obliczeniowej do weryfikacji swoich transakcji. Zamiast wymagać wykonywania skomplikowanych, arbitralnych obliczeń, łańcuchy bloków PoS po prostu definiują zaufanie i nagrodę w oparciu o kwotę monet znajdujących się w posiadaniu jednej osoby lub organizacji.",
         "section2_content2": "Każda waluta ma inne wymagania, zanim będzie można ją postawić, a niektóre z nich mogą bardzo utrudniać bezpośrednie postawienie. Na przykład niektóre waluty wymagają znacznych inwestycji, zanim będzie można wygenerować nagrody (100 000 USD lub więcej), podczas gdy inne wymagają wysokiego poziomu biegłości technicznej, ale nie mają zabezpieczenia przed utratą pieniędzy w przypadku przypadkowego naciśnięcia niewłaściwego przycisku.",
         "section2_content3": "We współczesnej erze zdecentralizowanych finansów (DeFi) możliwości obstawiania zostały jeszcze bardziej zaktualizowane. Korzystając z pul płynności, użytkownicy mogą obstawiać szeroką gamę monet na korzyść algorytmów handlowych, które pozwalają użytkownikom wymieniać monety w dowolnych parach na modę peer to peer i nadal otrzymuję za to nagrody.",
-        "section2_content4": "W Bitrue jeszcze bardziej rozszerzyliśmy możliwości obstawiania. Jesteśmy w stanie ostatecznie obsługiwać <b>KAŻDĄ monetę</b> w naszej usłudze stakowania i regularnie dodawać więcej monet do naszych usług inwestycyjnych w oparciu o to, co jest popularne lub o co proszą członkowie naszej społeczności.",
+        "section2_content4": "W DemoExchange jeszcze bardziej rozszerzyliśmy możliwości obstawiania. Jesteśmy w stanie ostatecznie obsługiwać <b>KAŻDĄ monetę</b> w naszej usłudze stakowania i regularnie dodawać więcej monet do naszych usług inwestycyjnych w oparciu o to, co jest popularne lub o co proszą członkowie naszej społeczności.",
         "section3_title": "Jakie nagrody mogę otrzymać dzięki obstawianiu?",
         "section3_content1": "Dokładne nagrody zależą w dużej mierze od monety, którą postawisz, ale ogólnie możesz spodziewać się nagród w wysokości około 5% RRSO. Niektóre godne uwagi monety i ich oczekiwane RRSO obejmują:",
         "section3_content1_coin": "Moneta",
         "section3_content1_apr": "APR*",
-        "section3_content2": "*Szacowany. Może ulec zmianie według uznania Bitrue.",
+        "section3_content2": "*Szacowany. Może ulec zmianie według uznania DemoExchange.",
         "section4_title": "Czy mam kwalifikacje do stawiania moich monet?",
-        "section4_content1": "W Bitrue wszystko, czego potrzebujesz, aby zacząć, to <a href='{{registerUrl}}' target='_blank'>zarejestrować się</a> i upewnić się, że masz trochę monet uśpionych w swoim konto. To wszystko!",
+        "section4_content1": "W DemoExchange wszystko, czego potrzebujesz, aby zacząć, to <a href='{{registerUrl}}' target='_blank'>zarejestrować się</a> i upewnić się, że masz trochę monet uśpionych w swoim konto. To wszystko!",
         "section4_content2": "- Nie jest wymagana żadna wiedza techniczna",
         "section4_content3": "- Brak wniosków i zatwierdzeń",
         "section4_content4": "- Brak minimalnych wartości",
         "section5_title": "Jak zacząć?",
-        "section5_content1": "Jeśli dopiero zaczynasz obstawiać, zalecamy najpierw wypróbowanie <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>. Power Piggy zaprojektowano tak, aby był szybki i łatwy do wykorzystania, z <b>płatnościami odsetek wysyłanymi bezpośrednio na Twoje konto Bitrue</b> codziennie około 16:00 UTC. A co najważniejsze, jest to wolne od ryzyka, ponieważ nie ma okresów blokowania inwestycji w Power Piggy. Oznacza to, że jeśli zdecyduj, że teraz jest dobry moment na sprzedaż swoich monet, możesz w dowolnym momencie usunąć je ze swojej Power Piggy i wymienić je na giełdzie.",
+        "section5_content1": "Jeśli dopiero zaczynasz obstawiać, zalecamy najpierw wypróbowanie <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>. Power Piggy zaprojektowano tak, aby był szybki i łatwy do wykorzystania, z <b>płatnościami odsetek wysyłanymi bezpośrednio na Twoje konto DemoExchange</b> codziennie około 16:00 UTC. A co najważniejsze, jest to wolne od ryzyka, ponieważ nie ma okresów blokowania inwestycji w Power Piggy. Oznacza to, że jeśli zdecyduj, że teraz jest dobry moment na sprzedaż swoich monet, możesz w dowolnym momencie usunąć je ze swojej Power Piggy i wymienić je na giełdzie.",
         "section5_content2": "Power Piggy obsługuje ponad <b>100 różnych monet</b>, a stale dodawane są kolejne, a stopy procentowe są bardzo konkurencyjne w porównaniu z konkurencyjnymi usługami i przy bezpośrednim obstawianiu na poziomie blockchain, ale bez tych wszystkich kłopotów.",
         "section5_content3": "Jeśli chcesz zaangażować się w długoterminowe inwestycje w kryptowaluty, możesz zamiast tego spróbować skorzystać z naszej usługi <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a>. Yield Farming to podobny do Power Piggy, z tą główną różnicą, że Twoje monety zostaną zablokowane na pewien czas, chociaż <b>nagrody będą wyższe</b>, aby to zrekompensować. Jeśli naprawdę musisz dostać się do swoich aktywów, możesz będziesz mógł wcześniej anulować inwestycję, jednak nie otrzymasz żadnych odsetek, niezależnie od tego, jak długo to potrwamonety zostały postawione. To najlepszy sposób na maksymalizację potencjału zarobków."
     }

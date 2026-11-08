@@ -1,11 +1,11 @@
 {
     "seo":{
-        "title":"{{coinFullName}} Preço | {{coinName}} Preço, valor de mercado, mercados | Bitrue",
+        "title":"{{coinFullName}} Preço | {{coinName}} Preço, valor de mercado, mercados | DemoExchange",
         "keywords":"{{coinName}} Preço, {{coinFullName}} Preço, {{coinName}} para USD, {{coinName}} Valor",
-        "description":"Visualize o preço {{coinFullName}} em tempo real para acompanhar as alterações de preço em tempo real. Acompanhe os últimos dados de mercado e análises no Bitrue Crypto Exchange.",
-        "etfTitle":"{{coinName}} Preço, tokens alavancados, ETFs criptográficos, mercados | Bitrue",
-        "etfKeywords":"{{coinName}} Preço, tokens alavancados, ETFs criptográficos, mercados, Bitrue Exchange",
-        "etfDescription":"Bitrue Leveraged Tokens – Um tipo de produto derivativo que oferece exposição alavancada ao ativo subjacente. Desfrute de maior alavancagem sem risco de liquidação."
+        "description":"Visualize o preço {{coinFullName}} em tempo real para acompanhar as alterações de preço em tempo real. Acompanhe os últimos dados de mercado e análises no DemoExchange Crypto Exchange.",
+        "etfTitle":"{{coinName}} Preço, tokens alavancados, ETFs criptográficos, mercados | DemoExchange",
+        "etfKeywords":"{{coinName}} Preço, tokens alavancados, ETFs criptográficos, mercados, DemoExchange Exchange",
+        "etfDescription":"DemoExchange Leveraged Tokens – Um tipo de produto derivativo que oferece exposição alavancada ao ativo subjacente. Desfrute de maior alavancagem sem risco de liquidação."
     },
     "title":"Preço criptográfico",
     "coinPrice":"{{coinFullName}} Preço",

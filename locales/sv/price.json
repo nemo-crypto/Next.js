@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} Pris | {{coinName}} Pris, börsvärde, marknader | Bittrue",
         "keywords":"{{coinName}} Pris, {{coinFullName}} Pris, {{coinName}} till USD, {{coinName}} Värde",
-        "description":"Visa priset på {{coinFullName}} i realtid för att spåra prisändringarna i realtid. Följ de senaste marknadsdata, analys på Bitrue Crypto Exchange.",
+        "description":"Visa priset på {{coinFullName}} i realtid för att spåra prisändringarna i realtid. Följ de senaste marknadsdata, analys på DemoExchange Crypto Exchange.",
         "etfTitle":"{{coinName}} Pris, Leveraged Tokens，Crypto ETFs, Markets | Bittrue",
-        "etfKeywords":"{{coinName}} Pris, Leveraged Tokens, Crypto ETFs, Markets, Bitrue Exchange",
-        "etfDescription":"Bitrue Leveraged Tokens - En typ av derivatprodukt som ger dig hävstångsexponering mot den underliggande tillgången. Njut av ökad hävstång utan risk för likvidation."
+        "etfKeywords":"{{coinName}} Pris, Leveraged Tokens, Crypto ETFs, Markets, DemoExchange Exchange",
+        "etfDescription":"DemoExchange Leveraged Tokens - En typ av derivatprodukt som ger dig hävstångsexponering mot den underliggande tillgången. Njut av ökad hävstång utan risk för likvidation."
     },
     "title":"Krypto pris",
     "coinPrice":"{{coinFullName}} Pris",

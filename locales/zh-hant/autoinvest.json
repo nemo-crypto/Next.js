@@ -1,8 +1,8 @@
 {
   "tdk": {
-    "title": "比特幣交易 |以太幣交易 |瑞波幣交易 |Bitrue",
-    "description": "定投理財是一種交易工具，可以幫助您定時定量買入加密貨幣，享受活期理財及長期收益。它可以幫助您在 Bitrue 中交易並建立 BTC、ETH 和 XRP 倉位並享受長期收益。",
-    "keywords": "自動交易加密貨幣、自動交易BTC、自動交易ETH、自動交易XRP、BTC自動投資、ETH自動投資、高APY、Bitrue質押、加密貨幣獎勵、簡單質押"
+    "title": "比特幣交易 |以太幣交易 |瑞波幣交易 |DemoExchange",
+    "description": "定投理財是一種交易工具，可以幫助您定時定量買入加密貨幣，享受活期理財及長期收益。它可以幫助您在 DemoExchange 中交易並建立 BTC、ETH 和 XRP 倉位並享受長期收益。",
+    "keywords": "自動交易加密貨幣、自動交易BTC、自動交易ETH、自動交易XRP、BTC自動投資、ETH自動投資、高APY、DemoExchange質押、加密貨幣獎勵、簡單質押"
   },
   "Auto_Invest": "定投理财",
   "Spread_out_your_investments_": "分批定時定量買入數位貨幣",
@@ -57,7 +57,7 @@
   "Q7": " 我的定投計畫交易將以什麼價格執行？",
   "A7": "當到達您設定的投資頻率時，將以市價方式透過現貨成交買入您指定的定投幣種。若您的投資額比較大，導致市價波動超過+/-10%，則超出部分不會成交。",
   "Q8": " 手續費如何計算？",
-  "A8": "定投理財的手續費與現貨手續費一致，您可以參考<a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>手續費明細</a>",
+  "A8": "定投理財的手續費與現貨手續費一致，您可以參考<a href='https://support.example.com/fees'>手續費明細</a>",
   "Q9": " 如何查看目前進行中的定投計畫和定投歷史？",
   "A91": "1. 正在定投中的計畫：您可在<a href='/zh-hant/btc-xrp-eth-trading-bot'>定投理財</a>頁面-正在運行的計畫中登入後查看",
   "A92": "2. 所有定投訂單：您可以在「訂單」-「理財訂單」-「定投理財」中查看",
@@ -75,7 +75,7 @@
   "Agreement2": "定投計畫買入的幣種，如果有對應的活期理財，將會自動進行理財以獲得更高的利潤，用戶可以隨時提取理財資金。",
   "Agreement3": "用戶使用定投理財過程中，所查看到的「當前盈虧」為浮動盈虧，用戶購買更多/賣出投資幣種，不會改變此數值。如果用戶在定投幣種後一直未賣出，則此盈虧與實際盈虧相符；若用戶已自行處理幣種，則此盈虧不能代表用戶實際收益",
   "Agreement4": "當到達您設定的投資頻率時，將以市價方式透過現貨成交買入您指定的定投幣種。若您的投資額比較大，導致市價波動超過+/-10%，則超出部分不會成交。",
-  "Agreement5": "定投理財的手續費與現貨手續費一致，您可以參考<a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>手續費明細</a>",
+  "Agreement5": "定投理財的手續費與現貨手續費一致，您可以參考<a href='https://support.example.com/fees'>手續費明細</a>",
   "Details_of_auto_invest_plan": "投資組合詳情",
   "Invested_rounds": "已投次數",
   "Power_piggy_earning": "理財中的幣種",

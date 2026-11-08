@@ -19,9 +19,9 @@
         "programError":"Erreur réseau. Veuillez réessayer."
     },
     "list":{
-        "title":"Gagnez de la crypto avec un jalonnement flexible | APY élevé | Bitrue",
-        "keywords":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un jalonnement Bitrue XRP, des récompenses en crypto-monnaie, des économies, des taux APY",
-        "description":"Gagnez sans effort de précieuses récompenses en crypto-monnaie grâce au jalonnement flexible de Bitrue. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer votre épargne dès aujourd'hui.",
+        "title":"Gagnez de la crypto avec un jalonnement flexible | APY élevé | DemoExchange",
+        "keywords":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un jalonnement DemoExchange XRP, des récompenses en crypto-monnaie, des économies, des taux APY",
+        "description":"Gagnez sans effort de précieuses récompenses en crypto-monnaie grâce au jalonnement flexible de DemoExchange. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer votre épargne dès aujourd'hui.",
         "sloganTitle":"Cochon de puissance",
         "sloganTitleSub":"Gagnez quotidiennement des récompenses compétitives",
         "btrBalance":"Solde BTR",
@@ -47,11 +47,11 @@
         "listNoLockUp":"Pas de blocage"
     },
     "detail":{
-        "title":"Gagnez {{coin}} | {{coin}} Jalonnement | Bitrue",
-        "keywords":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un jalonnement Bitrue XRP, des récompenses en crypto-monnaie, des économies, des taux APY, {{coin}}, {{coin}}",
-        "description":"{{coin}} Staking, gagnez sans effort de précieuses récompenses en crypto-monnaie {{coin}} grâce au staking flexible de Bitrue. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer votre épargne dès aujourd'hui.",
-        "newUserkwd":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un jalonnement Bitrue XRP, des récompenses en crypto-monnaie, des économies, des taux APY, {{coin}}, {{coin}}, nouvel utilisateur",
-        "newUserDesc":"{{coin}} jalonnement pour les nouveaux utilisateurs, gagnez sans effort de précieuses récompenses en crypto-monnaie {{coin}} grâce au jalonnement flexible de Bitrue. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer votre épargne dès aujourd'hui. Parfait pour les nouveaux utilisateurs !",
+        "title":"Gagnez {{coin}} | {{coin}} Jalonnement | DemoExchange",
+        "keywords":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un jalonnement DemoExchange XRP, des récompenses en crypto-monnaie, des économies, des taux APY, {{coin}}, {{coin}}",
+        "description":"{{coin}} Staking, gagnez sans effort de précieuses récompenses en crypto-monnaie {{coin}} grâce au staking flexible de DemoExchange. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer votre épargne dès aujourd'hui.",
+        "newUserkwd":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un jalonnement DemoExchange XRP, des récompenses en crypto-monnaie, des économies, des taux APY, {{coin}}, {{coin}}, nouvel utilisateur",
+        "newUserDesc":"{{coin}} jalonnement pour les nouveaux utilisateurs, gagnez sans effort de précieuses récompenses en crypto-monnaie {{coin}} grâce au jalonnement flexible de DemoExchange. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer votre épargne dès aujourd'hui. Parfait pour les nouveaux utilisateurs !",
         "staking":"Jalonnement",
         "remainingAmount":"Montant restant",
         "remainingVIPCap":"Plafond VIP restant",
@@ -87,13 +87,13 @@
         "rules2":"Distribution des récompenses : 16h00 UTC tous les jours",
         "rules3":"Calcul des intérêts : la génération des intérêts commencera un jour après l'investissement. Le premier paiement des intérêts sera effectué deux jours après l’investissement. Aucun intérêt partiel ne sera généré lorsque les fonds sont retirés en milieu de journée. Les intérêts sont calculés quotidiennement entre 16h00 et 18h00 UTC. Si les fonds sont dégelés pendant la période de calcul, ils ne généreront pas d’intérêts.",
         "rules4":"Pas de blocage : vos fonds ne seront pas bloqués, vous pourrez donc vous désinscrire à tout moment. Vous pouvez vous réinscrire tant que le plafond est ouvert.",
-        "rules5":"Pour cette offre, Bitrue garantit la sécurité de votre capital et de vos revenus.",
+        "rules5":"Pour cette offre, DemoExchange garantit la sécurité de votre capital et de vos revenus.",
         "rules6":"Montant minimum pour adhérer :",
         "rules7":"Admissibilité : tous les utilisateurs sont éligibles pour participer.",
-        "rules8":"L'interprétation finale de cette activité appartient à Bitrue. Bitrue se réserve le droit d'ajuster le règlement de l'événement à tout moment en fonction des conditions du marché et d'exploitation.",
+        "rules8":"L'interprétation finale de cette activité appartient à DemoExchange. DemoExchange se réserve le droit d'ajuster le règlement de l'événement à tout moment en fonction des conditions du marché et d'exploitation.",
         "faq":"FAQ",
         "faqAsk1":"Qu’est-ce que Power Piggy ?",
-        "faqAnswer1":"Power Piggy est le service d'investissement à haut rendement de Bitrue qui vous permet de gagner un revenu passif sur vos crypto-monnaies. Grâce au jalonnement et à d'autres mécanismes, nous pouvons fournir à nos utilisateurs des services d'investissement pour leur épargne qui permettent à chacun de gagner des intérêts quotidiennement.",
+        "faqAnswer1":"Power Piggy est le service d'investissement à haut rendement de DemoExchange qui vous permet de gagner un revenu passif sur vos crypto-monnaies. Grâce au jalonnement et à d'autres mécanismes, nous pouvons fournir à nos utilisateurs des services d'investissement pour leur épargne qui permettent à chacun de gagner des intérêts quotidiennement.",
         "faqAsk2":"Puis-je échanger ou retirer mes {{coin}} après ma participation ?",
         "faqAnswer2":"Vous pouvez l'échanger ou le retirer à tout moment. Pour ce faire, il vous suffit de débloquer le montant de l’événement.",
         "faqAsk3":"Comment puis-je débloquer le montant de l'événement ?",
@@ -101,7 +101,7 @@
         "faqAsk4":"Si je débloque mon {{coin}}, puis-je rejoindre à nouveau l'événement ?",
         "faqAnswer4":"Oui, tant qu'il y a un plafond de participation de {{coin}}, vous pouvez rejoindre l'événement sans limite.",
         "faqAsk5":"Si je rejoins l'événement avec 100 {{coin}} et que je débloque tous mes fonds avant minuit (UTC 8), puis-je obtenir le bénéfice ?",
-        "faqAnswer5":"Désolé de ne pouvoir réaliser aucun profit. Bitrue vérifiera le montant de la participation à 24h00 (UTC 8) chaque jour. Si le montant affiche 0 à 24h00 (UTC 8), vous ne pouvez réaliser aucun profit.",
+        "faqAnswer5":"Désolé de ne pouvoir réaliser aucun profit. DemoExchange vérifiera le montant de la participation à 24h00 (UTC 8) chaque jour. Si le montant affiche 0 à 24h00 (UTC 8), vous ne pouvez réaliser aucun profit.",
         "rushToPurchase":"Vous avez déjà investi le montant maximum autorisé pour votre plafond actuel. Pour augmenter votre plafond à l'avenir, assurez-vous de détenir davantage de BTR.",
         "investmentSuccess":"Vous avez investi {{vol}}. Vous pouvez continuer à l'utiliser en dégelant le montant.",
         "investmentErrorBalance":"La tentative de participation a échoué en raison d'un solde de compte {{coin}} insuffisant.",
@@ -112,9 +112,9 @@
         "unfreezeSuccess":"Vous avez réussi à débloquer le montant de {{vol}}"
     },
     "vip":{
-        "title":"Gagnez de la crypto avec un jalonnement flexible | APY élevé | CASQUETTE VIP BTR | Bitrue",
-        "keywords":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un CAP VIP BTR, un jalonnement Bitrue XRP, des récompenses en crypto-monnaie, des économies, des taux APY",
-        "description":"Gagnez sans effort de précieuses récompenses grâce au programme flexible de jalonnement et de CAP VIP BTR de Bitrue. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer des économies.",
+        "title":"Gagnez de la crypto avec un jalonnement flexible | APY élevé | CASQUETTE VIP BTR | DemoExchange",
+        "keywords":"Gagnez de la crypto, un jalonnement flexible, un APY élevé, un CAP VIP BTR, un jalonnement DemoExchange XRP, des récompenses en crypto-monnaie, des économies, des taux APY",
+        "description":"Gagnez sans effort de précieuses récompenses grâce au programme flexible de jalonnement et de CAP VIP BTR de DemoExchange. Explorez diverses opportunités de revenus avec des taux APY impressionnants et commencez à constituer des économies.",
         "sloganTitle":"Cochon de puissance",
         "sloganTitleSub":"Gagnez quotidiennement des récompenses compétitives",
         "accountBtr":"Solde BTR",
@@ -135,7 +135,7 @@
         "rules_4":"Dégel du plafond VIP : le montant investi comprend à la fois les plafonds communautaires et VIP. Lors du dégel, les fonds investis via le plafond communautaire seront dégelés en premier.",
         "rules_5":"Le plafond VIP partage d'autres règles avec le plafond communautaire, et le décaissement des intérêts aura lieu chaque jour à 00h30 (UTC 8).",
         "rules_6":"Les montants investis à l’aide des plafonds VIP seront également éligibles à des taux d’intérêt majorés grâce au BTR.",
-        "rules_7":"L'interprétation finale de cette activité appartient à Bitrue. Bitrue se réserve le droit d'ajuster le règlement de l'événement à tout moment en fonction des conditions du marché et d'exploitation."
+        "rules_7":"L'interprétation finale de cette activité appartient à DemoExchange. DemoExchange se réserve le droit d'ajuster le règlement de l'événement à tout moment en fonction des conditions du marché et d'exploitation."
     },
     "record":{
         "pageTitle":"Enregistrements",

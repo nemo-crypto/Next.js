@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "Jalonnement BTC | Jalonnement ETH | Jalonnement XRP | Bitrue",
-        "keywords": "Apprendre et gagner de la crypto, Gagner du BTC, Staking de crypto, XRP Staking, BTC Staking, ETH Staking, APY élevé, Bitrue Staking, récompenses de cryptomonnaie, staking simple.",
-        "description": "Découvrez comment Bitrue Staking vous permet de gagner sans effort de précieuses récompenses en crypto-monnaie. Apprenez et gagnez, Staking BTC, Staking ETH, Staking XRP pour gagner des récompenses."
+        "title": "Jalonnement BTC | Jalonnement ETH | Jalonnement XRP | DemoExchange",
+        "keywords": "Apprendre et gagner de la crypto, Gagner du BTC, Staking de crypto, XRP Staking, BTC Staking, ETH Staking, APY élevé, DemoExchange Staking, récompenses de cryptomonnaie, staking simple.",
+        "description": "Découvrez comment DemoExchange Staking vous permet de gagner sans effort de précieuses récompenses en crypto-monnaie. Apprenez et gagnez, Staking BTC, Staking ETH, Staking XRP pour gagner des récompenses."
     },
     "main": {
         "title": "Apprenez le Staking - Gagnez de l'argent en détenant votre actif cryptographique",
@@ -12,19 +12,19 @@
         "section2_content1": "Au niveau de la blockchain, les devises qui peuvent être mises en jeu sont les pièces PoS (Proof of Stake), telles que {{Ethereum}}, {{Cardano}} et {{Solana}}. Ceci est différent du Modèle PoW (Proof of Work) utilisé par {{Bitcoin}} et d'autres qui utilisent notoirement des quantités importantes de puissance de calcul pour vérifier leurs transactions. Au lieu d'exiger des calculs arbitraires complexes, les blockchains PoS définissent simplement la confiance et la récompense en fonction du montant. de pièces détenues par une personne ou une organisation. ",
         "section2_content2": "Chaque devise a des exigences différentes avant de pouvoir être mise en jeu, dont certaines peuvent rendre très difficile la mise en jeu directe. Par exemple, certaines devises nécessitent un investissement important avant de pouvoir générer des récompenses (100 000 $ ou plus), tandis que d'autres exigent un haut niveau de compétence technique mais n'ont aucune garantie contre la perte de votre argent si vous appuyez accidentellement sur un mauvais bouton.",
         "section2_content3": "Dans l'ère moderne de la finance décentralisée (DeFi), les capacités de jalonnement ont été encore mises à jour. Grâce aux pools de liquidité, les utilisateurs peuvent miser sur une large gamme de pièces au profit d'algorithmes de trading qui permettent aux utilisateurs d'échanger des pièces par paires arbitraires dans une mode peer to peer, tout en recevant des récompenses pour cela.",
-        "section2_content4": "Chez Bitrue, nous avons encore étendu la capacité de jalonnement. Nous avons la possibilité de prendre en charge à terme <b>TOUTES</b> pièces dans notre service de jalonnement, et d'ajouter régulièrement plus de pièces à nos services d'investissement en fonction de ce qui est populaire ou ce que les membres de notre communauté demandent.",
+        "section2_content4": "Chez DemoExchange, nous avons encore étendu la capacité de jalonnement. Nous avons la possibilité de prendre en charge à terme <b>TOUTES</b> pièces dans notre service de jalonnement, et d'ajouter régulièrement plus de pièces à nos services d'investissement en fonction de ce qui est populaire ou ce que les membres de notre communauté demandent.",
         "section3_title": "Quels types de récompenses puis-je recevoir en jalonnant ?",
         "section3_content1": "Les récompenses exactes dépendent fortement de la pièce que vous misez, mais en général, vous pouvez vous attendre à des récompenses d'environ 5 % de TAEG. Certaines pièces notables et leurs TAEG attendus incluent :",
         "section3_content1_coin": "Pièce",
         "section3_content1_apr": "TAEG*",
-        "section3_content2": "*Estimation. Peut changer à la discrétion de Bitrue.",
+        "section3_content2": "*Estimation. Peut changer à la discrétion de DemoExchange.",
         "section4_title": "Suis-je qualifié pour miser mes pièces ?",
-        "section4_content1": "Chez Bitrue, tout ce dont vous avez besoin pour commencer est de <a href='{{registerUrl}}' target='_blank'>vous inscrire</a> et de vous assurer que vous avez des pièces en sommeil dans votre compte. C'est tout!",
+        "section4_content1": "Chez DemoExchange, tout ce dont vous avez besoin pour commencer est de <a href='{{registerUrl}}' target='_blank'>vous inscrire</a> et de vous assurer que vous avez des pièces en sommeil dans votre compte. C'est tout!",
         "section4_content2": "- Aucune expertise technique requise",
         "section4_content3": "- Aucune demande ni approbation",
         "section4_content4": "- Aucun minimum",
         "section5_title": "Comment commencer ?",
-        "section5_content1": "Si vous débutez dans le staking, nous vous recommandons d'essayer d'abord <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>. Power Piggy est conçu pour être rapide et facile. à utiliser, avec <b>les paiements d'intérêts envoyés directement sur votre compte Bitrue</b> tous les jours vers 16h00 UTC. Mieux encore, il est sans risque car il n'y a pas de période de blocage pour les investissements Power Piggy. Cela signifie que si vous décidez que c'est le bon moment pour vendre vos pièces, vous pouvez les retirer de votre Power Piggy à tout moment et les échanger en bourse.",
+        "section5_content1": "Si vous débutez dans le staking, nous vous recommandons d'essayer d'abord <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>. Power Piggy est conçu pour être rapide et facile. à utiliser, avec <b>les paiements d'intérêts envoyés directement sur votre compte DemoExchange</b> tous les jours vers 16h00 UTC. Mieux encore, il est sans risque car il n'y a pas de période de blocage pour les investissements Power Piggy. Cela signifie que si vous décidez que c'est le bon moment pour vendre vos pièces, vous pouvez les retirer de votre Power Piggy à tout moment et les échanger en bourse.",
         "section5_content2": "Power Piggy prend en charge plus de <b>100 pièces différentes</b> et d'autres sont ajoutées en permanence, et propose des taux d'intérêt très compétitifs par rapport aux services concurrents et avec un staking direct au niveau de la blockchain, mais sans tracas.",
         "section5_content3": "Si vous souhaitez vous engager dans des investissements en crypto-monnaie à plus long terme, vous pouvez essayer d'utiliser notre service <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a>. similaire à Power Piggy, la principale différence étant que vos pièces seront verrouillées pendant un certain temps, bien que les <b>récompenses seront plus élevées</b> pour compenser cela. Si vous avez vraiment besoin d'accéder à vos actifs, vous Vous pourrez annuler l'investissement plus tôt, mais vous ne recevrez aucun intérêt, quelle que soit la durée du placement.les pièces étaient mises en jeu. C'est le meilleur moyen de maximiser votre potentiel de revenus. "
     }

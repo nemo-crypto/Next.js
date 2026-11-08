@@ -19,9 +19,9 @@
         "programError": "網路錯誤。 請再試一次。"
     },
     "list": {
-        "title": "參與靈活質押賺取加密貨幣 | 高年均收益 | Bitrue",
-        "keywords": "賺取加密貨幣、靈活的質押、高 APY、Bitrue XRP 質押、加密貨幣獎勵、儲蓄、APY 率",
-        "description": "通過 Bitrue 靈活的質押，輕鬆賺取有價值的加密貨幣獎勵。 探索具有令人印象深刻的年利率的多樣化賺錢機會，並立即開始積累您的儲蓄。",
+        "title": "參與靈活質押賺取加密貨幣 | 高年均收益 | DemoExchange",
+        "keywords": "賺取加密貨幣、靈活的質押、高 APY、DemoExchange XRP 質押、加密貨幣獎勵、儲蓄、APY 率",
+        "description": "通過 DemoExchange 靈活的質押，輕鬆賺取有價值的加密貨幣獎勵。 探索具有令人印象深刻的年利率的多樣化賺錢機會，並立即開始積累您的儲蓄。",
         "sloganTitle": "靈活投資 日日增收",
         "sloganTitleSub": "多種投資方式，獲取高額資產收益",
         "btrBalance": "BTR余額賬戶數量",
@@ -47,11 +47,11 @@
         "listNoLockUp": "不限"
     },
     "detail": {
-        "title": "賺取 {{coin}} | {{coin}} 質押 | Bitrue",
-        "keywords": "賺取加密貨幣、靈活的質押、高 APY、Bitrue XRP 質押、加密貨幣獎勵、儲蓄、APY 利率、{{coin簡稱}}、{{coin全稱}}",
-        "description": "{{coin全稱}}質押，通過 Bitrue 靈活的質押輕鬆賺取寶貴的{{coin全稱}}加密貨幣獎勵。 探索具有令人印象深刻的年利率的多樣化賺錢機會，並立即開始積累您的儲蓄。",
-        "newUserkwd": "賺取加密貨幣、靈活的質押、高 APY、Bitrue XRP 質押、加密貨幣獎勵、儲蓄、APY 利率、{{coin簡稱}}、{{coin全稱}}、新用戶",
-        "newUserDesc": "為新用戶進行{{coin簡稱}}質押，通過 Bitrue 靈活的質押輕鬆賺取有價值的 {{coin全稱}}加密貨幣獎勵。 探索具有令人印象深刻的年利率的多樣化賺錢機會，並立即開始積累您的儲蓄。 非常適合新用戶！",
+        "title": "賺取 {{coin}} | {{coin}} 質押 | DemoExchange",
+        "keywords": "賺取加密貨幣、靈活的質押、高 APY、DemoExchange XRP 質押、加密貨幣獎勵、儲蓄、APY 利率、{{coin簡稱}}、{{coin全稱}}",
+        "description": "{{coin全稱}}質押，通過 DemoExchange 靈活的質押輕鬆賺取寶貴的{{coin全稱}}加密貨幣獎勵。 探索具有令人印象深刻的年利率的多樣化賺錢機會，並立即開始積累您的儲蓄。",
+        "newUserkwd": "賺取加密貨幣、靈活的質押、高 APY、DemoExchange XRP 質押、加密貨幣獎勵、儲蓄、APY 利率、{{coin簡稱}}、{{coin全稱}}、新用戶",
+        "newUserDesc": "為新用戶進行{{coin簡稱}}質押，通過 DemoExchange 靈活的質押輕鬆賺取有價值的 {{coin全稱}}加密貨幣獎勵。 探索具有令人印象深刻的年利率的多樣化賺錢機會，並立即開始積累您的儲蓄。 非常適合新用戶！",
         "staking": "質押",
         "remainingAmount": "剩餘數量",
         "remainingVIPCap": "剩餘VIP額度",
@@ -87,13 +87,13 @@
         "rules2": "收益結算時間：每天16:00 UTC 點結算收益",
         "rules3": "計息規則：T+0購買，T+1計息，T+2到賬至現貨餘額賬戶；提現當日不計利息。每日16:00 ~ 18:00 UTC 開始計息，如在計息期間贖回則不算資產。",
         "rules4": "資金使用：參加活動期間，資金可自由使用，若解凍後再參加需要重新進入此頁面",
-        "rules5": "資金安全：Bitrue不會挪用用戶的資金，將大部分的資金存儲在冷錢包中保證資金安全。一旦有用戶資金丟失，Bitrue將100%賠付財產損失，賠付上限為1,000,000 USD等值的虛擬貨幣（代幣）",
+        "rules5": "資金安全：DemoExchange不會挪用用戶的資金，將大部分的資金存儲在冷錢包中保證資金安全。一旦有用戶資金丟失，DemoExchange將100%賠付財產損失，賠付上限為1,000,000 USD等值的虛擬貨幣（代幣）",
         "rules6": "最小參與額：",
         "rules7": "參與資格：所有用戶均可以參與",
-        "rules8": "本活動最終解釋權歸Bitrue所有。 Bitrue保留根據市場和營運隨時調整活動規則的權利。",
+        "rules8": "本活動最終解釋權歸DemoExchange所有。 DemoExchange保留根據市場和營運隨時調整活動規則的權利。",
         "faq": "常見問題",
         "faqAsk1": "什麼是增值寶？",
-        "faqAnswer1": "增值寶是 Bitrue 的高收益投資服務，可讓您通過加密貨幣賺取被動收入。通過質押和其他機制，我們可以為用戶提供儲蓄投資服務，讓每個人每天都能賺取收益。",
+        "faqAnswer1": "增值寶是 DemoExchange 的高收益投資服務，可讓您通過加密貨幣賺取被動收入。通過質押和其他機制，我們可以為用戶提供儲蓄投資服務，讓每個人每天都能賺取收益。",
         "faqAsk2": "參與後我可以交易或提取我的{{coin}}嗎？",
         "faqAnswer2": "您可以隨時交易、提現，只需要解凍活動金額即可。",
         "faqAsk3": "如何解凍活動金額？",
@@ -101,7 +101,7 @@
         "faqAsk4": "如果我解凍{{coin}}，還可以再參加嗎？ ",
         "faqAnswer4": "可以。只要當前還有剩餘額度，您可以隨時參加",
         "faqAsk5": "如果我某天搶到100{{coin}}活動金額，當天24:00 (UTC+8)前解凍全部活動金額，那麽當天還有收益嗎？",
-        "faqAnswer5": "抱歉您將未能得到收益。Bitrue將每天24:00 (UTC+8)時查看您活動帳戶 餘額，如果24:00 (UTC+8)時查看活動帳戶餘額為0，則不會產生任何收益。",
+        "faqAnswer5": "抱歉您將未能得到收益。DemoExchange將每天24:00 (UTC+8)時查看您活動帳戶 餘額，如果24:00 (UTC+8)時查看活動帳戶餘額為0，則不會產生任何收益。",
         "rushToPurchase": "已為您按當前最大可參與額度搶金額。如需繼續搶額度，請及時充值BTR，提高VIP額度。",
         "investmentSuccess": "您已成功投入{{vol}}，解凍活動金額即可使用資金",
         "investmentErrorBalance": "參與失敗，您的{{coin}} 帳戶餘額不足",
@@ -112,9 +112,9 @@
         "unfreezeSuccess": "您已成功解凍 {{vol}} 金額"
     },
     "vip": {
-        "title": "通過靈活的質押賺取加密貨幣 | 高年均收益 | BTR VIP额度 | Bitrue",
-        "keywords": "賺取加密貨幣、靈活的質押、高 APY、BTR VIP CAP、Bitrue XRP 質押、加密貨幣獎勵、儲蓄、APY 率",
-        "description": "通過 Bitrue 靈活的質押和BTR VIP CAP 計劃輕鬆賺取有價值的獎勵。 探索具有令人印象深刻的年利率的多樣化收入機會並開始儲蓄。",
+        "title": "通過靈活的質押賺取加密貨幣 | 高年均收益 | BTR VIP额度 | DemoExchange",
+        "keywords": "賺取加密貨幣、靈活的質押、高 APY、BTR VIP CAP、DemoExchange XRP 質押、加密貨幣獎勵、儲蓄、APY 率",
+        "description": "通過 DemoExchange 靈活的質押和BTR VIP CAP 計劃輕鬆賺取有價值的獎勵。 探索具有令人印象深刻的年利率的多樣化收入機會並開始儲蓄。",
         "sloganTitle": "增值寶",
         "sloganTitleSub": "使您的資產穩定增值",
         "accountBtr": "BTR餘額",
@@ -135,7 +135,7 @@
         "rules_4": "VIP額度解鎖：在投額度同時含有共享額度和VIP額度，解鎖時將優先解鎖共享額度",
         "rules_5": "VIP額度與共享額度一致，均在每日0點30分結算當日收益 (UTC+8)",
         "rules_6": "VIP投資金額照常參與持BTR加息活動",
-        "rules_7": "本活動最終解釋權歸Bitrue所有。 Bitrue保留根據市場環境和運營狀況，隨時調整活動規則的權利"
+        "rules_7": "本活動最終解釋權歸DemoExchange所有。 DemoExchange保留根據市場環境和運營狀況，隨時調整活動規則的權利"
     },
     "record": {
         "pageTitle": "記錄",

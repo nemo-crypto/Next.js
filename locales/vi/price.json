@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} Giá | {{coinName}} Giá, Vốn hóa thị trường, Thị trường | song ngữ",
         "keywords":"{{coinName}} Giá, {{coinFullName}} Giá, {{coinName}} sang USD, {{coinName}} Giá trị",
-        "description":"Xem giá {{coinFullName}} trực tiếp để theo dõi sự thay đổi giá theo thời gian thực. Theo dõi dữ liệu, phân tích thị trường mới nhất trên Bitrue Crypto Exchange.",
+        "description":"Xem giá {{coinFullName}} trực tiếp để theo dõi sự thay đổi giá theo thời gian thực. Theo dõi dữ liệu, phân tích thị trường mới nhất trên DemoExchange Crypto Exchange.",
         "etfTitle":"{{coinName}} Giá, Token đòn bẩy, ETF tiền điện tử, Thị trường | song ngữ",
-        "etfKeywords":"{{coinName}} Giá, Token đòn bẩy, ETF tiền điện tử, Thị trường, Sàn giao dịch Bitrue",
-        "etfDescription":"Mã thông báo đòn bẩy Bitrue - Một loại sản phẩm phái sinh cung cấp cho bạn khả năng tiếp cận đòn bẩy với tài sản cơ bản. Tận hưởng đòn bẩy tăng lên mà không có rủi ro thanh lý."
+        "etfKeywords":"{{coinName}} Giá, Token đòn bẩy, ETF tiền điện tử, Thị trường, Sàn giao dịch DemoExchange",
+        "etfDescription":"Mã thông báo đòn bẩy DemoExchange - Một loại sản phẩm phái sinh cung cấp cho bạn khả năng tiếp cận đòn bẩy với tài sản cơ bản. Tận hưởng đòn bẩy tăng lên mà không có rủi ro thanh lý."
     },
     "title":"Giá tiền điện tử",
     "coinPrice":"{{coinFullName}} Giá",

@@ -1,7 +1,7 @@
 {
     "list":{
-        "title":"Gagnez un APY élevé avec le jalonnement de verrouillage BTR | Bitrue",
-        "keywords":"BTR Lockup Staking, APY élevé, jalonnement sécurisé, pièces majeures, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, jalonnement Bitrue XRP",
+        "title":"Gagnez un APY élevé avec le jalonnement de verrouillage BTR | DemoExchange",
+        "keywords":"BTR Lockup Staking, APY élevé, jalonnement sécurisé, pièces majeures, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, jalonnement DemoExchange XRP",
         "description":"Boostez les principales pièces comme BTC, XRP, ETH, USDT, ADA, VET, ZIL et LINK avec BTR Lockup Staking. Investissez diverses pièces pendant 30 jours, obtenant des taux plus élevés que le jalonnement flexible.",
         "sloganTitle":"Implanter BTR pour les blocages",
         "sloganTitleSub":"BTC / ETH / XRP / USDT / ADA pris en charge",
@@ -17,8 +17,8 @@
         "listDetails":"Détails"
     },
     "detail":{
-        "title":"{{coin}} jalonnement, gagnez un APY élevé avec le jalonnement BTR Lockup | Bitrue",
-        "keywords":"BTR Lockup Staking, APY élevé, jalonnement sécurisé, pièces majeures, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, jalonnement Bitrue XRP",
+        "title":"{{coin}} jalonnement, gagnez un APY élevé avec le jalonnement BTR Lockup | DemoExchange",
+        "keywords":"BTR Lockup Staking, APY élevé, jalonnement sécurisé, pièces majeures, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, jalonnement DemoExchange XRP",
         "description":"Boostez les principales pièces comme BTC, XRP, ETH, USDT, ADA, VET, ZIL et LINK avec BTR Lockup Staking. Investissez diverses pièces pendant 30 jours, obtenant des taux plus élevés que le jalonnement flexible.",
         "sloganTitle":"Piquet BTR pour bouchons de verrouillage",
         "sloganTitleSub":"Verrouillez votre {{coin}} pendant {{period}} jours, obtenez {{rate}} % de TAP",
@@ -63,7 +63,7 @@
         "rules2":"Votre BTR sera verrouillé en même temps que le principal. Lorsque l’investissement arrive à échéance et que les intérêts sont décaissés, vos BTR seront restitués sur votre compte courant.",
         "rules3":"Le BTR à bloquer sera prélevé sur votre compte courant. Veuillez vous assurer que le BTR est disponible à l’avance.",
         "rules4":"Admissibilité : tous les utilisateurs sont éligibles pour participer.",
-        "rules5":"L'interprétation finale de cette activité appartient à Bitrue. Bitrue se réserve le droit d'ajuster le règlement de l'événement à tout moment en fonction des conditions du marché et d'exploitation.",
+        "rules5":"L'interprétation finale de cette activité appartient à DemoExchange. DemoExchange se réserve le droit d'ajuster le règlement de l'événement à tout moment en fonction des conditions du marché et d'exploitation.",
         "records":"Enregistrements",
         "startTime":"Heure de début",
         "endTime":"Heure de fin",

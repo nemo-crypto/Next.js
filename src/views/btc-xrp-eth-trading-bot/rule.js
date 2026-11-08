@@ -36,8 +36,8 @@ export default {
             "type": 0,
             "name": "Terms and Conditions",
             "rulesList": [
-                "1. Bitrue reserves the right to disqualify users from participating in the event once we detect cheating behaviors such as malicious click farming and massive registrations of alternate accounts. ",
-                "2. Bitrue reserves the right to adjust the rules of the event at any time at its own discretion.",
+                "1. DemoExchange reserves the right to disqualify users from participating in the event once we detect cheating behaviors such as malicious click farming and massive registrations of alternate accounts. ",
+                "2. DemoExchange reserves the right to adjust the rules of the event at any time at its own discretion.",
                 "3. The current event is not available for users located in the UK and Vietnam, and users from the UK and Vietnam will not be eligible for the reward distribution."
             ]
         }

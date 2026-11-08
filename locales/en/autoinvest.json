@@ -1,8 +1,8 @@
 {
   "tdk": {
-    "title": "BTC trade | ETH trade | XRP trade | Bitrue",
-    "description": "Auto invest is a trading tool that spreads out orders at regular intervals over time, so your position is less affected by market timing. It helps you trade and build BTC, ETH and XRP positions in Bitrue and enjoy long-term gains.",
-    "keywords": "Auto trade crypto, Auto trade BTC, Auto trade ETH, Auto trade XRP, BTC Auto invest, ETH Auto invest, high APY, Bitrue Staking, cryptocurrency rewards, simple staking"
+    "title": "BTC trade | ETH trade | XRP trade | DemoExchange",
+    "description": "Auto invest is a trading tool that spreads out orders at regular intervals over time, so your position is less affected by market timing. It helps you trade and build BTC, ETH and XRP positions in DemoExchange and enjoy long-term gains.",
+    "keywords": "Auto trade crypto, Auto trade BTC, Auto trade ETH, Auto trade XRP, BTC Auto invest, ETH Auto invest, high APY, DemoExchange Staking, cryptocurrency rewards, simple staking"
   }, 
   "Auto_Invest": "Auto Invest",
   "Spread_out_your_investments_": "Spread out your investments",
@@ -57,7 +57,7 @@
   "Q7": " At what price will my auto invest plan transaction be executed?",
   "A7": "When the investment frequency you set is reached, the coins of auto invest will be purchased through spot at market prices. If your investment amount is relatively large, causing the market price to fluctuate by more than +/-10%, the excess amount will not be executed.",
   "Q8": " How is the fee calculated?",
-  "A8": "The fee for auto invest is the same as the spot trading fee. You can refer to the <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>fee details</a>.",
+  "A8": "The fee for auto invest is the same as the spot trading fee. You can refer to the <a href='https://support.example.com/fees'>fee details</a>.",
   "Q9": " How to check the ongoing plans and history?",
   "A91": "1. Ongoing plans: You can view them after logging in on the <a href='/btc-xrp-eth-trading-bot'>auto invest page</a> - all ongoing plans.",
   "A92": "2. All auto invest orders: You can check it on \"Orders\"-\"Earn\"-\"Auto invest\"",

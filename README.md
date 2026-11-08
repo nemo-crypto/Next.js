@@ -1,216 +1,59 @@
-## 项目启动
- 
----
-1、安装依赖
+# Next.js Pages Router 多语言业务前端
+
+基于 Next.js 13.0.4、React 18、MobX、Axios 与 next-translate 的业务前端，采用 `pages/` 路由，包含币种价格、兑换、质押、定投与活动页面。历史Next.js学习笔记已保存在[学习记录](docs/nextjs-notes.md)，工程运行方式以本文和实际配置为准。
+
+## 业务与目录
+
+| 路径 | 说明 |
+|---|---|
+| `pages/price/` | 币种列表与动态币种详情 |
+| `pages/converter/` | 兑换入口与币种页 |
+| `pages/flexible-staking/`、`pages/btr-lockup-staking/` | 理财、锁仓与相关记录页面 |
+| `pages/btc-xrp-eth-trading-bot/`、`pages/land/` | 策略与活动页面 |
+| `src/` | 业务组件、HTTP、状态和WebSocket封装 |
+| `locales/`、[i18n.js](i18n.js) | 多语言资源与页面命名空间映射 |
+| [next.config.js](next.config.js)、[pm2.config.js](pm2.config.js) | 构建环境与进程管理 |
+
+## 安装与本地运行
+
+目录保留yarn.lock，可在兼容该历史工具链的环境中执行：
 
 ```bash
-npm install
+yarn install --frozen-lockfile
+yarn dev
 ```
 
-2、进入开发环境
+开发地址为 `http://localhost:9000`。工程没有声明Node engines，本次没有进行运行时兼容性验证。
+
+## 环境变量与地址
+
+配置读取 `APP_ENV`，默认 `prod`，并读取 `API_URL`、`API_FUTURES`、`WEBSITE_URL`、`WEBSOCKET_URL`、`STATIC_URL`、`COOKIES_DOMIAN`。最后一个名称按源码保留拼写，不能直接改为COOKIES_DOMAIN。
+
+开发/构建脚本设置的NODE_ENV与APP_ENV职责不同。真实接入需要核对业务接口、Cookie域、WebSocket与多语言资源；本目录不提供对应业务后端。客户端可访问的配置不可承载服务端秘密。
+
+## 构建与启动
 
 ```bash
-npm run dev
+yarn build:prod
+yarn start
 ```
 
-3、构建测试包
+生产启动端口为5000，且必须先生成构建产物。`build:qa` 脚本实际设置 `NODE_ENV=test` 后执行构建；是否满足目标测试环境，需同时检查APP_ENV与实际地址。
 
 ```bash
-npm run build:qa
+yarn lint
 ```
 
-4、在服务器上启动
-```bash
-yarn pm2:start
-```
+没有独立的测试脚本。`export` 是否适用于所有动态和服务端页面需逐页核对，不能保证所有业务都可静态导出。
 
-1. Next.js 的主要特点和优势是什么？
-主要特点：
-- 服务器端渲染 (SSR)
-- 静态网站生成 (SSG)
-- 文件系统路由
-- API 路由
-- 自动代码分割
-- 内置 CSS 和 Sass 支持
-- 热模块替换 (HMR)
-- 图片优化
-- 零配置
-2. Next.js 中的渲染方式有哪些？
-四种主要渲染方式：
-1. SSR (服务器端渲染)
-```
-// pages/ssr.js
-export async function getServerSideProps() {
-    const res = await fetch('https://api.example.com/data');
-    const data = await res.json();
-    return { props: { data } };
-}
-```
-2. SSG (静态网站生成)
-```
-// pages/ssg.js
-export async function getStaticProps() {
-    const res = await fetch('https://api.example.com/data');
-    const data = await res.json();
-    return { props: { data } };
-}
-```
-3. ISR (增量静态再生成)
-```
-export async function getStaticProps() {
- return {
-    props: { data },
-    revalidate: 60 // 60秒后重新生成
- };
-}
-```
-4. CSR (客户端渲染)
-```
-import { useEffect, useState } from 'react';
-function CSRPage() {
-const [data, setData] = useState(null);
-useEffect(() => {
-    fetch('/api/data').then(res => res.json()).then(setData);
-}, []);
-}
-```
-3. Next.js 13/14 中的 App Router 和 Pages Router 有什么区别？
-App Router (新):
-- 基于文件系统的路由
-- 使用 app 目录
-- 支持服务器组件
-- 支持流式渲染
-- 支持并行路由
-- 支持路由拦截
-Pages Router (旧):
-- 基于 pages 目录
-- 仅支持客户端组件
-- 更简单的路由系统
-4. 如何在 Next.js 中实现数据获取？
-// 1. 服务器组件中获取数据
-async function Page() {
-    const data = await fetch('https://api.example.com/data');
-    const json = await data.json();
-    return <div>{json.title}</div>;
-}
-// 2. 客户端组件中获取数据
-'use client';
-import { useEffect, useState } from 'react';
-function ClientComponent() {
-const [data, setData] = useState(null);
-useEffect(() => {
-    fetch('/api/data')
-    .then(res => res.json())
-    .then(setData);
-    }, []);
-}
-5. Next.js 中的路由实现方式？
-```
-// 1. 链接导航
-import Link from 'next/link';
-function Navigation() {
-    return <Link href="/about">关于我们</Link>;
-}
-// 2. 编程式导航
-import { useRouter } from 'next/navigation';
-function NavigateButton() {
-    const router = useRouter();
-    return <button onClick={() => router.push('/about')}>跳转</button>;
-}
-```
-6. 如何在 Next.js 中优化性能？
-主要优化方式：
- 1.图片优化
-```
-import Image from 'next/image';
-function OptimizedImage() {
-  return (
-    <Image
-      src="/image.jpg"
-      alt="优化的图片"
-      width={500}
-      height={300}
-      priority={true}
-    />
-  );
-}
-```
-2. 路由预加载
-```
-import Link from 'next/link';
-<Link href="/about" prefetch={true}>
-  预加载页面
-</Link>
-```
-3.动态导入
-```
-import dynamic from 'next/dynamic';
-const DynamicComponent = dynamic(() => import('../components/Heavy'), {
-  loading: () => <p>加载中...</p>
-});
-```
-6、Next.js 中的中间件如何使用？
-```
-import { NextResponse } from 'next/server';
-import type { NextRequest } from 'next/server';
-export function middleware(request: NextRequest) {
-  // 验证身份
-  const token = request.cookies.get('token');
-  if (!token) {
-    return NextResponse.redirect(new URL('/login', request.url));
-  }
-  return NextResponse.next();
-}
+## 进程管理与验收
 
-export const config = {
-  matcher: '/protected/:path*'
-};
-```
-7、Next.js 中如何处理环境变量？
-1. 创建环境变量文件：
-```
-- .env.local（本地环境）
-- .env.development（开发环境）
-- .env.production（生产环境）
-```
-2. 使用环境变量：javascript
-```
-// 服务器端
-console.log(process.env.DATABASE_URL);
+`pm2:start` 脚本会安装依赖、删除并重建指定PM2进程，属于部署操作；仅在确认目标进程与配置后使用，日常本地开发不需要执行。
 
-// 客户端（需要 NEXT_PUBLIC_ 前缀）
-console.log(process.env.NEXT_PUBLIC_API_URL)；
-```
-9. Next.js中的API路由如何实现？
-```
-import { NextResponse } from 'next/server';
-export async function GET() {
-    return NextResponse.json({ users: ['用户1', '用户2'] });
-}
-export async function POST(request: Request) {
-const data = await request.json();
-    return NextResponse.json({ message: '创建成功' });
-}
-```
-10. Next.js中如何实现国际化？
-```
-// next.config.js
-module.exports = {
-    i18n: {
-    locales: ['en', 'zh'],
-    defaultLocale: 'zh',
-    },
-}
-// 使用
-import { useRouter } from 'next/router';
-function LanguageSwitcher() {
-const router = useRouter();
-return (
-    <select onChange={(e) => router.push(router.pathname, router.pathname, { locale: e.target.value })}>
-    <option value="en">English</option>
-    <option value="zh">中文</option>
-    </select>
-);
-}
-```
+验收覆盖页面路由、语言切换、网络配置、登录态、异常响应和生产构建。本轮仅核对README与源码，未安装依赖、运行PM2或验证后端联调。
 
+## 中性演示配置
+
+多语言展示与示例标识统一使用DemoExchange，样式改用系统字体。币种和法币图标优先使用STATIC_URL对应路径，未配置时回退到本地中性SVG；WebSocket必须通过WEBSOCKET_URL配置，缺省时不主动连接外部服务。
+
+公共请求语言字段默认是language，可通过LANGUAGE_PARAM_NAME适配目标后端；该变量在构建时注入。静态语言资源子目录为languse/demo-content，支持文档链接为example.com示例，均需按实际业务接入替换，不能作为在线服务可用性保证。

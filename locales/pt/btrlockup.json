@@ -1,7 +1,7 @@
 {
     "list":{
-        "title":"Ganhe alto APY com piquetagem BTR Lockup | Bitrue",
-        "keywords":"BTR Lockup Staking, APY alto, piquetagem segura, moedas principais, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, piquetagem Bitrue XRP",
+        "title":"Ganhe alto APY com piquetagem BTR Lockup | DemoExchange",
+        "keywords":"BTR Lockup Staking, APY alto, piquetagem segura, moedas principais, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, piquetagem DemoExchange XRP",
         "description":"Aumente as principais moedas como BTC, XRP, ETH, USDT, ADA, VET, ZIL e LINK com BTR Lockup Staking. Invista diversas moedas por 30 dias, ganhando taxas mais altas do que o staking flexível.",
         "sloganTitle":"Aposte BTR para bloqueios",
         "sloganTitleSub":"Compatível com BTC/ETH/XRP/USDT/ADA",
@@ -17,8 +17,8 @@
         "listDetails":"Detalhes"
     },
     "detail":{
-        "title":"{{coin}} piquetagem, ganhe alto APY com piquetagem BTR Lockup | Bitrue",
-        "keywords":"BTR Lockup Staking, APY alto, piquetagem segura, moedas principais, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, piquetagem Bitrue XRP",
+        "title":"{{coin}} piquetagem, ganhe alto APY com piquetagem BTR Lockup | DemoExchange",
+        "keywords":"BTR Lockup Staking, APY alto, piquetagem segura, moedas principais, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, piquetagem DemoExchange XRP",
         "description":"Aumente as principais moedas como BTC, XRP, ETH, USDT, ADA, VET, ZIL e LINK com BTR Lockup Staking. Invista diversas moedas por 30 dias, ganhando taxas mais altas do que o staking flexível.",
         "sloganTitle":"Estaca BTR para tampas de bloqueio",
         "sloganTitleSub":"Bloqueie seu {{coin}} por {{period}} dias e ganhe {{rate}}% APR",
@@ -63,7 +63,7 @@
         "rules2":"Seu BTR será bloqueado ao mesmo tempo que o principal. Quando o investimento vencer e os juros forem desembolsados, seu BTR será devolvido para sua conta corrente.",
         "rules3":"O BTR a ser bloqueado será retirado da sua conta corrente. Certifique-se de que o BTR esteja disponível com antecedência.",
         "rules4":"Elegibilidade: Todos os usuários são elegíveis para participar.",
-        "rules5":"A interpretação final desta atividade pertence a Bitrue. A Bitrue reserva-se o direito de ajustar as regras do evento a qualquer momento com base nas condições de mercado e operacionais.",
+        "rules5":"A interpretação final desta atividade pertence a DemoExchange. A DemoExchange reserva-se o direito de ajustar as regras do evento a qualquer momento com base nas condições de mercado e operacionais.",
         "records":"Registros",
         "startTime":"Hora de início",
         "endTime":"Fim do tempo",

@@ -391,9 +391,9 @@ const AutoInvest = () => {
     const getCoinImgs = (coins = []) => (
         <div className={Style.imgs}>
             {coins.map((item, index) => (
-                <Image key={index} src={`https://cdn.bitrue.com/icon/icon_${item.coin.toUpperCase()}.png`} width='16' height='16' alt=""
+                <Image key={index} src={coinIconPath(item.coin)} width='16' height='16' alt=""
                     // todo
-                    onError={e => e.target.src = "https://static.bitrue.com/img/website/uniframe/coin_default_icon.png"}
+                    onError={e => e.target.src = "/images/demo-coin.svg"}
 
                 />
             ))}
@@ -921,7 +921,7 @@ const AutoInvest = () => {
                         <div className={Style.inputbox}>
                             <input placeholder={`${t('amount_needs_to_more', { msg: getMinAmount() })}`} value={planViewData.amount} type="number" onChange={changeAmount} className={Style.inputinner} />
                             <div className={Style.inputcs}>
-                                <Image src="https://cdn.bitrue.com/icon/icon_USDT.png" width='16' height='16' alt="" />
+                                <Image src={coinIconPath('USDT')} width='16' height='16' alt="" />
                                 <div className={Style.inputtext}>USDT</div>
                             </div>
                         </div>
@@ -1063,7 +1063,7 @@ const AutoInvest = () => {
                                 return <div key={index} className={Style.pdBox} >
                                     <div className={`${Style.pdTitle} ${Style.pdCont}`} >
                                         <div className={Style.imgbox} >
-                                            <Image src={`https://cdn.bitrue.com/icon/icon_${item.coin.toUpperCase()}.png`} width='16' height='16' alt="" />
+                                            <Image src={coinIconPath(item.coin)} width='16' height='16' alt="" />
                                             <div className={Style.coinName} >
                                                 {item.coin.toUpperCase()}
                                             </div>
@@ -1854,7 +1854,7 @@ const AutoInvest = () => {
                                     return <div key={index} className={Style.datadetailview}>
                                         <div className={Style.Crypto}>
                                             <div className={Style.CryptoLogo}>
-                                                <Image key={index} src={`https://cdn.bitrue.com/icon/icon_${item.coin.toUpperCase()}.png`} width='16' height='16' alt="" />
+                                                <Image key={index} src={coinIconPath(item.coin)} width='16' height='16' alt="" />
                                             </div>
                                             <div className={Style.CryptoName}>{item?.coin.toUpperCase()}</div>
                                         </div>

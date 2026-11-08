@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "BTC-insats | ETH-insats | XRP-insats | Bitrue",
-        "keywords": "Lär dig och tjäna krypto, tjäna BTC, satsa krypto, XRP satsa, BTC satsa, ETH satsa, hög APY, Bitrue satsning, kryptovaluta belöningar, enkel satsning.",
-        "description": "Upptäck hur Bitrue Staking låter dig tjäna värdefulla kryptovalutabelöningar utan ansträngning. Lär dig och tjäna, satsar BTC, satsar ETH, satsar XRP för att tjäna belöningar."
+        "title": "BTC-insats | ETH-insats | XRP-insats | DemoExchange",
+        "keywords": "Lär dig och tjäna krypto, tjäna BTC, satsa krypto, XRP satsa, BTC satsa, ETH satsa, hög APY, DemoExchange satsning, kryptovaluta belöningar, enkel satsning.",
+        "description": "Upptäck hur DemoExchange Staking låter dig tjäna värdefulla kryptovalutabelöningar utan ansträngning. Lär dig och tjäna, satsar BTC, satsar ETH, satsar XRP för att tjäna belöningar."
     },
     "main": {
         "title": "Lär dig satsa - tjäna pengar genom att hålla din kryptotillgång",
@@ -12,19 +12,19 @@
         "section2_content1": "På blockkedjenivå är de valutor som kan satsas PoS-mynten (Proof of Stake), såsom {{Ethereum}}, {{Cardano}} och {{Solana}}. Detta skiljer sig från PoW-modell (Proof of Work) som används av {{Bitcoin}} och andra som notoriskt använder betydande mängder datorkraft för att verifiera sina transaktioner. Istället för att kräva att komplicerade godtyckliga beräkningar ska utföras, definierar PoS-blockkedjor helt enkelt förtroende och belöning baserat på beloppet av mynt som innehas av en person eller organisation.",
         "section2_content2": "Varje valuta har olika krav innan de kan satsas, av vilka vissa kan göra dem mycket svåra att satsa direkt. Till exempel kräver vissa valutor en betydande investering innan du kan generera belöningar ($100 000 eller mer), medan andra kräver en hög nivå av teknisk kompetens men har inga skydd mot att förlora dina pengar om du av misstag trycker på fel knapp.",
         "section2_content3": "I den moderna eran av Decentralized Finance (DeFi) har insatsmöjligheterna uppdaterats ytterligare. Genom att använda likviditetspooler kan användare satsa ett brett utbud av mynt till förmån för handelsalgoritmer som låter användare byta mynt i godtyckliga par i ett peer-to-peer-mode och fortfarande få belöningar för att göra det.",
-        "section2_content4": "På Bitrue har vi utökat möjligheten att satsa ytterligare. Vi har möjligheten att så småningom stödja <b>ALLT</b> mynt i vår insatstjänst och regelbundet lägga till fler mynt till våra investeringstjänster baserat på vad som är populär eller vad våra community-medlemmar efterfrågar.",
+        "section2_content4": "På DemoExchange har vi utökat möjligheten att satsa ytterligare. Vi har möjligheten att så småningom stödja <b>ALLT</b> mynt i vår insatstjänst och regelbundet lägga till fler mynt till våra investeringstjänster baserat på vad som är populär eller vad våra community-medlemmar efterfrågar.",
         "section3_title": "Vilken typ av belöningar kan jag få från insats?",
         "section3_content1": "De exakta belöningarna beror till stor del på myntet du satsar, men i allmänhet kan du förvänta dig belöningar på cirka 5 % APR. Vissa anmärkningsvärda mynt och deras förväntade APR inkluderar:",
         "section3_content1_coin": "Mynt",
         "section3_content1_apr": "APR*",
-        "section3_content2": "*Uppskattat. Kan ändras efter Bitrues gottfinnande.",
+        "section3_content2": "*Uppskattat. Kan ändras efter DemoExchanges gottfinnande.",
         "section4_title": "Är jag kvalificerad att satsa mina mynt?",
-        "section4_content1": "På Bitrue behöver du bara <a href='{{registerUrl}}' target='_blank'>registrera dig</a> och se till att du har några mynt vilande i din konto. Det är allt!",
+        "section4_content1": "På DemoExchange behöver du bara <a href='{{registerUrl}}' target='_blank'>registrera dig</a> och se till att du har några mynt vilande i din konto. Det är allt!",
         "section4_content2": "- Ingen teknisk expertis krävs",
         "section4_content3": "- Inga ansökningar eller godkännanden",
         "section4_content4": "- Inga minimikrav",
         "section5_title": "Hur kommer jag igång?",
-        "section5_content1": "Om du är ny på staking rekommenderar vi att du testar <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> först. Power Piggy är designad för att vara snabb och enkel att använda, med <b>räntebetalningar skickade direkt till ditt Bitrue-konto</b> varje dag runt 16:00 UTC. Det bästa av allt är att det är riskfritt eftersom det inte finns några låsningstider för Power Piggy-investeringar. Det betyder att om du bestäm nu att det är en bra tid att sälja dina mynt, du kan ta bort dem från din Power Piggy när som helst och handla med dem på börsen.",
+        "section5_content1": "Om du är ny på staking rekommenderar vi att du testar <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> först. Power Piggy är designad för att vara snabb och enkel att använda, med <b>räntebetalningar skickade direkt till ditt DemoExchange-konto</b> varje dag runt 16:00 UTC. Det bästa av allt är att det är riskfritt eftersom det inte finns några låsningstider för Power Piggy-investeringar. Det betyder att om du bestäm nu att det är en bra tid att sälja dina mynt, du kan ta bort dem från din Power Piggy när som helst och handla med dem på börsen.",
         "section5_content2": "Power Piggy har stöd för mer än <b>100 olika mynt</b> och fler läggs till hela tiden, och har räntor som är mycket konkurrenskraftiga med konkurrerande tjänster och med direkt insats på blockkedjenivå, men utan allt krångel.",
         "section5_content3": "Om du vill satsa på några långsiktiga investeringar i kryptovaluta kan du prova att använda vår <a href='{{yieldFramUrl}}' target='_blank'>avkastningsodling</a>-tjänst istället. Avkastningsodling är liknar Power Piggy med den största skillnaden är att dina mynt kommer att vara låsta under en period, även om <b>belöningarna blir högre</b> för att kompensera för det. Om du verkligen behöver komma åt dina tillgångar kommer att kunna avbryta investeringen i förtid, men du kommer inte att få någon ränta, oavsett hur längemynt satsades för. Det är det bästa sättet att maximera din inkomstpotential."
     }

@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"Obtenga un APY alto con la apuesta de bloqueo BTR | Biverdad",
-        "keywords":"BTR Lockup Stake, APY alto, apuesta segura, monedas principales, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, apuesta Bitrue XRP",
+        "keywords":"BTR Lockup Stake, APY alto, apuesta segura, monedas principales, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, apuesta DemoExchange XRP",
         "description":"Impulse monedas importantes como BTC, XRP, ETH, USDT, ADA, VET, ZIL y LINK con BTR Lockup Stake. Invierta diversas monedas durante 30 días y obtenga tasas más altas que las apuestas flexibles.",
         "sloganTitle":"Estaca BTR para bloqueos",
         "sloganTitleSub":"Compatible con BTC/ETH/XRP/USDT/ADA",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"{{coin}} apuesta, obtenga un APY alto con BTR Lockup Stake | Biverdad",
-        "keywords":"BTR Lockup Stake, APY alto, apuesta segura, monedas principales, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, apuesta Bitrue XRP",
+        "keywords":"BTR Lockup Stake, APY alto, apuesta segura, monedas principales, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, apuesta DemoExchange XRP",
         "description":"Impulse monedas importantes como BTC, XRP, ETH, USDT, ADA, VET, ZIL y LINK con BTR Lockup Stake. Invierta diversas monedas durante 30 días y obtenga tasas más altas que las apuestas flexibles.",
         "sloganTitle":"Estaca BTR para tapas de bloqueo",
         "sloganTitleSub":"Bloquee su {{coin}} durante {{period}} días y obtenga un {{rate}}% APR",
@@ -63,7 +63,7 @@
         "rules2":"Su BTR se bloqueará al mismo tiempo que el principal. Cuando la inversión venza y se desembolsen los intereses, su BTR será devuelto a su cuenta corriente.",
         "rules3":"El BTR a bloquear se tomará de su cuenta actual. Asegúrese de que el BTR esté disponible con antelación.",
         "rules4":"Elegibilidad: todos los usuarios son elegibles para participar.",
-        "rules5":"La interpretación final de esta actividad pertenece a Bitrue. Bitrue se reserva el derecho de ajustar las reglas del evento en cualquier momento según las condiciones del mercado y operativas.",
+        "rules5":"La interpretación final de esta actividad pertenece a DemoExchange. DemoExchange se reserva el derecho de ajustar las reglas del evento en cualquier momento según las condiciones del mercado y operativas.",
         "records":"Registros",
         "startTime":"Hora de inicio",
         "endTime":"Hora de finalización",

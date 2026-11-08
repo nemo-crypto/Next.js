@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "BTC Staking | ETH Staking | XRP Staking | Bitrue",
-        "keywords": "Learn & Earn crypto, Earn BTC, Staking crypto, XRP Staking, BTC Staking, ETH Staking, high APY, Bitrue Staking, cryptocurrency rewards, simple staking.",
-        "description": "Discover how Bitrue Staking lets you effortlessly earn valuable cryptocurrency rewards. Learn & earn, Staking BTC, Staking ETH, Staking XRP to Earn rewards."
+        "title": "BTC Staking | ETH Staking | XRP Staking | DemoExchange",
+        "keywords": "Learn & Earn crypto, Earn BTC, Staking crypto, XRP Staking, BTC Staking, ETH Staking, high APY, DemoExchange Staking, cryptocurrency rewards, simple staking.",
+        "description": "Discover how DemoExchange Staking lets you effortlessly earn valuable cryptocurrency rewards. Learn & earn, Staking BTC, Staking ETH, Staking XRP to Earn rewards."
     },
     "main": {
         "title": "Learn Staking - Earn Money By Holding Your Crypto Asset",
@@ -12,19 +12,19 @@
         "section2_content1": "At the blockchain level the currencies that can be staked are the PoS (Proof of Stake) coins, such as {{Ethereum}}, {{Cardano}} and {{Solana}}. This is different to the PoW (Proof of Work) model employed by {{Bitcoin}} and others which notoriously use significant amounts of computing power to verify their transactions. Instead of requiring complex arbitrary calculations to be performed, PoS blockchains simply define trust and reward based on the amount of coins held by one person or organization.",
         "section2_content2": "Each currency has different requirements before they can be staked, some of which can make them very difficult to stake directly. For example, some currencies require a significant investment before you can generate rewards ($100,000 or more), while others require a high level of technical proficiency but have no safeguards against losing your money if you accidentally press a wrong button.",
         "section2_content3": "In the modern era of Decentralized Finance (DeFi) staking capabilities have been updated even further. Using liquidity pools, users can stake a wide range of coins for the benefit of trading algorithms which let users swap coins in arbitrary pairs in a peer to peer fashion, and still receive rewards for doing so.",
-        "section2_content4": "At Bitrue we have expanded the capability of staking even further. We have the ability to eventually support <b>ANY</b> coin in our staking service, and regularly add more coins to our investment services based on what's popular or what our community members are asking for.",
+        "section2_content4": "At DemoExchange we have expanded the capability of staking even further. We have the ability to eventually support <b>ANY</b> coin in our staking service, and regularly add more coins to our investment services based on what's popular or what our community members are asking for.",
         "section3_title": "What kind of rewards can I receive from staking?",
         "section3_content1": "The exact rewards depend heavily on the coin that you stake, but in general you can expect rewards of around 5% APR. Some notable coins and their expected APRs include:",
         "section3_content1_coin": "Coin",
         "section3_content1_apr": "APR*",
-        "section3_content2": "*Estimated. May change at Bitrue's discretion.",
+        "section3_content2": "*Estimated. May change at DemoExchange's discretion.",
         "section4_title": "Am I qualified to stake my coins?",
-        "section4_content1": "At Bitrue, all you need to get started is to <a href='{{registerUrl}}' target='_blank'>sign up</a> and make sure you have some coins lying dormant in your account. That's it!",
+        "section4_content1": "At DemoExchange, all you need to get started is to <a href='{{registerUrl}}' target='_blank'>sign up</a> and make sure you have some coins lying dormant in your account. That's it!",
         "section4_content2": "- No technical expertise required",
         "section4_content3": "- No applications or approvals",
         "section4_content4": "- No minimums",
         "section5_title": "How do I get started?",
-        "section5_content1": "If you're new to staking we recommend trying out <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> first. Power Piggy is designed to be quick and easy to use, with <b>interest payments sent directly into your Bitrue account</b> every day around 16:00 UTC. Best of all it is risk free as there are no lockup periods for Power Piggy investments. This means that if you decide now is a good time to sell your coins, you can remove them from your Power Piggy at any time and trade them on the exchange.",
+        "section5_content1": "If you're new to staking we recommend trying out <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a> first. Power Piggy is designed to be quick and easy to use, with <b>interest payments sent directly into your DemoExchange account</b> every day around 16:00 UTC. Best of all it is risk free as there are no lockup periods for Power Piggy investments. This means that if you decide now is a good time to sell your coins, you can remove them from your Power Piggy at any time and trade them on the exchange.",
         "section5_content2": "Power Piggy has support for more than <b>100 different coins</b> with more being added all the time, and has interest rates which are highly competitive with competing services and with direct staking on the blockchain level, but without all of the hassle.",
         "section5_content3": "If you want to commit to some longer term cryptocurrency investments you can try using our <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a> service instead. Yield Farming is similar to Power Piggy with the main difference being that your coins will be locked for a period of time, although the <b>rewards will be higher</b> to make up for it. If you really need to get at your assets you'll be able to cancel the investment early however you won't receive any interest, regardless of how long the coins were staked for. It's the best way to maximize your earnings potential."
     }

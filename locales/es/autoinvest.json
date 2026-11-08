@@ -1,8 +1,8 @@
 {   
     "tdk":{
-        "title":"Comercio de BTC | Comercio de ETH | Comercio XRP | Bitrue",
-        "description":"La inversión automática es una herramienta comercial que distribuye las órdenes a intervalos regulares a lo largo del tiempo, por lo que su posición se ve menos afectada por la sincronización del mercado. Le ayuda a negociar y construir posiciones BTC, ETH y XRP en Bitrue y disfrutar de ganancias a largo plazo.",
-        "keywords":"Comercio automático de criptomonedas, comercio automático de BTC, comercio automático de ETH, comercio automático de XRP, inversión automática de BTC, inversión automática de ETH, APY alto, apuesta Bitrue, recompensas de criptomonedas, apuesta simple"
+        "title":"Comercio de BTC | Comercio de ETH | Comercio XRP | DemoExchange",
+        "description":"La inversión automática es una herramienta comercial que distribuye las órdenes a intervalos regulares a lo largo del tiempo, por lo que su posición se ve menos afectada por la sincronización del mercado. Le ayuda a negociar y construir posiciones BTC, ETH y XRP en DemoExchange y disfrutar de ganancias a largo plazo.",
+        "keywords":"Comercio automático de criptomonedas, comercio automático de BTC, comercio automático de ETH, comercio automático de XRP, inversión automática de BTC, inversión automática de ETH, APY alto, apuesta DemoExchange, recompensas de criptomonedas, apuesta simple"
     },
     "Auto_Invest":"Inversión automática",
     "Spread_out_your_investments_":"Distribuya sus inversiones",
@@ -57,7 +57,7 @@
     "Q7":"¿A qué precio se ejecutará la transacción de mi plan de inversión automática?",
     "A7":"Cuando se alcance la frecuencia de inversión que establezca, las monedas de inversión automática se comprarán al contado a precios de mercado. Si el monto de su inversión es relativamente grande, lo que hace que el precio de mercado fluctúe en más de +/-10%, el monto excedente no se ejecutará.",
     "Q8":"¿Cómo se calcula la tarifa?",
-    "A8":"La tarifa por inversión automática es la misma que la tarifa por negociación al contado. Puede consultar los <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>detalles de la tarifa</a> .",
+    "A8":"La tarifa por inversión automática es la misma que la tarifa por negociación al contado. Puede consultar los <a href='https://support.example.com/fees'>detalles de la tarifa</a> .",
     "Q9":"¿Cómo comprobar los planes y el historial en curso?",
     "A91":"1. Planes en curso: puede verlos después de iniciar sesión en la <a href='/btc-xrp-eth-trading-bot'>página de inversión automática</a> : todos los planes en curso.",
     "A92":"2. Todas las órdenes de inversión automática: puede consultarlas en \"Pedidos\"-\"Ganancias\"-\"Inversión automática\"",
@@ -75,7 +75,7 @@
     "Agreement2":"Si la moneda en la que inviertes tiene inversión flexible en Power Piggy, se depositará automáticamente en ella para obtener más intereses.",
     "Agreement3":"Las pérdidas y ganancias son flotantes, lo que indica las ganancias de la moneda desde el momento en que comenzó a comprar hasta el momento actual. La fórmula de cálculo es: cantidad comprada * precio spot actual - total invertido. Si vende esta moneda por adelantado o deposita esta moneda en Power Piggy, las ganancias/pérdidas resultantes no se pueden calcular en las pérdidas y ganancias.",
     "Agreement4":"Cuando se alcance la frecuencia de inversión que establezca, las monedas de inversión automática se comprarán al contado a precios de mercado. Si el monto de su inversión es relativamente grande, lo que hace que el precio de mercado fluctúe en más de +/-10%, el monto excedente no se ejecutará.",
-    "Agreement5":"La tarifa por inversión automática es la misma que la tarifa por negociación al contado. Puede consultar los <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>detalles de la tarifa</a> .",
+    "Agreement5":"La tarifa por inversión automática es la misma que la tarifa por negociación al contado. Puede consultar los <a href='https://support.example.com/fees'>detalles de la tarifa</a> .",
     "Details_of_auto_invest_plan":"Detalles del plan de inversión automática",
     "Invested_rounds":"Rondas invertidas",
     "Power_piggy_earning":"Ganancia de cerdito de poder",

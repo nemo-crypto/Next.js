@@ -19,9 +19,9 @@
         "programError": "Network error. Please try again."
     },
     "list": {
-        "title": "Earn Crypto with Flexible Staking | High APY | Bitrue",
-        "keywords": "Earn crypto, flexible staking, high APY, Bitrue XRP staking, cryptocurrency rewards, savings, APY rates",
-        "description": "Effortlessly earn valuable cryptocurrency rewards through Bitrue's flexible staking. Explore diverse earning opportunities with impressive APY rates and start building your savings today.",
+        "title": "Earn Crypto with Flexible Staking | High APY | DemoExchange",
+        "keywords": "Earn crypto, flexible staking, high APY, DemoExchange XRP staking, cryptocurrency rewards, savings, APY rates",
+        "description": "Effortlessly earn valuable cryptocurrency rewards through DemoExchange's flexible staking. Explore diverse earning opportunities with impressive APY rates and start building your savings today.",
         "sloganTitle": "Power Piggy",
         "sloganTitleSub": "Earn competitive rewards daily",
         "btrBalance": "BTR Balance",
@@ -47,11 +47,11 @@
         "listNoLockUp": "No Lock-up"
     },
     "detail": {
-        "title": "Earn {{coin}} |  {{coin}} Staking | Bitrue",
-        "keywords": "Earn crypto, flexible staking, high APY, Bitrue XRP staking, cryptocurrency rewards, savings, APY rates, {{coin}}, {{coin}}",
-        "description": "{{coin}} Staking, effortlessly earn valuable {{coin}} cryptocurrency rewards through Bitrue's flexible staking. Explore diverse earning opportunities with impressive APY rates and start building your savings today.",
-        "newUserkwd": "Earn crypto, flexible staking, high APY, Bitrue XRP staking, cryptocurrency rewards, savings, APY rates, {{coin}}, {{coin}}, new user",
-        "newUserDesc": "{{coin}} staking for new users, Effortlessly earn valuable {{coin}} cryptocurrency rewards through Bitrue's flexible staking. Explore diverse earning opportunities with impressive APY rates and start building your savings today. Perfect for new users!",
+        "title": "Earn {{coin}} |  {{coin}} Staking | DemoExchange",
+        "keywords": "Earn crypto, flexible staking, high APY, DemoExchange XRP staking, cryptocurrency rewards, savings, APY rates, {{coin}}, {{coin}}",
+        "description": "{{coin}} Staking, effortlessly earn valuable {{coin}} cryptocurrency rewards through DemoExchange's flexible staking. Explore diverse earning opportunities with impressive APY rates and start building your savings today.",
+        "newUserkwd": "Earn crypto, flexible staking, high APY, DemoExchange XRP staking, cryptocurrency rewards, savings, APY rates, {{coin}}, {{coin}}, new user",
+        "newUserDesc": "{{coin}} staking for new users, Effortlessly earn valuable {{coin}} cryptocurrency rewards through DemoExchange's flexible staking. Explore diverse earning opportunities with impressive APY rates and start building your savings today. Perfect for new users!",
         "staking": "Staking",
         "remainingAmount": "Remaining Amount",
         "remainingVIPCap": "Remaining VIP Cap",
@@ -87,13 +87,13 @@
         "rules2": "Rewards Distribution: 16:00 UTC every day",
         "rules3": "Interest calculation: Interest generation will begin one day after investing. The first interest payment will be made two days after investing. No partial interest will be generated when funds are withdrawn in the middle of a day. Interest is calculated between 16:00 ~ 18:00 UTC daily. If funds are unfrozen during the calculation period, they will not generate interest.",
         "rules4": "No Lock-up: Your funds will not be locked so you can opt out anytime you want. You can opt in again as long as there's cap opening.",
-        "rules5": "For this offer, Bitrue guarantees the safety of your principal and earnings.",
+        "rules5": "For this offer, DemoExchange guarantees the safety of your principal and earnings.",
         "rules6": "Minimum amount to join:",
         "rules7": "Eligibility: All users are eligible to participate.",
-        "rules8": "Final interepretation of this activity belongs to Bitrue. Bitrue reserves the right to adjust the rules of the event at any time based on market and operating conditions.",
+        "rules8": "Final interepretation of this activity belongs to DemoExchange. DemoExchange reserves the right to adjust the rules of the event at any time based on market and operating conditions.",
         "faq": "FAQ",
         "faqAsk1": "What is Power Piggy?",
-        "faqAnswer1": "Power Piggy is Bitrue’s high yield investment service which allows you to earn passive income on your cryptocurrencies. Through staking and other mechanisms we can provide our users with investment services for their savings that allow everyone to earn interest daily.",
+        "faqAnswer1": "Power Piggy is DemoExchange’s high yield investment service which allows you to earn passive income on your cryptocurrencies. Through staking and other mechanisms we can provide our users with investment services for their savings that allow everyone to earn interest daily.",
         "faqAsk2": "Can I trade or withdraw my {{coin}} after participation?",
         "faqAnswer2": "You can trade or withdraw it at any time. To do this, all you need to do is unfreeze the event amount.",
         "faqAsk3": "How can I unfreeze the event amount?",
@@ -101,7 +101,7 @@
         "faqAsk4": "If I unfreeze my {{coin}}, can I join the event again?",
         "faqAnswer4": "Yes, as long as there are {{coin}} cap for participation, you could join the event without limit.",
         "faqAsk5": "If I join the event with 100 {{coin}}, and unfreeze all my funds before 24:00 (UTC+8), can I get the profit?",
-        "faqAnswer5": "Sorry that you can't get any profits. Bitrue will verify the participation amount at 24:00 (UTC+8) every day. If the amount shows 0 at 24:00 (UTC+8), you can't get any profits.",
+        "faqAnswer5": "Sorry that you can't get any profits. DemoExchange will verify the participation amount at 24:00 (UTC+8) every day. If the amount shows 0 at 24:00 (UTC+8), you can't get any profits.",
         "rushToPurchase": "You have already invested the maximum amount allowed for your current cap. To increase your cap in the future, please ensure that you hold more BTR.",
         "investmentSuccess": "You have invested {{vol}}. You can continue to use it by unfreezing the amount.",
         "investmentErrorBalance": "Participation attempt failed due to insufficient {{coin}} account balance.",
@@ -112,9 +112,9 @@
         "unfreezeSuccess": "You have successfully unfrozen {{vol}} amount"
     },
     "vip": {
-        "title": "Earn Crypto with Flexible Staking | High APY | BTR VIP CAP | Bitrue",
-        "keywords": "Earn crypto, flexible staking, high APY, BTR VIP CAP, Bitrue XRP staking, cryptocurrency rewards, savings, APY rates",
-        "description": "Effortlessly earn valuable rewards through Bitrue's flexible staking & BTR VIP CAP program. Explore diverse earning opportunities with impressive APY rates & start building savings.",
+        "title": "Earn Crypto with Flexible Staking | High APY | BTR VIP CAP | DemoExchange",
+        "keywords": "Earn crypto, flexible staking, high APY, BTR VIP CAP, DemoExchange XRP staking, cryptocurrency rewards, savings, APY rates",
+        "description": "Effortlessly earn valuable rewards through DemoExchange's flexible staking & BTR VIP CAP program. Explore diverse earning opportunities with impressive APY rates & start building savings.",
         "sloganTitle": "Power Piggy",
         "sloganTitleSub": "Earn competitive rewards daily",
         "accountBtr": "BTR Balance",
@@ -135,7 +135,7 @@
         "rules_4": "VIP cap unfreezing: The amount invested includes both community and VIP caps. When unfreezing, funds invested via the community cap will be unfrozen first.",
         "rules_5": "The VIP cap shares other rules with the community cap, and interest disbursement will occur every day at 00:30 (UTC+8).",
         "rules_6": "Amounts invested using VIP caps will also be eligible for boosted interest rates using BTR.",
-        "rules_7": "Final interepretation of this activity belongs to Bitrue. Bitrue reserves the right to adjust the rules of the event at any time based on market and operating conditions."
+        "rules_7": "Final interepretation of this activity belongs to DemoExchange. DemoExchange reserves the right to adjust the rules of the event at any time based on market and operating conditions."
     },
     "record": {
         "pageTitle": "Records",

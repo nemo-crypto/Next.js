@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} ราคา | {{coinName}} ราคา มูลค่าตลาด ตลาด | บิตทรู",
         "keywords":"{{coinName}} ราคา, {{coinFullName}} ราคา, {{coinName}} ถึง USD, {{coinName}} มูลค่า",
-        "description":"ดูราคาปัจจุบัน {{coinFullName}} เพื่อติดตามการเปลี่ยนแปลงราคาแบบเรียลไทม์ ติดตามข้อมูลตลาดล่าสุด การวิเคราะห์บน Bitrue Crypto Exchange",
+        "description":"ดูราคาปัจจุบัน {{coinFullName}} เพื่อติดตามการเปลี่ยนแปลงราคาแบบเรียลไทม์ ติดตามข้อมูลตลาดล่าสุด การวิเคราะห์บน DemoExchange Crypto Exchange",
         "etfTitle":"{{coinName}} ราคา, โทเค็นเลเวอเรจ, Crypto ETF, ตลาด | บิตทรู",
-        "etfKeywords":"{{coinName}} ราคา, โทเค็นเลเวอเรจ, Crypto ETF, ตลาด, การแลกเปลี่ยน Bitrue",
-        "etfDescription":"Bitrue Leveraged Tokens - ผลิตภัณฑ์อนุพันธ์ประเภทหนึ่งที่ให้คุณใช้ประโยชน์จากสินทรัพย์อ้างอิงได้ เพลิดเพลินไปกับเลเวอเรจที่เพิ่มขึ้นโดยไม่ต้องเสี่ยงต่อการชำระบัญชี"
+        "etfKeywords":"{{coinName}} ราคา, โทเค็นเลเวอเรจ, Crypto ETF, ตลาด, การแลกเปลี่ยน DemoExchange",
+        "etfDescription":"DemoExchange Leveraged Tokens - ผลิตภัณฑ์อนุพันธ์ประเภทหนึ่งที่ให้คุณใช้ประโยชน์จากสินทรัพย์อ้างอิงได้ เพลิดเพลินไปกับเลเวอเรจที่เพิ่มขึ้นโดยไม่ต้องเสี่ยงต่อการชำระบัญชี"
     },
     "title":"ราคาสกุลเงินดิจิทัล",
     "coinPrice":"{{coinFullName}} ราคา",

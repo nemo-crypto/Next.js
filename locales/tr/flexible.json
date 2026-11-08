@@ -19,9 +19,9 @@
         "programError":"Ağ hatası. Lütfen tekrar deneyin."
     },
     "list":{
-        "title":"Esnek Staking ile Kripto Kazanın | Yüksek APY | Bitrue",
-        "keywords":"Kripto, esnek staking, yüksek APY, Bitrue XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları kazanın",
-        "description":"Bitrue'nun esnek stake etme özelliği sayesinde zahmetsizce değerli kripto para birimi ödülleri kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve birikimlerinizi bugün oluşturmaya başlayın.",
+        "title":"Esnek Staking ile Kripto Kazanın | Yüksek APY | DemoExchange",
+        "keywords":"Kripto, esnek staking, yüksek APY, DemoExchange XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları kazanın",
+        "description":"DemoExchange'nun esnek stake etme özelliği sayesinde zahmetsizce değerli kripto para birimi ödülleri kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve birikimlerinizi bugün oluşturmaya başlayın.",
         "sloganTitle":"Güç Domuzcuk",
         "sloganTitleSub":"Günlük rekabetçi ödüller kazanın",
         "btrBalance":"BTR Bakiyesi",
@@ -47,11 +47,11 @@
         "listNoLockUp":"Kilitlenme Yok"
     },
     "detail":{
-        "title":"{{coin}} kazanın | {{coin}} Bahis | Bitrue",
-        "keywords":"Kripto, esnek staking, yüksek APY, Bitrue XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları, {{coin}}, {{coin}} kazanın",
-        "description":"{{coin}} Staking, Bitrue'nun esnek staking'i sayesinde değerli {{coin}} kripto para birimi ödüllerini zahmetsizce kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve birikimlerinizi bugün oluşturmaya başlayın.",
-        "newUserkwd":"Kripto, esnek staking, yüksek APY, Bitrue XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları, {{coin}}, {{coin}}, yeni kullanıcı kazanın",
-        "newUserDesc":"Yeni kullanıcılar için {{coin}} stake etme, Bitrue'nun esnek stake etme özelliği sayesinde zahmetsizce değerli {{coin}} kripto para birimi ödülleri kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve birikimlerinizi bugün oluşturmaya başlayın. Yeni kullanıcılar için mükemmel!",
+        "title":"{{coin}} kazanın | {{coin}} Bahis | DemoExchange",
+        "keywords":"Kripto, esnek staking, yüksek APY, DemoExchange XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları, {{coin}}, {{coin}} kazanın",
+        "description":"{{coin}} Staking, DemoExchange'nun esnek staking'i sayesinde değerli {{coin}} kripto para birimi ödüllerini zahmetsizce kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve birikimlerinizi bugün oluşturmaya başlayın.",
+        "newUserkwd":"Kripto, esnek staking, yüksek APY, DemoExchange XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları, {{coin}}, {{coin}}, yeni kullanıcı kazanın",
+        "newUserDesc":"Yeni kullanıcılar için {{coin}} stake etme, DemoExchange'nun esnek stake etme özelliği sayesinde zahmetsizce değerli {{coin}} kripto para birimi ödülleri kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve birikimlerinizi bugün oluşturmaya başlayın. Yeni kullanıcılar için mükemmel!",
         "staking":"Staking",
         "remainingAmount":"Kalan miktar",
         "remainingVIPCap":"Kalan VIP Limiti",
@@ -87,13 +87,13 @@
         "rules2":"Ödül Dağıtımı: Her gün 16:00 UTC",
         "rules3":"Faiz hesaplaması: Faiz üretimi yatırımdan bir gün sonra başlayacaktır. İlk faiz ödemesi yatırım yapıldıktan iki gün sonra yapılacaktır. Fonların gün ortasında çekilmesi durumunda kısmi faiz oluşmayacaktır. Faiz günlük 16:00 ~ 18:00 UTC arasında hesaplanır. Hesaplama döneminde fonların dondurulmaması durumunda faiz oluşmayacaktır.",
         "rules4":"Kilitlenme Yok: Paranız kilitlenmeyeceğinden istediğiniz zaman vazgeçebilirsiniz. Kapak açıklığı olduğu sürece tekrar girebilirsiniz.",
-        "rules5":"Bu teklif için Bitrue, anaparanızın ve kazancınızın güvenliğini garanti eder.",
+        "rules5":"Bu teklif için DemoExchange, anaparanızın ve kazancınızın güvenliğini garanti eder.",
         "rules6":"Katılmak için minimum miktar:",
         "rules7":"Uygunluk: Tüm kullanıcılar katılma hakkına sahiptir.",
-        "rules8":"Bu aktivitenin son yorumlanması Bitrue'a aittir. Bitrue, etkinliğin kurallarını piyasa ve çalışma koşullarına göre istediği zaman değiştirme hakkını saklı tutar.",
+        "rules8":"Bu aktivitenin son yorumlanması DemoExchange'a aittir. DemoExchange, etkinliğin kurallarını piyasa ve çalışma koşullarına göre istediği zaman değiştirme hakkını saklı tutar.",
         "faq":"SSS",
         "faqAsk1":"Güç Piggy nedir?",
-        "faqAnswer1":"Power Piggy, Bitrue'nun kripto para birimlerinizden pasif gelir elde etmenizi sağlayan yüksek getirili yatırım hizmetidir. Staking ve diğer mekanizmalar aracılığıyla kullanıcılarımıza birikimlerine yönelik, herkesin günlük faiz kazanmasına olanak tanıyan yatırım hizmetleri sunabiliyoruz.",
+        "faqAnswer1":"Power Piggy, DemoExchange'nun kripto para birimlerinizden pasif gelir elde etmenizi sağlayan yüksek getirili yatırım hizmetidir. Staking ve diğer mekanizmalar aracılığıyla kullanıcılarımıza birikimlerine yönelik, herkesin günlük faiz kazanmasına olanak tanıyan yatırım hizmetleri sunabiliyoruz.",
         "faqAsk2":"Katılımdan sonra {{coin}} paramı takas edebilir veya geri çekebilir miyim?",
         "faqAnswer2":"İstediğiniz zaman takas edebilir veya çekebilirsiniz. Bunu yapmak için tek yapmanız gereken etkinlik miktarının dondurmasını kaldırmaktır.",
         "faqAsk3":"Etkinlik tutarını nasıl çözebilirim?",
@@ -101,7 +101,7 @@
         "faqAsk4":"{{coin}} cihazımın dondurmasını çözersem etkinliğe tekrar katılabilir miyim?",
         "faqAnswer4":"Evet, katılım sınırı {{coin}} olduğu sürece sınırsız olarak etkinliğe katılabilirsiniz.",
         "faqAsk5":"Etkinliğe 100 {{coin}} ile katılırsam ve 24:00'den (UTC 8) önce tüm paramı çözersem, kâr elde edebilir miyim?",
-        "faqAnswer5":"Hiçbir kar elde edemediğiniz için üzgünüz. Bitrue, katılım tutarını her gün saat 24:00'te (UTC 8) doğrulayacaktır. Eğer tutar 24:00 (UTC 8) saatinde 0'ı gösteriyorsa, herhangi bir kar elde edemezsiniz.",
+        "faqAnswer5":"Hiçbir kar elde edemediğiniz için üzgünüz. DemoExchange, katılım tutarını her gün saat 24:00'te (UTC 8) doğrulayacaktır. Eğer tutar 24:00 (UTC 8) saatinde 0'ı gösteriyorsa, herhangi bir kar elde edemezsiniz.",
         "rushToPurchase":"Mevcut limitiniz için izin verilen maksimum tutarı zaten yatırdınız. Gelecekte limitinizi artırmak için lütfen daha fazla BTR bulundurduğunuzdan emin olun.",
         "investmentSuccess":"{{vol}} yatırım yaptınız. Tutarın donmasını çözerek kullanmaya devam edebilirsiniz.",
         "investmentErrorBalance":"{{coin}} hesap bakiyesinin yetersiz olması nedeniyle katılım girişimi başarısız oldu.",
@@ -112,9 +112,9 @@
         "unfreezeSuccess":"{{vol}} tutarındaki dondurmayı başarıyla çözdünüz"
     },
     "vip":{
-        "title":"Esnek Staking ile Kripto Kazanın | Yüksek APY | BTR VIP CAP | Bitrue",
-        "keywords":"Kripto, esnek staking, yüksek APY, BTR VIP CAP, Bitrue XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları kazanın",
-        "description":"Bitrue'nun esnek staking ve BTR VIP CAP programı aracılığıyla değerli ödülleri zahmetsizce kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve tasarruf etmeye başlayın.",
+        "title":"Esnek Staking ile Kripto Kazanın | Yüksek APY | BTR VIP CAP | DemoExchange",
+        "keywords":"Kripto, esnek staking, yüksek APY, BTR VIP CAP, DemoExchange XRP staking, kripto para birimi ödülleri, tasarruflar, APY oranları kazanın",
+        "description":"DemoExchange'nun esnek staking ve BTR VIP CAP programı aracılığıyla değerli ödülleri zahmetsizce kazanın. Etkileyici APY oranlarıyla çeşitli kazanç fırsatlarını keşfedin ve tasarruf etmeye başlayın.",
         "sloganTitle":"Güç Domuzcuk",
         "sloganTitleSub":"Günlük rekabetçi ödüller kazanın",
         "accountBtr":"BTR Bakiyesi",
@@ -135,7 +135,7 @@
         "rules_4":"VIP sınırının çözülmesi: Yatırılan miktar hem topluluk hem de VIP sınırlarını içerir. Dondurma çözülürken, topluluk sınırı aracılığıyla yatırılan fonlar ilk önce dondurulacaktır.",
         "rules_5":"VIP sınırı, diğer kuralları topluluk sınırıyla paylaşır ve faiz ödemesi her gün 00:30'da (UTC 8) gerçekleşir.",
         "rules_6":"VIP limitleri kullanılarak yatırılan tutarlar aynı zamanda BTR kullanılarak artırılmış faiz oranlarına da uygun olacaktır.",
-        "rules_7":"Bu aktivitenin son yorumlanması Bitrue'a aittir. Bitrue, etkinliğin kurallarını piyasa ve çalışma koşullarına göre istediği zaman değiştirme hakkını saklı tutar."
+        "rules_7":"Bu aktivitenin son yorumlanması DemoExchange'a aittir. DemoExchange, etkinliğin kurallarını piyasa ve çalışma koşullarına göre istediği zaman değiştirme hakkını saklı tutar."
     },
     "record":{
         "pageTitle":"Kayıtlar",

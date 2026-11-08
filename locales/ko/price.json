@@ -2,10 +2,10 @@
     "seo":{
         "title":"{{coinFullName}} 가격 | {{coinName}} 가격, 시가총액, 시장 | 바이트루",
         "keywords":"{{coinName}} 가격, {{coinFullName}} 가격, {{coinName}}를 USD로, {{coinName}} 값",
-        "description":"실시간 가격 변동을 추적하려면 실시간 {{coinFullName}} 가격을 확인하세요. Bitrue Crypto Exchange에 대한 최신 시장 데이터 분석을 따르십시오.",
+        "description":"실시간 가격 변동을 추적하려면 실시간 {{coinFullName}} 가격을 확인하세요. DemoExchange Crypto Exchange에 대한 최신 시장 데이터 분석을 따르십시오.",
         "etfTitle":"{{coinName}} 가격, 레버리지 토큰, 암호화폐 ETF, 시장 | 바이트루",
-        "etfKeywords":"{{coinName}} 가격, 레버리지 토큰, 암호화폐 ETF, 시장, Bitrue Exchange",
-        "etfDescription":"Bitrue 레버리지 토큰 - 기본 자산에 대한 레버리지 노출을 제공하는 파생 상품 유형입니다. 청산 위험 없이 증가된 레버리지를 즐겨보세요."
+        "etfKeywords":"{{coinName}} 가격, 레버리지 토큰, 암호화폐 ETF, 시장, DemoExchange Exchange",
+        "etfDescription":"DemoExchange 레버리지 토큰 - 기본 자산에 대한 레버리지 노출을 제공하는 파생 상품 유형입니다. 청산 위험 없이 증가된 레버리지를 즐겨보세요."
     },
     "title":"암호화폐 가격",
     "coinPrice":"{{coinFullName}} 가격",

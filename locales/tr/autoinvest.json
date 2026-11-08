@@ -1,8 +1,8 @@
 {   
     "tdk":{
-        "title":"BTC ticareti | ETH ticareti | XRP ticareti | Bitrue",
-        "description":"Otomatik yatırım, emirleri zamana düzenli aralıklarla yayan bir ticaret aracıdır, böylece konumunuz piyasa zamanlamasından daha az etkilenir. Bitrue'da BTC, ETH ve XRP pozisyonları alıp satmanıza ve oluşturmanıza ve uzun vadeli kazançların keyfini çıkarmanıza yardımcı olur.",
-        "keywords":"Otomatik kripto ticareti, Otomatik BTC ticareti, Otomatik ticaret ETH, Otomatik ticaret XRP, BTC Otomatik yatırım, ETH Otomatik yatırım, yüksek APY, Bitrue Staking, kripto para birimi ödülleri, basit staking"
+        "title":"BTC ticareti | ETH ticareti | XRP ticareti | DemoExchange",
+        "description":"Otomatik yatırım, emirleri zamana düzenli aralıklarla yayan bir ticaret aracıdır, böylece konumunuz piyasa zamanlamasından daha az etkilenir. DemoExchange'da BTC, ETH ve XRP pozisyonları alıp satmanıza ve oluşturmanıza ve uzun vadeli kazançların keyfini çıkarmanıza yardımcı olur.",
+        "keywords":"Otomatik kripto ticareti, Otomatik BTC ticareti, Otomatik ticaret ETH, Otomatik ticaret XRP, BTC Otomatik yatırım, ETH Otomatik yatırım, yüksek APY, DemoExchange Staking, kripto para birimi ödülleri, basit staking"
     },
     "Auto_Invest":"Otomatik Yatırım",
     "Spread_out_your_investments_":"Yatırımlarınızı dağıtın",
@@ -57,7 +57,7 @@
     "Q7":"Otomatik yatırım planı işlemim hangi fiyattan gerçekleştirilecek?",
     "A7":"Belirlediğiniz yatırım sıklığına ulaşıldığında oto yatırımın coinleri piyasa fiyatlarından spot olarak satın alınacaktır. Yatırım tutarınız nispeten büyükse ve piyasa fiyatının  /-\u0010'dan fazla dalgalanmasına neden oluyorsa, fazla miktar uygulanmayacaktır.",
     "Q8":"Ücret nasıl hesaplanır?",
-    "A8":"Otomatik yatırım ücreti, spot işlem ücretiyle aynıdır. <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>Ücret detaylarına</a> başvurabilirsiniz.",
+    "A8":"Otomatik yatırım ücreti, spot işlem ücretiyle aynıdır. <a href='https://support.example.com/fees'>Ücret detaylarına</a> başvurabilirsiniz.",
     "Q9":"Devam eden planlar ve geçmiş nasıl kontrol edilir?",
     "A91":"1. Devam eden planlar: <a href='/tr/btc-xrp-eth-trading-bot'>Otomatik yatırım sayfasında</a> oturum açtıktan sonra bunları görüntüleyebilirsiniz - tüm devam eden planlar.",
     "A92":"2. Tüm otomatik yatırım emirleri: \"Siparişler\"-\"Kazan\"-\"Otomatik yatırım\" bölümünden kontrol edebilirsiniz.",
@@ -75,7 +75,7 @@
     "Agreement2":"Yatırım yaptığınız coinin Power Piggy'de esnek yatırımı varsa, daha fazla faiz elde etmek için otomatik olarak içine yatırılacaktır.",
     "Agreement3":"Kâr ve zarar değişkendir ve satın almaya başladığınız andan itibaren o ana kadar madalyonun kârını gösterir. Hesaplama formülü şu şekildedir: satın alınan miktar * güncel spot fiyat - yatırılan toplam tutar. Bu para birimini peşin olarak satarsanız veya bu parayı Power Piggy'ye yatırırsanız, ortaya çıkan kazanç/kayıplar kar ve zarara hesaplanamaz.",
     "Agreement4":"Belirlediğiniz yatırım sıklığına ulaşıldığında oto yatırımın coinleri piyasa fiyatlarından spot olarak satın alınacaktır. Yatırım tutarınız nispeten büyükse ve piyasa fiyatının  /-\u0010'dan fazla dalgalanmasına neden oluyorsa, fazla miktar uygulanmayacaktır.",
-    "Agreement5":"Otomatik yatırım ücreti, spot işlem ücretiyle aynıdır. <a href='https://support.bitrue.com/hc/en-001/articles/360045151354-Trading-Fees-on-Bitrue'>Ücret detaylarına</a> başvurabilirsiniz.",
+    "Agreement5":"Otomatik yatırım ücreti, spot işlem ücretiyle aynıdır. <a href='https://support.example.com/fees'>Ücret detaylarına</a> başvurabilirsiniz.",
     "Details_of_auto_invest_plan":"Otomatik yatırım planının ayrıntıları",
     "Invested_rounds":"Yatırım yapılan turlar",
     "Power_piggy_earning":"Güç domuzcuk kazancı",

@@ -3,7 +3,7 @@ module.exports = {
     apps: [
         {
             // 应用程序名称
-            name: 'bitrue-website',
+            name: 'DemoExchange-website',
             // 应用程序所在的目录
             cwd: './',
             // 执行文件

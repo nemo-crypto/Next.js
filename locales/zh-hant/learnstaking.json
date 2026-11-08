@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "BTC 質押 | ETH 質押 | XRP 質押 | Bitrue",
-        "keywords": "學習並賺取加密貨幣、賺取 BTC、質押加密貨幣、XRP 質押、BTC 質押、ETH 質押、高 APY、Bitrue 質押、加密貨幣獎勵、簡單質押。",
-        "description": "了解 Bitrue Stake 如何讓您輕鬆賺取有價值的加密貨幣獎勵。學習並賺取，質押 BTC、質押 ETH、質押 XRP 來賺取獎勵。"
+        "title": "BTC 質押 | ETH 質押 | XRP 質押 | DemoExchange",
+        "keywords": "學習並賺取加密貨幣、賺取 BTC、質押加密貨幣、XRP 質押、BTC 質押、ETH 質押、高 APY、DemoExchange 質押、加密貨幣獎勵、簡單質押。",
+        "description": "了解 DemoExchange Stake 如何讓您輕鬆賺取有價值的加密貨幣獎勵。學習並賺取，質押 BTC、質押 ETH、質押 XRP 來賺取獎勵。"
     },
     "main": {
         "title": "學習質押 - 持有加密資產賺錢",
@@ -12,19 +12,19 @@
         "section2_content1": "在區塊鏈層面，可以質押的貨幣是 PoS（權益證明）幣，例如 {{Ethereum}}、{{Cardano}} 和 {{Solana}}。這與{{Bitcoin}} 和其他眾所周知使用大量計算能力來驗證其交易的PoW（工作量證明）模型。PoS 區塊鏈不需要執行複雜的任意計算，而是簡單地根據金額定義信任和獎勵一個人或一個組織持有的硬幣。",
         "section2_content2": "每種貨幣在質押之前都有不同的要求，其中一些要求可能使它們很難直接質押。例如，某些貨幣需要大量投資才能產生獎勵（100,000 美元或更多），而另一些貨幣則需要大量投資才能產生獎勵（100,000 美元或更多）需要高水平的技術熟練程度，但如果您不小心按錯按鈕，則無法防止損失金錢。",
         "section2_content3": "在去中心化金融（DeFi）的現代時代，質押功能得到了進一步更新。使用流動性池，用戶可以質押各種代幣，以利於交易演算法，使用戶可以在任意貨幣對中交換代幣。一種點對點時尚，並且仍然會因此獲得獎勵。",
-        "section2_content4": "在Bitrue，我們進一步擴展了質押功能。我們最終有能力在我們的質押服務中支援<b>任何</b>代幣，並根據情況定期向我們的投資服務添加更多代幣。受歡迎或我們社區成員的要求。",
+        "section2_content4": "在DemoExchange，我們進一步擴展了質押功能。我們最終有能力在我們的質押服務中支援<b>任何</b>代幣，並根據情況定期向我們的投資服務添加更多代幣。受歡迎或我們社區成員的要求。",
         "section3_title": "質押可以獲得什麼獎勵？",
         "section3_content1": "確切的獎勵在很大程度上取決於您所質押的代幣，但一般來說，您可以預期年利率5% 左右的獎勵。一些著名的代幣及其預期年利率包括： ",
         "section3_content1_coin": "硬幣",
         "section3_content1_apr": "年利率*",
-        "section3_content2": "*估計值。Bitrue 可能自行決定更改。",
+        "section3_content2": "*估計值。DemoExchange 可能自行決定更改。",
         "section4_title": "我有資格抵押我的幣嗎？",
-        "section4_content1": "在 Bitrue，您需要開始的就是<a href='{{registerUrl}}' target='_blank'>註冊</a>並確保您的帳戶中有一些處於休眠狀態的代幣。帳戶。就是這樣！",
+        "section4_content1": "在 DemoExchange，您需要開始的就是<a href='{{registerUrl}}' target='_blank'>註冊</a>並確保您的帳戶中有一些處於休眠狀態的代幣。帳戶。就是這樣！",
         "section4_content2": "- 無專業技術",
         "section4_content3": "- 沒有申請或批准",
         "section4_content4": "- 無最低要求",
         "section5_title": "我要如何開始？",
-        "section5_content1": "如果您是質押新手，我們建議您先嘗試 <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>。Power Piggy 的設計既快速又簡單使用時，每天16:00 UTC 左右<b>利息付款會直接發送到您的Bitrue 帳戶</b>。最重要的是，它是無風險的，因為Power Piggy 投資沒有鎖定期。這意味著，如果您現在決定是出售您的代幣的好時機，您可以隨時將它們從Power Piggy 中取出並在交易所進行交易。",
+        "section5_content1": "如果您是質押新手，我們建議您先嘗試 <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>。Power Piggy 的設計既快速又簡單使用時，每天16:00 UTC 左右<b>利息付款會直接發送到您的DemoExchange 帳戶</b>。最重要的是，它是無風險的，因為Power Piggy 投資沒有鎖定期。這意味著，如果您現在決定是出售您的代幣的好時機，您可以隨時將它們從Power Piggy 中取出並在交易所進行交易。",
         "section5_content2": "Power Piggy 支援<b>100 多種不同的貨幣</b>，並且一直在添加更多貨幣，並且其利率與競爭服務和區塊鏈級別的直接質押相比具有高度競爭力，但沒有所有的麻煩。",
         "section5_content3": "如果您想進行一些長期的加密貨幣投資，您可以嘗試使用我們的 <a href='{{yieldFramUrl}}' target='_blank'>Yield Farming</a> 服務。Yield Farming 是與Power Piggy 類似，主要區別在於您的幣會被鎖定一段時間，但<b>獎勵會更高</b>來彌補。如果您確實需要獲取您的資產，您可以提前取消投資，但無論投資多長時間，您將不會收到任何利息硬幣被抵押了。 這是最大化您的收入潛力的最佳方式。"
     }

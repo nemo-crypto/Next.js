@@ -1,7 +1,7 @@
 {
     "list":{
-        "title":"BTR Kilitli Staking ile Yüksek APY Kazanın | Bitrue",
-        "keywords":"BTR Kilitli Staking, yüksek APY, güvenli staking, büyük paralar, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP staking",
+        "title":"BTR Kilitli Staking ile Yüksek APY Kazanın | DemoExchange",
+        "keywords":"BTR Kilitli Staking, yüksek APY, güvenli staking, büyük paralar, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP staking",
         "description":"BTR Lockup Staking ile BTC, XRP, ETH, USDT, ADA, VET, ZIL ve LINK gibi büyük kripto paraları artırın. 30 gün boyunca çeşitli para birimlerine yatırım yapın, esnek staking'den daha yüksek oranlar kazanın.",
         "sloganTitle":"Kilitlenmeler İçin BTR Hissesi",
         "sloganTitleSub":"BTC/ETH/XRP/USDT/ADA Desteklenir",
@@ -17,8 +17,8 @@
         "listDetails":"Detaylar"
     },
     "detail":{
-        "title":"{{coin}} stake edin, BTR Kilitli Staking ile Yüksek APY Kazanın | Bitrue",
-        "keywords":"BTR Kilitli Staking, yüksek APY, güvenli staking, büyük paralar, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, Bitrue XRP staking",
+        "title":"{{coin}} stake edin, BTR Kilitli Staking ile Yüksek APY Kazanın | DemoExchange",
+        "keywords":"BTR Kilitli Staking, yüksek APY, güvenli staking, büyük paralar, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, DemoExchange XRP staking",
         "description":"BTR Lockup Staking ile BTC, XRP, ETH, USDT, ADA, VET, ZIL ve LINK gibi büyük kripto paraları artırın. 30 gün boyunca çeşitli para birimlerine yatırım yapın, esnek staking'den daha yüksek oranlar kazanın.",
         "sloganTitle":"Kilitleme Kapakları İçin BTR Hissesi",
         "sloganTitleSub":"{{coin}}'ınızı {{period}} Gün Boyunca Kilitleyin, %{{rate}} Nisan Kazanın",
@@ -63,7 +63,7 @@
         "rules2":"BTR'niz anaparayla aynı anda kilitlenecektir. Yatırımın vadesi dolduğunda ve faiz ödendiğinde BTR'niz cari hesabınıza iade edilecektir.",
         "rules3":"Kilitlenecek BTR cari hesabınızdan alınacaktır. Lütfen BTR'nin önceden mevcut olduğundan emin olun.",
         "rules4":"Uygunluk: Tüm kullanıcılar katılma hakkına sahiptir.",
-        "rules5":"Bu aktivitenin son yorumlanması Bitrue'a aittir. Bitrue, etkinliğin kurallarını piyasa ve çalışma koşullarına göre istediği zaman değiştirme hakkını saklı tutar.",
+        "rules5":"Bu aktivitenin son yorumlanması DemoExchange'a aittir. DemoExchange, etkinliğin kurallarını piyasa ve çalışma koşullarına göre istediği zaman değiştirme hakkını saklı tutar.",
         "records":"Kayıtlar",
         "startTime":"Başlangıç saati",
         "endTime":"Bitiş zamanı",

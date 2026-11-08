@@ -57,7 +57,8 @@ module.exports = nextTranslate({
                     websiteDomain: process.env.WEBSITE_URL,
                     WebSocketDomain: process.env.WEBSOCKET_URL,
                     staticDomain: process.env.STATIC_URL,
-                    cookieDomain: process.env.COOKIES_DOMIAN
+                    cookieDomain: process.env.COOKIES_DOMIAN,
+                    languageParamName: process.env.LANGUAGE_PARAM_NAME || 'language'
                 })
             })
         )

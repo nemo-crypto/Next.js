@@ -1,7 +1,7 @@
 {
     "list":{
         "title":"Zarabiaj wysokie RRSO dzięki stakingowi BTR Lockup | Bitrut",
-        "keywords":"Stakowanie BTR Lockup, wysokie RRSO, bezpieczne stakowanie, główne monety, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, stakowanie Bitrue XRP",
+        "keywords":"Stakowanie BTR Lockup, wysokie RRSO, bezpieczne stakowanie, główne monety, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, stakowanie DemoExchange XRP",
         "description":"Zwiększaj główne monety, takie jak BTC, XRP, ETH, USDT, ADA, VET, ZIL i LINK dzięki BTR Lockup Staking. Inwestuj różnorodne monety przez 30 dni, zarabiając wyższe stawki niż elastyczne stakowanie.",
         "sloganTitle":"Postaw BTR na blokady",
         "sloganTitleSub":"Obsługiwane BTC / ETH / XRP / USDT / ADA",
@@ -18,7 +18,7 @@
     },
     "detail":{
         "title":"Stakowanie {{coin}}, zarabiaj wysokie RRSO dzięki stakingowi BTR Lockup | Bitrut",
-        "keywords":"Stakowanie BTR Lockup, wysokie RRSO, bezpieczne stakowanie, główne monety, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, stakowanie Bitrue XRP",
+        "keywords":"Stakowanie BTR Lockup, wysokie RRSO, bezpieczne stakowanie, główne monety, BTC, XRP, ETH, USDT, ADA, VET, ZIL, LINK, stakowanie DemoExchange XRP",
         "description":"Zwiększaj główne monety, takie jak BTC, XRP, ETH, USDT, ADA, VET, ZIL i LINK dzięki BTR Lockup Staking. Inwestuj różnorodne monety przez 30 dni, zarabiając wyższe stawki niż elastyczne stakowanie.",
         "sloganTitle":"Stawka BTR dla czapek blokujących",
         "sloganTitleSub":"Zablokuj swój {{coin}} na {{period}} dni i zyskaj {{rate}}% RRSO",
@@ -63,7 +63,7 @@
         "rules2":"Twój BTR zostanie zablokowany w tym samym czasie co główny. Kiedy inwestycja dojrzeje i odsetki zostaną wypłacone, Twój BTR zostanie zwrócony na Twój rachunek bieżący.",
         "rules3":"BTR, który ma zostać zablokowany, zostanie pobrany z Twojego bieżącego konta. Upewnij się, że BTR jest dostępny z wyprzedzeniem.",
         "rules4":"Kwalifikowalność: Wszyscy użytkownicy mogą wziąć udział.",
-        "rules5":"Ostateczna interpretacja tego działania należy do Bitrue. Bitrue zastrzega sobie prawo do zmiany zasad wydarzenia w dowolnym momencie w zależności od warunków rynkowych i operacyjnych.",
+        "rules5":"Ostateczna interpretacja tego działania należy do DemoExchange. DemoExchange zastrzega sobie prawo do zmiany zasad wydarzenia w dowolnym momencie w zależności od warunków rynkowych i operacyjnych.",
         "records":"Dokumentacja",
         "startTime":"Czas rozpoczęcia",
         "endTime":"Koniec czasu",

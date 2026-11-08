@@ -1,8 +1,8 @@
 {
     "seo": {
-        "title": "BTC Staking | ETH Staking | XRP Staking | Bitrue",
-        "keywords": "Kripto Öğrenin ve Kazanın, BTC Kazanın, Kripto Staking, XRP Staking, BTC Staking, ETH Staking, yüksek APY, Bitrue Staking, kripto para birimi ödülleri, basit staking.",
-        "description": "Bitrue Staking'in değerli kripto para birimi ödüllerini zahmetsizce kazanmanıza nasıl olanak tanıdığını keşfedin. Öğrenin ve kazanın, BTC Staking, ETH Staking, XRP Staking ile ödüller kazanın."
+        "title": "BTC Staking | ETH Staking | XRP Staking | DemoExchange",
+        "keywords": "Kripto Öğrenin ve Kazanın, BTC Kazanın, Kripto Staking, XRP Staking, BTC Staking, ETH Staking, yüksek APY, DemoExchange Staking, kripto para birimi ödülleri, basit staking.",
+        "description": "DemoExchange Staking'in değerli kripto para birimi ödüllerini zahmetsizce kazanmanıza nasıl olanak tanıdığını keşfedin. Öğrenin ve kazanın, BTC Staking, ETH Staking, XRP Staking ile ödüller kazanın."
     },
     "main": {
         "title": "Stake Etmeyi Öğrenin - Kripto Varlığınızı Tutarak Para Kazanın",
@@ -12,19 +12,19 @@
         "section2_content1": "Blockchain düzeyinde stake edilebilecek para birimleri {{Ethereum}}, {{Cardano}} ve {{Solana}} gibi PoS (Stake Kanıtı) para birimleridir. Bu, {{Bitcoin}} ve işlemlerini doğrulamak için önemli miktarda bilgi işlem gücü kullanan diğer kişiler tarafından kullanılan PoW (İş Kanıtı) modeli. PoS blok zincirleri, karmaşık keyfi hesaplamaların yapılmasını gerektirmek yerine, miktara göre güveni ve ödülü basitçe tanımlar. bir kişi veya kuruluş tarafından tutulan madeni paraların sayısı.",
         "section2_content2": "Her para biriminin stake edilmeden önce farklı gereksinimleri vardır, bunlardan bazıları doğrudan stake edilmesini çok zorlaştırabilir. Örneğin, bazı para birimleri, ödül elde edebilmeniz için önemli bir yatırım gerektirir (100.000 $ veya daha fazla), diğerleri ise Yüksek düzeyde teknik yeterlilik gerektirir ancak yanlışlıkla yanlış bir düğmeye basarsanız paranızı kaybetmeye karşı hiçbir güvenceniz yoktur.",
         "section2_content3": "Merkezi Olmayan Finansın (DeFi) modern çağında stake etme yetenekleri daha da güncellendi. Kullanıcılar, likidite havuzlarını kullanarak, kullanıcıların paraları rastgele çiftler halinde takas etmelerine olanak tanıyan ticaret algoritmalarının yararı için geniş bir yelpazedeki paraları stake edebilirler. eşler arası bir moda ve bunu yaptığınız için yine de ödüller alıyorsunuz.",
-        "section2_content4": "Bitrue'da stake etme kapasitesini daha da genişlettik. Sonunda staking hizmetimizde <b>HERHANGİ</b> koini destekleme ve yatırım hizmetlerimize ne olduğuna bağlı olarak düzenli olarak daha fazla para ekleme olanağına sahibiz. popüler veya topluluk üyelerimizin istediği şeyler.",
+        "section2_content4": "DemoExchange'da stake etme kapasitesini daha da genişlettik. Sonunda staking hizmetimizde <b>HERHANGİ</b> koini destekleme ve yatırım hizmetlerimize ne olduğuna bağlı olarak düzenli olarak daha fazla para ekleme olanağına sahibiz. popüler veya topluluk üyelerimizin istediği şeyler.",
         "section3_title": "Stake etmekten ne tür ödüller alabilirim?",
         "section3_content1": "Kesin ödüller büyük ölçüde yatırdığınız coine bağlıdır, ancak genel olarak %5 APR civarında ödüller bekleyebilirsiniz. Bazı önemli coinler ve bunların beklenen APR'leri şunları içerir:",
         "section3_content1_coin": "Para",
         "section3_content1_apr": "Nisan*",
-        "section3_content2": "*Tahmini. Bitrue'nun takdirine bağlı olarak değişebilir.",
+        "section3_content2": "*Tahmini. DemoExchange'nun takdirine bağlı olarak değişebilir.",
         "section4_title": "Coinlerimi stake etmeye yetkili miyim?",
-        "section4_content1": "Bitrue'da başlamanız için tek yapmanız gereken <a href='{{registerUrl}}' target='_blank'>kaydolmak</a> ve hesabınızda hareketsiz duran bir miktar koin olduğundan emin olmaktır. hesap. İşte bu!",
+        "section4_content1": "DemoExchange'da başlamanız için tek yapmanız gereken <a href='{{registerUrl}}' target='_blank'>kaydolmak</a> ve hesabınızda hareketsiz duran bir miktar koin olduğundan emin olmaktır. hesap. İşte bu!",
         "section4_content2": "- Teknik uzmanlık gerekmez",
         "section4_content3": "- Başvuru veya onay yok",
         "section4_content4": "- Minimum yok",
         "section5_title": "Nasıl başlayabilirim?",
-        "section5_content1": "Stake etme konusunda yeniyseniz, öncelikle <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>'i denemenizi öneririz. Power Piggy hızlı ve kolay olacak şekilde tasarlanmıştır. her gün saat 16:00 UTC civarında <b>doğrudan Bitrue hesabınıza gönderilen faiz ödemeleri</b> ile. En iyisi, Power Piggy yatırımları için herhangi bir kilitleme süresi olmadığından risksizdir. Şimdi karar verin, madeni paralarınızı satmak için iyi bir zaman, onları istediğiniz zaman Power Piggy'nizden çıkarabilir ve borsada takas edebilirsiniz.",
+        "section5_content1": "Stake etme konusunda yeniyseniz, öncelikle <a href='{{powerPiggyUrl}}' target='_blank'>Power Piggy</a>'i denemenizi öneririz. Power Piggy hızlı ve kolay olacak şekilde tasarlanmıştır. her gün saat 16:00 UTC civarında <b>doğrudan DemoExchange hesabınıza gönderilen faiz ödemeleri</b> ile. En iyisi, Power Piggy yatırımları için herhangi bir kilitleme süresi olmadığından risksizdir. Şimdi karar verin, madeni paralarınızı satmak için iyi bir zaman, onları istediğiniz zaman Power Piggy'nizden çıkarabilir ve borsada takas edebilirsiniz.",
         "section5_content2": "Power Piggy, <b>100'den fazla farklı parayı</b> destekliyor ve her zaman daha fazlası ekleniyor ve rakip hizmetlerle ve blockchain düzeyinde doğrudan stake etmeyle son derece rekabetçi faiz oranlarına sahip. ama hiçbir güçlük olmadan.",
         "section5_content3": "Daha uzun vadeli kripto para birimi yatırımları yapmak istiyorsanız bunun yerine <a href='{{yieldFramUrl}}' target='_blank'>Verim Çiftçiliği</a> hizmetimizi kullanmayı deneyebilirsiniz. Verim Çiftçiliği Power Piggy'ye benzer; temel fark, madeni paralarınızın bir süreliğine kilitlenmesidir, ancak bunu telafi etmek için <b>ödüller daha yüksek olacaktır</b>. Yatırımı erken iptal edebileceksiniz ancak vade ne kadar sürerse sürsün faiz alamayacaksınız.paralar yatırıldı. Kazanç potansiyelinizi en üst düzeye çıkarmanın en iyi yolu budur."
     }

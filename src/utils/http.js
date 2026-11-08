@@ -1,3 +1,4 @@
+import { Config } from '@constants/config';
 import axios from 'axios';
 import querystring from 'query-string';
 import Cookies from 'js-cookie';
@@ -86,7 +87,7 @@ if (typeof window !== 'undefined') {
         windowScreenWidth: window.screen.width, // 屏幕分辨率 - 宽
         windowScreenHeight: window.screen.height, // 屏幕分辨率 - 高
         windowColorDepth: window.screen.colorDepth, // 屏幕色彩位数
-        bitrueLanguage: Cookies.get(languages)
+        [Config.languageParamName || 'language']: Cookies.get(languages)
     };
 
     // 用户登录校验
@@ -100,7 +101,7 @@ axios.interceptors.request.use(
         removePending(config); // 在请求开始前，对之前的请求做检查取消操作
         addPending(config); // 将当前请求添加到 pending 中
 
-        publicParams = Object.assign({},publicParams,{bitrueLanguage: Cookies.get(languages)});
+        publicParams = Object.assign({},publicParams,{[Config.languageParamName || 'language']: Cookies.get(languages)});
 
         // 发送公共参数
         config.params = config.params ? Object.assign({}, config.params, publicParams) : publicParams;

@@ -1,11 +1,11 @@
 {
     "seo": {
-        "title": "{{coinFullName}} Price | {{coinName}} Price, Marketcap, Markets | Bitrue",
+        "title": "{{coinFullName}} Price | {{coinName}} Price, Marketcap, Markets | DemoExchange",
         "keywords": "{{coinName}} Price, {{coinFullName}} Price, {{coinName}} to USD, {{coinName}} Value",
-        "description": "View the live {{coinFullName}} price to track the real-time price changes. Follow the latest market data, analysis on Bitrue Crypto Exchange.",
-        "etfTitle": "{{coinName}} Price, Leveraged Tokens，Crypto ETFs, Markets | Bitrue",
-        "etfKeywords": "{{coinName}} Price, Leveraged Tokens, Crypto ETFs , Markets, Bitrue Exchange",
-        "etfDescription": "Bitrue Leveraged Tokens - A type of derivative product that gives you leveraged exposure to the underlying asset. Enjoy increased leverage without risk of liquidation."
+        "description": "View the live {{coinFullName}} price to track the real-time price changes. Follow the latest market data, analysis on DemoExchange Crypto Exchange.",
+        "etfTitle": "{{coinName}} Price, Leveraged Tokens，Crypto ETFs, Markets | DemoExchange",
+        "etfKeywords": "{{coinName}} Price, Leveraged Tokens, Crypto ETFs , Markets, DemoExchange Exchange",
+        "etfDescription": "DemoExchange Leveraged Tokens - A type of derivative product that gives you leveraged exposure to the underlying asset. Enjoy increased leverage without risk of liquidation."
     },
     "title": "Crypto Price",
     "coinPrice": "{{coinFullName}} Price",

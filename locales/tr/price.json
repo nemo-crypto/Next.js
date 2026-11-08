@@ -1,11 +1,11 @@
 {
     "seo":{
-        "title":"{{coinFullName}} Fiyat | {{coinName}} Fiyat, Piyasa Değeri, Piyasalar | Bitrue",
+        "title":"{{coinFullName}} Fiyat | {{coinName}} Fiyat, Piyasa Değeri, Piyasalar | DemoExchange",
         "keywords":"{{coinName}} Fiyat, {{coinFullName}} Fiyat, {{coinName}} - USD, {{coinName}} Değer",
-        "description":"Gerçek zamanlı fiyat değişikliklerini takip etmek için canlı {{coinFullName}} fiyatını görüntüleyin. Bitrue Crypto Exchange'deki en son piyasa verilerini ve analizlerini takip edin.",
-        "etfTitle":"{{coinName}} Fiyat, Kaldıraçlı Tokenlar, Kripto ETF'leri, Piyasalar | Bitrue",
-        "etfKeywords":"{{coinName}} Fiyat, Kaldıraçlı Tokenlar, Kripto ETF'leri, Piyasalar, Bitrue Borsası",
-        "etfDescription":"Bitrue Kaldıraçlı Tokenlar - Dayanak varlığa kaldıraçlı olarak maruz kalmanızı sağlayan bir türev ürün. Tasfiye riski olmadan artan kaldıracın keyfini çıkarın."
+        "description":"Gerçek zamanlı fiyat değişikliklerini takip etmek için canlı {{coinFullName}} fiyatını görüntüleyin. DemoExchange Crypto Exchange'deki en son piyasa verilerini ve analizlerini takip edin.",
+        "etfTitle":"{{coinName}} Fiyat, Kaldıraçlı Tokenlar, Kripto ETF'leri, Piyasalar | DemoExchange",
+        "etfKeywords":"{{coinName}} Fiyat, Kaldıraçlı Tokenlar, Kripto ETF'leri, Piyasalar, DemoExchange Borsası",
+        "etfDescription":"DemoExchange Kaldıraçlı Tokenlar - Dayanak varlığa kaldıraçlı olarak maruz kalmanızı sağlayan bir türev ürün. Tasfiye riski olmadan artan kaldıracın keyfini çıkarın."
     },
     "title":"Kripto Fiyatı",
     "coinPrice":"{{coinFullName}} Fiyat",
