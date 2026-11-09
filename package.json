@@ -13,7 +13,8 @@
         "type-check": "tsc --noEmit",
         "test": "node --test tests/*.test.cjs",
         "check": "yarn lint && yarn type-check && yarn test",
-        "smoke": "node scripts/smoke.mjs"
+        "smoke": "node scripts/smoke.mjs",
+        "test:e2e": "playwright test"
     },
     "dependencies": {
         "axios": "^1.2.0",
@@ -33,7 +34,8 @@
         "html-react-parser": "^5.2.0",
         "server-only": "0.0.1",
         "mobx": "^6.15.0",
-        "mobx-react-lite": "4.1.1"
+        "mobx-react-lite": "4.1.1",
+        "pako": "^2.1.0"
     },
     "devDependencies": {
         "@types/node": "^22.0.0",
@@ -43,7 +45,8 @@
         "eslint": "^9.39.0",
         "eslint-config-next": "16.4.5",
         "sass": "^1.56.1",
-        "typescript": "^5.9.3"
+        "typescript": "^5.9.3",
+        "@playwright/test": "^1.58.2"
     },
     "engines": {
         "node": ">=22.0.0"

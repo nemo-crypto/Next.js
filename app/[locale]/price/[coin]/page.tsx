@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: Props) {
     const { locale, coin, coinName, detail } = await resolve(params);
     const messages = await getMessages(locale, 'price');
     const values = { coinName, coinFullName: detail?.info?.coinFullName || coinName };
-    return pageMetadata({ locale, path: `/price/${coin}`, noindex: !detail,
+    return pageMetadata({ locale, path: `/price/${coin.toUpperCase()}`, noindex: !detail,
         title: translate(messages, detail?.isEtf ? 'seo.etfTitle' : 'seo.title', values),
         description: translate(messages, detail?.isEtf ? 'seo.etfDescription' : 'seo.description', values),
     });

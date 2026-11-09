@@ -14,7 +14,7 @@ async function publicGet(base: string | undefined, path: string, query: Record<s
 }
 export const getPrice = cache(async (coinName: string, locale: string) => {
     const data = await publicGet(process.env.API_URL, 'exchange-web-gateway/tokenInfo/getCoinIntroduction', { coinName, language: locale });
-    if (!data) return null;
+    if (!data || !(data.etf ? data.etfCoinInfo : data.commonCoinInfo)) return null;
     return { isEtf: Boolean(data.etf), info: (data.etf ? data.etfCoinInfo : data.commonCoinInfo) || {}, market: data.marketInfo || {}, certikInfoVo: data.certikInfoVo || null };
 });
 export const getConverter = cache((key: string, locale: string) => publicGet(process.env.API_URL, 'exchange-web-gateway/converter/mainInfo', { key, language: locale }));

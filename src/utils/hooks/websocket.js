@@ -3,10 +3,6 @@ import { inflate } from 'pako';
 
 class WebSocketWrapper {
     constructor() {
-        if (WebSocketWrapper.instance) {
-            return WebSocketWrapper.instance;
-        };
-
         this.url = Config.WebSocketDomain || '';
         this.socket = null;
         this.isConnected = false; // socket连接状态
@@ -14,10 +10,12 @@ class WebSocketWrapper {
         this.messageQueue = []; // 消息队列
         this.reconnectInterval = 3000; // 重连间隔时间（毫秒）
 
-        WebSocketWrapper.instance = this;
+        this.closed = false;
+        this.reconnectTimer = null;
     };
 
     connect() {
+        this.closed = false;
         if (!this.url) {
             this.triggerConnectionEvent(false);
             return;
@@ -49,13 +47,15 @@ class WebSocketWrapper {
             this.triggerConnectionEvent(false);
 
             // 断线重连
-            this.reconnect();
+            if (!this.closed) this.reconnect();
         });
 
         this.socket.addEventListener('message', (event) => {
-            const ua = new Uint8Array(event.data);
-            const json = inflate(ua, { to: "string" });
-            const message = JSON.parse(json);
+            let message;
+            try {
+                const json = typeof event.data === 'string' ? event.data : inflate(new Uint8Array(event.data), { to: 'string' });
+                message = JSON.parse(json);
+            } catch { return; }
 
             // 发送pong消息 保持连接
             if (message?.ping) {
@@ -86,9 +86,14 @@ class WebSocketWrapper {
 
     onMessage(callback) {
         this.messageListeners.push(callback);
+        return () => { this.messageListeners = this.messageListeners.filter(listener => listener !== callback); };
     };
 
     close() {
+        this.closed = true;
+        clearTimeout(this.reconnectTimer);
+        this.messageQueue = [];
+        this.messageListeners = [];
         if (this.socket) {
             this.socket.close();
             this.socket = null;
@@ -107,15 +112,16 @@ class WebSocketWrapper {
     };
 
     sendQueuedMessages() {
-        const subEvnet = this.messageQueue;
+        const subEvnet = this.messageQueue.splice(0);
         for(let i = 0; i < subEvnet.length; i++) {
             this.socket.send(JSON.stringify(subEvnet[i]));
         };
     };
   
     reconnect() {
-        if (!this.isConnected) {
-            setTimeout(() => this.connect(), this.reconnectInterval);
+        if (!this.isConnected && !this.closed) {
+            clearTimeout(this.reconnectTimer);
+            this.reconnectTimer = setTimeout(() => this.connect(), this.reconnectInterval);
         };
     };
 };

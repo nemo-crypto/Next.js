@@ -1,5 +1,6 @@
+'use client';
 import { useState, useEffect } from 'react';
-import WebSocketContext from './WebSocketContext';
+import WebSocketContext from './webSocketContext';
 import WebSocketWrapper from './websocket';
 
 const WebSocketProvider = ({ children }) => {
@@ -8,11 +9,12 @@ const WebSocketProvider = ({ children }) => {
 
     useEffect(() => {
         const socket = new WebSocketWrapper();
-        socket.connect();
         // 修改ws连接状态
         socket.onConnectionChange(isConnected => setSocketConnected(isConnected));
+        socket.connect();
             
         setWebSocket(socket);
+        return () => { socket.onConnectionChange(null); socket.close(); };
     }, []);
 
     return (
