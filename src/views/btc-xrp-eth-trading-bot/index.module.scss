@@ -79,7 +79,7 @@
                 height: 412px;
                 width: 387px;
                 height: 298px;
-                background: url('~@static/images/auto-invest/topcenter.png') no-repeat center center;
+                background: url('../../static/images/auto-invest/topcenter.png') no-repeat center center;
                 background-size: contain;
 
             }
@@ -88,7 +88,7 @@
 
                 width: 657px;
                 height: 380px;
-                background: url('~@static/images/auto-invest/topcenternotlogin.png') no-repeat center center;
+                background: url('../../static/images/auto-invest/topcenternotlogin.png') no-repeat center center;
                 background-size: contain;
             }
 
@@ -364,7 +364,7 @@
                 .prev {
                     width: 24px;
                     height: 24px;
-                    background-image: url('~@static/images/auto-invest/left.svg');
+                    background-image: url('../../static/images/auto-invest/left.svg');
                     background-repeat: no-repeat;
                     background-size: cover;
                     display: inline-block;
@@ -376,7 +376,7 @@
                     position: relative;
                     width: 24px;
                     height: 24px;
-                    background-image: url('~@static/images/auto-invest/left.svg');
+                    background-image: url('../../static/images/auto-invest/left.svg');
                     background-repeat: no-repeat;
                     background-size: cover;
                     transform: rotate(180deg);
@@ -644,7 +644,7 @@
                 width: 135px;
                 height: 105px;
 
-                background-image: url('~@static/images/auto-invest/nodata.png');
+                background-image: url('../../static/images/auto-invest/nodata.png');
                 background-repeat: no-repeat;
                 background-size: cover;
 
@@ -689,7 +689,7 @@
             display: block;
             width: 370px;
             height: 105px;
-            background-image: url('~@static/images/auto-invest/process/pt.png');
+            background-image: url('../../static/images/auto-invest/process/pt.png');
             background-repeat: no-repeat;
             background-size: cover;
             position: absolute;
@@ -703,7 +703,7 @@
             display: block;
             width: 370px;
             height: 106px;
-            background-image: url('~@static/images/auto-invest/process/pb.png');
+            background-image: url('../../static/images/auto-invest/process/pb.png');
             background-repeat: no-repeat;
             background-size: cover;
             position: absolute;
@@ -724,14 +724,14 @@
             .imgtop {
                 width: 30px;
                 height: 30px;
-                background: url('~@static/images/auto-invest/Deposit.png') no-repeat center center;
+                background: url('../../static/images/auto-invest/Deposit.png') no-repeat center center;
                 background-size: contain;
                 background-repeat: no-repeat;
             }
 
             &.p2 {
                 .imgtop {
-                    background: url('~@static/images/auto-invest/process/p2.png') no-repeat center center;
+                    background: url('../../static/images/auto-invest/process/p2.png') no-repeat center center;
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
@@ -739,7 +739,7 @@
 
             &.p3 {
                 .imgtop {
-                    background: url('~@static/images/auto-invest/process/p3.png') no-repeat center center;
+                    background: url('../../static/images/auto-invest/process/p3.png') no-repeat center center;
                     background-size: contain;
                     background-repeat: no-repeat;
                 }
@@ -912,7 +912,7 @@
                         width: 22px;
                         top: -10px;
                         height: 28px;
-                        background-image: url('~@static/images/auto-invest/hot.png');
+                        background-image: url('../../static/images/auto-invest/hot.png');
                         background-repeat: no-repeat;
                         background-size: contain;
                         position: absolute;
@@ -979,7 +979,7 @@
                     .circleView{
                         width: 25px;
                         height: 25px;
-                        background: url('~@static/images/auto-invest/circle.png') no-repeat center center;
+                        background: url('../../static/images/auto-invest/circle.png') no-repeat center center;
                         background-size: contain;
                         position: relative;
                         cursor: pointer;
@@ -1582,7 +1582,7 @@
                 .delete {
                     width: 18px;
                     height: 18px;
-                    background: url('~@static/images/auto-invest/delete.png') no-repeat center center;
+                    background: url('../../static/images/auto-invest/delete.png') no-repeat center center;
                     background-size: contain;
                 }
 

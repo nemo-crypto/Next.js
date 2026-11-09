@@ -2,7 +2,7 @@
     min-height: 100vh;
     .banner{
         height: 360px;
-        background: #090C10 url('~@static/images/flexible-staking/vip-banner.jpg') no-repeat top center / 1680px 360px;
+        background: #090C10 url('../../../static/images/flexible-staking/vip-banner.jpg') no-repeat top center / 1680px 360px;
         &_box{
             width: 1200px;
             height: 100%;
@@ -45,14 +45,14 @@
                 margin-right: 24px;
                 h2{
                     padding-left: 36px;
-                    background: url('~@static/images/flexible-staking/vip-acct-btr-icon.png') no-repeat top left / 26px 30px;
+                    background: url('../../../static/images/flexible-staking/vip-acct-btr-icon.png') no-repeat top left / 26px 30px;
                 }
             }
             &:last-of-type{
                 flex: 1;
                 h2{
                     padding-left: 45px;
-                    background: url('~@static/images/flexible-staking/vip-acct-icon.png') no-repeat top left / 37px 21px;
+                    background: url('../../../static/images/flexible-staking/vip-acct-icon.png') no-repeat top left / 37px 21px;
                 }
             }
         }
@@ -122,7 +122,7 @@
             margin-top: -8px;
             width: 28px;
             height: 16px;
-            background: url('~@static/images/flexible-staking/vip-acct-icon.png') no-repeat top left;
+            background: url('../../../static/images/flexible-staking/vip-acct-icon.png') no-repeat top left;
             background-size: contain;
         }
     }

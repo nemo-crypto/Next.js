@@ -11,7 +11,7 @@
         align-items: center;
         justify-content: center;
         position: relative;
-        background: url('~@static/images/flexible-staking/detail-raise.png') no-repeat top left;
+        background: url('../../../../static/images/flexible-staking/detail-raise.png') no-repeat top left;
         background-size: cover;
         &:after{
             content: '';
@@ -20,7 +20,7 @@
             left: -3px;
             width: 65px;
             height: 64px;
-            background: url('~@static/images/flexible-staking/detail-raise-hot.png') no-repeat top left;
+            background: url('../../../../static/images/flexible-staking/detail-raise-hot.png') no-repeat top left;
         }
         p{
             padding: 0px 20px;

@@ -13,7 +13,7 @@ import RulesRecord from './rules_records';
 
 import Cookies from 'js-cookie';
 import { token } from '@constants/cookies';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 
 import { getProductDetail } from '@service/btr-lockup';
 

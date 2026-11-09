@@ -1,13 +1,21 @@
 'use client';
 import { useMemo } from 'react';
-import I18nContext from 'next-translate/context';
-import transCore from 'next-translate/transCore';
+import { createInstance } from 'i18next';
+import { I18nextProvider } from 'react-i18next';
 
-// 不使用依赖 Pages Router 或 globalThis 的 provider，SSR 语言状态属于当前 React 树。
+// 实例属于当前 React 树；无全局语言变量，不依赖 Pages Router。
 export default function TranslationProvider({ locale, namespaces, children }) {
-    const value = useMemo(() => ({
-        lang: locale,
-        t: transCore({ config: {}, allNamespaces: namespaces, pluralRules: new Intl.PluralRules(locale), lang: locale }),
-    }), [locale, namespaces]);
-    return <I18nContext.Provider value={value}>{children}</I18nContext.Provider>;
+    const instance = useMemo(() => {
+        const i18n = createInstance();
+        i18n.init({
+            lng: locale, fallbackLng: false,
+            resources: { [locale]: namespaces },
+            ns: Object.keys(namespaces), defaultNS: 'common',
+            initImmediate: false,
+            interpolation: { escapeValue: false },
+            react: { useSuspense: false },
+        });
+        return i18n;
+    }, [locale, namespaces]);
+    return <I18nextProvider i18n={instance}>{children}</I18nextProvider>;
 }

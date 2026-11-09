@@ -7,7 +7,7 @@ import Style from './index.module.scss';
 import Modal from '@components/modal';
 
 import { formatNumSplit } from '@utils/common';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 
 import { getCalcLockUpAmount, postExtraQuotaOrder } from '@service/btr-lockup';
 

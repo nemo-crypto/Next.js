@@ -11,7 +11,7 @@ const LineCharts = dynamic(() => import('./lineChart'), { ssr: false })
 import StartBuying from '../start-buying';
 import { coinIconPath, formatDate, formatNumSplit, RESPONSIVE, legalIconPath } from '@utils/common';
 import { handelDecimal } from '@utils/decimal';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 import { getHistoryPriceLine, getMarkets } from '@service/converter';
 
 

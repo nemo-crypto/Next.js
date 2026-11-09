@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import classnames from 'classnames';
 import Style from './index.module.scss';
 
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 
 export default function Modal(props) {
     const {

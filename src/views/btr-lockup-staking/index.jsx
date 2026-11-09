@@ -11,7 +11,7 @@ import Loading from '@components/loading';
 import { formatNumSplit, coinIconPath } from '@utils/common';
 import Cookies from 'js-cookie';
 import { token } from '@constants/cookies';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 
 import { getAvailableList } from '@service/btr-lockup';
 

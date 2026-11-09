@@ -14,7 +14,7 @@ import { format, addDays, getTime } from 'date-fns';
 import { coinIconPath, formatDate, formatNumSplit } from '@utils/common';
 import Cookies from 'js-cookie';
 import { token } from '@constants/cookies';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 
 import { getFlexibleRecordCoinList, getFlexibleRecordList, getFixedRecordList } from '@service/flexible-staking';
 

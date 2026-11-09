@@ -4,7 +4,7 @@ import React, { useState } from 'react'
 
 // import './index.scss'
 import Style from './index.module.scss';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 // @ts-ignore
 import ReactHtmlParser from 'html-react-parser';
 // const ReactHtmlParser = (a:any)=>{return a}

@@ -10,7 +10,7 @@ import classNames from 'classnames';
 
 import Loading from '@components/loading';
 import CustomSelect from '@components/select';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 import { coinIconPath, formatNumSplit } from '@utils/common';
 import cmcLogo from '@static/images/price/cmc_logo.png';
 

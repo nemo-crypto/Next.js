@@ -7,7 +7,7 @@ import Table from '@components/table';
 import Pagination from '@components/pagination';
 
 import { formatNumSplit, formatDate } from '@utils/common';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 
 import { getProductRecord } from '@service/btr-lockup';
 

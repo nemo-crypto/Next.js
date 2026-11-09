@@ -1,7 +1,7 @@
 import React from 'react';
 import Style from './index.module.scss';
 
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 
 const Table = ({ columns, dataSource, expandedRowRender, expandedRowKeys }) => {
     const { t } = useTranslation('common');

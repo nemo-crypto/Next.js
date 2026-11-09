@@ -10,7 +10,7 @@ import BitcoinMarkets from './bitcoin-markets';
 import Faq from './faq';
 import Convert from './convert';
 import Loading from '@components/loading';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 import { getConverterDetail, getConverterCalculator } from '@service/converter';
 import { coinIconPath, formatDate, formatNumSplit } from '@utils/common';
 import { handelDecimal } from '@utils/decimal';

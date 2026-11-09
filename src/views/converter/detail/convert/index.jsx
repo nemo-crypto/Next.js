@@ -9,7 +9,7 @@ import coin_icon from '@static/images/converter/coin_icon.png';
 import arrow_right from '@static/images/converter/arrow_right.png';
 import CustomSelect from '@components/select';
 import { coinIconPath, formatDate, formatNumSplit, legalIconPath } from '@utils/common';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 import { getFiatName, getCoinName, getConverterCalculator } from '@service/converter';
 
 const Convert = ({ fromCoinCount, fromName, toName, rateInfo, resInfo, isMobile, type, onConvertChange }) => {

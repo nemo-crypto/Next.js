@@ -2,7 +2,7 @@
 
 import Style from './index.module.scss';
 
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 import { formatNumSplit } from '@utils/common';
 
 const Rewards = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {

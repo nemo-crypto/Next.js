@@ -4,7 +4,7 @@
         height: 430px;
         text-align: center;
         line-height: 1.5;
-        background: url('~@static/images/flexible-staking/detail-banner.jpg') no-repeat top center, #090c10;
+        background: url('../../../static/images/flexible-staking/detail-banner.jpg') no-repeat top center, #090c10;
         background-size: contain;
         position: relative;
         h1{
@@ -243,7 +243,7 @@
             align-items: center;
             justify-content: center;
             position: relative;
-            background: url('~@static/images/flexible-staking/detail-raise.png') no-repeat top left;
+            background: url('../../../static/images/flexible-staking/detail-raise.png') no-repeat top left;
             background-size: cover;
             &:after{
                 content: '';
@@ -252,7 +252,7 @@
                 left: -3px;
                 width: 65px;
                 height: 64px;
-                background: url('~@static/images/flexible-staking/detail-raise-hot.png') no-repeat top left;
+                background: url('../../../static/images/flexible-staking/detail-raise-hot.png') no-repeat top left;
             }
             p{
                 padding: 0px 10px;

@@ -8,7 +8,7 @@ import card_2 from '@static/images/converter/card_2.png';
 import card_3 from '@static/images/converter/card_3.png';
 import card_left from '@static/images/converter/card_left.png';
 import Link from '@src/components/localized-link';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 import { useRouter } from '@src/lib/navigation';
 
 

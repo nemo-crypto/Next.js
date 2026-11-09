@@ -9,7 +9,7 @@ import Style from './index.module.scss';
 import StartBuying from './detail/start-buying';
 import Convert from './detail/convert';
 import Loading from '@components/loading';
-import useTranslation from 'next-translate/useTranslation';
+import useTranslation from '@src/lib/i18n/client';
 import { getConverterCalculator, getTopCryptoAssets, getConverterDetail } from '@service/converter';
 import { coinIconPath, formatDate, formatNumSplit } from '@utils/common';
 import { handelDecimal } from '@utils/decimal';
