@@ -27,3 +27,27 @@ test('mobile homepage supports layout and navigation', async ({ page }) => {
     await expect.poll(() => page.evaluate(() => document.documentElement.scrollWidth)).toBe(390);
     await page.screenshot({ path: '.temp/home-mobile.png', fullPage: true });
 });
+
+test('server-rendered price detail has semantic title and no hydration errors', async ({ page }) => {
+    // SSR 由 scripts/mock-backend.mjs 提供公开数据，浏览器列表请求也使用受控数据。
+    await page.route('**/coin/list**', route => route.fulfill({ json: { code: 0, data: { baseCoins: [] } } }));
+    const errors: string[] = [];
+    page.on('pageerror', error => errors.push(error.message));
+    await page.goto('/price/BTC');
+    await expect(page.locator('h1')).toContainText('Bitcoin');
+    await expect(page).toHaveTitle(/Bitcoin/);
+    await expect(page.getByRole('navigation', { name: 'Breadcrumb' })).toContainText('Bitcoin');
+    await page.screenshot({ path: '.temp/price-desktop.png', fullPage: true });
+    expect(errors).toEqual([]);
+});
+
+for (const path of ['/converter', '/flexible-staking', '/btr-lockup-staking', '/btc-xrp-eth-trading-bot', '/ko/converter']) {
+    test(`public HTML exposes metadata ${path}`, async ({ request }) => {
+        const response = await request.get(path, { headers: { 'user-agent': 'Googlebot' } });
+        expect(response.status()).toBe(200);
+        const html = await response.text();
+        expect(html).toMatch(/<title>[^<]+<\/title>/);
+        expect(html).toContain('name="description"');
+        expect(html).not.toContain('undefined/');
+    });
+}

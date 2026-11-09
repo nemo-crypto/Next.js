@@ -19,6 +19,10 @@ export async function generateMetadata({ params }: Props) {
     });
 }
 export default async function Page({ params }: Props) {
-    const { activityId, data } = await resolve(params);
+    const { locale, activityId, data } = await resolve(params);
+    if (!data) {
+        const common = await getMessages(locale, 'common');
+        return <main style={{ padding: 24 }}><h1>{translate(common, 'seo.title')}</h1><p>{translate(common, 'other.noData')}</p></main>;
+    }
     return <View activityId={activityId} initialData={data} />;
 }

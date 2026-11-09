@@ -2,30 +2,30 @@
 
 基于 **Next.js 16.4.5、React 19.3.1、TypeScript 5、App Router** 的多语言行情、兑换、质押、定投和活动前端。保留现有业务接口和页面 URL，服务端负责路由、语言资源、SEO 元数据及公开详情数据，客户端负责交互和登录后的业务操作。
 
-版本依据：2026-11-09 核对 npm stable；实际安装版本以 `package.json`、`yarn.lock` 为准。历史 Next.js 13 学习材料保存在 [docs/nextjs-notes.md](docs/nextjs-notes.md)，不再作为当前工程运行指南。
+版本依据：2026-11-09 核对 npm stable；实际安装版本以 `package.json`、`pnpm-lock.yaml` 为准。历史 Next.js 13 学习材料保存在 [docs/nextjs-notes.md](docs/nextjs-notes.md)，不再作为当前工程运行指南。
 
 ## 环境与运行
 
-要求 Node.js **22 或更新的 LTS**、Yarn **1.22.22**。
+要求 Node.js **22 或更新的 LTS**、pnpm **10.32.0**。
 
 ```bash
-yarn install --frozen-lockfile
+pnpm install --frozen-lockfile
 cp .env.example .env.local
 # 按后端和站点环境填写 .env.local
-yarn dev
+pnpm dev
 ```
 
 开发地址：`http://localhost:9000`。
 
 ```bash
-yarn lint
-yarn type-check
-yarn test
-yarn build:prod
-yarn start
+pnpm lint
+pnpm type-check
+pnpm test
+pnpm build:prod
+pnpm start
 ```
 
-生产启动端口为 `5000`。`yarn build:qa` 使用 `APP_ENV=qa`，不会错误地将 `NODE_ENV` 设置为 `test`。生产构建输出为 `dist/`，开发输出为 `.next/`。开发和构建使用 Next.js 16 默认 Turbopack；已移除旧 Webpack DefinePlugin 和手工 alias，改用公开环境变量白名单与 tsconfig paths。
+生产启动端口为 `5000`。CI 使用 Node.js 24 与冻结 pnpm 锁文件执行检查、构建和 Chromium 回归。`pnpm build:qa` 使用 `APP_ENV=qa`，不会错误地将 `NODE_ENV` 设置为 `test`。生产构建输出为 `dist/`，开发输出为 `.next/`。开发和构建使用 Next.js 16 默认 Turbopack；已移除旧 Webpack DefinePlugin 和手工 alias，改用公开环境变量白名单与 tsconfig paths。
 
 本项目需要 Next.js 服务端，不支持 `next export`。`pm2:start` 会重新安装依赖、删除并重建指定 PM2 进程，仅用于明确的部署操作，不用于本地验收。
 
@@ -78,9 +78,9 @@ SITEMAP_PATHS=/price/BTC,/price/ETH,/converter/BTC-to-USD
 
 - 各路由服务端生成 title/description；价格、币种详情采用具体入参及公开接口数据。
 - 绝对 canonical、不带跟踪查询参数的稳定 URL、16 种语言的 hreflang 和 `x-default`。
-- Open Graph、Twitter 摘要和经过安全转义的 WebSite JSON-LD；不虚构评级、评论或金融收益。
+- Open Graph、Twitter 摘要、服务端生成的品牌分享图，以及经过安全转义的 WebSite/BreadcrumbList JSON-LD；不虚构评级、评论或金融收益。
 - `/robots.txt`、`/sitemap.xml`；sitemap 包含公开静态页和运营确认的动态路径，不枚举无限换算金额、不包含账号页或 `/price` 跳转页。
-- 保留浏览器缩放，使用语义标题；本地图片使用 Next 图片优化，未知远端图片不通过任意域名代理。
+- 保留浏览器缩放，使用语义标题；本地图片与 STATIC_URL 白名单 CDN 使用 Next 图片优化，未知远端图片不通过任意域名代理。
 
 SEO 技术配置不保证排名。正式上线仍需要核验内容质量、动态路径清单、真实后端返回、Search Console 收录和 Core Web Vitals。
 
@@ -104,11 +104,20 @@ SEO 技术配置不保证排名。正式上线仍需要核验内容质量、动�
 ## 验证与迁移记录
 
 ```bash
-yarn check
+pnpm check
 # 全量生产编译与服务端预渲染
-yarn build:prod
+pnpm build:prod
 ```
 
 自动测试覆盖 URL/语言规范化、canonical/hreflang、预览环境和私有页禁止索引、sitemap 过滤以及 JSON-LD 转义。发布前还应验证：16 种语言入口、动态路由参数、明暗主题、移动端日期选择、登录/退出、原生 App 桥、后端错误恢复，以及真实 API 下的价格和订单交互。
 
 本次架构审计、已验证内容与已知边界见 [docs/architecture-upgrade.md](docs/architecture-upgrade.md)。
+
+浏览器验收（先完成构建）：
+
+```bash
+pnpm exec playwright install chromium
+pnpm test:e2e
+```
+
+默认自动启动本地只读 mock 后端及 Next 生产服务，覆盖多语言水合、导航、移动端首页、价格 SSR、SEO HTML 与 404；`E2E_BASE_URL` 可改为已经启动的受控验证环境。真实账号和资金操作不在 mock 验收范围内。

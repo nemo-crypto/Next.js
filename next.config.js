@@ -6,12 +6,20 @@ try {
     const url = new URL(siteUrl);
     validSiteUrl = ['http:', 'https:'].includes(url.protocol) && !url.username && !url.password;
 } catch {}
+const remotePatterns = [];
+try {
+    const url = new URL(process.env.STATIC_URL || '');
+    if (['https:', 'http:'].includes(url.protocol)) remotePatterns.push({
+        protocol: url.protocol.slice(0, -1), hostname: url.hostname, port: url.port,
+        pathname: `${url.pathname.replace(/\/$/, '')}/**`,
+    });
+} catch {}
 const indexable = appEnv !== 'qa' && process.env.NEXT_PUBLIC_INDEXABLE === 'true' && validSiteUrl;
 module.exports = {
     reactStrictMode: true,
     poweredByHeader: false,
     distDir: appEnv === 'dev' ? '.next' : 'dist',
-    images: { formats: ['image/avif', 'image/webp'] },
+    images: { formats: ['image/avif', 'image/webp'], remotePatterns },
     // 仅公开地址与站点配置；服务端密钥不能放进这个白名单。
     env: {
         NEXT_PUBLIC_APP_ENV: appEnv,

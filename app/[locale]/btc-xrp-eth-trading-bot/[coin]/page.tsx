@@ -8,8 +8,9 @@ async function resolve(params: Props['params']) {
     return { ...value, coinName: value.coin.toUpperCase() };
 }
 export async function generateMetadata({ params }: Props) {
-    const { locale, coin, coinName } = await resolve(params);
-    return translatedMetadata(locale, 'autoinvest', 'tdk', `/btc-xrp-eth-trading-bot/${coin}`, { coin: coinName });
+    const { locale } = await resolve(params);
+    // 旧币种入口复用同一定投视图，规范到实际列表页，避免重复收录。
+    return translatedMetadata(locale, 'autoinvest', 'tdk', '/btc-xrp-eth-trading-bot');
 }
 export default async function Page({ params }: Props) {
     await resolve(params);

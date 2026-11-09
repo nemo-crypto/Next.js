@@ -7,15 +7,22 @@ import Style from './index.module.scss';
 
 const RangePickerDate = (props) => {
     // 日历上默认选项
-    const [selectedRange, setSelectedRange] = useState({from:addDays(new Date(), -6), to:new Date()});
+    const [selectedRange, setSelectedRange] = useState(undefined);
     // 输入框 默认 开始时间
-    const [fromValue, setFromValue] = useState(format(addDays(new Date(), -6),'y-MM-dd'));
+    const [fromValue, setFromValue] = useState('');
     // 输入框 默认 结束时间
-    const [toValue, setToValue] = useState(format(new Date(),'y-MM-dd'));
+    const [toValue, setToValue] = useState('');
     // 日历是否展示
     const [isPopperOpen, setIsPopperOpen] = useState(false);
 
     const popupRef = useRef(null);
+    useEffect(() => {
+        const to = new Date();
+        const from = addDays(to, -6);
+        setSelectedRange({ from, to });
+        setFromValue(format(from, 'y-MM-dd'));
+        setToValue(format(to, 'y-MM-dd'));
+    }, []);
 
     useEffect(() => {
         function handleClickOutside(event) {

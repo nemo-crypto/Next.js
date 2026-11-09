@@ -48,11 +48,13 @@ const LandingPage = ({ activityId, initialData }) => {
     const router = useRouter();
 
     useEffect(() => {
-        // 将Flutter登陆回调挂载至window
+        // 将Flutter登陆回调挂载至window，离开页面时恢复。
+        const previous = window.changeIsLogined;
         window.changeIsLogined = appInitial;
 
         appInitial();
-        setIsH5(document.documentElement.clientWidth <= RESPONSIVE.MD)
+        setIsH5(document.documentElement.clientWidth <= RESPONSIVE.MD);
+        return () => { if (window.changeIsLogined === appInitial) window.changeIsLogined = previous; };
     }, []);
 
     useEffect(() => {
@@ -65,7 +67,7 @@ const LandingPage = ({ activityId, initialData }) => {
         // app端
         if (window.currencyexchange) {
             window?.jsBridge?.invoke('getUserInfo', {}, res => {
-                console.log('callback', res.data)
+                
                 const resData = JSON.parse(res.data);
                 if (resData && resData.token && resData.deviceDfp) {
                     coverHeader = {

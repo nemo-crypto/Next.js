@@ -1,5 +1,6 @@
 import { notFound } from 'next/navigation';
 import View from '@views/price';
+import Breadcrumbs from '@components/seo/breadcrumbs';
 import { getPrice } from '@src/lib/public-data';
 import { getMessages, translate } from '@src/lib/i18n/server';
 import { pageMetadata } from '@src/lib/seo';
@@ -22,6 +23,15 @@ export async function generateMetadata({ params }: Props) {
     });
 }
 export default async function Page({ params }: Props) {
-    const { coinName, detail } = await resolve(params);
-    return <View coinName={coinName} coinDetail={detail || {}} />;
+    const { locale, coinName, detail, coin } = await resolve(params);
+    return <>
+        <Breadcrumbs locale={locale} items={[
+            { name: process.env.NEXT_PUBLIC_SITE_NAME || 'DemoExchange', path: '/' },
+            { name: detail?.info?.coinFullName || coinName, path: `/price/${coin.toUpperCase()}` },
+        ]} />
+        {detail ? <View coinName={coinName} coinDetail={detail} /> : <main style={{ padding: 24 }}>
+            <h1>{translate(await getMessages(locale, 'price'), 'coinPrice', { coinFullName: coinName })}</h1>
+            <p>{translate(await getMessages(locale, 'common'), 'other.noData')}</p>
+        </main>}
+    </>;
 }

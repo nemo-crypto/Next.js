@@ -1454,7 +1454,7 @@ const AutoInvest = () => {
     }, [JSON.stringify(planViewData), hasRead])
 
     useEffect(() => {
-        console.log(defaultPlanViewData.coins);
+        
     }, [JSON.stringify(defaultPlanViewData.coins)])
 
 

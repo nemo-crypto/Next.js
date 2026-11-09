@@ -206,7 +206,7 @@ const Convert = ({ fromCoinCount, fromName, toName, rateInfo, resInfo, isMobile,
         setConvertSwitch(!convertSwitch)
         // 切换 只有 to 变化
         let val = convertSwitch ? parseFloat(fromInput) / rate : parseFloat(fromInput) * rate
-        console.log(parseFloat(fromInput) / rate, ' parseFloat(fromInput) / rate')
+        
         setToInput(val)
 
         if (type == 'index') {

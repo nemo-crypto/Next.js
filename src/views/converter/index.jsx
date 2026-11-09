@@ -83,7 +83,7 @@ const Converter = () => {
                                 <i className='iconfont icon-arrow-right'></i>
                                 <span className={Style.coinNames}>{t('home.breadcrumbs_title', { coinName: 'BTC', fiatName: 'USD' })}</span>
                             </div>
-                            <h2>{t('home.breadcrumbs_title', { coinName: 'Bitcoin', fiatName: 'USD' })}</h2>
+                            <h1 className={Style.pageTitle}>{t('home.breadcrumbs_title', { coinName: 'Bitcoin', fiatName: 'USD' })}</h1>
                             <h4>{t('home.banner_h4', { coinFullName: 'Bitcoin', price: formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate)), fiatFullName: 'United States Dollar' })}</h4>
                             <h3>1 BTC = $ {formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate))} USD</h3>
                             <h5>{t('home.banner_h5', { coinFullName: 'Bitcoin', fiatFullName: 'USD' })}</h5>

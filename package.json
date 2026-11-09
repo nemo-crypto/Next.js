@@ -8,11 +8,11 @@
         "build:prod": "APP_ENV=prod next build",
         "start": "next start -p 5000",
         "lint": "eslint app src proxy.ts next.config.js tests",
-        "pm2:start": "yarn && pm2 delete ./pm2.config.js && pm2 start ./pm2.config.js",
+        "pm2:start": "pnpm install --frozen-lockfile && pm2 delete ./pm2.config.js && pm2 start ./pm2.config.js",
         "build": "next build",
         "type-check": "tsc --noEmit",
         "test": "node --test tests/*.test.cjs",
-        "check": "yarn lint && yarn type-check && yarn test",
+        "check": "pnpm lint && pnpm type-check && pnpm test",
         "smoke": "node scripts/smoke.mjs",
         "test:e2e": "playwright test"
     },
@@ -51,5 +51,5 @@
     "engines": {
         "node": ">=22.0.0"
     },
-    "packageManager": "yarn@1.22.22"
+    "packageManager": "pnpm@10.32.0"
 }

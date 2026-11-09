@@ -101,17 +101,17 @@ const Converter = ({ fromCount, fromName, toName, initialData }) => {
                                 <i className='iconfont icon-arrow-right'></i>
                                 <span className={Style.coinNames}>{t('home.breadcrumbs_title_amount', { amount: fromCoinCount, coinName, fiatName })}</span>
                             </div>
-                            <h2>{t('home.breadcrumbs_title_amount', { amount: fromCoinCount, coinName, fiatName })}</h2>
-                            <h4>{t('home.banner_h4', { coinFullName: 'Bitcoin', price: formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate)), fiatFullName: 'United States Dollar' })}</h4>
+                            <h1 className={Style.pageTitle}>{t('home.breadcrumbs_title_amount', { amount: fromCoinCount, coinName, fiatName })}</h1>
+                            <h4>{t('home.banner_h4', { coinFullName: resInfo?.baseCoin?.fullName || coinName, price: formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate)), fiatFullName: 'United States Dollar' })}</h4>
                             <h3>{fromCoinCount} {fromName} {'='} {resInfo?.quoteCoin?.sign} {fromCoinCount && resInfo?.baseToQuoteRate ? formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate * fromCoinCount)) : '-'} {toName}</h3>
-                            <h5>{t('home.banner_h5', { coinFullName: 'Bitcoin', fiatFullName: 'USD' })}</h5>
+                            <h5>{t('home.banner_h5', { coinFullName: resInfo?.baseCoin?.fullName || coinName, fiatFullName: 'USD' })}</h5>
                             <h6>{t('home.banner_h6', { coinName: coinName, price: formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate)), fiatName })}</h6>
                             <div className={Style.btns} onClick={() => {
                                 // 埋点 区分 H5&PC
                                 window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_Head_Buy_Button_Click') : window.gtag('event', 'Web_Converter_Head_Buy_Button_Click'));
                                 router.push('/creditcard')
                             }} >
-                                {t('home.buy_btn', { coinFullName: 'Bitcoin', coinName })}
+                                {t('home.buy_btn', { coinFullName: resInfo?.baseCoin?.fullName || coinName, coinName })}
                             </div>
                         </div>
                         <div className={Style.banner_right}>
@@ -124,11 +124,11 @@ const Converter = ({ fromCount, fromName, toName, initialData }) => {
                                 isMobile={isMobile}
                                 type={"detail"}
                                 onConvertChange={(fromInput_, toInput_, selectFromOption_, selectToOption_, convertSwitch_) => {
-                                    console.log(fromInput_, '===fromInput_')
-                                    console.log(toInput_, '===toInput_')
-                                    console.log(selectFromOption_, '===selectFromOption_')
-                                    console.log(selectToOption_, '===selectToOption_')
-                                    console.log(convertSwitch_, '===convertSwitch_')
+                                    
+                                    
+                                    
+                                    
+                                    
                                 }} />
                         </div>
                     </div>

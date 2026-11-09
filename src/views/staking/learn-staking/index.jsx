@@ -1,13 +1,11 @@
-'use client';
-
 
 import Style from './index.module.scss';
 
 import { mapLocalesIdToKoot } from '@utils/common';
-import useTranslation from 'next-translate/useTranslation';
+import { translate } from '@src/lib/i18n/server';
 
-const LearnStaking = ()  => {
-    const { t, lang } = useTranslation('learnstaking');
+const LearnStaking = ({ locale: lang, messages }) => {
+    const t = (key, values) => translate(messages, key, values);
     const convertLocaleID = lang === 'en' ? '' : `?hl=${mapLocalesIdToKoot(lang)}`;
 
     return (
