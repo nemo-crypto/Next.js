@@ -1,4 +1,5 @@
 'use client';
+import ExternalLink from '@components/external-link';
 
 import { useState, useEffect, useCallback } from 'react';
 import Link from '@src/components/localized-link';
@@ -80,7 +81,7 @@ const FlexibleVipView = ()  => {
                                     {
                                         tokenStr
                                         ?
-                                        <a href="/trade/btr_usdt">{t('vip.accountBtrBuy')} <i className="iconfont icon-arrows"></i></a>
+                                        <ExternalLink href="/trade/btr_usdt">{t('vip.accountBtrBuy')} <i className="iconfont icon-arrows"></i></ExternalLink>
                                         :
                                         <a href={`/user/login?callBackPath=${lang === 'en' ? '' : `/${lang}`}/powerpiggy/vipcap`}>{t('common.loginNow')}</a>
                                     }

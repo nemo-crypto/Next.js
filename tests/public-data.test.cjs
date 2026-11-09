@@ -4,12 +4,12 @@ const fs = require('node:fs');
 const vm = require('node:vm');
 const ts = require('typescript');
 function createClient(fetch, env = {}) {
-    const module = { exports: {} };
+    const sandboxModule = { exports: {} };
     vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/lib/public-data.ts', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 } }).outputText, {
-        module, exports: module.exports, URL, AbortSignal, fetch, process: { env },
+        module: sandboxModule, exports: sandboxModule.exports, URL, AbortSignal, fetch, process: { env },
         require: name => name === 'react' ? { cache: fn => fn } : {},
     });
-    return module.exports;
+    return sandboxModule.exports;
 }
 test('public server requests contain locale but never browser credentials or shared cache', async () => {
     const calls = [];

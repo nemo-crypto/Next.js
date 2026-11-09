@@ -1,4 +1,5 @@
 'use client';
+import ExternalLink from '@components/external-link';
 
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
 import Link from '@src/components/localized-link';
@@ -515,7 +516,7 @@ const FlexibleVipView = ({ coinName })  => {
                                                     :
                                                     <>
                                                         <span>{t('detail.raiseNextRate', {amount: formatNumSplit(coinDetail?.incr?.nextStillNeedBtr || 0), rate: coinDetail?.incr?.nextRate || 0})}</span>
-                                                        <a href="/trade/btr_usdt">{t('detail.raiseBuyBtr')}</a>
+                                                        <ExternalLink href="/trade/btr_usdt">{t('detail.raiseBuyBtr')}</ExternalLink>
                                                     </>
                                                 )
                                                 :

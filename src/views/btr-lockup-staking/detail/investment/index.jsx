@@ -1,4 +1,5 @@
 'use client';
+import ExternalLink from '@components/external-link';
 
 import { useState, useRef } from 'react';
 import Link from '@src/components/localized-link';
@@ -241,7 +242,7 @@ const Investment = ({ coinName, tokenStr, coinDetail })  => {
                             <li>{t('detail.investRules3')}</li>
                             <li>{t('detail.investRules4')}</li>
                         </ol>
-                        <a href="/trade/btr_usdt">{t('detail.investBuyBtn')} {lockCoinName} <i className="iconfont icon-arrows"></i></a>
+                        <ExternalLink href="/trade/btr_usdt">{t('detail.investBuyBtn')} {lockCoinName} <i className="iconfont icon-arrows"></i></ExternalLink>
                     </div>
                 </div>
             </div>

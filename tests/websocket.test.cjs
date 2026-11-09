@@ -15,14 +15,14 @@ test('socket disposal cancels reconnect and listeners; instances do not share us
         send(value) { this.sent.push(value); }
         close() { this.listeners.close(); }
     }
-    const module = { exports: {} };
+    const sandboxModule = { exports: {} };
     vm.runInNewContext(ts.transpileModule(fs.readFileSync('src/utils/hooks/websocket.js', 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS } }).outputText, {
-        module, exports: module.exports, window: { WebSocket: Socket },
+        module: sandboxModule, exports: sandboxModule.exports, window: { WebSocket: Socket },
         setTimeout: fn => { const id = timers.size + 1; timers.set(id, fn); return id; },
         clearTimeout: id => timers.delete(id),
         require: name => name === '@constants/config' ? { Config: { WebSocketDomain: 'wss://example.test' } } : { inflate: () => '{}' },
     });
-    const Wrapper = module.exports.default;
+    const Wrapper = sandboxModule.exports.default;
     const first = new Wrapper();
     assert.notEqual(first, new Wrapper());
     first.connect();

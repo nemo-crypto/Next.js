@@ -5,8 +5,8 @@ const vm = require('node:vm');
 function load(relative, env = {}) {
     const filename = path.resolve(relative);
     const source = ts.transpileModule(fs.readFileSync(filename, 'utf8'), { compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 } }).outputText;
-    const module = { exports: {} };
-    vm.runInNewContext(source, { exports: module.exports, module, process: { env }, URL, require: name => name.startsWith('.') ? load(path.resolve(path.dirname(filename), `${name}.ts`), env) : require(name) }, { filename });
-    return module.exports;
+    const sandboxModule = { exports: {} };
+    vm.runInNewContext(source, { exports: sandboxModule.exports, module: sandboxModule, process: { env }, URL, require: name => name.startsWith('.') ? load(path.resolve(path.dirname(filename), `${name}.ts`), env) : require(name) }, { filename });
+    return sandboxModule.exports;
 }
 module.exports = { load };
