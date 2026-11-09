@@ -25,7 +25,7 @@ pnpm build:prod
 pnpm start
 ```
 
-生产启动端口为 `5000`。CI 使用 Node.js 24 与冻结 pnpm 锁文件执行检查、构建和 Chromium 回归。`pnpm build:qa` 使用 `APP_ENV=qa`，不会错误地将 `NODE_ENV` 设置为 `test`。生产构建输出为 `dist/`，开发输出为 `.next/`。开发和构建使用 Next.js 16 默认 Turbopack；已移除旧 Webpack DefinePlugin 和手工 alias，改用公开环境变量白名单与 tsconfig paths。
+生产启动端口为 `5000`（macOS AirPlay 可能占用此端口，本地可用 `pnpm exec next start -p 3100`）。CI 使用 Node.js 24 与冻结 pnpm 锁文件执行检查、构建和 Chromium 回归。`pnpm build:qa` 使用 `APP_ENV=qa`，不会错误地将 `NODE_ENV` 设置为 `test`。生产构建输出为 `dist/`，开发输出为 `.next/`。开发和构建使用 Next.js 16 默认 Turbopack；已移除旧 Webpack DefinePlugin 和手工 alias，改用公开环境变量白名单与 tsconfig paths。
 
 本项目需要 Next.js 服务端，不支持 `next export`。`pm2:start` 会重新安装依赖、删除并重建指定 PM2 进程，仅用于明确的部署操作，不用于本地验收。
 
@@ -49,7 +49,7 @@ pnpm start
 
 原来的 `pages/_app`、`pages/_document`、`getServerSideProps` 与 `next/head` 已迁移到 App Router 对应机制。路由 `params` 按新版本约定异步读取。Server Component 不读取浏览器 Cookie、DOM 或客户端 store。
 
-首页现在有真实的可抓取内容和业务导航，不再跳转到本仓库不存在的 `/home`。账户记录、VIP 页面默认 `noindex`。错误与加载状态由路由级 `error.tsx`、`loading.tsx`、`not-found.tsx` 处理。
+首页现在有真实的可抓取内容和业务导航，不再跳转到本仓库不存在的 `/home`。账户记录、VIP 页面默认 `noindex`。错误与不存在的页面由路由级 `error.tsx`、`not-found.tsx` 处理。根布局不设置全局 `loading.tsx`，避免参数校验前开始流式响应、将无效详情页返回为 HTTP 200；业务视图保留各自的数据加载状态。
 
 ## 多语言与 URL
 
@@ -78,7 +78,7 @@ SITEMAP_PATHS=/price/BTC,/price/ETH,/converter/BTC-to-USD
 
 - 各路由服务端生成 title/description；价格、币种详情采用具体入参及公开接口数据。
 - 绝对 canonical、不带跟踪查询参数的稳定 URL、16 种语言的 hreflang 和 `x-default`。
-- Open Graph、Twitter 摘要、服务端生成的品牌分享图，以及经过安全转义的 WebSite/BreadcrumbList JSON-LD；不虚构评级、评论或金融收益。
+- Open Graph、Twitter 摘要、服务端生成的品牌分享图（默认英文标题），以及经过安全转义的 WebSite/BreadcrumbList JSON-LD；不虚构评级、评论或金融收益。
 - `/robots.txt`、`/sitemap.xml`；sitemap 包含公开静态页和运营确认的动态路径，不枚举无限换算金额、不包含账号页或 `/price` 跳转页。
 - 保留浏览器缩放，使用语义标题；本地图片与 STATIC_URL 白名单 CDN 使用 Next 图片优化，未知远端图片不通过任意域名代理。
 
@@ -111,6 +111,8 @@ pnpm build:prod
 
 自动测试覆盖 URL/语言规范化、canonical/hreflang、预览环境和私有页禁止索引、sitemap 过滤以及 JSON-LD 转义。发布前还应验证：16 种语言入口、动态路由参数、明暗主题、移动端日期选择、登录/退出、原生 App 桥、后端错误恢复，以及真实 API 下的价格和订单交互。
 
+2026-11-09 本地验证：生产构建成功（148 个预渲染页面），类型检查通过，9 项单元测试和 13 项 Chromium 检查通过；ESLint 为 0 errors、48 warnings，历史 hook 依赖与图片诊断仍待逐模块治理。浏览器验收使用 mock 公开数据，不代表真实交易及登录流程已完成联调。
+
 本次架构审计、已验证内容与已知边界见 [docs/architecture-upgrade.md](docs/architecture-upgrade.md)。
 
 浏览器验收（先完成构建）：
@@ -120,4 +122,4 @@ pnpm exec playwright install chromium
 pnpm test:e2e
 ```
 
-默认自动启动本地只读 mock 后端及 Next 生产服务，覆盖多语言水合、导航、移动端首页、价格 SSR、SEO HTML 与 404；`E2E_BASE_URL` 可改为已经启动的受控验证环境。真实账号和资金操作不在 mock 验收范围内。
+默认自动启动本地只读 mock 后端（9099）及 Next 生产服务（127.0.0.1:3100），不复用占用端口的未知服务，覆盖多语言水合、导航、移动端首页、价格 SSR、SEO HTML 与 404；`E2E_BASE_URL` 可改为已经启动的受控验证环境。真实账号和资金操作不在 mock 验收范围内。

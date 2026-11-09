@@ -5,12 +5,12 @@ export function proxy(request: NextRequest) {
     const { pathname } = request.nextUrl;
     const first = pathname.split('/')[1];
     if (first === defaultLocale) {
-        const url = request.nextUrl.clone();
+        const url = new URL(request.url);
         url.pathname = pathname.slice(defaultLocale.length + 1) || '/';
         return NextResponse.redirect(url, 308);
     }
     if (isLocale(first)) return NextResponse.next();
-    const url = request.nextUrl.clone();
+    const url = new URL(request.url);
     url.pathname = `/${defaultLocale}${pathname === '/' ? '' : pathname}`;
     return NextResponse.rewrite(url);
 }

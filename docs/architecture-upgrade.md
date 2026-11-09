@@ -37,4 +37,20 @@
 
 ## 验证记录
 
-完成后在此记录实际执行结果，不以静态阅读代替构建和运行时验证。
+验证日期：2026-11-09。Node.js 24.14.1、pnpm 10.32.0。
+
+| 检查 | 实际结果 |
+| --- | --- |
+| `pnpm install --frozen-lockfile` | 通过，锁文件可复现安装；Swiper 的非必需安装脚本未执行 |
+| `pnpm build:prod` | 通过，Next.js 16.4.5 默认 Turbopack，148 个预渲染页面 |
+| `pnpm type-check` | 通过 |
+| `pnpm lint` | 0 errors、48 warnings，保留历史诊断 |
+| `pnpm test` | 9 项通过，覆盖路由、SEO、服务端请求隔离、WebSocket 生命周期 |
+| `pnpm test:e2e` | 13 项 Chromium 检查通过 |
+| `git diff --check` | 通过 |
+
+浏览器覆盖英文/韩文/阿拉伯文的水合与客户端导航、390px 首页无横向溢出、价格 SSR、公开页面元数据、404、英文前缀跳转保留 query、robots/sitemap 与 OG 图片 PNG 响应。人工检查了移动端首页及桌面价格页截图。
+
+验收发现并修复两类问题：本机 AirPlay 占用 5000 端口，测试改为独立 3100 端口并禁止隐式复用服务；默认英文 rewrite 的本地 origin 规范化引发重定向循环，Proxy 使用原始 URL 并开启 `skipProxyUrlNormalize`。另移除根级 loading 边界，防止无效兑换参数在响应开始后才触发 notFound，造成 soft 404。
+
+本次未配置正式域名，因此默认 noindex，构建时 Next 会提示分享图 metadataBase 使用 localhost；上线前配置真实 `NEXT_PUBLIC_SITE_URL` 后重新构建。分享图默认使用英文标题。真实后端、账号、资金操作、原生 App 桥和完整多语言内容仍需在目标环境回归；此处不将 mock 通过视为真实业务验收通过。

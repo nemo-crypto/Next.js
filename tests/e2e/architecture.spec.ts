@@ -51,3 +51,25 @@ for (const path of ['/converter', '/flexible-staking', '/btr-lockup-staking', '/
         expect(html).not.toContain('undefined/');
     });
 }
+
+test('English redirects preserve queries and crawler routes are available', async ({ request }) => {
+    const redirect = await request.get('/en/converter?from=home', { maxRedirects: 0 });
+    expect(redirect.status()).toBe(308);
+    const location = new URL(redirect.headers().location, 'http://localhost');
+    expect(location.pathname).toBe('/converter');
+    expect(location.search).toBe('?from=home');
+    expect((await request.get('/robots.txt')).status()).toBe(200);
+    expect((await request.get('/sitemap.xml')).status()).toBe(200);
+});
+
+test('social image metadata points to a generated PNG', async ({ request }) => {
+    const response = await request.get('/');
+    const html = await response.text();
+    const image = html.match(/<meta property="og:image" content="([^"]+)"/);
+    expect(image).not.toBeNull();
+    const url = new URL(image![1].replaceAll('&amp;', '&'));
+    const picture = await request.get(`${url.pathname}${url.search}`);
+    expect(picture.status()).toBe(200);
+    expect(picture.headers()['content-type']).toContain('image/png');
+    expect((await picture.body()).subarray(0, 8)).toEqual(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]));
+});

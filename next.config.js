@@ -17,6 +17,8 @@ try {
 const indexable = appEnv !== 'qa' && process.env.NEXT_PUBLIC_INDEXABLE === 'true' && validSiteUrl;
 module.exports = {
     reactStrictMode: true,
+    // 保留原始 origin，避免本地 IP 被规范化后将语言 rewrite 当成外部请求。
+    skipProxyUrlNormalize: true,
     poweredByHeader: false,
     distDir: appEnv === 'dev' ? '.next' : 'dist',
     images: { formats: ['image/avif', 'image/webp'], remotePatterns },

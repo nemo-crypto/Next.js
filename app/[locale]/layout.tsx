@@ -7,7 +7,8 @@ import Providers from './providers';
 import '../../styles/globals.css';
 
 export const viewport: Viewport = { width: 'device-width', initialScale: 1 };
-export const metadata: Metadata = { metadataBase: getSiteUrl() ? new URL(getSiteUrl()!) : undefined, formatDetection: { telephone: false, email: false, address: false } };
+const siteUrl = getSiteUrl();
+export const metadata: Metadata = { metadataBase: siteUrl ? new URL(siteUrl) : undefined, formatDetection: { telephone: false, email: false, address: false } };
 export function generateStaticParams() { return locales.map(locale => ({ locale })); }
 export default async function RootLayout({ children, params }: { children: React.ReactNode; params: Promise<{ locale: string }> }) {
     const { locale } = await params;
