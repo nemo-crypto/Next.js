@@ -2,6 +2,18 @@
 
 基于 Next.js 13.0.4、React 18、MobX、Axios 与 next-translate 的业务前端，采用 `pages/` 路由，包含币种价格、兑换、质押、定投与活动页面。历史Next.js学习笔记已保存在[学习记录](docs/nextjs-notes.md)，工程运行方式以本文和实际配置为准。
 
+<!-- BEGIN project-discovery -->
+## 项目定位与实践入口
+
+Next.js + React frontend with Pages Router, SSR, multilingual pages, MobX and cryptocurrency UI. 多语言行情、兑换与质押页面示例，需配套业务 API。
+
+适合从以下入口阅读实现与接入条件：
+
+- [Pages Router 页面](pages/)
+- [国际化资源](locales/)
+- [Next.js 学习记录](docs/nextjs-notes.md)
+<!-- END project-discovery -->
+
 ## 业务与目录
 
 | 路径 | 说明 |  
