@@ -1,3 +1,5 @@
+'use client';
+
 import { useState, useEffect, useMemo } from 'react';
 
 import Style from './index.module.scss';
@@ -30,7 +32,7 @@ const RelesRecords = ({ tokenStr, coinDetail })  => {
             const { code, data } = res;
             if (code === '200') {
                 const pageSize = Math.ceil(data.totalCount / data?.pageSize) || 1;
-                
+
                 setRecords(data.records);
                 setTotalPage(pageSize);
             };

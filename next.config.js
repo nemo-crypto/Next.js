@@ -1,68 +1,36 @@
 /** @type {import('next').NextConfig} */
-const webpack = require('webpack');
-const path = require('path');
-const nextTranslate = require('next-translate-plugin');
-
-// 获取当前开发环境
-const NODE_ENV = process.env.APP_ENV || 'prod';
-
-// 根据环境创建打包目录
-const BUILD_FOLDER = (() => {
-    if (NODE_ENV !== 'dev') return 'dist';
-    return '.next';
-})();
-
-// 配置别名
-const aliases = {
-    '@public': path.resolve('./public'),
-    '@src': path.resolve('./src'),
-    '@styles': path.resolve('./styles'),
-    '@components': path.resolve('./src/components'),
-    '@constants': path.resolve('./src/constants'),
-    '@service': path.resolve('./src/service'),
-    '@static': path.resolve('./src/static'),
-    '@store': path.resolve('./src/store'),
-    '@utils': path.resolve('./src/utils'),
-    '@views': path.resolve('./src/views')
-};
-
-module.exports = nextTranslate({
-    // reactStrictMode: true,
-    swcMinify: true,
-    images: {
-        unoptimized: true,
+const appEnv = process.env.APP_ENV || (process.env.NODE_ENV === 'development' ? 'dev' : 'prod');
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || process.env.WEBSITE_URL || '';
+let validSiteUrl = false;
+try {
+    const url = new URL(siteUrl);
+    validSiteUrl = ['http:', 'https:'].includes(url.protocol) && !url.username && !url.password;
+} catch {}
+const indexable = appEnv !== 'qa' && process.env.NEXT_PUBLIC_INDEXABLE === 'true' && validSiteUrl;
+module.exports = {
+    reactStrictMode: true,
+    poweredByHeader: false,
+    distDir: appEnv === 'dev' ? '.next' : 'dist',
+    images: { formats: ['image/avif', 'image/webp'] },
+    // 仅公开地址与站点配置；服务端密钥不能放进这个白名单。
+    env: {
+        NEXT_PUBLIC_APP_ENV: appEnv,
+        NEXT_PUBLIC_SITE_URL: siteUrl,
+        NEXT_PUBLIC_SITE_NAME: process.env.NEXT_PUBLIC_SITE_NAME || 'DemoExchange',
+        NEXT_PUBLIC_INDEXABLE: String(indexable),
+        NEXT_PUBLIC_API_URL: process.env.API_URL || '',
+        NEXT_PUBLIC_API_FUTURES: process.env.API_FUTURES || '',
+        NEXT_PUBLIC_WEBSITE_URL: process.env.WEBSITE_URL || siteUrl,
+        NEXT_PUBLIC_WEBSOCKET_URL: process.env.WEBSOCKET_URL || '',
+        NEXT_PUBLIC_STATIC_URL: process.env.STATIC_URL || '',
+        NEXT_PUBLIC_COOKIE_DOMAIN: process.env.COOKIES_DOMIAN || '',
+        NEXT_PUBLIC_LANGUAGE_PARAM_NAME: process.env.LANGUAGE_PARAM_NAME || 'language',
     },
-
-    distDir: BUILD_FOLDER,
-
-    // webpack 配置项
-    webpack (config) {
-        // 配置别名
-        config.resolve.alias = Object.assign({}, config.resolve.alias, aliases);
-
-        // 修复对fs包的依赖
-        config.resolve.fallback = {
-            ...config.resolve.fallback,
-            fs: false,
-            path: false
-        };
-
-        // 配置环境变量
-        config.plugins.push(
-            new webpack.DefinePlugin({
-                __ENV__: JSON.stringify(NODE_ENV),
-                __NODE_ENV__: JSON.stringify({
-                    apiDomain: process.env.API_URL,
-                    apiDomainFuture: process.env.API_FUTURES,
-                    websiteDomain: process.env.WEBSITE_URL,
-                    WebSocketDomain: process.env.WEBSOCKET_URL,
-                    staticDomain: process.env.STATIC_URL,
-                    cookieDomain: process.env.COOKIES_DOMIAN,
-                    languageParamName: process.env.LANGUAGE_PARAM_NAME || 'language'
-                })
-            })
-        )
-
-        return config;
-    }
-});
+    async headers() {
+        return [{ source: '/:path*', headers: [
+            { key: 'X-Content-Type-Options', value: 'nosniff' },
+            { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
+            ...(indexable ? [] : [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]),
+        ] }];
+    },
+};

@@ -1,7 +1,8 @@
+'use client';
+
 import { useState, useEffect, useCallback, useRef } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from '@src/components/localized-link';
+import Image from '@components/image';
 
 import Style from './index.module.scss';
 import classNames from 'classnames';
@@ -12,7 +13,8 @@ import { toast } from '@components/toast';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper.scss';
 import { Sparklines, SparklinesLine } from 'react-sparklines';
-import DontCharts from './DonutChart'
+import dynamic from 'next/dynamic';
+const DontCharts = dynamic(() => import('./DonutChart'), { ssr: false })
 import BigNumber from 'bignumber.js';
 
 
@@ -177,7 +179,7 @@ const AutoInvest = () => {
             dataInfo.amount= '';
             let planViewData = JSON.parse(JSON.stringify(dataInfo))
             let defaultPlanViewData = JSON.parse(JSON.stringify(dataInfo))
-            
+
             setPlanViewData(planViewData)
             setDefaultPlanViewData(defaultPlanViewData)
         };
@@ -241,7 +243,7 @@ const AutoInvest = () => {
             setInvestList([..._investInfo.data].slice(0,10))
 
             setFullInvestList([..._investInfo.data])
-            
+
             setShowHasMore([..._investInfo.data].length>10)
 
             // setInvestList(_investInfo.data || [])
@@ -351,10 +353,10 @@ const AutoInvest = () => {
 
         const params = terminateOrderId?{}:{ ...planViewData }
 
-       
+
         if (status) {
             params.status = status;
-           
+
         }
 
         if(status==2){
@@ -364,7 +366,7 @@ const AutoInvest = () => {
         }
         let orderMethod = (params.orderId||terminateOrderId) ? UpdateOrder : doOrder;
 
-        
+
         const fetchData = await orderMethod({ ...params });
         // 先处理异常 ，http.js 统一处理  新框架处理
         // ToDo
@@ -488,7 +490,7 @@ const AutoInvest = () => {
             let _planViewData = { ...info }
             _planViewData.coins = JSON.parse(JSON.stringify(info.coins));
             _planViewData.frequency = defaultPlanViewData.frequency;
-            
+
 
             setPlanViewData(JSON.parse(JSON.stringify(_planViewData)));
             setHasRead(!hasRead)
@@ -616,7 +618,7 @@ const AutoInvest = () => {
 
 
     }
-   
+
     // todo  计算比例用单独函数处理
     const addCoin = () => {
 
@@ -665,36 +667,36 @@ const AutoInvest = () => {
         setPlanViewData(JSON.parse(JSON.stringify({ ...planViewData, coins })));
 
     }
-   
+
     const deleteCoin = (index) => {
         let coins = planViewData.coins;
-    
+
         // 如果 inputEdit 为 true，直接删除 coin，不调整 proportion
         if (inputEdit) {
             coins.splice(index, 1);
         } else {
-           
+
             // 使用 splice 方法，从 coins 中删除指定的 coin
             coins.splice(index, 1);
-    
-           
+
+
             // coins 的新长度
             let newLen = coins.length;
-    
+
             // 如果 coins 长度大于 0，将剩余的 proportion 平均分给其他 coin
             if (newLen > 0) {
                 let avg = Math.floor(100 / newLen);
                 let extra = 100 - avg * newLen;
-    
+
                 for (let i = 0; i < newLen; i++) {
                     coins[i].proportion = avg + (i === 0 ? extra : 0);
                 }
             }
         }
-    
+
         setPlanViewData(JSON.parse(JSON.stringify(planViewData)));
     }
-    
+
     const filterPPCoin = ()=>{
         // BaseCoinList=[{
         //     coin:'btc',
@@ -946,7 +948,7 @@ const AutoInvest = () => {
                         </div>
 
 
-                        
+
 
                     </div>
                     </div>
@@ -975,7 +977,7 @@ const AutoInvest = () => {
                         }} className={Style.confirm + "  " + (!orderId ? Style.w400 : '') + ' ' + Style.btn + ` ` + (!enbaleSumbit ? Style.disabled : '')} >{t('Save')}</div>
                     </div>
                     </div>
-                    
+
 
 
 
@@ -1042,7 +1044,7 @@ const AutoInvest = () => {
                                 location.href = '/assets/financial?tab=2'
                             }}>{filterPPCoin()?.length>0?<>
                             {getCoinImgs(filterPPCoin())} <i className='iconfont  icon-arrow-right'></i></>:'--'}
-                                
+
                             </div>
                         </div>
                         <div className={Style.dataAlloc}>
@@ -1136,8 +1138,8 @@ const AutoInvest = () => {
 </div>
 
 </div>
-            
-            
+
+
             <div className={Style.noticebtn} >
                 {terminateOrderId ? <div className={Style.ter + "  " + Style.btn} onClick={() => {
                     setOrderId(terminateOrderId);
@@ -1459,11 +1461,7 @@ const AutoInvest = () => {
 
     return (
         <>
-            <Head>
-                <title>{t('tdk.title')}</title>
-                <meta name="keywords" content={('tdk.keywords')} />
-                <meta name="description" content={('tdk.description')} />
-            </Head>
+
             <div className={Style.component}>
                 <div className={Style.banner}>
                     <div className={classNames(['basic', Style.banner_box])}>
@@ -1814,7 +1812,7 @@ const AutoInvest = () => {
 
                                                 </div>
                                                 </div>
-                                               
+
                                             </div>
                                             <div className={Style.btn} onClick={() => {
 
@@ -1901,7 +1899,7 @@ const AutoInvest = () => {
 
 
                     </div>
-                    
+
 
                     <RulesList ruleLang={rules} />
                 </div>
@@ -1967,7 +1965,7 @@ const AutoInvest = () => {
                     // children={getmodalContent('notice')}
                     title={t('TerminationPlan')}
                     modalbox={Style.modalViewBox+" "+Style.modalTerBox}
-                    
+
                     hideFooter={true}
                     close={true}
                     closeFn={() => {

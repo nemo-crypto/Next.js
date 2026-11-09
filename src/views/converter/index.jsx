@@ -1,9 +1,10 @@
+'use client';
+
 import { useState, useEffect, useRef } from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from '@components/image';
+import Link from '@src/components/localized-link';
 import { Config } from '@constants/config';
-import { useRouter } from 'next/router';
+import { useRouter } from '@src/lib/navigation';
 import Style from './index.module.scss';
 import StartBuying from './detail/start-buying';
 import Convert from './detail/convert';
@@ -41,7 +42,7 @@ const Converter = () => {
             if (res.code === 0) {
                 setResInfo(res?.data || {})
                 // 埋点 区分 H5&PC
-                window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_Expose') : gtag('event', 'Web_Converter_HomePage_Expose');
+                window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_Expose') : window.gtag('event', 'Web_Converter_HomePage_Expose'));
             };
         });
     }
@@ -70,11 +71,7 @@ const Converter = () => {
 
     return (
         <>
-            <Head>
-                <title>{t('seo.title')}</title>
-                <meta name="keywords" content={t('seo.keywords')} />
-                <meta name="description" content={t('seo.description')} />
-            </Head>
+
             <div className={Style.component}>
                 <div className={Style.banner}>
                     <div className={Style.banner_content}>
@@ -93,7 +90,7 @@ const Converter = () => {
                             <h6>{t('home.banner_h6', { coinName: 'BTC', price: formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate)), fiatName: 'USD' })}</h6>
                             <div className={Style.btns} onClick={() => {
                                 // 埋点 区分 H5&PC
-                                window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_Head_Buy_Button_Click') : gtag('event', 'Web_Converter_HomePage_Head_Buy_Button_Click');
+                                window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_Head_Buy_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_Head_Buy_Button_Click'));
                                 router.push('/creditcard')
                             }}>
                                 {t('home.buy_btn', { coinFullName: 'Bitcoin', coinName: 'BTC' })}
@@ -134,7 +131,7 @@ const Converter = () => {
                                                     return (
                                                         <span className={Style.symbolItem} key={index_} onClick={() => {
                                                             // 埋点 区分 H5&PC
-                                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_top50_convert_Button_Click') : gtag('event', 'Web_Converter_HomePage_top50_convert_Button_Click');
+                                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_top50_convert_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_top50_convert_Button_Click'));
                                                             router.push(`/converter/${item?.coinName}-to-${curitem}`)
                                                         }}>
                                                             {item?.coinName.toUpperCase()}兑换{curitem.toUpperCase()}

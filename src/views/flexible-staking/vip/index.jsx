@@ -1,6 +1,7 @@
+'use client';
+
 import { useState, useEffect, useCallback } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
+import Link from '@src/components/localized-link';
 
 import Style from './index.module.scss';
 import Loading from '@components/loading';
@@ -45,7 +46,7 @@ const FlexibleVipView = ()  => {
         const params = { pageNo: 1, pageSize: 1000 };
         const fetchData = await getFlexibleVipCoinList(params);
         const _investCoinList = fetchData?.code == 0 ? fetchData?.data?.data : [];
-        
+
         setInvestCoinList(_investCoinList);
     }, []);
 
@@ -55,11 +56,7 @@ const FlexibleVipView = ()  => {
 
     return (
         <>
-            <Head>
-                <title>{t('vip.title')}</title>
-                <meta name="keywords" content={t('vip.keywords')} />
-                <meta name="description" content={t('vip.description')} />
-            </Head>
+
             {
                 loading
                 ?
@@ -131,7 +128,7 @@ const FlexibleVipView = ()  => {
                                     </li>
                                 </ul>
                                 <ul className={`${Style.invest_list_hidden} ${seeRecordMore ? Style.invest_list_auto : '' }`}>
-                                    
+
                                     {
                                         investCoinList.length > 0
                                         ?

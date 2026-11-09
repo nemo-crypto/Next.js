@@ -1,9 +1,12 @@
 import React, { useEffect } from 'react';
-import * as echarts from 'echarts';
+import * as echarts from 'echarts/core';
+import { PieChart } from 'echarts/charts';
+import { CanvasRenderer } from 'echarts/renderers';
+echarts.use([PieChart, CanvasRenderer]);
 
 const DonutChart = ({ item, colors,chartId }) => {
   useEffect(() => {
-    
+
     // 初始化图表
     const myChart = echarts.init(document.getElementById(chartId));
 

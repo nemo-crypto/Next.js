@@ -1,5 +1,6 @@
+'use client';
+
 import { useState, useEffect, useCallback } from 'react';
-import Head from 'next/head';
 
 import Style from './index.module.scss';
 import classNames from 'classnames';
@@ -47,11 +48,7 @@ const FlexibleStaking = ({ coinName })  => {
 
     return (
         <>
-            <Head>
-                <title>{t('detail.title', {coin: coinName})}</title>
-                <meta name="keywords" content={t('detail.keywords')} />
-                <meta name="description" content={t('detail.description')} />
-            </Head>
+
             <div className={Style.component}>
             {
                 loading

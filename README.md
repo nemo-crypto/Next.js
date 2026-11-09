@@ -1,71 +1,114 @@
-# Next.js Pages Router 多语言业务前端
+# Next.js App Router 多语言业务前端
 
-基于 Next.js 13.0.4、React 18、MobX、Axios 与 next-translate 的业务前端，采用 `pages/` 路由，包含币种价格、兑换、质押、定投与活动页面。历史Next.js学习笔记已保存在[学习记录](docs/nextjs-notes.md)，工程运行方式以本文和实际配置为准。
+基于 **Next.js 16.4.5、React 19.3.1、TypeScript 5、App Router** 的多语言行情、兑换、质押、定投和活动前端。保留现有业务接口和页面 URL，服务端负责路由、语言资源、SEO 元数据及公开详情数据，客户端负责交互和登录后的业务操作。
 
-<!-- BEGIN project-discovery -->
-## 项目定位与实践入口
+版本依据：2026-11-09 核对 npm stable；实际安装版本以 `package.json`、`yarn.lock` 为准。历史 Next.js 13 学习材料保存在 [docs/nextjs-notes.md](docs/nextjs-notes.md)，不再作为当前工程运行指南。
 
-Next.js + React frontend with Pages Router, SSR, multilingual pages, MobX and cryptocurrency UI. 多语言行情、兑换与质押页面示例，需配套业务 API。
+## 环境与运行
 
-适合从以下入口阅读实现与接入条件：
-
-- [Pages Router 页面](pages/)
-- [国际化资源](locales/)
-- [Next.js 学习记录](docs/nextjs-notes.md)
-<!-- END project-discovery -->
-
-## 业务与目录
-
-| 路径 | 说明 |  
-|---|---|
-| `pages/price/` | 币种列表与动态币种详情 |
-| `pages/converter/` | 兑换入口与币种页 |
-| `pages/flexible-staking/`、`pages/btr-lockup-staking/` | 理财、锁仓与相关记录页面 |
-| `pages/btc-xrp-eth-trading-bot/`、`pages/land/` | 策略与活动页面 |
-| `src/` | 业务组件、HTTP、状态和WebSocket封装 |
-| `locales/`、[i18n.js](i18n.js) | 多语言资源与页面命名空间映射 |
-| [next.config.js](next.config.js)、[pm2.config.js](pm2.config.js) | 构建环境与进程管理 |
-
-## 安装与本地运行
-
-目录保留yarn.lock，可在兼容该历史工具链的环境中执行：
+要求 Node.js **22 或更新的 LTS**、Yarn **1.22.22**。
 
 ```bash
 yarn install --frozen-lockfile
+cp .env.example .env.local
+# 按后端和站点环境填写 .env.local
 yarn dev
 ```
 
-开发地址为 `http://localhost:9000`。工程没有声明Node engines，本次没有进行运行时兼容性验证。
-
-## 环境变量与地址
-
-配置读取 `APP_ENV`，默认 `prod`，并读取 `API_URL`、`API_FUTURES`、`WEBSITE_URL`、`WEBSOCKET_URL`、`STATIC_URL`、`COOKIES_DOMIAN`。最后一个名称按源码保留拼写，不能直接改为COOKIES_DOMAIN。
-
-开发/构建脚本设置的NODE_ENV与APP_ENV职责不同。真实接入需要核对业务接口、Cookie域、WebSocket与多语言资源；本目录不提供对应业务后端。客户端可访问的配置不可承载服务端秘密。
-
-## 构建与启动
+开发地址：`http://localhost:9000`。
 
 ```bash
+yarn lint
+yarn type-check
+yarn test
 yarn build:prod
 yarn start
 ```
 
-生产启动端口为5000，且必须先生成构建产物。`build:qa` 脚本实际设置 `NODE_ENV=test` 后执行构建；是否满足目标测试环境，需同时检查APP_ENV与实际地址。
+生产启动端口为 `5000`。`yarn build:qa` 使用 `APP_ENV=qa`，不会错误地将 `NODE_ENV` 设置为 `test`。生产构建输出为 `dist/`，开发输出为 `.next/`。开发和构建使用 Next.js 16 默认 Turbopack；已移除旧 Webpack DefinePlugin 和手工 alias，改用公开环境变量白名单与 tsconfig paths。
 
-```bash
-yarn lint
+本项目需要 Next.js 服务端，不支持 `next export`。`pm2:start` 会重新安装依赖、删除并重建指定 PM2 进程，仅用于明确的部署操作，不用于本地验收。
+
+## 架构
+
+| 路径 | 职责 |
+| --- | --- |
+| `app/[locale]/layout.tsx` | Server Component 根布局、HTML 语言/方向、公共语言包、结构化数据 |
+| `app/[locale]/**/page.tsx` | 路由入参、服务端数据、`generateMetadata`、视图边界 |
+| `app/[locale]/**/layout.tsx` | 按业务模块加载语言 namespace |
+| `app/[locale]/providers.jsx` | 客户端语言 Cookie、原生桥、请求树独立 store、可选分析脚本 |
+| `app/robots.ts`、`app/sitemap.ts` | Next Metadata Route，控制收录与可发现 URL |
+| `proxy.ts` | Next.js 16 Proxy，多语言重写与英文前缀规范化 |
+| `src/lib/i18n/` | 服务端语言资源加载与元数据翻译 |
+| `src/lib/seo.ts` | canonical、hreflang、Open Graph、Twitter、robots、JSON-LD 序列化 |
+| `src/lib/public-data.ts` | `server-only` 公开数据请求，不携带用户凭证 |
+| `src/lib/navigation.ts`、`src/components/localized-link.tsx` | 保留当前语言的客户端导航 |
+| `src/views/` | 现有业务视图，客户端组件仍进行服务端首屏渲染 |
+| `src/utils/http.js` | 浏览器业务请求、最新登录态、取消请求和错误传递 |
+| `locales/` | 16 种语言资源 |
+
+原来的 `pages/_app`、`pages/_document`、`getServerSideProps` 与 `next/head` 已迁移到 App Router 对应机制。路由 `params` 按新版本约定异步读取。Server Component 不读取浏览器 Cookie、DOM 或客户端 store。
+
+首页现在有真实的可抓取内容和业务导航，不再跳转到本仓库不存在的 `/home`。账户记录、VIP 页面默认 `noindex`。错误与加载状态由路由级 `error.tsx`、`loading.tsx`、`not-found.tsx` 处理。
+
+## 多语言与 URL
+
+- 英文：`/price/BTC`；韩文：`/ko/price/BTC`；繁体中文：`/zh-hant/price/BTC`。
+- 英文无前缀 URL 在内部重写到 `/en/...`；显式 `/en/...` 永久跳转回无前缀地址，保留查询参数。
+- 不再根据浏览器语言自动重定向已访问的 URL，避免水合副作用、爬虫结果不稳定及覆盖用户明确选择。
+- `html[lang]` 根据路由设置，阿拉伯语使用 `dir=rtl`。内部 Link 和编程式导航保持语言。
+- 原仓库 converter 只有英文翻译，目前其他语言明确回退英文。上线完整多语言 SEO 前应补齐这些资源。
+- 不使用全局 `globalThis` 共享翻译状态；语言包由当前 React 树的 context 持有。
+
+## SEO 上线配置
+
+必须先配置真实域名，再开启收录：
+
+```dotenv
+NEXT_PUBLIC_SITE_URL=https://your-real-domain.com
+NEXT_PUBLIC_SITE_NAME=YourBrand
+NEXT_PUBLIC_INDEXABLE=true
+# 只填写已经验证可访问的动态详情路径
+SITEMAP_PATHS=/price/BTC,/price/ETH,/converter/BTC-to-USD
 ```
 
-没有独立的测试脚本。`export` 是否适用于所有动态和服务端页面需逐页核对，不能保证所有业务都可静态导出。
+这些公开配置参与构建，修改后需重新构建。未配置站点域名、未显式允许收录或 `APP_ENV=qa` 时，robots/页面元数据关闭索引。默认示例名称并不代表已完成品牌文案替换；`locales/**` 中现有 DemoExchange 文案也需要按正式品牌审校。
 
-## 进程管理与验收
+实现包含：
 
-`pm2:start` 脚本会安装依赖、删除并重建指定PM2进程，属于部署操作；仅在确认目标进程与配置后使用，日常本地开发不需要执行。
+- 各路由服务端生成 title/description；价格、币种详情采用具体入参及公开接口数据。
+- 绝对 canonical、不带跟踪查询参数的稳定 URL、16 种语言的 hreflang 和 `x-default`。
+- Open Graph、Twitter 摘要和经过安全转义的 WebSite JSON-LD；不虚构评级、评论或金融收益。
+- `/robots.txt`、`/sitemap.xml`；sitemap 包含公开静态页和运营确认的动态路径，不枚举无限换算金额、不包含账号页或 `/price` 跳转页。
+- 保留浏览器缩放，使用语义标题；本地图片使用 Next 图片优化，未知远端图片不通过任意域名代理。
 
-验收覆盖页面路由、语言切换、网络配置、登录态、异常响应和生产构建。本轮仅核对README与源码，未安装依赖、运行PM2或验证后端联调。
+SEO 技术配置不保证排名。正式上线仍需要核验内容质量、动态路径清单、真实后端返回、Search Console 收录和 Core Web Vitals。
 
-## 中性演示配置
+## 数据、缓存与安全边界
 
-多语言展示与示例标识统一使用DemoExchange，样式改用系统字体。币种和法币图标优先使用STATIC_URL对应路径，未配置时回退到本地中性SVG；WebSocket必须通过WEBSOCKET_URL配置，缺省时不主动连接外部服务。
+- 公共数据仅通过 `server-only` 模块在服务端读取；用 React `cache` 合并同一次渲染中 metadata 与页面的重复请求。
+- 行情、活动详情当前明确使用 `cache: 'no-store'`，超时 8 秒；不把实时数据或活动参与状态放入跨用户公共缓存。
+- 静态文案页面可预渲染；修改缓存策略前先区分公开内容与账号状态。
+- SSR 不转发浏览器 token；登录后的明细、余额、报名和交易继续通过浏览器业务接口读取。
+- 浏览器请求使用独立 Axios 实例，每次读取最新 token/语言，失败正常 reject，不再吞错导致调用方永远等待。
+- 日志不输出带 token 的完整请求对象。客户端配置只能存放公开地址，不能放服务端密钥。
 
-公共请求语言字段默认是language，可通过LANGUAGE_PARAM_NAME适配目标后端；该变量在构建时注入。静态语言资源子目录为languse/demo-content，支持文档链接为example.com示例，均需按实际业务接入替换，不能作为在线服务可用性保证。
+## 业务接入变量
+
+参见 [.env.example](.env.example)。`API_URL`、`API_FUTURES`、`WEBSOCKET_URL`、`STATIC_URL`、`WEBSITE_URL` 和 `COOKIES_DOMIAN` 需与目标后端匹配。`COOKIES_DOMIAN` 保留历史拼写，避免破坏现有部署变量；语言参数名默认为 `language`，可用 `LANGUAGE_PARAM_NAME` 配置。
+
+`NEXT_PUBLIC_GA_ID` 为可选 GA4 标识，未配置时不加载分析脚本。公共 Header/Footer 仅在配置 `STATIC_URL` 后加载；不存在配套服务时不要把空壳演示视为完整线上业务。
+
+`/creditcard`、`/how-to-buy/**`、登录注册等链接属于现有外围系统，本仓库没有这些页面；上线时需在网关配置对应入口，或在产品范围内补齐。不能通过泛化重写把未知路径伪装成有效页面。
+
+## 验证与迁移记录
+
+```bash
+yarn check
+# 全量生产编译与服务端预渲染
+yarn build:prod
+```
+
+自动测试覆盖 URL/语言规范化、canonical/hreflang、预览环境和私有页禁止索引、sitemap 过滤以及 JSON-LD 转义。发布前还应验证：16 种语言入口、动态路由参数、明暗主题、移动端日期选择、登录/退出、原生 App 桥、后端错误恢复，以及真实 API 下的价格和订单交互。
+
+本次架构审计、已验证内容与已知边界见 [docs/architecture-upgrade.md](docs/architecture-upgrade.md)。

@@ -1,7 +1,8 @@
+'use client';
+
 import { useState, useEffect, useCallback } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from '@src/components/localized-link';
+import Image from '@components/image';
 
 import Style from './list.module.scss';
 import classNames from 'classnames';
@@ -85,7 +86,7 @@ const FlexibleStaking = ()  => {
         };
 
         window.addEventListener('click', handleCoinListVisible);
- 
+
         return () => {
             window.removeEventListener('click', handleCoinListVisible);
         };
@@ -93,11 +94,7 @@ const FlexibleStaking = ()  => {
 
     return (
         <>
-            <Head>
-                <title>{t('list.title')}</title>
-                <meta name="keywords" content={t('list.keywords')} />
-                <meta name="description" content={t('list.description')} />
-            </Head>
+
             <div className={Style.component}>
                 <div className={Style.banner}>
                     <div className={classNames(['basic', Style.banner_box])}>

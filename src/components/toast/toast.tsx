@@ -21,9 +21,9 @@ export interface ToastProps {
 };
 
 const Toast: React.FC<ToastProps> = props => {
-    const { type, duration, msg, afterClose, visible } = props;
+    const { type, duration = 1500, msg, afterClose, visible = false } = props;
     const [show, setShow] = useState(false);
-    const timer = useRef<NodeJS.Timeout>();
+    const timer = useRef<NodeJS.Timeout | undefined>(undefined);
 
     const clearTimer = (): void => {
         if (timer.current) {
@@ -44,6 +44,7 @@ const Toast: React.FC<ToastProps> = props => {
                 clearTimer();
             }, duration);
         };
+        return clearTimer;
     }, [duration, show, afterClose]);
 
     return show ? (
@@ -57,12 +58,6 @@ const Toast: React.FC<ToastProps> = props => {
             </div>
         </div>
         ) : null
-}
-
-Toast.defaultProps = {
-    duration: 1500,
-    visible: false,
-    afterClose: undefined,
 }
 
 export default Toast;

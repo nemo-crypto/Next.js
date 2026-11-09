@@ -1,10 +1,13 @@
+'use client';
+
 import { useState, useEffect, useRef } from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+import Image from '@components/image';
+import Link from '@src/components/localized-link';
+import { useRouter } from '@src/lib/navigation';
 import Style from './index.module.scss';
 import btc from '@static/images/converter/btc.png';
-import LineCharts from './lineChart'
+import dynamic from 'next/dynamic';
+const LineCharts = dynamic(() => import('./lineChart'), { ssr: false })
 import StartBuying from '../start-buying';
 import { coinIconPath, formatDate, formatNumSplit, RESPONSIVE, legalIconPath } from '@utils/common';
 import { handelDecimal } from '@utils/decimal';
@@ -132,7 +135,7 @@ const BitcoinMarkets = ({ moreCryptocurrency, moreCryptocurrencyExchangeRate, mo
 
     const handleClick = (url) => {
         // 埋点 区分 H5&PC
-        window.gtag && isMobile ? gtag('event', 'H5_Converter_top10_convert_Button_Click') : gtag('event', 'Web_Converter_top10_convert_Button_Click');
+        window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_top10_convert_Button_Click') : window.gtag('event', 'Web_Converter_top10_convert_Button_Click'));
         router.push(url)
     }
 
@@ -340,7 +343,7 @@ const BitcoinMarkets = ({ moreCryptocurrency, moreCryptocurrencyExchangeRate, mo
                                             <div className={Style.listItem} key={index}>
                                                 <div className={Style.cell1} onClick={() => {
                                                     // 埋点 区分 H5&PC
-                                                    window.gtag && isMobile ? gtag('event', 'H5_Converter_coinconversions_coin_Button_Click') : gtag('event', 'Web_Converter_coinconversions_coin_Button_Click');
+                                                    window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_coinconversions_coin_Button_Click') : window.gtag('event', 'Web_Converter_coinconversions_coin_Button_Click'));
                                                     router.push(`/converter/${resInfo?.baseCoin?.name + '-to-' + item?.fiatName}`)
                                                 }}>
                                                     <Image width={32} height={32} src={legalIconPath(item?.fiatName)} alt='' />
@@ -353,7 +356,7 @@ const BitcoinMarkets = ({ moreCryptocurrency, moreCryptocurrencyExchangeRate, mo
                                                 {/* 击buy跳转对应的simplex页面 /creditcard */}
                                                 <div className={Style.cell3} onClick={() => {
                                                     // 埋点 区分 H5&PC
-                                                    window.gtag && isMobile ? gtag('event', 'H5_Converter_coinconversions_buy_Button_Click') : gtag('event', 'Web_Converter_coinconversions_buy_Button_Click');
+                                                    window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_coinconversions_buy_Button_Click') : window.gtag('event', 'Web_Converter_coinconversions_buy_Button_Click'));
                                                     router.push(`/creditcard`)
                                                 }}>{t('home.conversions_buy', { fiatName: item?.fiatName?.toUpperCase() })}</div>
                                             </div>
@@ -383,7 +386,7 @@ const BitcoinMarkets = ({ moreCryptocurrency, moreCryptocurrencyExchangeRate, mo
                                     <div className={Style.listItem} key={index}>
                                         <div className={Style.cell1} onClick={() => {
                                             // 埋点 区分 H5&PC
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_top10_coin_Button_Click') : gtag('event', 'Web_Converter_top10_coin_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_top10_coin_Button_Click') : window.gtag('event', 'Web_Converter_top10_coin_Button_Click'));
                                             router.push(`/price/${item?.coinName}`)
                                         }}>
                                             <Image width={24} height={24} src={coinIconPath(item?.coinName)} alt='' />
@@ -416,7 +419,7 @@ const BitcoinMarkets = ({ moreCryptocurrency, moreCryptocurrencyExchangeRate, mo
                                             <div className={Style.listItem} key={index}>
                                                 <div className={Style.coins} onClick={() => {
                                                     // 埋点 区分 H5&PC
-                                                    window.gtag && isMobile ? gtag('event', 'H5_Converter_top10_coin_Button_Click') : gtag('event', 'Web_Converter_top10_coin_Button_Click');
+                                                    window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_top10_coin_Button_Click') : window.gtag('event', 'Web_Converter_top10_coin_Button_Click'));
                                                     router.push(`/price/${item?.coinName}`)
                                                 }}>
                                                     <Image width={32} height={32} src={coinIconPath(item?.name)} alt='' />
@@ -442,7 +445,7 @@ const BitcoinMarkets = ({ moreCryptocurrency, moreCryptocurrencyExchangeRate, mo
                                     return (
                                         <div className={Style.listItem} key={index} onClick={() => {
                                             // 埋点 区分 H5&PC
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_discover_coin_Button_Click') : gtag('event', 'Web_Converter_discover_coin_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_discover_coin_Button_Click') : window.gtag('event', 'Web_Converter_discover_coin_Button_Click'));
                                             router.push(`/price/${item?.coinName}`)
                                         }}>
                                             <Image width={32} height={32} src={coinIconPath(item.coinName)} alt='' />

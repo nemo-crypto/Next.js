@@ -1,9 +1,10 @@
+'use client';
+
 import { useState, useEffect, useRef } from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from '@components/image';
+import Link from '@src/components/localized-link';
 import { Config } from '@constants/config';
-import { useRouter } from 'next/router';
+import { useRouter } from '@src/lib/navigation';
 import Style from './index.module.scss';
 import BitcoinMarkets from './bitcoin-markets';
 import Faq from './faq';
@@ -15,11 +16,11 @@ import { coinIconPath, formatDate, formatNumSplit } from '@utils/common';
 import { handelDecimal } from '@utils/decimal';
 
 
-const Converter = ({ fromCount, fromName, toName }) => {
+const Converter = ({ fromCount, fromName, toName, initialData }) => {
 
     const router = useRouter();
     const { t } = useTranslation('converter');
-    const [fromCoinCount, setFromCoinCount] = useState();
+    const [fromCoinCount, setFromCoinCount] = useState(initialData?.baseCoin?.amount ?? fromCount);
     const [coinName, setCoinName] = useState(fromName);
     const [fiatName, setFiatName] = useState(toName);
 
@@ -31,7 +32,7 @@ const Converter = ({ fromCount, fromName, toName }) => {
     const [moreCryptocurrencyExchangeRate, setMoreCryptocurrencyExchangeRate] = useState([]);
     const [moreFiat, setMoreFiat] = useState([]);
     const [moreAmount, setMoreAmount] = useState([]);
-    const [resInfo, setResInfo] = useState({});
+    const [resInfo, setResInfo] = useState(initialData || {});
 
     const [rateInfo, setRateInfo] = useState({});
     const [isMobile, setIsMobile] = useState(false);
@@ -68,7 +69,7 @@ const Converter = ({ fromCount, fromName, toName }) => {
                 ])
 
                 // 埋点 区分 H5&PC Converter{{amount}}{{coins}}to{{fiat}}详情页的曝光监测
-                window.gtag && isMobile ? gtag('event', `H5_Converter_${res?.data?.baseCoin?.amount}${res?.data?.baseCoin?.name}to${res?.data?.quoteCoin?.name}_Expose`) : gtag('event', `Web_Converter_${res?.data?.baseCoin?.amount}${res?.data?.baseCoin?.name}to${res?.data?.quoteCoin?.name}_Expose`);
+                window.gtag && (isMobile ? window.gtag('event', `H5_Converter_${res?.data?.baseCoin?.amount}${res?.data?.baseCoin?.name}to${res?.data?.quoteCoin?.name}_Expose`) : window.gtag('event', `Web_Converter_${res?.data?.baseCoin?.amount}${res?.data?.baseCoin?.name}to${res?.data?.quoteCoin?.name}_Expose`));
             };
         });
     }
@@ -88,11 +89,7 @@ const Converter = ({ fromCount, fromName, toName }) => {
 
     return (
         <>
-            <Head>
-                <title>{t('seo.title')}</title>
-                <meta name="keywords" content={t('seo.keywords')} />
-                <meta name="description" content={t('seo.description')} />
-            </Head>
+
             <div className={Style.component}>
                 <div className={Style.banner}>
                     <div className={Style.banner_content}>
@@ -111,7 +108,7 @@ const Converter = ({ fromCount, fromName, toName }) => {
                             <h6>{t('home.banner_h6', { coinName: coinName, price: formatNumSplit(handelDecimal(1, resInfo?.baseToQuoteRate)), fiatName })}</h6>
                             <div className={Style.btns} onClick={() => {
                                 // 埋点 区分 H5&PC
-                                window.gtag && isMobile ? gtag('event', 'H5_Converter_Head_Buy_Button_Click') : gtag('event', 'Web_Converter_Head_Buy_Button_Click');
+                                window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_Head_Buy_Button_Click') : window.gtag('event', 'Web_Converter_Head_Buy_Button_Click'));
                                 router.push('/creditcard')
                             }} >
                                 {t('home.buy_btn', { coinFullName: 'Bitcoin', coinName })}

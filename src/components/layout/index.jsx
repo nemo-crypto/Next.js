@@ -8,10 +8,11 @@ import { getParameterByName } from '@utils/common';
 
 const Layout = ({ children }) => {
     const [isMobile, setIsMobile] = useState(false);
-    const isAPP = typeof window !== 'undefined' && window.currencyexchange;
+    const [isAPP, setIsAPP] = useState(false);
 
 
     useEffect(() => {
+        setIsAPP(Boolean(window.currencyexchange));
         // 判断是否移动设备
         if (/Mobi|Android|iPhone/i.test(navigator.userAgent)) {
             setIsMobile(true);
@@ -40,7 +41,7 @@ const Layout = ({ children }) => {
             {!isAPP && <div className='h5-placeholder'></div>}
             {children}
             <div id="page-common-footer"></div>
-            {__ENV__ === 'qa' && isMobile && <Script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js" onLoad={() => { new window.VConsole(); }} />}
+            {process.env.NEXT_PUBLIC_APP_ENV === 'qa' && isMobile && <Script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js" onLoad={() => { new window.VConsole(); }} />}
             <style jsx>{`
             @media screen and (max-width:750px){
                 .h5-placeholder{
@@ -49,10 +50,10 @@ const Layout = ({ children }) => {
                 }
             }
             `}</style>
-            <Script
+            {Config.staticDomain && <Script
                 src={`${Config.staticDomain}/uniframe/js/main.uniframe.bundle.js`}
                 onLoad={() => {
-                    if (window.currencyexchange) return;
+                    if (window.currencyexchange || !window.Widgets?.uniFrame) return;
 
                     // 初始化Header
                     const headerInit = new window.Widgets.uniFrame.Header({
@@ -69,7 +70,7 @@ const Layout = ({ children }) => {
                     });
                     footerInit?.render();
                 }}
-            />
+            />}
         </>
     );
 };

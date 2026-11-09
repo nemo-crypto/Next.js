@@ -75,8 +75,8 @@ const RangePickerDate = (props) => {
                 isPopperOpen
                 && 
                 <DayPicker
-                    min={props.min || ""}
-                    max={props.max || ""}
+                    min={Number(props.min) || undefined}
+                    max={Number(props.max) || undefined}
                     mode="range"
                     selected={selectedRange}
                     onSelect={handleRangeSelect}

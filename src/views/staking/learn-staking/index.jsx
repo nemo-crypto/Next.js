@@ -1,4 +1,5 @@
-import Head from 'next/head';
+'use client';
+
 
 import Style from './index.module.scss';
 
@@ -11,11 +12,7 @@ const LearnStaking = ()  => {
 
     return (
         <>
-            <Head>
-                <title>{t('seo.title')}</title>
-                <meta name="keywords" content={t('seo.keywords')} />
-                <meta name="description" content={t('seo.description')} />
-            </Head>
+
             <div className={Style.component}>
                 <div className={Style.container}>
                     <h1>{t('main.title')}</h1>

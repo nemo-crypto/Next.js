@@ -1,8 +1,9 @@
+'use client';
+
 import { useState, useCallback, useEffect, useRef } from 'react';
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import Link from 'next/link';
-import Image from 'next/image';
+import { useRouter } from '@src/lib/navigation';
+import Link from '@src/components/localized-link';
+import Image from '@components/image';
 
 import Style from './index.module.scss';
 import classNames from 'classnames';
@@ -61,7 +62,7 @@ const PriceDetail = ({ coinName, coinDetail })  => {
         const fetchData = await getPriceCoinList();
         const coinList = fetchData?.code == 0 ? fetchData?.data?.baseCoins : [];
         coinList.map((item, index) => !item.isOn && coinList.splice(index, 1));
-        
+
         setCoinList(coinList);
     }, []);
     useEffect(() => {
@@ -147,28 +148,13 @@ const PriceDetail = ({ coinName, coinDetail })  => {
 
     return (
         <>
-            {
-                coinDetail?.isEtf
-                ?
-                <Head>
-                    <title>{t('seo.etfTitle', {coinFullName, coinName})}</title>
-                    <meta name="keywords" content={t('seo.etfKeywords', {coinFullName, coinName})} />
-                    <meta name="description" content={t('seo.etfDescription', {coinFullName, coinName})} />
-                </Head>
-                :
-                <Head>
-                    <title>{t('seo.title', {coinFullName, coinName})}</title>
-                    <meta name="keywords" content={t('seo.keywords', {coinFullName, coinName})} />
-                    <meta name="description" content={t('seo.description', {coinFullName, coinName})} />
-                </Head>
-            }
             <div className={Style.component}>
             {
                 coinDetail?.info
                 ?
                 <div className={Style.container}>
                     <div className={Style.header}>
-                        <h2>{t('title')}</h2>
+                        <h1 className={Style.pageTitle}>{t('coinPrice', { coinFullName: coinFullName || coinName })}</h1>
                         <div className={Style.search}>
                             <CustomSelect
                                 renderLabelProp={option => option ? renderCoinOption(option) : 'All'}

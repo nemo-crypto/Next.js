@@ -27,3 +27,9 @@ yarn-error.log*
 
 # TypeScript incremental compiler cache
 *.tsbuildinfo
+
+.next/
+dist/
+.temp/
+playwright-report/
+test-results/

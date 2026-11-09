@@ -1,7 +1,8 @@
+'use client';
+
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react';
-import Head from 'next/head';
-import Link from 'next/link';
-import Image from 'next/image';
+import Link from '@src/components/localized-link';
+import Image from '@components/image';
 
 import Style from './index.module.scss';
 import classNames from 'classnames';
@@ -32,7 +33,7 @@ const FlexibleVipView = ({ coinName })  => {
     const refInvestAmount = useRef(null);
     const refUnfreezeAmount = useRef(null);
     const { t, lang } = useTranslation('flexible');
-    
+
     const baseCoin = useMemo(() => {
         return coinName.split('-')[0]?.toUpperCase();
     }, []);
@@ -86,7 +87,7 @@ const FlexibleVipView = ({ coinName })  => {
     function handleAmountAllClick () {
         const scale = coinDetail?.campaign?.inputScale;
         const maxAmount = coinDetail?.maxInvestmentAmount;
-    
+
         if (maxAmount !== undefined && scale !== undefined) {
             let _investAmount = parseFloat(maxAmount.toFixed(scale));
             refInvestAmount.current.value = _investAmount;
@@ -98,7 +99,7 @@ const FlexibleVipView = ({ coinName })  => {
         const scale = coinDetail?.campaign?.inputScale;
         const maxAmount = coinDetail?.maxInvestmentAmount;
         const inputValue = event.target.value;
-    
+
         // 检查是否包含特殊字符
         if (scale > 0) {
             if (/[^\0-9\.]/g.test(event.target.value)) {
@@ -111,13 +112,13 @@ const FlexibleVipView = ({ coinName })  => {
                 return;
             };
         };
-    
+
         // 检查是否超过最大额度
         if (maxAmount !== undefined && parseFloat(inputValue) > maxAmount) {
             setInvestErrorMsg(`${t('detail.maxJoinAmout')} ${formatNumSplit(maxAmount)} ${baseCoin}`);
             return;
         }
-    
+
         // 如果有小数位，限制小数位数
         if (scale > 0 && inputValue.includes('.')) {
             const [integerPart, decimalPart] = inputValue.split('.');
@@ -286,7 +287,7 @@ const FlexibleVipView = ({ coinName })  => {
         const scale = coinDetail?.campaign?.inputScale;
         const maxAmount = coinDetail?.myInvestment;
         const inputValue = event.target.value;
-    
+
         // 检查是否包含特殊字符
         if (scale > 0) {
             if (/[^\0-9\.]/g.test(event.target.value)) {
@@ -299,13 +300,13 @@ const FlexibleVipView = ({ coinName })  => {
                 return;
             };
         };
-    
+
         // 检查是否超过最大额度
         if (maxAmount !== undefined && parseFloat(inputValue) > maxAmount) {
             refUnfreezeAmount.current.value = maxAmount;
             return;
         };
-    
+
         // 如果有小数位，限制小数位数
         if (scale > 0 && inputValue.includes('.')) {
             const [integerPart, decimalPart] = inputValue.split('.');
@@ -324,11 +325,7 @@ const FlexibleVipView = ({ coinName })  => {
 
     return (
         <>
-            <Head>
-                <title>{t('detail.title', {coin: baseCoin})}</title>
-                <meta name="keywords" content={coinName.indexOf('new-user') > -1 ? t('detail.newUserkwd', {coin: baseCoin}) : t('detail.keywords', {coin: baseCoin})} />
-                <meta name="description" content={coinName.indexOf('new-user') > -1 ? t('detail.newUserDesc', {coin: baseCoin}) : t('detail.description', {coin: baseCoin})} />
-            </Head>
+
             <div className={Style.component}>
             {
                 loading

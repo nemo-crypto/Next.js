@@ -1,5 +1,7 @@
+'use client';
+
 import { useState, useRef } from 'react';
-import Link from 'next/link';
+import Link from '@src/components/localized-link';
 
 import Style from './index.module.scss';
 import Modal from '@components/modal';
@@ -27,7 +29,7 @@ const Investment = ({ coinName, tokenStr, coinDetail })  => {
     function handleInvestAmountChange (event) {
         const scale = coinDetail?.inputScale;
         const inputValue = event.target.value;
-    
+
         // 检查是否包含特殊字符
         if (scale > 0) {
             if (/[^\d.]/.test(event.target.value)) {
@@ -40,7 +42,7 @@ const Investment = ({ coinName, tokenStr, coinDetail })  => {
                 return;
             };
         };
-    
+
         // 如果有小数位，限制小数位数
         if (scale > 0 && inputValue.includes('.')) {
             const [integerPart, decimalPart] = inputValue.split('.');
@@ -84,11 +86,11 @@ const Investment = ({ coinName, tokenStr, coinDetail })  => {
     function handleInvestAllClick () {
         const scale = coinDetail?.inputScale;
         const maxAmount = coinDetail?.maxExtraQuotaAvaliableAmt;
-    
+
         if (maxAmount !== undefined && scale !== undefined) {
             let _investAmount = parseFloat(maxAmount.toFixed(scale));
             refInvestAmount.current.value = _investAmount;
-            
+
             setInvestErrorMsg('');
             getLockUpBtrAmount(_investAmount);
         };

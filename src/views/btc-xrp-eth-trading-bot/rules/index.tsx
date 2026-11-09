@@ -1,15 +1,17 @@
+'use client';
+
 import React, { useState } from 'react'
 
 // import './index.scss'
 import Style from './index.module.scss';
 import useTranslation from 'next-translate/useTranslation';
 // @ts-ignore
-import ReactHtmlParser from 'react-html-parser';
+import ReactHtmlParser from 'html-react-parser';
 // const ReactHtmlParser = (a:any)=>{return a}
 
 export default function RulesList(props:any) {
   const { ruleLang } = props;
-  const [questionIndex, setQuestionIndex] = useState(-1);
+  const [questionIndex, setQuestionIndex] = useState<number | string>(-1);
 
   // 问答切换
   const handleQaIndexChange = (index:any) => {

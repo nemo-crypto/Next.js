@@ -1,5 +1,7 @@
+'use client';
+
 import { useState, useRef } from 'react';
-import Image from 'next/image';
+import Image from '@components/image';
 
 import Style from './index.module.scss';
 import Slider from '@components/slider';
@@ -40,7 +42,7 @@ const ProInfo = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {
     function handleCalcInvestAmountChange (event) {
         const scale = coinDetail?.inputScale;
         const inputValue = event.target.value;
-    
+
         // 如果有小数位，限制小数位数
         if (scale > 0 && inputValue.includes('.')) {
             const [integerPart, decimalPart] = inputValue.split('.');
@@ -86,7 +88,7 @@ const ProInfo = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {
         const scale = coinDetail?.inputScale;
         const maxAmount = coinDetail?.totalInvestment;
         const inputValue = event.target.value;
-    
+
         // 检查是否包含特殊字符
         if (scale > 0) {
             if (/[^\d.]/.test(event.target.value)) {
@@ -99,13 +101,13 @@ const ProInfo = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {
                 return;
             };
         };
-    
+
         // 检查是否超过最大额度
         if (maxAmount !== undefined && parseFloat(inputValue) > maxAmount) {
             refUnfreezeAmount.current.value = maxAmount;
             return;
         };
-    
+
         // 如果有小数位，限制小数位数
         if (scale > 0 && inputValue.includes('.')) {
             const [integerPart, decimalPart] = inputValue.split('.');
@@ -130,7 +132,7 @@ const ProInfo = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {
             setUnlockBtrAmount(0);
             return;
         };
-        
+
         const params = {
             progressId: coinDetail?.progressId,
             redeemAmount: amount || 0

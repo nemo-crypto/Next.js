@@ -1,3 +1,5 @@
+'use client';
+
 import Style from './index.module.scss';
 
 import useTranslation from 'next-translate/useTranslation';
@@ -5,7 +7,7 @@ import { formatNumSplit } from '@utils/common';
 
 const Rewards = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {
     const { t } = useTranslation('btrlockup');
-    
+
     return ( 
         <div className={Style.rewards}>
             <h2>{t('detail.myRewards')}</h2>

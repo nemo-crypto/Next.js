@@ -1,8 +1,9 @@
+'use client';
+
 import { useState, useEffect, useRef } from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
+import Image from '@components/image';
 import { Config } from '@constants/config';
-import { useRouter } from 'next/router';
+import { useRouter } from '@src/lib/navigation';
 
 import Style from './index.module.scss';
 import classNames from 'classnames';
@@ -21,7 +22,7 @@ import Modal from '@components/modal';
 
 import { getLang, getLandingDetail, postLandingSign } from '@service/landing-page';
 
-const LandingPage = ({ activityId }) => {
+const LandingPage = ({ activityId, initialData }) => {
     const [langData, setLangData] = useState({});
     const [tokenMsg, setTokenMsg] = useState({
         'exchange-token': '',
@@ -40,7 +41,7 @@ const LandingPage = ({ activityId }) => {
     const [userInviteCode, setUserInviteCode] = useState('');
     const [shareSlogon, setShareSlogon] = useState('');
 
-    const [landInfo, setLandInfo] = useState({});
+    const [landInfo, setLandInfo] = useState(initialData || {});
     const [errorInfo, setErrorInfo] = useState('');
     const [isH5, setIsH5] = useState(false);
     const [isSignDis, setiIsSignDis] = useState(false);
@@ -108,7 +109,7 @@ const LandingPage = ({ activityId }) => {
             from: getParameterByName('from')
         }, tokenMsg).then(res => {
             setLandInfo(res?.data || {})
-            setShareSlogon(res?.data?.shareContent.desc || '')
+            setShareSlogon(res?.data?.shareContent?.desc || '')
             setUserInviteCode(res?.data?.inviteCode || '')
             setiIsSignDis(res?.data?.isSign)
             modalShow(res, langData_)
@@ -225,11 +226,7 @@ const LandingPage = ({ activityId }) => {
 
     return (
         <>
-            <Head>
-                <title>{landInfo?.seoContent?.seoTitle}</title>
-                <meta name="keywords" content={landInfo?.seoContent?.seoKey} />
-                <meta name="description" content={landInfo?.seoContent?.seoDes} />
-            </Head>
+
             <div className={Style.component} style={{ background: isH5 ? landInfo?.color || 'transparent' : 'transparent' }}>
                 {(Object.keys(landInfo)).length > 0 && <div className={Style.banner} style={{ background: isH5 ? 'transparent' : landInfo?.color || 'transparent' }}>
                     <div className={classNames(['basic', Style.banner_box])}>

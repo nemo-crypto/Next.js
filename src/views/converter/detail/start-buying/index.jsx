@@ -1,13 +1,15 @@
+'use client';
+
 import { useState, useEffect, useRef } from 'react';
 import Style from './index.module.scss';
-import Image from 'next/image';
+import Image from '@components/image';
 import card_1 from '@static/images/converter/card_1.png';
 import card_2 from '@static/images/converter/card_2.png';
 import card_3 from '@static/images/converter/card_3.png';
 import card_left from '@static/images/converter/card_left.png';
-import Link from 'next/link';
+import Link from '@src/components/localized-link';
 import useTranslation from 'next-translate/useTranslation';
-import { useRouter } from 'next/router';
+import { useRouter } from '@src/lib/navigation';
 
 
 const StartBuying = ({ resInfo, isMobile, type }) => {
@@ -44,23 +46,23 @@ const StartBuying = ({ resInfo, isMobile, type }) => {
                                 <div className={Style.cardItem} key={index} onClick={() => {
                                     if (index == 0) {
                                         if (type == 'index') {
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_startbuy_register_Button_Click') : gtag('event', 'Web_Converter_HomePage_startbuy_register_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_startbuy_register_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_startbuy_register_Button_Click'));
                                         } else {
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_startbuy_register_Button_Click') : gtag('event', 'Web_Converter_startbuy_register_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_startbuy_register_Button_Click') : window.gtag('event', 'Web_Converter_startbuy_register_Button_Click'));
                                         }
                                     }
                                     if (index == 1) {
                                         if (type == 'index') {
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_startbuy_verify_Button_Click') : gtag('event', 'Web_Converter_HomePage_startbuy_verify_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_startbuy_verify_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_startbuy_verify_Button_Click'));
                                         } else {
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_startbuy_verify_Button_Click') : gtag('event', 'Web_Converter_startbuy_verify_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_startbuy_verify_Button_Click') : window.gtag('event', 'Web_Converter_startbuy_verify_Button_Click'));
                                         }
                                     }
                                     if (index == 2) {
                                         if (type == 'index') {
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_startbuy_buy_Button_Click') : gtag('event', 'Web_Converter_HomePage_startbuy_buy_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_startbuy_buy_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_startbuy_buy_Button_Click'));
                                         } else {
-                                            window.gtag && isMobile ? gtag('event', 'H5_Converter_startbuy_buy_Button_Click') : gtag('event', 'Web_Converter_startbuy_buy_Button_Click');
+                                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_startbuy_buy_Button_Click') : window.gtag('event', 'Web_Converter_startbuy_buy_Button_Click'));
                                         }
                                     }
                                     router.push(`${item.path}`)

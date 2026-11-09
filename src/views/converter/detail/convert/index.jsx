@@ -1,7 +1,9 @@
+'use client';
+
 import { useState, useEffect, useRef } from 'react';
 import Style from './index.module.scss';
-import Image from 'next/image';
-import { useRouter } from 'next/router';
+import Image from '@components/image';
+import { useRouter } from '@src/lib/navigation';
 import convert from '@static/images/converter/convert.png';
 import coin_icon from '@static/images/converter/coin_icon.png';
 import arrow_right from '@static/images/converter/arrow_right.png';
@@ -138,9 +140,9 @@ const Convert = ({ fromCoinCount, fromName, toName, rateInfo, resInfo, isMobile,
         })
 
         if (type == 'index') {
-            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_convert_coin_Button_Click') : gtag('event', 'Web_Converter_HomePage_convert_coin_Button_Click');
+            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_convert_coin_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_convert_coin_Button_Click'));
         } else {
-            window.gtag && isMobile ? gtag('event', 'H5_Converter_convert_coin_Button_Click') : gtag('event', 'Web_Converter_convert_coin_Button_Click');
+            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_convert_coin_Button_Click') : window.gtag('event', 'Web_Converter_convert_coin_Button_Click'));
         }
         handleConvertChange(fromInput, toInput, item, selectToOption, convertSwitch)
     };
@@ -155,9 +157,9 @@ const Convert = ({ fromCoinCount, fromName, toName, rateInfo, resInfo, isMobile,
             }
         })
         if (type == 'index') {
-            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_convert_fait_Button_Click') : gtag('event', 'Web_Converter_HomePage_convert_fait_Button_Click');
+            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_convert_fait_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_convert_fait_Button_Click'));
         } else {
-            window.gtag && isMobile ? gtag('event', 'H5_Converter_convert_fait_Button_Click') : gtag('event', 'Web_Converter_convert_fait_Button_Click');
+            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_convert_fait_Button_Click') : window.gtag('event', 'Web_Converter_convert_fait_Button_Click'));
         }
         handleConvertChange(fromInput, toInput, selectFromOption, item, convertSwitch)
     };
@@ -208,9 +210,9 @@ const Convert = ({ fromCoinCount, fromName, toName, rateInfo, resInfo, isMobile,
         setToInput(val)
 
         if (type == 'index') {
-            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_convert_change_Button_Click') : gtag('event', 'Web_Converter_HomePage_convert_change_Button_Click');
+            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_convert_change_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_convert_change_Button_Click'));
         } else {
-            window.gtag && isMobile ? gtag('event', 'H5_Converter_convert_change_Button_Click') : gtag('event', 'Web_Converter_convert_change_Button_Click');
+            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_convert_change_Button_Click') : window.gtag('event', 'Web_Converter_convert_change_Button_Click'));
         }
         handleConvertChange(fromInput, toInput, selectFromOption, selectToOption, !convertSwitch)
     }
@@ -294,9 +296,9 @@ const Convert = ({ fromCoinCount, fromName, toName, rateInfo, resInfo, isMobile,
                     <div className={Style.convert_btn} onClick={() => {
                         // 埋点 区分 H5&PC
                         if (type == 'index') {
-                            window.gtag && isMobile ? gtag('event', 'H5_Converter_HomePage_convert_convert_Button_Click') : gtag('event', 'Web_Converter_HomePage_convert_convert_Button_Click');
+                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_HomePage_convert_convert_Button_Click') : window.gtag('event', 'Web_Converter_HomePage_convert_convert_Button_Click'));
                         } else {
-                            window.gtag && isMobile ? gtag('event', 'H5_Converter_convert_convert_Button_Click') : gtag('event', 'Web_Converter_convert_convert_Button_Click');
+                            window.gtag && (isMobile ? window.gtag('event', 'H5_Converter_convert_convert_Button_Click') : window.gtag('event', 'Web_Converter_convert_convert_Button_Click'));
                         }
                         router.push(`/converter/${getConverterPath()}`)
                     }}>

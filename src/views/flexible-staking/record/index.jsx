@@ -1,6 +1,7 @@
+'use client';
+
 import { useState, useEffect, useCallback } from 'react';
-import Head from 'next/head';
-import Image from 'next/image';
+import Image from '@components/image';
 
 import Style from './index.module.scss';
 
@@ -223,11 +224,7 @@ const FlexibleStaking = ()  => {
 
     return (
         <>
-            <Head>
-                <title>{t('list.title')}</title>
-                <meta name="keywords" content={t('list.keywords')} />
-                <meta name="description" content={t('list.description')} />
-            </Head>
+
             <div className={Style.component}>
                 <div className="basic">
                     <h2>{t('record.pageTitle')}</h2>

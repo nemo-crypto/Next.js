@@ -1,5 +1,9 @@
 import React, { useEffect } from 'react';
-import * as echarts from 'echarts';
+import * as echarts from 'echarts/core';
+import { LineChart as EChartsLine, CandlestickChart } from 'echarts/charts';
+import { GridComponent, MarkLineComponent } from 'echarts/components';
+import { CanvasRenderer } from 'echarts/renderers';
+echarts.use([EChartsLine, CandlestickChart, GridComponent, MarkLineComponent, CanvasRenderer]);
 import { coinIconPath, formatDate, formatNumSplit } from '@utils/common';
 import { el } from 'date-fns/locale';
 
