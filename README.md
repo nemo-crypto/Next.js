@@ -4,7 +4,7 @@
 
 版本依据：2026-11-09 核对 npm stable；实际安装版本以 `package.json`、`pnpm-lock.yaml` 为准。历史 Next.js 13 学习材料保存在 [docs/nextjs-notes.md](docs/nextjs-notes.md)，不再作为当前工程运行指南。
 
-## 环境与运行
+## 环境与运行 
 
 要求 Node.js **22 或更新的 LTS**、pnpm **10.32.0**。
 
