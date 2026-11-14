@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Brak danych!"
+    },
+    "accessibility": {
+        "skipToContent": "Przejdź do treści",
+        "close": "Zamknij"
+    },
+    "feedback": {
+        "errorTitle": "Nie można załadować strony",
+        "errorDescription": "Spróbuj ponownie.",
+        "retry": "Spróbuj ponownie",
+        "notFoundTitle": "Nie znaleziono strony",
+        "notFoundDescription": "Ta strona nie istnieje.",
+        "home": "Strona główna"
     }
 }

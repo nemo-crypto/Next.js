@@ -9,6 +9,6 @@ export default defineConfig({
     webServer: process.env.E2E_BASE_URL ? undefined : [
         { command: 'node scripts/mock-backend.mjs', url: 'http://127.0.0.1:9099', reuseExistingServer: false },
         { command: 'pnpm exec next start -H 127.0.0.1 -p 3100', url: 'http://127.0.0.1:3100', timeout: 60_000, reuseExistingServer: false,
-            env: { API_URL: 'http://127.0.0.1:9099/', API_FUTURES: 'http://127.0.0.1:9099/' } },
+            env: { SSR_DEMOS_ENABLED: 'true', API_URL: 'http://127.0.0.1:9099/', API_FUTURES: 'http://127.0.0.1:9099/' } },
     ],
 });

@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
     return (
         <>
             <div id="page-common-header"></div>
-            {!isAPP && <div className='h5-placeholder'></div>}
+            {Config.staticDomain && !isAPP && <div className='h5-placeholder'></div>}
             {children}
             <div id="page-common-footer"></div>
             {process.env.NEXT_PUBLIC_APP_ENV === 'qa' && isMobile && <Script src="https://unpkg.com/vconsole@latest/dist/vconsole.min.js" onLoad={() => { new window.VConsole(); }} />}

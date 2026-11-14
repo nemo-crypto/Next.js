@@ -1,4 +1,6 @@
 'use client';
+import { sanitizeRichHtml } from '@src/lib/safe-content';
+import { safeNavigationUrl } from '@src/lib/safe-url';
 
 import { useState, useCallback, useEffect, useRef } from 'react';
 import { useRouter } from '@src/lib/navigation';
@@ -276,7 +278,7 @@ const PriceDetail = ({ coinName, coinDetail })  => {
                                         {
                                             coinDetail?.info?.website
                                             ?
-                                            <Link href={coinDetail?.info?.website} target="_blank" rel="noopener noreferrer">
+                                            <Link href={safeNavigationUrl(coinDetail?.info?.website) || '#'} target="_blank" rel="noopener noreferrer">
                                                 {coinDetail?.info?.website} <i className='iconfont icon-tiaozhuan'></i>
                                             </Link>
                                             :
@@ -293,7 +295,7 @@ const PriceDetail = ({ coinName, coinDetail })  => {
                                             ?
                                             coinDetail?.info?.explorerList?.map((item, index)=>{
                                                 return  (
-                                                    <Link key={index} href={item} target="_blank" rel="noopener noreferrer">
+                                                    <Link key={index} href={safeNavigationUrl(item) || '#'} target="_blank" rel="noopener noreferrer">
                                                         {item} <i className='iconfont icon-tiaozhuan'></i>
                                                     </Link>
                                                 )
@@ -338,7 +340,7 @@ const PriceDetail = ({ coinName, coinDetail })  => {
                         &&
                         <div className={`${Style.modal} ${Style.coinDescriptionModal} ${isShowMore&&!isExtCoinDetail&&coinDetail.certikInfoVo?Style.coinDescription:''}`}>
                             <h3>{t('coinIntroduction', { coinFullName, coinName })}</h3>
-                            <div ref={coinDescription} className={Style.modal_content} dangerouslySetInnerHTML={{ __html: coinDetail?.info?.description}} />
+                            <div ref={coinDescription} className={Style.modal_content} dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(coinDetail?.info?.description)}} />
                             {
                                 (isShowMore && coinDetail.certikInfoVo) &&
                                 <div className={`${Style.coinDescriptionModal_maskExtend} ${isExtCoinDetail?Style.coinDescriptionModal_transparentBG:''}`}>
@@ -361,7 +363,7 @@ const PriceDetail = ({ coinName, coinDetail })  => {
                         coinDetail?.info.platform=='coinMarketCap'
                         &&
                         <div className={Style.powerby}>
-                            <Link href={coinDetail?.info?.cmcUrl || "https://coinmarketcap.com/"} target="_blank">
+                            <Link href={safeNavigationUrl(coinDetail?.info?.cmcUrl) || 'https://coinmarketcap.com/'} target="_blank">
                                 Powered by: <Image src={cmcLogo} alt="CoinMarketCap" width={96} height={16} />
                             </Link>
                         </div>
@@ -375,7 +377,7 @@ const PriceDetail = ({ coinName, coinDetail })  => {
                                     isMobileFlag &&
                                     <div className={Style.dataCertik}>
                                         <span>{t('CertikInfoVo.DataFrom')}</span>
-                                        <a href={coinDetail.certikInfoVo.projectWebsite}>
+                                        <a href={safeNavigationUrl(coinDetail.certikInfoVo.projectWebsite)}>
                                             <Image src={certikLogo} alt="save-icon" />
                                             <span>CERTIK</span>
                                         </a>
@@ -399,7 +401,7 @@ const PriceDetail = ({ coinName, coinDetail })  => {
                                     <span>{t('CertikInfoVo.thirdParty')}</span>
                                     {
                                         !isMobileFlag &&
-                                        <a href={coinDetail.certikInfoVo.projectWebsite} target="_blank" rel="noreferrer">
+                                        <a href={safeNavigationUrl(coinDetail.certikInfoVo.projectWebsite)} target="_blank" rel="noreferrer">
                                             <Image src={certikLogo} alt="save-icon" />
                                             <span>CERTIK</span>
                                         </a>

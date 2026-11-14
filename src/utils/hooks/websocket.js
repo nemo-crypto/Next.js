@@ -53,7 +53,7 @@ class WebSocketWrapper {
         this.socket.addEventListener('message', (event) => {
             let message;
             try {
-                const json = typeof event.data === 'string' ? event.data : inflate(new Uint8Array(event.data), { to: 'string' });
+                const json = typeof event.data === 'string' ? event.data : inflate(new Uint8Array(event.data), { toText: true });
                 message = JSON.parse(json);
             } catch { return; }
 

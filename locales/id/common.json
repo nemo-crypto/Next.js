@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Tidak ada data!"
+    },
+    "accessibility": {
+        "skipToContent": "Lewati ke konten",
+        "close": "Tutup"
+    },
+    "feedback": {
+        "errorTitle": "Halaman ini tidak dapat dimuat",
+        "errorDescription": "Silakan coba lagi.",
+        "retry": "Coba lagi",
+        "notFoundTitle": "Halaman tidak ditemukan",
+        "notFoundDescription": "Halaman ini tidak ada.",
+        "home": "Beranda"
     }
 }

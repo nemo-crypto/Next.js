@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Geen gegevens!"
+    },
+    "accessibility": {
+        "skipToContent": "Ga naar inhoud",
+        "close": "Sluiten"
+    },
+    "feedback": {
+        "errorTitle": "Deze pagina kan niet worden geladen",
+        "errorDescription": "Probeer het opnieuw.",
+        "retry": "Opnieuw proberen",
+        "notFoundTitle": "Pagina niet gevonden",
+        "notFoundDescription": "Deze pagina bestaat niet.",
+        "home": "Home"
     }
 }

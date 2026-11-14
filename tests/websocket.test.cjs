@@ -20,7 +20,7 @@ test('socket disposal cancels reconnect and listeners; instances do not share us
         module: sandboxModule, exports: sandboxModule.exports, window: { WebSocket: Socket },
         setTimeout: fn => { const id = timers.size + 1; timers.set(id, fn); return id; },
         clearTimeout: id => timers.delete(id),
-        require: name => name === '@constants/config' ? { Config: { WebSocketDomain: 'wss://example.test' } } : { inflate: () => '{}' },
+        require: name => name === '@constants/config' ? { Config: { WebSocketDomain: 'wss://example.test' } } : require('pako'),
     });
     const Wrapper = sandboxModule.exports.default;
     const first = new Wrapper();
@@ -36,9 +36,12 @@ test('socket disposal cancels reconnect and listeners; instances do not share us
     sockets[0].listeners.message({ data: '{broken' });
     sockets[0].listeners.message({ data: '{}' });
     assert.equal(messages, 1);
+    const compressed = require('pako').gzip(new TextEncoder().encode(JSON.stringify({ text: '行情数据' })));
+    sockets[0].listeners.message({ data: compressed.buffer });
+    assert.equal(messages, 2, 'compressed binary messages must be decoded with the installed Pako API');
     off();
     sockets[0].listeners.message({ data: '{}' });
-    assert.equal(messages, 1);
+    assert.equal(messages, 2);
     first.close();
     assert.equal(timers.size, 0);
     assert.equal(first.isConnected, false);

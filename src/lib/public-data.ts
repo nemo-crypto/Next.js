@@ -5,8 +5,11 @@ import { cache } from 'react';
 async function publicGet(base: string | undefined, path: string, query: Record<string, string>, headers: Record<string, string> = {}) {
     if (!base) return null;
     const url = new URL(path, base.endsWith('/') ? base : `${base}/`);
+    if (!['http:', 'https:'].includes(url.protocol) || url.username || url.password) {
+        throw new Error('Invalid public API origin');
+    }
     for (const [key, value] of Object.entries(query)) url.searchParams.set(key, value);
-    const response = await fetch(url, { headers, cache: 'no-store', signal: AbortSignal.timeout(8000) });
+    const response = await fetch(url, { headers, redirect: 'error', cache: 'no-store', signal: AbortSignal.timeout(8000) });
     if (!response.ok) throw new Error(`Public data request failed (${response.status})`);
     const result = await response.json();
     if (![0, 200, '0', '200'].includes(result.code)) throw new Error('Public data response was unsuccessful');

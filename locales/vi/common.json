@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Không có dữ liệu!"
+    },
+    "accessibility": {
+        "skipToContent": "Chuyển đến nội dung",
+        "close": "Đóng"
+    },
+    "feedback": {
+        "errorTitle": "Không thể tải trang này",
+        "errorDescription": "Vui lòng thử lại.",
+        "retry": "Thử lại",
+        "notFoundTitle": "Không tìm thấy trang",
+        "notFoundDescription": "Trang này không tồn tại.",
+        "home": "Trang chủ"
     }
 }

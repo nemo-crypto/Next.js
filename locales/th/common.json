@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "ไม่มีข้อมูล!"
+    },
+    "accessibility": {
+        "skipToContent": "ข้ามไปยังเนื้อหา",
+        "close": "ปิด"
+    },
+    "feedback": {
+        "errorTitle": "ไม่สามารถโหลดหน้านี้ได้",
+        "errorDescription": "โปรดลองอีกครั้ง",
+        "retry": "ลองอีกครั้ง",
+        "notFoundTitle": "ไม่พบหน้า",
+        "notFoundDescription": "ไม่มีหน้านี้",
+        "home": "หน้าหลัก"
     }
 }

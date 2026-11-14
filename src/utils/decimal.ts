@@ -1,15 +1,18 @@
 import BigNumber from 'bignumber.js';
 
-/**
- * 法币的：整数位无数字的最多保留5位小数，整数位有数字的，最多保留两位小数。数字货币保留8位
- * type : 1:法币;2:数字货币
- */
-export function handelDecimal(type: number, num: any) {
-    let decimal = 0;
-    if (type === 1) {
-        decimal = parseFloat(num) >= 1 ? 2 : 5
-    } else {
-        decimal = 8
+// BigNumber 11 对空值/非数字字符串抛错；保持原输入过程中返回 NaN 的语义。
+export function decimalValue(value: unknown): BigNumber {
+    if (typeof value !== 'string' && typeof value !== 'number' && typeof value !== 'bigint' && !BigNumber.isBigNumber(value)) {
+        return new BigNumber(NaN);
     }
-    return new BigNumber(num).toFormat(decimal, BigNumber.ROUND_DOWN);
+    try { return new BigNumber(value); }
+    catch { return new BigNumber(NaN); }
+}
+
+/** 法币：>=1 保留2位，否则5位；数字货币8位。只用于展示，不作为下单金额。 */
+export function handelDecimal(type: number, num: unknown) {
+    const value = decimalValue(num);
+    if (!value.isFinite()) return '--';
+    const decimals = type === 1 ? (value.gte(1) ? 2 : 5) : 8;
+    return value.toFormat(decimals, BigNumber.ROUND_DOWN);
 }

@@ -1,4 +1,5 @@
 'use client';
+import { sanitizeRichHtml } from '@src/lib/safe-content';
 
 import { useState, useEffect, useCallback, useRef } from 'react';
 import Link from '@src/components/localized-link';
@@ -11,7 +12,7 @@ import CustomSelect from '@components/select';
 import Modal from '@components/modal';
 import { toast } from '@components/toast';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper.scss';
+import 'swiper/css';
 import { Sparklines, SparklinesLine } from 'react-sparklines';
 import dynamic from 'next/dynamic';
 const DontCharts = dynamic(() => import('./DonutChart'), { ssr: false })
@@ -827,7 +828,7 @@ const AutoInvest = () => {
                         <div className={Style.noticeline}>
                             <div className={Style.noticeIndex}>5.</div>
                             {/* <div className={Style.noticeText}>{t('Agreement5')}</div> */}
-                            <div className={Style.noticeText} dangerouslySetInnerHTML={{ __html: t('Agreement5') }} />
+                            <div className={Style.noticeText} dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(t('Agreement5')) }} />
 
                         </div>
                     </div>

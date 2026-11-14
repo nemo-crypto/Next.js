@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Keine Daten!"
+    },
+    "accessibility": {
+        "skipToContent": "Zum Inhalt springen",
+        "close": "Schließen"
+    },
+    "feedback": {
+        "errorTitle": "Diese Seite kann nicht geladen werden",
+        "errorDescription": "Bitte versuche es erneut.",
+        "retry": "Erneut versuchen",
+        "notFoundTitle": "Seite nicht gefunden",
+        "notFoundDescription": "Diese Seite existiert nicht.",
+        "home": "Startseite"
     }
 }

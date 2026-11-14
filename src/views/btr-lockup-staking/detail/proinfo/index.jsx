@@ -7,7 +7,7 @@ import Style from './index.module.scss';
 import Slider from '@components/slider';
 import Modal from '@components/modal';
 
-import BigNumber from 'bignumber.js';
+import { decimalValue } from '@utils/decimal';
 import { formatNumSplit, coinIconPath } from '@utils/common';
 import useTranslation from '@src/lib/i18n/client';
 
@@ -31,8 +31,8 @@ const ProInfo = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {
 
     // 父组件接收到新的位置值
     function handleSliderChange(newPosition) {
-        const singleAmount = new BigNumber(calcLockUpTotal).div(100).toNumber();
-        const calcAmount = new BigNumber(newPosition).times(singleAmount).toNumber();
+        const singleAmount = decimalValue(calcLockUpTotal).div(100).toNumber();
+        const calcAmount = decimalValue(newPosition).times(singleAmount).toNumber();
 
         refClacInvestAmount.current.value = calcAmount;
         debouncedGetLockUpBtr(calcAmount);
@@ -50,7 +50,7 @@ const ProInfo = ({ coinName, tokenStr, coinDetail, lockCoinName })  => {
             event.target.value = `${integerPart}.${truncatedDecimalPart}`;
         };
 
-        const lockUpProgress = new BigNumber(event.target.value).div(calcLockUpTotal).times(100).toNumber();
+        const lockUpProgress = decimalValue(event.target.value).div(calcLockUpTotal).times(100).toNumber();
         setPosition(lockUpProgress);
 
         debouncedGetLockUpBtr(event.target.value);

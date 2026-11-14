@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "لا توجد بيانات!"
+    },
+    "accessibility": {
+        "skipToContent": "انتقل إلى المحتوى",
+        "close": "إغلاق"
+    },
+    "feedback": {
+        "errorTitle": "تعذر تحميل هذه الصفحة",
+        "errorDescription": "يرجى المحاولة مرة أخرى.",
+        "retry": "إعادة المحاولة",
+        "notFoundTitle": "الصفحة غير موجودة",
+        "notFoundDescription": "هذه الصفحة غير موجودة.",
+        "home": "الرئيسية"
     }
 }

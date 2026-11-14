@@ -26,6 +26,8 @@
             font-weight: 500;
         }
         .closeBtn{
+            width: auto;
+            height: auto;
             float: right;
             color: rgba(210, 215, 220, 1);
             cursor: pointer;
@@ -53,6 +55,7 @@
         margin: 0px 12px;
         display: inline-block;
         text-align: center;
+        width: auto;
         min-width: 190px;
         padding: 0px 20px;
         height: 40px;

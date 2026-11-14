@@ -7,6 +7,7 @@ import Style from './index.module.scss';
 import useTranslation from '@src/lib/i18n/client';
 // @ts-ignore
 import ReactHtmlParser from 'html-react-parser';
+import { sanitizeRichHtml } from '@src/lib/safe-content';
 // const ReactHtmlParser = (a:any)=>{return a}
 
 export default function RulesList(props:any) {
@@ -41,14 +42,14 @@ export default function RulesList(props:any) {
                         <div  className={Style['erList']} key={indexType}>
                           <div  className={Style['erTitle']}>{itemType.name}</div>
                           {itemType.rulesList&&itemType.rulesList.length>0&&itemType.rulesList.map((innerItem:any, innnerIndex:any) => {
-                            return <div  className={Style['rule-content-line']} key={innnerIndex}>{ReactHtmlParser(innerItem)}</div>
+                            return <div  className={Style['rule-content-line']} key={innnerIndex}>{ReactHtmlParser(sanitizeRichHtml(innerItem))}</div>
                           })}
                         </div>
                       )
                     })
                     :
                     item.rulesList&&item.rulesList.length>0&&item.rulesList.map((innerItem:any, innnerIndex:any) => {
-                      return <div  className={Style['rule-content-line']} key={innnerIndex}>{ReactHtmlParser(innerItem)}</div>
+                      return <div  className={Style['rule-content-line']} key={innnerIndex}>{ReactHtmlParser(sanitizeRichHtml(innerItem))}</div>
                     })
                   }
                 </>

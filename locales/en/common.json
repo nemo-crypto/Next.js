@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "No data!"
+    },
+    "accessibility": {
+        "skipToContent": "Skip to content",
+        "close": "Close"
+    },
+    "feedback": {
+        "errorTitle": "Unable to load this page",
+        "errorDescription": "Please try again.",
+        "retry": "Try again",
+        "notFoundTitle": "Page not found",
+        "notFoundDescription": "This page does not exist.",
+        "home": "Home"
     }
 }

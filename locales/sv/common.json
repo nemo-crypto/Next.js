@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Inga data!"
+    },
+    "accessibility": {
+        "skipToContent": "Hoppa till innehållet",
+        "close": "Stäng"
+    },
+    "feedback": {
+        "errorTitle": "Det går inte att läsa in sidan",
+        "errorDescription": "Försök igen.",
+        "retry": "Försök igen",
+        "notFoundTitle": "Sidan hittades inte",
+        "notFoundDescription": "Den här sidan finns inte.",
+        "home": "Hem"
     }
 }

@@ -151,3 +151,33 @@ color:#fff;
         padding: 0px 20px;
     }
 }
+/* 恢复键盘可见焦点；鼠标操作不增加常驻边框。 */
+:where(a, button, input, select, textarea, [tabindex]):focus-visible {
+    outline: 2px solid #916600;
+    outline-offset: 3px;
+}
+html[theme='dark'] :where(a, button, input, select, textarea, [tabindex]):focus-visible {
+    outline-color: #f1c75b;
+}
+.skip-link {
+    position: fixed;
+    inset-block-start: 12px;
+    inset-inline-start: 12px;
+    z-index: 10000;
+    padding: 12px 18px;
+    background: #191e28;
+    color: #fff;
+    transform: translateY(-180%);
+}
+.skip-link:focus { transform: translateY(0); }
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+.page-feedback { max-width: 720px; padding: 64px 24px; margin: 0 auto; line-height: 1.7; }
+.page-feedback h1 { font-size: 28px; margin-bottom: 16px; }
+.page-feedback button, .page-feedback a { display: inline-block; width: auto; height: auto; margin-top: 20px; padding: 12px 20px; border: 1px solid currentColor; border-radius: 8px; cursor: pointer; }

@@ -1,3 +1,4 @@
+@use 'sass:list';
 .component {
     min-height: 100vh;
     
@@ -2188,7 +2189,7 @@
 
     @for $i from 1 through 10 {
         .coinColor#{$i} {
-            background-color: nth($colors, $i);
+            background-color: list.nth($colors, $i);
             height: 16px;
         }
     }

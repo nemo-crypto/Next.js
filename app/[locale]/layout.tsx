@@ -19,8 +19,9 @@ export default async function RootLayout({ children, params }: { children: React
     return <html lang={locale} dir={locale === 'ar' ? 'rtl' : 'ltr'} suppressHydrationWarning>
         <head><script dangerouslySetInnerHTML={{ __html: `(function(){var m=document.cookie.match(/(?:^|; )theme=([^;]*)/);document.documentElement.setAttribute('theme',m&&m[1]==='dark'?'dark':'light')})()` }} /></head>
         <body>
+            <a className="skip-link" href="#page-content">{translate(messages, 'accessibility.skipToContent')}</a>
             {origin && <script type='application/ld+json' dangerouslySetInnerHTML={{ __html: serializeJsonLd(schema) }} />}
-            <Providers locale={locale} messages={messages}>{children}</Providers>
+            <Providers locale={locale} messages={messages}><div id="page-content" tabIndex={-1}>{children}</div></Providers>
         </body>
     </html>;
 }

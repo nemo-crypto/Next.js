@@ -1,4 +1,6 @@
 'use client';
+import { sanitizeRichHtml } from '@src/lib/safe-content';
+import { safeNavigationUrl } from '@src/lib/safe-url';
 
 import { useState, useEffect, useRef } from 'react';
 import Image from '@components/image';
@@ -157,9 +159,8 @@ const LandingPage = ({ activityId, initialData }) => {
     }
 
     const newLink = (url) => {
-        if (url === '' || url === null) return
-        const w = window.open('about:blank')
-        w.location.href = url
+        const href = safeNavigationUrl(url);
+        if (href) window.open(href, '_blank', 'noopener,noreferrer');
     }
 
     const handlShare = () => {
@@ -241,8 +242,8 @@ const LandingPage = ({ activityId, initialData }) => {
                             </div>}
                         </div>}
                         <div className={Style.left}>
-                            <h1 dangerouslySetInnerHTML={{__html:landInfo?.title}}></h1>
-                            <h2 dangerouslySetInnerHTML={{__html:landInfo?.depict}}></h2>
+                            <h1 dangerouslySetInnerHTML={{__html:sanitizeRichHtml(landInfo?.title)}}></h1>
+                            <h2 dangerouslySetInnerHTML={{__html:sanitizeRichHtml(landInfo?.depict)}}></h2>
                             <div className={Style.countdownContent}>{landInfo?.countdownContent}</div>
                             {landInfo?.countdownTime && <CountDown
                                 mode='coinm'
@@ -277,8 +278,8 @@ const LandingPage = ({ activityId, initialData }) => {
                                 landInfo?.content && landInfo?.content.map((item, index) => {
                                     return (
                                         <div key={index} className={Style.land_body}>
-                                            <h1 onClick={() => newLink(item?.titleLink)} dangerouslySetInnerHTML={{__html:item?.title}}></h1>
-                                            <h2 onClick={() => newLink(item?.descLink)}  dangerouslySetInnerHTML={{__html:item?.desc}}></h2>
+                                            <h1 onClick={() => newLink(item?.titleLink)} dangerouslySetInnerHTML={{__html:sanitizeRichHtml(item?.title)}}></h1>
+                                            <h2 onClick={() => newLink(item?.descLink)}  dangerouslySetInnerHTML={{__html:sanitizeRichHtml(item?.desc)}}></h2>
                                             {item?.pcPic && item?.pcPic.map((item, index) => {
                                                 return (
                                                     <img key={index} className={Style.land_imgInfo_pc} src={item} alt="" />

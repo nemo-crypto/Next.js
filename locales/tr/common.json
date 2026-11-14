@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Veri yok!"
+    },
+    "accessibility": {
+        "skipToContent": "İçeriğe geç",
+        "close": "Kapat"
+    },
+    "feedback": {
+        "errorTitle": "Bu sayfa yüklenemiyor",
+        "errorDescription": "Lütfen tekrar deneyin.",
+        "retry": "Tekrar dene",
+        "notFoundTitle": "Sayfa bulunamadı",
+        "notFoundDescription": "Bu sayfa mevcut değil.",
+        "home": "Ana sayfa"
     }
 }

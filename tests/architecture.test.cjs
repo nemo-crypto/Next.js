@@ -19,6 +19,10 @@ test('supported language resource contract is explicit', () => {
     for (const locale of locales) for (const ns of ['common', 'price', 'flexible', 'btrlockup', 'autoinvest', 'learnstaking']) {
         const messages = JSON.parse(fs.readFileSync(`locales/${locale}/${ns}.json`, 'utf8'));
         assert.ok(Object.keys(messages).length, `${locale}/${ns}`);
+        if (ns === 'common') {
+            for (const key of ['skipToContent', 'close']) assert.ok(messages.accessibility[key], `${locale}/${key}`);
+            for (const key of ['errorTitle', 'errorDescription', 'retry', 'notFoundTitle', 'notFoundDescription', 'home']) assert.ok(messages.feedback[key], `${locale}/${key}`);
+        }
     }
     assert.ok(fs.existsSync('locales/en/converter.json'));
 });

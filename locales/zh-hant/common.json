@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "暂无记录!"
+    },
+    "accessibility": {
+        "skipToContent": "跳至主要內容",
+        "close": "關閉"
+    },
+    "feedback": {
+        "errorTitle": "無法載入此頁面",
+        "errorDescription": "請稍後再試。",
+        "retry": "重試",
+        "notFoundTitle": "找不到頁面",
+        "notFoundDescription": "此頁面不存在。",
+        "home": "首頁"
     }
 }

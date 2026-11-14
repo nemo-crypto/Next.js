@@ -1,12 +1,12 @@
 # Next.js App Router 多语言业务前端
 
-基于 **Next.js 16.4.5、React 19.3.1、TypeScript 5、App Router** 的多语言行情、兑换、质押、定投和活动前端。保留现有业务接口和页面 URL，服务端负责路由、语言资源、SEO 元数据及公开详情数据，客户端负责交互和登录后的业务操作。
+基于 **Next.js 16.4.6、React 19.3.1、TypeScript 6、App Router** 的多语言行情、兑换、质押、定投和活动前端。保留现有业务接口和页面 URL，服务端负责路由、语言资源、SEO 元数据及公开详情数据，客户端负责交互和登录后的业务操作。
 
-版本依据：2026-11-09 核对 npm stable；实际安装版本以 `package.json`、`pnpm-lock.yaml` 为准。历史 Next.js 13 学习材料保存在 [docs/nextjs-notes.md](docs/nextjs-notes.md)，不再作为当前工程运行指南。
+版本依据：2026-11-14 核对 npm stable，并验证工具链兼容范围；实际安装版本以 `package.json`、`pnpm-lock.yaml` 为准。历史 Next.js 13 学习材料保存在 [docs/nextjs-notes.md](docs/nextjs-notes.md)，不再作为当前工程运行指南。
 
 ## 环境与运行 
 
-要求 Node.js **22 或更新的 LTS**、pnpm **10.32.0**。
+要求 Node.js **24.14.0+（24 LTS）**、pnpm **10.32.0**。
 
 ```bash
 pnpm install --frozen-lockfile
@@ -115,11 +115,23 @@ pnpm build:prod
 
 本次架构审计、已验证内容与已知边界见 [docs/architecture-upgrade.md](docs/architecture-upgrade.md)。
 
-浏览器验收（先完成构建）：
+浏览器验收（使用独立测试构建及本地 mock，不部署此测试产物）：
 
 ```bash
 pnpm exec playwright install chromium
-pnpm test:e2e
+pnpm verify:e2e
 ```
 
 默认自动启动本地只读 mock 后端（9099）及 Next 生产服务（127.0.0.1:3100），不复用占用端口的未知服务，覆盖多语言水合、导航、移动端首页、价格 SSR、SEO HTML 与 404；`E2E_BASE_URL` 可改为已经启动的受控验证环境。真实账号和资金操作不在 mock 验收范围内。
+
+
+## SSR / SEO / 安全 / 体验实验
+
+本轮升级记录、兼容性取舍、安全边界与实测数据见 [SSR、SEO、安全与用户体验优化](docs/ssr-seo-security-ux.md)。
+
+```bash
+pnpm dev:demo
+# http://localhost:9000/demos/ssr
+```
+
+支持正常、慢源和失败重试场景，以及键盘弹窗、嵌套滚动锁和移动端明暗主题。默认不启用 Demo，且始终 noindex、不进入 sitemap。运行 `pnpm verify:e2e` 可重新构建并执行浏览器和关闭开关回归，`pnpm audit:prod` 检查生产依赖公告。TypeScript/ESLint 采用 Next 插件支持的最新兼容版本，不能直接替换为尚不支持的主版本。

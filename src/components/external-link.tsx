@@ -1,5 +1,7 @@
 import type { AnchorHTMLAttributes } from 'react';
-// 同域的交易/登录等外围应用也必须整页导航，不能走当前 App Router 的 RSC 请求。
-export default function ExternalLink(props: AnchorHTMLAttributes<HTMLAnchorElement>) {
-    return <a {...props} />;
+import { safeNavigationUrl } from '../lib/safe-url';
+// 外围应用整页导航；后台提供的 URL 不可执行脚本或获取 opener。
+export default function ExternalLink({ href, target, rel, ...props }: AnchorHTMLAttributes<HTMLAnchorElement>) {
+    return <a {...props} href={safeNavigationUrl(href)} target={target}
+        rel={target === '_blank' ? `${rel || ''} noopener noreferrer`.trim() : rel} />;
 }

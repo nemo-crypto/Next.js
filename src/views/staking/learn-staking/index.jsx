@@ -1,3 +1,4 @@
+import { sanitizeRichHtml } from '@src/lib/safe-content';
 
 import Style from './index.module.scss';
 
@@ -23,15 +24,15 @@ const LearnStaking = ({ locale: lang, messages }) => {
                     <div className={Style.container_box}>
                         <h2>{t('main.section2_title')}</h2>
                         <ul>
-                            <li dangerouslySetInnerHTML={{ __html: t('main.section2_content1', {
+                            <li dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(t('main.section2_content1', {
                                 Ethereum: `<a href="/trade/eth_usdt${convertLocaleID}" target="_bank">Ethereum</a>`,
                                 Cardano: `<a href="/trade/ada_usdt${convertLocaleID}" target="_bank">Cardano</a>`,
                                 Solana: `<a href="/trade/sol_usdt${convertLocaleID}" target="_bank">Solana</a>`,
                                 Bitcoin: `<a href="/trade/btc_usdt${convertLocaleID}" target="_bank">Bitcoin</a>`
-                            }) }} />
+                            })) }} />
                             <li>{t('main.section2_content2')}</li>
                             <li>{t('main.section2_content3')}</li>
-                            <li dangerouslySetInnerHTML={{ __html: t('main.section2_content4') }} />
+                            <li dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(t('main.section2_content4')) }} />
                         </ul>
                     </div>
                     <div className={Style.container_box}>
@@ -68,9 +69,9 @@ const LearnStaking = ({ locale: lang, messages }) => {
                     <div className={Style.container_box}>
                         <h2>{t('main.section4_title')}</h2>
                         <ul>
-                            <li dangerouslySetInnerHTML={{ __html: t('main.section4_content1',{
+                            <li dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(t('main.section4_content1',{
                                 registerUrl: `/user/register${convertLocaleID}`
-                            }) }} />
+                            })) }} />
                             <li>{t('main.section4_content2')}</li>
                             <li>{t('main.section4_content3')}</li>
                             <li>{t('main.section4_content4')}</li>
@@ -79,13 +80,13 @@ const LearnStaking = ({ locale: lang, messages }) => {
                     <div className={Style.container_box}>
                         <h2>{t('main.section5_title')}</h2>
                         <ul>
-                            <li dangerouslySetInnerHTML={{ __html: t('main.section5_content1',{
+                            <li dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(t('main.section5_content1',{
                                 powerPiggyUrl: `${lang === 'en' ? '' : `/${lang}`}/flexible-staking`
-                            }) }} />
-                            <li dangerouslySetInnerHTML={{ __html: t('main.section5_content2') }} />
-                            <li dangerouslySetInnerHTML={{ __html: t('main.section5_content3',{
+                            })) }} />
+                            <li dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(t('main.section5_content2')) }} />
+                            <li dangerouslySetInnerHTML={{ __html: sanitizeRichHtml(t('main.section5_content3',{
                                 yieldFramUrl: `/yield-farming/${convertLocaleID}`
-                            }) }} />
+                            })) }} />
                         </ul>
                     </div>
                 </div>

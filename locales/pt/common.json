@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Sem dados!"
+    },
+    "accessibility": {
+        "skipToContent": "Ir para o conteúdo",
+        "close": "Fechar"
+    },
+    "feedback": {
+        "errorTitle": "Não foi possível carregar esta página",
+        "errorDescription": "Tente novamente.",
+        "retry": "Tentar novamente",
+        "notFoundTitle": "Página não encontrada",
+        "notFoundDescription": "Esta página não existe.",
+        "home": "Início"
     }
 }

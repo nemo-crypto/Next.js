@@ -23,37 +23,36 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
     "paths": {
       "@src/*": [
-        "src/*"
+        "./src/*"
       ],
       "@components/*": [
-        "src/components/*"
+        "./src/components/*"
       ],
       "@constants/*": [
-        "src/constants/*"
+        "./src/constants/*"
       ],
       "@service/*": [
-        "src/service/*"
+        "./src/service/*"
       ],
       "@static/*": [
-        "src/static/*"
+        "./src/static/*"
       ],
       "@store": [
-        "src/store/index.js"
+        "./src/store/index.js"
       ],
       "@utils/*": [
-        "src/utils/*"
+        "./src/utils/*"
       ],
       "@views/*": [
-        "src/views/*"
+        "./src/views/*"
       ],
       "@styles/*": [
-        "styles/*"
+        "./styles/*"
       ],
       "@public/*": [
-        "public/*"
+        "./public/*"
       ]
     }
   },

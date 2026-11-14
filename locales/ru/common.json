@@ -11,5 +11,17 @@
     },
     "other": {
         "noData": "Нет данных!"
+    },
+    "accessibility": {
+        "skipToContent": "Перейти к содержимому",
+        "close": "Закрыть"
+    },
+    "feedback": {
+        "errorTitle": "Не удалось загрузить страницу",
+        "errorDescription": "Попробуйте ещё раз.",
+        "retry": "Повторить",
+        "notFoundTitle": "Страница не найдена",
+        "notFoundDescription": "Эта страница не существует.",
+        "home": "Главная"
     }
 }

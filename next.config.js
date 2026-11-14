@@ -39,6 +39,10 @@ module.exports = {
     async headers() {
         return [{ source: '/:path*', headers: [
             { key: 'X-Content-Type-Options', value: 'nosniff' },
+            { key: 'X-Frame-Options', value: 'SAMEORIGIN' },
+            // 不配置宽泛 unsafe-inline script-src；完整 CSP 需先核验外部组件及分析域名。
+            { key: 'Content-Security-Policy', value: "base-uri 'self'; object-src 'none'; frame-ancestors 'self'" },
+            { key: 'Permissions-Policy', value: 'camera=(), microphone=(), geolocation=()' },
             { key: 'Referrer-Policy', value: 'strict-origin-when-cross-origin' },
             ...(indexable ? [] : [{ key: 'X-Robots-Tag', value: 'noindex, nofollow' }]),
         ] }];
